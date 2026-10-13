@@ -2,7 +2,7 @@
 """Archive a complete public DataJCC ranking and details for its current S/A cohort."""
 import argparse, concurrent.futures, datetime as dt, hashlib, json, re, time, urllib.request, urllib.parse
 from pathlib import Path
-ROOT=Path(__file__).resolve().parents[2]
+ROOT=Path(__file__).resolve().parents[3]
 BASE='https://www.dataj.cc'
 def dump(path,data):
     path.parent.mkdir(parents=True,exist_ok=True);path.write_text(json.dumps(data,ensure_ascii=False,separators=(',',':')))

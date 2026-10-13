@@ -1,7 +1,7 @@
 """Platform-first entrypoints and stable compatibility redirects."""
 from pathlib import Path
 import html,json,os
-ROOT=Path(__file__).resolve().parents[2]
+ROOT=Path(__file__).resolve().parents[3]
 def redirect(path,target):
  path.parent.mkdir(parents=True,exist_ok=True)
  # Preserve fragment for old composition bookmarks. Query is not used by the guide.
@@ -20,8 +20,5 @@ def publish_portals():
   (folder/'index.html').write_text(page(label+' · 版本目录','<p><a href="../../index.html">返回平台选择</a></p><ul>'+''.join(rows)+'</ul>'))
   redirect(folder/'current.html',os.path.relpath(ROOT/active['path'],folder));redirect(folder/'assistant.html',os.path.relpath(ROOT/active.get('assistant',str(Path(active['path']).with_name('assistant.html'))),folder))
   sections.append('<section style="background:white;border:1px solid #cddddd;border-radius:16px;padding:24px;margin:20px 0"><h2>'+label+'</h2><p>当前收录：S'+str(active['set'])+' / '+html.escape(active['patch'])+' · '+str(active['comps'])+'套</p><a href="games/'+platform+'/current.html">打开手册</a> · <a href="games/'+platform+'/assistant.html">对局助手</a> · <a href="games/'+platform+'/index.html">全部版本</a></section>')
-  if platform=='jcc':redirect(ROOT/'assistant.html','games/jcc/assistant.html')
  (ROOT/'index.html').write_text(page('阵容罗盘 · 选择游戏平台','<p>金铲铲与TFT分别使用各自来源，按赛季、补丁与快照保存。请选择对应平台。</p>'+''.join(sections)))
- (ROOT/'versions.html').write_text(page('阵容罗盘 · 版本目录','<p><a href="index.html">返回首页</a></p>'+''.join(sections)))
- for old,target in {'tft-18.4b.html':'games/tft/set18/18.4b/index.html','assistant-tft-18.4b.html':'games/tft/set18/18.4b/assistant.html','equipment-tft-18.4b.html':'games/tft/set18/18.4b/equipment.html','equipment.html':'games/tft/set18/18.4b/equipment.html','version-review-2026-10-13.html':'docs/research/version-review-2026-10-13.html'}.items():redirect(ROOT/old,target)
 if __name__=='__main__':publish_portals()

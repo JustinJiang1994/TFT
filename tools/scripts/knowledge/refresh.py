@@ -2,7 +2,7 @@
 """Collect → normalize → validate → render; publish only with explicit --publish."""
 import argparse,importlib.util,json,shutil,subprocess,sys,html
 from pathlib import Path
-ROOT=Path(__file__).resolve().parents[2]
+ROOT=Path(__file__).resolve().parents[3]
 def load(name):
  spec=importlib.util.spec_from_file_location(name,Path(__file__).with_name(name+'.py'));mod=importlib.util.module_from_spec(spec);spec.loader.exec_module(mod);return mod
 def write_json(p,d):p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(d,ensure_ascii=False,indent=2))

@@ -25,11 +25,10 @@
 | [平台选择首页](index.html) | 先选金铲铲或TFT，再选版本 |
 | [金铲铲版本目录](games/jcc/index.html) / [TFT版本目录](games/tft/index.html) | 各平台独立维护版本与当前入口 |
 | [金铲铲当前手册](games/jcc/current.html) | 版本定调、装备泛用性、每套阵容详细攻略 |
-| [独立对局助手](assistant.html) | 按已有条件查当前过渡与后续补牌 |
-| [版本记录](versions.html) | 查看历史发布快照 |
-| [TFT 历史手册](tft-18.4b.html) | 原 TFT 18.4b 的21套攻略 |
-| [历史助手](assistant-tft-18.4b.html) / [历史装备速查](equipment-tft-18.4b.html) | 与旧版攻略配套使用 |
-| [Skill 说明](skills/metatft-guide/SKILL.md) / [下载 Skill](downloads/metatft-guide-skill.zip) | 复用调研、更新和页面维护流程 |
+| [金铲铲对局助手](games/jcc/assistant.html) | 按已有条件查当前过渡与后续补牌 |
+| [版本记录](games/jcc/index.html) | 查看历史发布快照 |
+| [TFT 历史手册](games/tft/set18/18.4b/index.html) | 原 TFT 18.4b 的21套攻略 |
+| [历史助手](games/tft/set18/18.4b/assistant.html) / [历史装备速查](games/tft/set18/18.4b/equipment.html) | 与旧版攻略配套使用 |
 
 ## 金铲铲与 TFT：两个数据源，分开维护
 
@@ -99,10 +98,10 @@
 
 ```sh
 # 自动识别金铲铲来源的最新赛季和补丁
-python3 scripts/knowledge/refresh.py
+python3 tools/scripts/knowledge/refresh.py
 
 # 或明确指定来源版本
-python3 scripts/knowledge/refresh.py --set 18 --patch 18.3
+python3 tools/scripts/knowledge/refresh.py --set 18 --patch 18.3
 ```
 
 流程为：**完整抓榜 → 重新选择 S/A → 获取各阵容详情与词库 → 构建关联 → 校验 → 生成预览**。命令会输出快照与预览位置，打开对应 `games/jcc/set18/补丁/snapshots/时间戳/pages/guide.html` 和同目录的 `assistant.html` 检查。
@@ -111,7 +110,7 @@ python3 scripts/knowledge/refresh.py --set 18 --patch 18.3
 
 ```sh
 # 将占位路径替换为刚生成的实际快照目录
-python3 scripts/knowledge/refresh.py --snapshot games/jcc/set18/18.3/snapshots/NEW_TIMESTAMP/data --publish
+python3 tools/scripts/knowledge/refresh.py --snapshot games/jcc/set18/18.3/snapshots/NEW_TIMESTAMP/data --publish
 ```
 
 发布更新平台版本清单、平台当前入口和根目录导航；内容页与数据同放在对应平台、赛季、补丁和快照下。每次抓取创建新时间戳；已发布快照拒绝覆盖。同一补丁重新更新，也应创建新快照。
@@ -121,9 +120,9 @@ python3 scripts/knowledge/refresh.py --snapshot games/jcc/set18/18.3/snapshots/N
 ### 检查交付
 
 ```sh
-python3 scripts/validate_release.py
-node scripts/knowledge/test_engine.cjs
-node --check templates/knowledge-ui.js
+python3 tools/scripts/validate_release.py
+node tools/scripts/knowledge/test_engine.cjs
+node --check tools/templates/knowledge-ui.js
 ```
 
 当前已完成数据、链接、脚本语法与匹配逻辑检查，尚未通过浏览器视觉验收。发布前还应实际检查选择保留、条件筛选、当前/目标等级切换、补牌与装备补全。
@@ -131,42 +130,32 @@ node --check templates/knowledge-ui.js
 ## 项目结构
 
 ```text
-TFT/                              本地目录名称，暂不改动
-├── index.html                    平台选择首页
-├── versions.html                 两个平台的版本入口
+TFT/
+├── index.html                 唯一总入口：选择平台与版本
+├── README.md                  使用及维护说明
 ├── games/
-│   ├── jcc/                      金铲铲
-│   │   ├── index.html            本平台版本列表
-│   │   ├── current.html          当前手册快捷入口
-│   │   ├── assistant.html        当前助手快捷入口
-│   │   ├── releases.json         本平台发布清单与当前指针
+│   ├── jcc/                   金铲铲版本目录与快捷入口
 │   │   └── set18/18.3/
-│   │       ├── snapshots/20261013T083011Z/
-│   │       │   ├── pages/        guide.html、assistant.html
-│   │       │   └── data/         manifest、knowledge、raw
-│   │       └── research/         本版本早期核查资料
-│   └── tft/                      TFT，与金铲铲完全分开
-│       ├── index.html / current.html / assistant.html
-│       ├── releases.json
-│       └── set18/18.4b/
-│           ├── index.html / assistant.html / equipment.html
-│           ├── data/             该版阵容与装备来源
-│           └── research/         该版刷新核查资料
-├── docs/research/                跨平台对照说明与迁移前核查记录
-├── docs/migration-paths.json     原路径 → 新路径对照
-├── scripts/knowledge/            共用采集、生成、入口维护脚本
-├── scripts/validate_release.py   文件、链接与发布清单检查
-├── templates/                    共用页面样式与匹配引擎
-├── skills/metatft-guide/         可复用Skill与流程模板
-└── downloads/                   Skill压缩包
+│   │       ├── snapshots/     按时间保存 pages/ 与 data/
+│   │       └── research/      本版本来源核查资料
+│   └── tft/                   TFT版本目录与快捷入口
+│       └── set18/18.4b/       正式页面、data/、research/
+└── tools/                     维护时使用，日常阅读无需打开
+    ├── scripts/               抓取、生成、校验脚本
+    ├── templates/             页面样式及交互模板
+    └── archive/               历史对照说明及迁移路径记录
 ```
 
-根目录旧页面名和旧 `releases/` 页面仅保留轻量跳转，兼容已有书签；实际内容归入平台及版本目录。历史原始响应不改写，内部记录的旧路径可通过迁移对照表定位。TFT18.4b保留原历史资料组织；后续新采集版本按与金铲铲相同的快照结构保存。
+打开首页即可进入所有正式页面。根目录旧跳转页、重复版本入口和下载包已移除，旧书签请改为首页或对应平台的正式入口。阵容数据与原始来源保留，不因清理文件而删减攻略。
 
-维护新版页面时修改 `templates/` 和生成脚本；直接编辑生成的 HTML 会在下次生成时被覆盖。修改可复用流程后，同步 Skill 中的 `assets/version-pipeline/` 与下载包。
+### Skill 单独存放
+
+Skill 不再随网页仓库打包。当前本地独立位置为上一级目录的 `skills/metatft-guide/`，已安装副本位于 `~/.codex/skills/metatft-guide/`。没有 Skill 也能阅读网页、使用助手及运行更新脚本。
+
+维护页面时修改 `tools/templates/` 和 `tools/scripts/knowledge/`；直接编辑生成的 HTML 会在下次生成时被覆盖。修改可复用流程后同步独立 Skill 的 `assets/version-pipeline/tools/`，不要把 Skill 或下载压缩包重新放回网页仓库。
 
 ## 分享与部署
 
-离线分享可发送完整仓库压缩包；在线分享可将整个目录部署到静态站点服务，例如 GitHub Pages。项目无需后端、数据库或运行时 API 请求。部署应保留 `games/`、`docs/` 与兼容跳转页面，确保原始证据和版本链接可用。
+离线分享可发送完整仓库压缩包；在线分享可将整个目录部署到静态站点服务，例如 GitHub Pages。项目无需后端、数据库或运行时 API 请求。部署应保留 `games/` 和 `tools/archive/`，确保原始证据和版本链接可用。
 
 仓库：[JustinJiang1994/TFT](https://github.com/JustinJiang1994/TFT)。源码推送与网站部署是两个步骤；仅将文件上传到 GitHub，不代表已经有可直接访问的网页地址。

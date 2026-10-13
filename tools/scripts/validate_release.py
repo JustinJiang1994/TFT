@@ -2,12 +2,11 @@
 """Validate the self-contained release using the Python standard library."""
 import json
 import re
-import zipfile
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 
 class Page(HTMLParser):
     def __init__(self, path):
@@ -24,7 +23,7 @@ class Page(HTMLParser):
             if attrs.get(key):
                 self.links.append(attrs[key])
 
-page_paths = list(ROOT.glob('*.html')) + list((ROOT / 'releases').rglob('*.html')) + [p for p in (ROOT / 'games').rglob('*.html') if '/raw/' not in str(p) and '/research/' not in str(p)] + list((ROOT/'docs/research').glob('*.html'))
+page_paths = list(ROOT.glob('*.html')) + [p for p in (ROOT / 'games').rglob('*.html') if '/raw/' not in str(p) and '/research/' not in str(p)] + list((ROOT/'tools/archive/research').glob('*.html'))
 pages = {str(p.relative_to(ROOT)): Page(p) for p in page_paths}
 for name, page in pages.items():
     for link in page.links:
@@ -44,14 +43,10 @@ active = next(r for r in catalog['releases'] if r['id'] == catalog['active'])
 knowledge = json.loads((ROOT / active['knowledge']).read_text())
 assert {i for i in pages[active['path']].ids if i.startswith('comp-')} == {'comp-' + c['id'] for c in knowledge['comps']}
 assert len([i for i in pages['games/tft/set18/18.4b/index.html'].ids if re.fullmatch(r'c\d+', i)]) == 21
-files = list((ROOT / 'games').rglob('*.json')) + list((ROOT / 'docs').rglob('*.json'))
+files = list((ROOT / 'games').rglob('*.json')) + list((ROOT / 'tools/archive').rglob('*.json'))
 for path in files:
     json.loads(path.read_text(encoding='utf-8'))
-assert (ROOT / 'skills/metatft-guide/SKILL.md').is_file()
-with zipfile.ZipFile(ROOT / 'downloads/metatft-guide-skill.zip') as archive:
-    assert archive.testzip() is None
-    assert 'metatft-guide/SKILL.md' in archive.namelist()
 for path in ROOT.rglob('*'):
     if path.is_file() and '.git' not in path.parts:
         assert path.stat().st_size < 100 * 1024 * 1024, f'File exceeds GitHub limit: {path}'
-print(f'PASS: {len(pages)} pages, {len(knowledge["comps"])} current compositions, historical 21 retained, {len(files)} JSON files, local links and Skill archive.')
+print(f'PASS: {len(pages)} pages, {len(knowledge["comps"])} current compositions, historical 21 retained, {len(files)} JSON files, local links.')

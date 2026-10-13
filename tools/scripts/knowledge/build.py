@@ -2,7 +2,7 @@
 """Normalize one immutable JCC snapshot. Never import TFT content into JCC records."""
 import argparse,collections,hashlib,json,re
 from pathlib import Path
-ROOT=Path(__file__).resolve().parents[2]
+ROOT=Path(__file__).resolve().parents[3]
 def read(p):return json.loads(p.read_text())
 def dump(p,d):p.write_text(json.dumps(d,ensure_ascii=False,indent=2))
 def payload(p,default=None):return read(p)['data'] if p.exists() else default

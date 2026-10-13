@@ -2,17 +2,17 @@
 """Generate portable guide + assistant from normalized knowledge, with no network at runtime."""
 import argparse,collections,html,json
 from pathlib import Path
-ROOT=Path(__file__).resolve().parents[2]
+ROOT=Path(__file__).resolve().parents[3]
 esc=lambda x:html.escape(str(x))
 def render(snapshot,out,root_prefix='',guide_name='index.html',assistant_name='assistant.html'):
- k=json.loads((snapshot/'knowledge.json').read_text());r=k['release'];comps=k['comps'];units=k['units'];items=k['items'];css=(ROOT/'templates/knowledge.css').read_text();engine=(ROOT/'templates/knowledge-engine.js').read_text();client=(ROOT/'templates/knowledge-ui.js').read_text()
+ k=json.loads((snapshot/'knowledge.json').read_text());r=k['release'];comps=k['comps'];units=k['units'];items=k['items'];css=(ROOT/'tools/templates/knowledge.css').read_text();engine=(ROOT/'tools/templates/knowledge-engine.js').read_text();client=(ROOT/'tools/templates/knowledge-ui.js').read_text()
  def names(ids,kind='units'):return '、'.join(k[kind].get(str(i),{}).get('name',str(i)) for i in ids) or '暂无'
  def tier(t):return f'<span class="tier {esc(t)}">{esc(t)}</span>'
  def table(headers,rows):return '<div class="table-wrap"><table><thead><tr>'+''.join('<th>'+esc(h)+'</th>' for h in headers)+'</tr></thead><tbody>'+''.join('<tr>'+''.join('<td>'+str(c)+'</td>' for c in row)+'</tr>' for row in rows)+'</tbody></table></div>'
  raw_prefix=root_prefix+str(snapshot.relative_to(ROOT))+'/raw/'
  knowledge_link=root_prefix+str(snapshot.relative_to(ROOT))+'/knowledge.json'
  head='<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>金铲铲 '+esc(r['patch'])+'｜阵容罗盘</title><style>'+css+'</style>'
- hero=f'<div class="hero"><small>金铲铲之战 · S{r["set"]} · {esc(r["patch"])} · {esc(r["fetched_at"][:10])}抓取</small><h1>这个版本，重新选阵</h1><p>完整扫描来源榜单{r["rank_count"]}套，按来源S/A评级入选{len(comps)}套。每次换版本重新筛选，阵容数量不固定。</p><p>来源：<a href="{r["source"]}/comp">金铲铲大数据（非官方）</a> · <a href="{root_prefix}games/tft/set18/18.4b/index.html">TFT18.4b历史手册</a> · <a href="{root_prefix}versions.html">版本记录</a></p></div>'
+ hero=f'<div class="hero"><small>金铲铲之战 · S{r["set"]} · {esc(r["patch"])} · {esc(r["fetched_at"][:10])}抓取</small><h1>这个版本，重新选阵</h1><p>完整扫描来源榜单{r["rank_count"]}套，按来源S/A评级入选{len(comps)}套。每次换版本重新筛选，阵容数量不固定。</p><p>来源：<a href="{r["source"]}/comp">金铲铲大数据（非官方）</a> · <a href="{root_prefix}games/tft/set18/18.4b/index.html">TFT18.4b历史手册</a> · <a href="{root_prefix}games/jcc/index.html">版本记录</a></p></div>'
  side='<aside class="sidebar"><h3>阵容罗盘</h3><p>金铲铲 '+esc(r['patch'])+'</p><a href="#overview">01 版本怎么打</a><a href="#decide">02 这局能玩什么</a><a href="#compositions">03 阵容详细攻略</a><a href="#coverage">数据与来源</a><hr><strong>当期S/A · '+str(len(comps))+'套</strong>'+''.join(f'<a href="#comp-{c["id"]}">{tier(c["tier"])}{esc(c["name"])}</a>' for c in comps)+'<hr><a href="'+assistant_name+'">打开对局助手 →</a></aside>'
  groups=collections.Counter(c['group'] for c in comps);routes=collections.Counter(c['route'] for c in comps)
  change_rows=[]
