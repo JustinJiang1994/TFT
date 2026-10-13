@@ -27,14 +27,18 @@ if(document.body.dataset.mode==='guide'){
  document.addEventListener('click',e=>{const link=e.target.closest('a[href^="#comp-"]');if(!link)return;$('guide-search').value='';$('guide-group').value='全部';apply();});
  if(location.hash)setTimeout(connectHash,30);return;
 }
-const key=`jcc-assistant:${K.release.set}:${K.release.patch}`,defaults={owned:[],augments:[],emblems:[],emblemOnly:false,current:6,target:8,group:'全部',left:'units',right:'current',added:{}};
+const key=`jcc-assistant:${K.release.set}:${K.release.patch}`,defaults={owned:[],augments:[],emblems:[],emblemOnly:false,current:6,target:8,group:'全部',left:'units',right:'current',added:{},disclosures:{}};
 let state=structuredClone(defaults);try{Object.assign(state,JSON.parse(localStorage.getItem(key)||'{}'))}catch{}
 for(const v of ['owned','augments','emblems'])if(!Array.isArray(state[v]))state[v]=[];
 if(!state.added||typeof state.added!=='object'||Array.isArray(state.added))state.added={};
+if(!state.disclosures||typeof state.disclosures!=='object'||Array.isArray(state.disclosures))state.disclosures={};
 const stageLevels=E.unique(K.comps.flatMap(c=>c.stages.map(b=>b.level))).sort((a,b)=>a-b);if(!stageLevels.includes(Number(state.current)))state.current=stageLevels[0];
 if(!['units','emblems','augments'].includes(state.left))state.left='units';if(!['current','future'].includes(state.right))state.right='current';
 const validGroups=['全部',...E.unique(K.comps.map(c=>c.group))];if(!validGroups.includes(state.group))state.group='全部';
 function save(){try{localStorage.setItem(key,JSON.stringify(state));}catch{}}
+function disclosure(key,defaultOpen){const open=typeof state.disclosures[key]==='boolean'?state.disclosures[key]:defaultOpen;return `data-disclosure="${esc(key)}" ${open?'open':''}`;}
+// Store only user activation, so automatically closed candidates may open when they become the sole result.
+document.addEventListener('click',e=>{const summary=e.target.closest('summary');if(!summary)return;const details=summary.parentElement;if(!details.matches('details[data-disclosure]'))return;state.disclosures[details.dataset.disclosure]=!details.open;save();});
 function checked(id,values){return values.includes(id)?'checked':''}
 function choices(ids,values,kind,extra=()=>'',label=id=>unit(id)){return `<div class="checkgrid">${ids.map(id=>`<label class="${values.includes(id)?'owned':''}"><input type="checkbox" data-kind="${kind}" value="${esc(id)}" ${checked(id,values)}><span>${esc(label(id))}${extra(id)}</span></label>`).join('')}</div>`;}
 function renderLevels(){
@@ -43,10 +47,10 @@ function renderLevels(){
  $('target-level').innerHTML=next.length?next.map(n=>`<option value="${n}" ${Number(state.target)===n?'selected':''}>${n}级</option>`).join(''):'<option>已是最高等级</option>'; $('target-level').disabled=!next.length;
  $('output-group').value=state.group;
 }
-function renderUnits(){const oldOpen=new Set([...$('unit-choices').querySelectorAll('details[open]')].map(x=>x.dataset.cost));
+function renderUnits(){
  const stageUnits=E.unique(K.comps.flatMap(c=>c.stages.filter(b=>b.level===Number(state.current)).flatMap(b=>b.units))),all=E.unique([...stageUnits,...state.owned]);
  const grouped={};all.forEach(i=>(grouped[K.units[i]?.cost||0]??=[]).push(i));
- $('unit-choices').innerHTML=Object.keys(grouped).sort((a,b)=>a-b).map(cost=>`<details class="cost${cost}" data-cost="${cost}" ${oldOpen.has(cost)?'open':''}><summary>${cost==='0'?'未收录':cost+'费'} · ${grouped[cost].length}名</summary>${choices(grouped[cost].sort((a,b)=>unit(a).localeCompare(unit(b),'zh-CN')),state.owned,'owned',i=>stageUnits.includes(i)?'':'<small>本级未收录，已保留选择</small>')}</details>`).join('');
+ $('unit-choices').innerHTML=Object.keys(grouped).sort((a,b)=>a-b).map(cost=>`<details class="cost${cost}" data-cost="${cost}" ${disclosure('cost:'+cost,true)}><summary>${cost==='0'?'未收录':cost+'费'} · ${grouped[cost].length}名</summary>${choices(grouped[cost].sort((a,b)=>unit(a).localeCompare(unit(b),'zh-CN')),state.owned,'owned',i=>stageUnits.includes(i)?'':'<small>本级未收录，已保留选择</small>')}</details>`).join('');
 }
 function renderEmblems(){const ids=E.unique(K.comps.flatMap(c=>[...c.optional_emblems,...c.conditions.filter(x=>x.kind==='item').map(x=>x.id)]));$('emblem-choices').innerHTML=choices(ids,state.emblems,'emblems',id=>`<small>${K.comps.filter(c=>c.conditions.some(x=>x.kind==='item'&&x.id===id)).length?'有必需分支':'推荐出装有记录；非必需'}</small>`,item);$('emblem-only').checked=state.emblemOnly;}
 function renderAugments(){const ids=E.unique([...Object.keys(K.indices.augments),...K.comps.flatMap(c=>c.conditions.filter(x=>x.kind==='augment').map(x=>x.id))]);const q=$('augment-search').value.trim();const filtered=ids.filter(i=>(K.augments[i]?.name||i).includes(q));
@@ -60,7 +64,7 @@ function currentResults(){const byBoard=new Map(),missing=[];
  rows.forEach(b=>{const id=b.units.slice().sort().join(',');if(!byBoard.has(id))byBoard.set(id,b);});});
  const arr=[...byBoard.values()].sort((a,b)=>a.units.filter(x=>!state.owned.includes(x)).length-b.units.filter(x=>!state.owned.includes(x)).length);
  function format(b){const ids=K.indices.boards[state.current+':'+b.units.slice().sort().join(',')]||[];const links=ids.map(id=>{const c=K.comps.find(c=>c.id===id),missing=E.gaps(c,state);const eligible=E.passes(c,state)&&!missing.length;return `<div class="note">${compLink(c)}<small style="display:block">${eligible?'符合当前筛选':missing.length?'待补：'+esc(missing.map(x=>x.name).join('、')):'有该棋盘记录；未通过当前条件筛选'}</small>${gearSummary(c)}</div>`;}).join('');
- return `<div class="scheme"><strong>补入：${esc(names(b.units.filter(x=>!state.owned.includes(x))))}</strong><p>完整棋盘：${esc(names(b.units))}</p><details><summary>可通向的最终阵容 · ${ids.length}套</summary>${links}</details></div>`;}
+ return `<div class="scheme"><strong>补入：${esc(names(b.units.filter(x=>!state.owned.includes(x))))}</strong><p>完整棋盘：${esc(names(b.units))}</p><details ${disclosure('board:'+state.current+':'+b.units.slice().sort().join(','),true)}><summary>可通向的最终阵容 · ${ids.length}套</summary>${links}</details></div>`;}
  $('current-results').innerHTML=`<h3>${state.current}级 · ${arr.length}种当前过渡</h3>`+(arr.length?arr.slice(0,3).map(format).join('')+(arr.length>3?`<details><summary>其他${arr.length-3}种过渡方案</summary>${arr.slice(3).map(format).join('')}</details>`:''):'<p class="empty">该等级返回棋盘中没有同时包含所选棋子的组合。选择会保留，可取消部分打工牌或查看后续等级。</p>')+missingConditions(missing)+'<p class="source-line">同一完整棋盘反查全部本版终局，不因筛选隐藏归属。来源每级只返回有限组，零匹配不代表无法过渡。</p>';
  return arr.length;
 }
@@ -70,9 +74,9 @@ function fillHTML(c,rows){const pkey=c.id+':'+state.target,added=Array.isArray(s
  const scheme=b=>{const kept=b.units.filter(x=>calc.owned.includes(x)),left=b.units.filter(x=>!calc.owned.includes(x));return `<div class="scheme"><strong class="positive">${left.length?'还需补入：'+esc(names(left)):'完整组合已凑齐'}</strong><p>使用已有：${esc(names(kept))}</p><small>完整${b.level}级棋盘：${esc(names(b.units))} · 样本${num(b.count)}</small></div>`;};
  return `<div class="fill-panel" data-comp="${c.id}" data-level="${state.target}"><p><strong>可用组合：${calc.matches.length}/${rows.length}</strong> · 已补${added.length}名</p><div class="freq-list">${added.map(i=>`<label class="owned"><input type="checkbox" data-add="${i}" checked>${esc(unit(i))}（已补）</label>`).join('')}</div><p>下一步可补（每组每棋子计一次，按频次排序）：</p><div class="freq-list">${freq||'<span class="muted">暂无缺件</span>'}</div><button data-clear-add>清空本方向补牌</button>${calc.matches.length?calc.matches.slice(0,3).map(scheme).join('')+(calc.matches.length>3?`<details><summary>其余${calc.matches.length-3}套完整组合</summary>${calc.matches.slice(3).map(scheme).join('')}</details>`:''):'<p class="warn">已补棋子没有共同出现的记录，请取消一项；不会拼接互不兼容的高频棋子。</p>'}</div>`;
 }
-function futureResults(){const open=new Set([...$('future-results').querySelectorAll('details[data-comp][open]')].map(x=>x.dataset.comp)),ok=[],missing=[];
+function futureResults(){const ok=[],missing=[];
  K.comps.forEach(c=>{if(!E.passes(c,state)||state.target==null)return;const rows=E.boards(c,state.target,state.owned);if(!rows.length)return;if(E.gaps(c,state).length){missing.push(c);return;}ok.push({c,rows});});
- $('future-results').innerHTML=`<h3>${state.target??'—'}级 · ${ok.length}个后续方向</h3>`+(ok.length?ok.map(({c,rows})=>{const added=state.added[c.id+':'+state.target]||[],f=E.fill(rows,state.owned,added),short=f.frequency.slice(0,4).map(([i,n])=>`${unit(i)} ${n}/${f.matches.length}`).join('、');return `<details data-comp="${c.id}" ${open.has(c.id)?'open':''}><summary>${badge(c.tier)}${esc(c.name)} · ${rows.length}种匹配</summary><p>${compLink(c)}</p><div class="note"><strong>终局保留核心：</strong>${esc(names(c.retained_core))}<br><small>${esc(c.core_evidence)}</small></div>${gearSummary(c)}${fillHTML(c,rows)}</details><p class="compact muted">${esc(c.name)}优先观察：${esc(short||'当前选择已凑齐或无兼容记录')}</p>`;}).join(''):'<p class="empty">目标等级没有同时包含所选棋子的已返回组合。可以查看其他等级或取消部分打工牌；不会用当前等级的结果限制未来方向。</p>')+missingConditions(missing)+'<p class="source-line">后续按目标等级独立匹配；不同等级记录不是同一局的转型路径。频次不代表胜率。</p>';
+ $('future-results').innerHTML=`<h3>${state.target??'—'}级 · ${ok.length}个后续方向</h3>`+(ok.length?ok.map(({c,rows})=>{const added=state.added[c.id+':'+state.target]||[],f=E.fill(rows,state.owned,added),short=f.frequency.slice(0,4).map(([i,n])=>`${unit(i)} ${n}/${f.matches.length}`).join('、');return `<details data-comp="${c.id}" ${disclosure('future:'+c.id,ok.length===1)}><summary>${badge(c.tier)}${esc(c.name)} · ${rows.length}种匹配</summary><p>${compLink(c)}</p><div class="note"><strong>终局保留核心：</strong>${esc(names(c.retained_core))}<br><small>${esc(c.core_evidence)}</small></div>${gearSummary(c)}${fillHTML(c,rows)}</details><p class="compact muted">${esc(c.name)}优先观察：${esc(short||'当前选择已凑齐或无兼容记录')}</p>`;}).join(''):'<p class="empty">目标等级没有同时包含所选棋子的已返回组合。可以查看其他等级或取消部分打工牌；不会用当前等级的结果限制未来方向。</p>')+missingConditions(missing)+'<p class="source-line">后续按目标等级独立匹配；不同等级记录不是同一局的转型路径。频次不代表胜率。</p>';
  return ok.length;
 }
 function renderResults(){const pos=$('results-scroll').scrollTop;const a=currentResults(),b=futureResults();$('selection-summary').textContent=`已选${state.owned.length}名棋子 · ${state.augments.length}个海克斯 · ${state.emblems.length}个转职 ｜ 当前过渡${a}种 / 后续方向${b}个`;$('results-scroll').scrollTop=pos;save();}
