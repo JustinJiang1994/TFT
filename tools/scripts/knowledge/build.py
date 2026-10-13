@@ -77,7 +77,7 @@ def normalize(snapshot):
    for b in stage['builds']:
     ids=[str(h['heroBaseId']) for h in b['heroes']];buy=sorted({x for x in ids if unit(x)['purchasable']});key=tuple(buy)
     if key in seen:continue
-    seen.add(key);stages.append({'level':stage['peopleNum'],'units':buy,'generated':sorted(set(ids)-set(buy)),'stars':{str(h['heroBaseId']):h.get('heroStarNum') for h in b['heroes']},'count':b['sampleCount'],'source_patch':b.get('gameVersion'),'source_id':b['id']})
+    seen.add(key);stages.append({'level':stage['peopleNum'],'units':buy,'generated':sorted(set(ids)-set(buy)),'stars':{str(h['heroBaseId']):h.get('heroStarNum') for h in b['heroes']},'count':b['sampleCount'],'avg':b.get('avgPlacement'),'top4':b.get('top4Rate'),'source_patch':b.get('gameVersion'),'source_id':b['id']})
   assert all(b['source_patch']==m['patch'] for b in stages),'mixed-patch stage records'
   final=[set(b['units']) for b in stages if b['level']>=8];core=sorted(set.intersection(*final)) if final else []
   rec_hex=payload(folder/'recommended-hexes.json',{}) or {};full_hex=payload(folder/'hexes.json',{}) or {};full_by={str(x['hexId']):x for x in full_hex.get('hexes',[])};aug=[]

@@ -18,3 +18,8 @@ assert.deepEqual(E.equipment(gear,['x','x']).map(x=>x.missing),[['y']]);
 assert.deepEqual(E.equipment(gear,['x','y','z']).map(x=>x.missing),[[]]);
 assert.equal(E.equipment(gear,['absent']).length,0);
 console.log('PASS: source-level matching, independent future routes, conditional gates, filtered frequency, multiset gear completion.');
+
+const ranked=[{units:['a'],top4:null,avg:1},{units:['a'],top4:90,avg:3},{units:['a'],top4:95,avg:4},{units:['a'],top4:90,avg:2},{units:['a'],top4:90,avg:null},{units:['a'],top4:0,avg:8}];
+assert.deepEqual(E.fill(ranked,['a'],[]).matches.map(b=>[b.top4,b.avg]),[[95,4],[90,2],[90,3],[90,null],[0,8],[null,1]]);
+assert.equal(ranked[0].top4,null,'ranking must not mutate source rows');
+console.log('PASS: top-four descending, average placement ascending, missing metrics last, zero preserved.');

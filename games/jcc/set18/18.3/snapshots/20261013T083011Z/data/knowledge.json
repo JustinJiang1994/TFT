@@ -1042,7 +1042,9 @@
           },
           "count": 1819,
           "source_patch": "18.3",
-          "source_id": "1609572"
+          "source_id": "1609572",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 4,
@@ -1061,7 +1063,9 @@
           },
           "count": 1711,
           "source_patch": "18.3",
-          "source_id": "1603654"
+          "source_id": "1603654",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 4,
@@ -1080,7 +1084,9 @@
           },
           "count": 813,
           "source_patch": "18.3",
-          "source_id": "1604031"
+          "source_id": "1604031",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 5,
@@ -1101,7 +1107,9 @@
           },
           "count": 4336,
           "source_patch": "18.3",
-          "source_id": "1603657"
+          "source_id": "1603657",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 5,
@@ -1122,7 +1130,9 @@
           },
           "count": 4161,
           "source_patch": "18.3",
-          "source_id": "1603655"
+          "source_id": "1603655",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 5,
@@ -1143,7 +1153,9 @@
           },
           "count": 3438,
           "source_patch": "18.3",
-          "source_id": "1604032"
+          "source_id": "1604032",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 6,
@@ -1166,7 +1178,9 @@
           },
           "count": 644,
           "source_patch": "18.3",
-          "source_id": "1606225"
+          "source_id": "1606225",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 6,
@@ -1189,7 +1203,9 @@
           },
           "count": 614,
           "source_patch": "18.3",
-          "source_id": "1603705"
+          "source_id": "1603705",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 6,
@@ -1212,7 +1228,9 @@
           },
           "count": 607,
           "source_patch": "18.3",
-          "source_id": "1607994"
+          "source_id": "1607994",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 7,
@@ -1237,7 +1255,9 @@
           },
           "count": 96,
           "source_patch": "18.3",
-          "source_id": "1608428"
+          "source_id": "1608428",
+          "avg": 6.31,
+          "top4": 15.63
         },
         {
           "level": 7,
@@ -1262,7 +1282,9 @@
           },
           "count": 73,
           "source_patch": "18.3",
-          "source_id": "1612456"
+          "source_id": "1612456",
+          "avg": 6.34,
+          "top4": 9.59
         },
         {
           "level": 7,
@@ -1285,7 +1307,9 @@
           },
           "count": 67,
           "source_patch": "18.3",
-          "source_id": "1618078"
+          "source_id": "1618078",
+          "avg": 6.18,
+          "top4": 13.43
         },
         {
           "level": 8,
@@ -1310,7 +1334,9 @@
           },
           "count": 323,
           "source_patch": "18.3",
-          "source_id": "1605407"
+          "source_id": "1605407",
+          "avg": 4.59,
+          "top4": 46.75
         },
         {
           "level": 8,
@@ -1335,7 +1361,9 @@
           },
           "count": 244,
           "source_patch": "18.3",
-          "source_id": "1616355"
+          "source_id": "1616355",
+          "avg": 4.2,
+          "top4": 55.74
         },
         {
           "level": 8,
@@ -1362,7 +1390,9 @@
           },
           "count": 199,
           "source_patch": "18.3",
-          "source_id": "1612322"
+          "source_id": "1612322",
+          "avg": 4.6,
+          "top4": 45.23
         },
         {
           "level": 9,
@@ -1389,7 +1419,9 @@
           },
           "count": 918,
           "source_patch": "18.3",
-          "source_id": "1604112"
+          "source_id": "1604112",
+          "avg": 2.82,
+          "top4": 82.46
         },
         {
           "level": 9,
@@ -1416,7 +1448,9 @@
           },
           "count": 308,
           "source_patch": "18.3",
-          "source_id": "1609838"
+          "source_id": "1609838",
+          "avg": 3.23,
+          "top4": 76.3
         },
         {
           "level": 9,
@@ -1443,7 +1477,9 @@
           },
           "count": 191,
           "source_patch": "18.3",
-          "source_id": "1605533"
+          "source_id": "1605533",
+          "avg": 3.12,
+          "top4": 75.92
         },
         {
           "level": 10,
@@ -1476,7 +1512,9 @@
           },
           "count": 704,
           "source_patch": "18.3",
-          "source_id": "1607081"
+          "source_id": "1607081",
+          "avg": 2.19,
+          "top4": 91.19
         },
         {
           "level": 10,
@@ -1509,7 +1547,9 @@
           },
           "count": 188,
           "source_patch": "18.3",
-          "source_id": "1608494"
+          "source_id": "1608494",
+          "avg": 1.79,
+          "top4": 98.94
         },
         {
           "level": 10,
@@ -1542,7 +1582,9 @@
           },
           "count": 112,
           "source_patch": "18.3",
-          "source_id": "1620529"
+          "source_id": "1620529",
+          "avg": 2.14,
+          "top4": 94.64
         }
       ],
       "retained_core": [
@@ -2838,7 +2880,9 @@
           },
           "count": 2677,
           "source_patch": "18.3",
-          "source_id": "1607636"
+          "source_id": "1607636",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 4,
@@ -2857,7 +2901,9 @@
           },
           "count": 1628,
           "source_patch": "18.3",
-          "source_id": "1603986"
+          "source_id": "1603986",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 4,
@@ -2876,7 +2922,9 @@
           },
           "count": 787,
           "source_patch": "18.3",
-          "source_id": "1609411"
+          "source_id": "1609411",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 5,
@@ -2897,7 +2945,9 @@
           },
           "count": 938,
           "source_patch": "18.3",
-          "source_id": "1609412"
+          "source_id": "1609412",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 5,
@@ -2918,7 +2968,9 @@
           },
           "count": 765,
           "source_patch": "18.3",
-          "source_id": "1603775"
+          "source_id": "1603775",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 5,
@@ -2939,7 +2991,9 @@
           },
           "count": 650,
           "source_patch": "18.3",
-          "source_id": "1608223"
+          "source_id": "1608223",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 6,
@@ -2962,7 +3016,9 @@
           },
           "count": 6259,
           "source_patch": "18.3",
-          "source_id": "1603842"
+          "source_id": "1603842",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 6,
@@ -2985,7 +3041,9 @@
           },
           "count": 3103,
           "source_patch": "18.3",
-          "source_id": "1603777"
+          "source_id": "1603777",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 6,
@@ -3008,7 +3066,9 @@
           },
           "count": 3050,
           "source_patch": "18.3",
-          "source_id": "1604535"
+          "source_id": "1604535",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 7,
@@ -3033,7 +3093,9 @@
           },
           "count": 378,
           "source_patch": "18.3",
-          "source_id": "1610073"
+          "source_id": "1610073",
+          "avg": 4.17,
+          "top4": 60.05
         },
         {
           "level": 7,
@@ -3058,7 +3120,9 @@
           },
           "count": 207,
           "source_patch": "18.3",
-          "source_id": "1635064"
+          "source_id": "1635064",
+          "avg": 4.07,
+          "top4": 60.39
         },
         {
           "level": 7,
@@ -3083,7 +3147,9 @@
           },
           "count": 183,
           "source_patch": "18.3",
-          "source_id": "1604536"
+          "source_id": "1604536",
+          "avg": 4.52,
+          "top4": 45.9
         },
         {
           "level": 8,
@@ -3110,7 +3176,9 @@
           },
           "count": 208,
           "source_patch": "18.3",
-          "source_id": "1609399"
+          "source_id": "1609399",
+          "avg": 2.99,
+          "top4": 86.06
         },
         {
           "level": 8,
@@ -3137,7 +3205,9 @@
           },
           "count": 181,
           "source_patch": "18.3",
-          "source_id": "1623054"
+          "source_id": "1623054",
+          "avg": 3.17,
+          "top4": 82.87
         },
         {
           "level": 8,
@@ -3164,7 +3234,9 @@
           },
           "count": 179,
           "source_patch": "18.3",
-          "source_id": "1610108"
+          "source_id": "1610108",
+          "avg": 3.13,
+          "top4": 82.12
         },
         {
           "level": 9,
@@ -3193,7 +3265,9 @@
           },
           "count": 29,
           "source_patch": "18.3",
-          "source_id": "1703723"
+          "source_id": "1703723",
+          "avg": 2.1,
+          "top4": 100
         },
         {
           "level": 9,
@@ -3222,7 +3296,9 @@
           },
           "count": 28,
           "source_patch": "18.3",
-          "source_id": "1650216"
+          "source_id": "1650216",
+          "avg": 1.93,
+          "top4": 100
         },
         {
           "level": 9,
@@ -3251,7 +3327,9 @@
           },
           "count": 28,
           "source_patch": "18.3",
-          "source_id": "1708896"
+          "source_id": "1708896",
+          "avg": 2.04,
+          "top4": 100
         },
         {
           "level": 10,
@@ -3282,7 +3360,9 @@
           },
           "count": 3,
           "source_patch": "18.3",
-          "source_id": "1997491"
+          "source_id": "1997491",
+          "avg": 1.67,
+          "top4": 100
         },
         {
           "level": 10,
@@ -3313,7 +3393,9 @@
           },
           "count": 3,
           "source_patch": "18.3",
-          "source_id": "2056460"
+          "source_id": "2056460",
+          "avg": 1.67,
+          "top4": 100
         }
       ],
       "retained_core": [
@@ -4595,7 +4677,9 @@
           },
           "count": 11248,
           "source_patch": "18.3",
-          "source_id": "1603982"
+          "source_id": "1603982",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 4,
@@ -4614,7 +4698,9 @@
           },
           "count": 8961,
           "source_patch": "18.3",
-          "source_id": "1604019"
+          "source_id": "1604019",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 4,
@@ -4633,7 +4719,9 @@
           },
           "count": 2463,
           "source_patch": "18.3",
-          "source_id": "1605093"
+          "source_id": "1605093",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 5,
@@ -4654,7 +4742,9 @@
           },
           "count": 3470,
           "source_patch": "18.3",
-          "source_id": "1603983"
+          "source_id": "1603983",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 5,
@@ -4675,7 +4765,9 @@
           },
           "count": 1698,
           "source_patch": "18.3",
-          "source_id": "1605145"
+          "source_id": "1605145",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 5,
@@ -4696,7 +4788,9 @@
           },
           "count": 1248,
           "source_patch": "18.3",
-          "source_id": "1606541"
+          "source_id": "1606541",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 6,
@@ -4719,7 +4813,9 @@
           },
           "count": 4152,
           "source_patch": "18.3",
-          "source_id": "1605146"
+          "source_id": "1605146",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 6,
@@ -4742,7 +4838,9 @@
           },
           "count": 3582,
           "source_patch": "18.3",
-          "source_id": "1605096"
+          "source_id": "1605096",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 6,
@@ -4765,7 +4863,9 @@
           },
           "count": 3070,
           "source_patch": "18.3",
-          "source_id": "1603984"
+          "source_id": "1603984",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 7,
@@ -4790,7 +4890,9 @@
           },
           "count": 272,
           "source_patch": "18.3",
-          "source_id": "1620018"
+          "source_id": "1620018",
+          "avg": 5.53,
+          "top4": 29.78
         },
         {
           "level": 7,
@@ -4815,7 +4917,9 @@
           },
           "count": 205,
           "source_patch": "18.3",
-          "source_id": "1611229"
+          "source_id": "1611229",
+          "avg": 3.92,
+          "top4": 58.05
         },
         {
           "level": 7,
@@ -4840,7 +4944,9 @@
           },
           "count": 126,
           "source_patch": "18.3",
-          "source_id": "1609649"
+          "source_id": "1609649",
+          "avg": 4.39,
+          "top4": 50
         },
         {
           "level": 8,
@@ -4867,7 +4973,9 @@
           },
           "count": 1500,
           "source_patch": "18.3",
-          "source_id": "1604022"
+          "source_id": "1604022",
+          "avg": 2.64,
+          "top4": 84.67
         },
         {
           "level": 8,
@@ -4894,7 +5002,9 @@
           },
           "count": 170,
           "source_patch": "18.3",
-          "source_id": "1607225"
+          "source_id": "1607225",
+          "avg": 2.48,
+          "top4": 83.53
         },
         {
           "level": 8,
@@ -4921,7 +5031,9 @@
           },
           "count": 116,
           "source_patch": "18.3",
-          "source_id": "1607048"
+          "source_id": "1607048",
+          "avg": 1.71,
+          "top4": 97.41
         },
         {
           "level": 9,
@@ -4950,7 +5062,9 @@
           },
           "count": 522,
           "source_patch": "18.3",
-          "source_id": "1606842"
+          "source_id": "1606842",
+          "avg": 1.4,
+          "top4": 98.85
         },
         {
           "level": 9,
@@ -4979,7 +5093,9 @@
           },
           "count": 111,
           "source_patch": "18.3",
-          "source_id": "1609697"
+          "source_id": "1609697",
+          "avg": 1.65,
+          "top4": 97.3
         },
         {
           "level": 9,
@@ -5008,7 +5124,9 @@
           },
           "count": 95,
           "source_patch": "18.3",
-          "source_id": "1608924"
+          "source_id": "1608924",
+          "avg": 1.41,
+          "top4": 97.89
         },
         {
           "level": 10,
@@ -5039,7 +5157,9 @@
           },
           "count": 20,
           "source_patch": "18.3",
-          "source_id": "1610532"
+          "source_id": "1610532",
+          "avg": 1.25,
+          "top4": 100
         },
         {
           "level": 10,
@@ -5070,7 +5190,9 @@
           },
           "count": 9,
           "source_patch": "18.3",
-          "source_id": "1605812"
+          "source_id": "1605812",
+          "avg": 1.44,
+          "top4": 100
         },
         {
           "level": 10,
@@ -5099,7 +5221,9 @@
           },
           "count": 8,
           "source_patch": "18.3",
-          "source_id": "2021533"
+          "source_id": "2021533",
+          "avg": 1.13,
+          "top4": 100
         }
       ],
       "retained_core": [
@@ -6218,7 +6342,9 @@
           },
           "count": 417,
           "source_patch": "18.3",
-          "source_id": "1609238"
+          "source_id": "1609238",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 4,
@@ -6237,7 +6363,9 @@
           },
           "count": 328,
           "source_patch": "18.3",
-          "source_id": "1666941"
+          "source_id": "1666941",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 4,
@@ -6256,7 +6384,9 @@
           },
           "count": 247,
           "source_patch": "18.3",
-          "source_id": "1604844"
+          "source_id": "1604844",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 5,
@@ -6277,7 +6407,9 @@
           },
           "count": 192,
           "source_patch": "18.3",
-          "source_id": "1693393"
+          "source_id": "1693393",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 5,
@@ -6298,7 +6430,9 @@
           },
           "count": 124,
           "source_patch": "18.3",
-          "source_id": "1644047"
+          "source_id": "1644047",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 5,
@@ -6319,7 +6453,9 @@
           },
           "count": 97,
           "source_patch": "18.3",
-          "source_id": "1651169"
+          "source_id": "1651169",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 6,
@@ -6342,7 +6478,9 @@
           },
           "count": 56,
           "source_patch": "18.3",
-          "source_id": "1763814"
+          "source_id": "1763814",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 6,
@@ -6365,7 +6503,9 @@
           },
           "count": 55,
           "source_patch": "18.3",
-          "source_id": "1714167"
+          "source_id": "1714167",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 6,
@@ -6388,7 +6528,9 @@
           },
           "count": 54,
           "source_patch": "18.3",
-          "source_id": "1717473"
+          "source_id": "1717473",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 8,
@@ -6413,7 +6555,9 @@
           },
           "count": 4,
           "source_patch": "18.3",
-          "source_id": "1718952"
+          "source_id": "1718952",
+          "avg": 7.75,
+          "top4": 0
         },
         {
           "level": 9,
@@ -6440,7 +6584,9 @@
           },
           "count": 2515,
           "source_patch": "18.3",
-          "source_id": "1604064"
+          "source_id": "1604064",
+          "avg": 4.32,
+          "top4": 54.12
         },
         {
           "level": 9,
@@ -6467,7 +6613,9 @@
           },
           "count": 61,
           "source_patch": "18.3",
-          "source_id": "1665997"
+          "source_id": "1665997",
+          "avg": 4.49,
+          "top4": 50.82
         },
         {
           "level": 9,
@@ -6494,7 +6642,9 @@
           },
           "count": 60,
           "source_patch": "18.3",
-          "source_id": "1631017"
+          "source_id": "1631017",
+          "avg": 4.23,
+          "top4": 51.67
         },
         {
           "level": 10,
@@ -6523,7 +6673,9 @@
           },
           "count": 308,
           "source_patch": "18.3",
-          "source_id": "1619298"
+          "source_id": "1619298",
+          "avg": 2.12,
+          "top4": 91.88
         },
         {
           "level": 10,
@@ -6552,7 +6704,9 @@
           },
           "count": 198,
           "source_patch": "18.3",
-          "source_id": "1613312"
+          "source_id": "1613312",
+          "avg": 1.76,
+          "top4": 95.96
         },
         {
           "level": 10,
@@ -6581,7 +6735,9 @@
           },
           "count": 169,
           "source_patch": "18.3",
-          "source_id": "1615050"
+          "source_id": "1615050",
+          "avg": 2.01,
+          "top4": 92.31
         }
       ],
       "retained_core": [
@@ -7594,7 +7750,9 @@
           },
           "count": 1676,
           "source_patch": "18.3",
-          "source_id": "1604914"
+          "source_id": "1604914",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 4,
@@ -7613,7 +7771,9 @@
           },
           "count": 970,
           "source_patch": "18.3",
-          "source_id": "1604090"
+          "source_id": "1604090",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 4,
@@ -7632,7 +7792,9 @@
           },
           "count": 631,
           "source_patch": "18.3",
-          "source_id": "1604871"
+          "source_id": "1604871",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 5,
@@ -7653,7 +7815,9 @@
           },
           "count": 717,
           "source_patch": "18.3",
-          "source_id": "1604872"
+          "source_id": "1604872",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 5,
@@ -7674,7 +7838,9 @@
           },
           "count": 655,
           "source_patch": "18.3",
-          "source_id": "1604091"
+          "source_id": "1604091",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 5,
@@ -7695,7 +7861,9 @@
           },
           "count": 203,
           "source_patch": "18.3",
-          "source_id": "1610479"
+          "source_id": "1610479",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 6,
@@ -7718,7 +7886,9 @@
           },
           "count": 581,
           "source_patch": "18.3",
-          "source_id": "1604996"
+          "source_id": "1604996",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 6,
@@ -7741,7 +7911,9 @@
           },
           "count": 390,
           "source_patch": "18.3",
-          "source_id": "1605323"
+          "source_id": "1605323",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 6,
@@ -7764,7 +7936,9 @@
           },
           "count": 348,
           "source_patch": "18.3",
-          "source_id": "1605427"
+          "source_id": "1605427",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 7,
@@ -7789,7 +7963,9 @@
           },
           "count": 175,
           "source_patch": "18.3",
-          "source_id": "1604758"
+          "source_id": "1604758",
+          "avg": 5.11,
+          "top4": 39.43
         },
         {
           "level": 7,
@@ -7814,7 +7990,9 @@
           },
           "count": 146,
           "source_patch": "18.3",
-          "source_id": "1608874"
+          "source_id": "1608874",
+          "avg": 5.25,
+          "top4": 32.19
         },
         {
           "level": 7,
@@ -7839,7 +8017,9 @@
           },
           "count": 54,
           "source_patch": "18.3",
-          "source_id": "1616870"
+          "source_id": "1616870",
+          "avg": 4.76,
+          "top4": 50
         },
         {
           "level": 8,
@@ -7866,7 +8046,9 @@
           },
           "count": 129,
           "source_patch": "18.3",
-          "source_id": "1611631"
+          "source_id": "1611631",
+          "avg": 3.22,
+          "top4": 75.19
         },
         {
           "level": 8,
@@ -7893,7 +8075,9 @@
           },
           "count": 104,
           "source_patch": "18.3",
-          "source_id": "1608326"
+          "source_id": "1608326",
+          "avg": 3.37,
+          "top4": 82.69
         },
         {
           "level": 8,
@@ -7920,7 +8104,9 @@
           },
           "count": 75,
           "source_patch": "18.3",
-          "source_id": "1604917"
+          "source_id": "1604917",
+          "avg": 3.47,
+          "top4": 70.67
         },
         {
           "level": 9,
@@ -7949,7 +8135,9 @@
           },
           "count": 101,
           "source_patch": "18.3",
-          "source_id": "1616027"
+          "source_id": "1616027",
+          "avg": 2.43,
+          "top4": 93.07
         },
         {
           "level": 9,
@@ -7978,7 +8166,9 @@
           },
           "count": 30,
           "source_patch": "18.3",
-          "source_id": "1620434"
+          "source_id": "1620434",
+          "avg": 2.17,
+          "top4": 96.67
         },
         {
           "level": 9,
@@ -8005,7 +8195,9 @@
           },
           "count": 25,
           "source_patch": "18.3",
-          "source_id": "1663209"
+          "source_id": "1663209",
+          "avg": 2.08,
+          "top4": 100
         },
         {
           "level": 10,
@@ -8036,7 +8228,9 @@
           },
           "count": 15,
           "source_patch": "18.3",
-          "source_id": "1645193"
+          "source_id": "1645193",
+          "avg": 1.67,
+          "top4": 100
         },
         {
           "level": 10,
@@ -8067,7 +8261,9 @@
           },
           "count": 4,
           "source_patch": "18.3",
-          "source_id": "1845298"
+          "source_id": "1845298",
+          "avg": 1.75,
+          "top4": 100
         },
         {
           "level": 10,
@@ -8098,7 +8294,9 @@
           },
           "count": 3,
           "source_patch": "18.3",
-          "source_id": "1748809"
+          "source_id": "1748809",
+          "avg": 1.67,
+          "top4": 100
         }
       ],
       "retained_core": [
@@ -8989,7 +9187,9 @@
           },
           "count": 178,
           "source_patch": "18.3",
-          "source_id": "1632304"
+          "source_id": "1632304",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 4,
@@ -9008,7 +9208,9 @@
           },
           "count": 88,
           "source_patch": "18.3",
-          "source_id": "1784090"
+          "source_id": "1784090",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 4,
@@ -9027,7 +9229,9 @@
           },
           "count": 72,
           "source_patch": "18.3",
-          "source_id": "1653148"
+          "source_id": "1653148",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 5,
@@ -9048,7 +9252,9 @@
           },
           "count": 681,
           "source_patch": "18.3",
-          "source_id": "1632305"
+          "source_id": "1632305",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 5,
@@ -9069,7 +9275,9 @@
           },
           "count": 86,
           "source_patch": "18.3",
-          "source_id": "1709615"
+          "source_id": "1709615",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 5,
@@ -9095,7 +9303,9 @@
           },
           "count": 65,
           "source_patch": "18.3",
-          "source_id": "1619654"
+          "source_id": "1619654",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 6,
@@ -9118,7 +9328,9 @@
           },
           "count": 140,
           "source_patch": "18.3",
-          "source_id": "1629999"
+          "source_id": "1629999",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 6,
@@ -9146,7 +9358,9 @@
           },
           "count": 18,
           "source_patch": "18.3",
-          "source_id": "1792868"
+          "source_id": "1792868",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 6,
@@ -9169,7 +9383,9 @@
           },
           "count": 13,
           "source_patch": "18.3",
-          "source_id": "1844757"
+          "source_id": "1844757",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 7,
@@ -9194,7 +9410,9 @@
           },
           "count": 17,
           "source_patch": "18.3",
-          "source_id": "1795706"
+          "source_id": "1795706",
+          "avg": 4.59,
+          "top4": 47.06
         },
         {
           "level": 7,
@@ -9219,7 +9437,9 @@
           },
           "count": 13,
           "source_patch": "18.3",
-          "source_id": "1810201"
+          "source_id": "1810201",
+          "avg": 4.08,
+          "top4": 76.92
         },
         {
           "level": 7,
@@ -9244,7 +9464,9 @@
           },
           "count": 9,
           "source_patch": "18.3",
-          "source_id": "1804094"
+          "source_id": "1804094",
+          "avg": 4.56,
+          "top4": 44.44
         },
         {
           "level": 8,
@@ -9271,7 +9493,9 @@
           },
           "count": 19,
           "source_patch": "18.3",
-          "source_id": "1632306"
+          "source_id": "1632306",
+          "avg": 2.63,
+          "top4": 84.21
         },
         {
           "level": 8,
@@ -9298,7 +9522,9 @@
           },
           "count": 7,
           "source_patch": "18.3",
-          "source_id": "1689890"
+          "source_id": "1689890",
+          "avg": 2.57,
+          "top4": 100
         },
         {
           "level": 8,
@@ -9325,7 +9551,9 @@
           },
           "count": 6,
           "source_patch": "18.3",
-          "source_id": "1970500"
+          "source_id": "1970500",
+          "avg": 2.17,
+          "top4": 100
         },
         {
           "level": 9,
@@ -9354,7 +9582,9 @@
           },
           "count": 5,
           "source_patch": "18.3",
-          "source_id": "1806156"
+          "source_id": "1806156",
+          "avg": 2.4,
+          "top4": 100
         },
         {
           "level": 9,
@@ -9383,7 +9613,9 @@
           },
           "count": 5,
           "source_patch": "18.3",
-          "source_id": "2201591"
+          "source_id": "2201591",
+          "avg": 1,
+          "top4": 100
         }
       ],
       "retained_core": [
@@ -10552,7 +10784,9 @@
           },
           "count": 1653,
           "source_patch": "18.3",
-          "source_id": "1603998"
+          "source_id": "1603998",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 4,
@@ -10571,7 +10805,9 @@
           },
           "count": 885,
           "source_patch": "18.3",
-          "source_id": "1604023"
+          "source_id": "1604023",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 4,
@@ -10590,7 +10826,9 @@
           },
           "count": 795,
           "source_patch": "18.3",
-          "source_id": "1605927"
+          "source_id": "1605927",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 5,
@@ -10611,7 +10849,9 @@
           },
           "count": 1000,
           "source_patch": "18.3",
-          "source_id": "1603950"
+          "source_id": "1603950",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 5,
@@ -10632,7 +10872,9 @@
           },
           "count": 605,
           "source_patch": "18.3",
-          "source_id": "1604024"
+          "source_id": "1604024",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 5,
@@ -10653,7 +10895,9 @@
           },
           "count": 538,
           "source_patch": "18.3",
-          "source_id": "1605497"
+          "source_id": "1605497",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 6,
@@ -10676,7 +10920,9 @@
           },
           "count": 3999,
           "source_patch": "18.3",
-          "source_id": "1603770"
+          "source_id": "1603770",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 6,
@@ -10699,7 +10945,9 @@
           },
           "count": 2406,
           "source_patch": "18.3",
-          "source_id": "1603769"
+          "source_id": "1603769",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 6,
@@ -10722,7 +10970,9 @@
           },
           "count": 1873,
           "source_patch": "18.3",
-          "source_id": "1604581"
+          "source_id": "1604581",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 7,
@@ -10747,7 +10997,9 @@
           },
           "count": 296,
           "source_patch": "18.3",
-          "source_id": "1603939"
+          "source_id": "1603939",
+          "avg": 5.32,
+          "top4": 32.77
         },
         {
           "level": 7,
@@ -10772,7 +11024,9 @@
           },
           "count": 177,
           "source_patch": "18.3",
-          "source_id": "1605931"
+          "source_id": "1605931",
+          "avg": 5.34,
+          "top4": 32.77
         },
         {
           "level": 7,
@@ -10797,7 +11051,9 @@
           },
           "count": 117,
           "source_patch": "18.3",
-          "source_id": "1606246"
+          "source_id": "1606246",
+          "avg": 5.44,
+          "top4": 29.91
         },
         {
           "level": 8,
@@ -10824,7 +11080,9 @@
           },
           "count": 1001,
           "source_patch": "18.3",
-          "source_id": "1613679"
+          "source_id": "1613679",
+          "avg": 3.55,
+          "top4": 71.73
         },
         {
           "level": 8,
@@ -10851,7 +11109,9 @@
           },
           "count": 490,
           "source_patch": "18.3",
-          "source_id": "1603728"
+          "source_id": "1603728",
+          "avg": 3.48,
+          "top4": 74.29
         },
         {
           "level": 8,
@@ -10878,7 +11138,9 @@
           },
           "count": 421,
           "source_patch": "18.3",
-          "source_id": "1606332"
+          "source_id": "1606332",
+          "avg": 2.97,
+          "top4": 81.95
         },
         {
           "level": 9,
@@ -10907,7 +11169,9 @@
           },
           "count": 173,
           "source_patch": "18.3",
-          "source_id": "1603951"
+          "source_id": "1603951",
+          "avg": 1.88,
+          "top4": 98.27
         },
         {
           "level": 9,
@@ -10936,7 +11200,9 @@
           },
           "count": 133,
           "source_patch": "18.3",
-          "source_id": "1613177"
+          "source_id": "1613177",
+          "avg": 2.49,
+          "top4": 90.23
         },
         {
           "level": 9,
@@ -10965,7 +11231,9 @@
           },
           "count": 60,
           "source_patch": "18.3",
-          "source_id": "1646093"
+          "source_id": "1646093",
+          "avg": 2.23,
+          "top4": 91.67
         },
         {
           "level": 10,
@@ -10996,7 +11264,9 @@
           },
           "count": 8,
           "source_patch": "18.3",
-          "source_id": "1623940"
+          "source_id": "1623940",
+          "avg": 2.75,
+          "top4": 87.5
         },
         {
           "level": 10,
@@ -11027,7 +11297,9 @@
           },
           "count": 7,
           "source_patch": "18.3",
-          "source_id": "1791048"
+          "source_id": "1791048",
+          "avg": 1.29,
+          "top4": 100
         },
         {
           "level": 10,
@@ -11058,7 +11330,9 @@
           },
           "count": 6,
           "source_patch": "18.3",
-          "source_id": "1720993"
+          "source_id": "1720993",
+          "avg": 2.17,
+          "top4": 83.33
         }
       ],
       "retained_core": [
@@ -11765,7 +12039,9 @@
           },
           "count": 11,
           "source_patch": "18.3",
-          "source_id": "1835625"
+          "source_id": "1835625",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 4,
@@ -11789,7 +12065,9 @@
           },
           "count": 9,
           "source_patch": "18.3",
-          "source_id": "1691813"
+          "source_id": "1691813",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 4,
@@ -11808,7 +12086,9 @@
           },
           "count": 7,
           "source_patch": "18.3",
-          "source_id": "1741673"
+          "source_id": "1741673",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 5,
@@ -11834,7 +12114,9 @@
           },
           "count": 9,
           "source_patch": "18.3",
-          "source_id": "1660496"
+          "source_id": "1660496",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 5,
@@ -11860,7 +12142,9 @@
           },
           "count": 8,
           "source_patch": "18.3",
-          "source_id": "1709383"
+          "source_id": "1709383",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 5,
@@ -11881,7 +12165,9 @@
           },
           "count": 7,
           "source_patch": "18.3",
-          "source_id": "1617474"
+          "source_id": "1617474",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 6,
@@ -11909,7 +12195,9 @@
           },
           "count": 10,
           "source_patch": "18.3",
-          "source_id": "1782147"
+          "source_id": "1782147",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 6,
@@ -11937,7 +12225,9 @@
           },
           "count": 5,
           "source_patch": "18.3",
-          "source_id": "1631933"
+          "source_id": "1631933",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 6,
@@ -11960,7 +12250,9 @@
           },
           "count": 5,
           "source_patch": "18.3",
-          "source_id": "1855383"
+          "source_id": "1855383",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 8,
@@ -11987,7 +12279,9 @@
           },
           "count": 4,
           "source_patch": "18.3",
-          "source_id": "2040760"
+          "source_id": "2040760",
+          "avg": 2.25,
+          "top4": 75
         },
         {
           "level": 9,
@@ -12014,7 +12308,9 @@
           },
           "count": 9,
           "source_patch": "18.3",
-          "source_id": "1613715"
+          "source_id": "1613715",
+          "avg": 5.44,
+          "top4": 33.33
         },
         {
           "level": 9,
@@ -12043,7 +12339,9 @@
           },
           "count": 9,
           "source_patch": "18.3",
-          "source_id": "1631934"
+          "source_id": "1631934",
+          "avg": 2,
+          "top4": 100
         },
         {
           "level": 9,
@@ -12072,7 +12370,9 @@
           },
           "count": 8,
           "source_patch": "18.3",
-          "source_id": "1782148"
+          "source_id": "1782148",
+          "avg": 3.88,
+          "top4": 50
         },
         {
           "level": 10,
@@ -12101,7 +12401,9 @@
           },
           "count": 12,
           "source_patch": "18.3",
-          "source_id": "1836205"
+          "source_id": "1836205",
+          "avg": 1.92,
+          "top4": 100
         },
         {
           "level": 10,
@@ -12132,7 +12434,9 @@
           },
           "count": 3,
           "source_patch": "18.3",
-          "source_id": "1891031"
+          "source_id": "1891031",
+          "avg": 1.67,
+          "top4": 100
         }
       ],
       "retained_core": [
@@ -13653,7 +13957,9 @@
           },
           "count": 4962,
           "source_patch": "18.3",
-          "source_id": "1604759"
+          "source_id": "1604759",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 4,
@@ -13672,7 +13978,9 @@
           },
           "count": 4917,
           "source_patch": "18.3",
-          "source_id": "1603825"
+          "source_id": "1603825",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 4,
@@ -13691,7 +13999,9 @@
           },
           "count": 2491,
           "source_patch": "18.3",
-          "source_id": "1605669"
+          "source_id": "1605669",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 5,
@@ -13712,7 +14022,9 @@
           },
           "count": 13112,
           "source_patch": "18.3",
-          "source_id": "1603682"
+          "source_id": "1603682",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 5,
@@ -13733,7 +14045,9 @@
           },
           "count": 10440,
           "source_patch": "18.3",
-          "source_id": "1603851"
+          "source_id": "1603851",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 5,
@@ -13754,7 +14068,9 @@
           },
           "count": 9855,
           "source_patch": "18.3",
-          "source_id": "1603511"
+          "source_id": "1603511",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 6,
@@ -13777,7 +14093,9 @@
           },
           "count": 2660,
           "source_patch": "18.3",
-          "source_id": "1605538"
+          "source_id": "1605538",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 6,
@@ -13800,7 +14118,9 @@
           },
           "count": 2547,
           "source_patch": "18.3",
-          "source_id": "1605476"
+          "source_id": "1605476",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 6,
@@ -13823,7 +14143,9 @@
           },
           "count": 2250,
           "source_patch": "18.3",
-          "source_id": "1603512"
+          "source_id": "1603512",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 7,
@@ -13848,7 +14170,9 @@
           },
           "count": 1191,
           "source_patch": "18.3",
-          "source_id": "1603863"
+          "source_id": "1603863",
+          "avg": 6.18,
+          "top4": 13.27
         },
         {
           "level": 7,
@@ -13873,7 +14197,9 @@
           },
           "count": 590,
           "source_patch": "18.3",
-          "source_id": "1605602"
+          "source_id": "1605602",
+          "avg": 6.26,
+          "top4": 10.34
         },
         {
           "level": 7,
@@ -13898,7 +14224,9 @@
           },
           "count": 513,
           "source_patch": "18.3",
-          "source_id": "1606359"
+          "source_id": "1606359",
+          "avg": 6.63,
+          "top4": 5.46
         },
         {
           "level": 8,
@@ -13925,7 +14253,9 @@
           },
           "count": 2082,
           "source_patch": "18.3",
-          "source_id": "1604752"
+          "source_id": "1604752",
+          "avg": 4.75,
+          "top4": 44.57
         },
         {
           "level": 8,
@@ -13952,7 +14282,9 @@
           },
           "count": 1580,
           "source_patch": "18.3",
-          "source_id": "1603646"
+          "source_id": "1603646",
+          "avg": 4.62,
+          "top4": 47.66
         },
         {
           "level": 8,
@@ -13977,7 +14309,9 @@
           },
           "count": 1543,
           "source_patch": "18.3",
-          "source_id": "1603721"
+          "source_id": "1603721",
+          "avg": 4.22,
+          "top4": 56.64
         },
         {
           "level": 9,
@@ -14004,7 +14338,9 @@
           },
           "count": 3024,
           "source_patch": "18.3",
-          "source_id": "1604122"
+          "source_id": "1604122",
+          "avg": 2.67,
+          "top4": 85.19
         },
         {
           "level": 9,
@@ -14031,7 +14367,9 @@
           },
           "count": 898,
           "source_patch": "18.3",
-          "source_id": "1605348"
+          "source_id": "1605348",
+          "avg": 2.4,
+          "top4": 90.76
         },
         {
           "level": 9,
@@ -14058,7 +14396,9 @@
           },
           "count": 674,
           "source_patch": "18.3",
-          "source_id": "1609592"
+          "source_id": "1609592",
+          "avg": 2.48,
+          "top4": 90.5
         },
         {
           "level": 10,
@@ -14091,7 +14431,9 @@
           },
           "count": 1533,
           "source_patch": "18.3",
-          "source_id": "1603894"
+          "source_id": "1603894",
+          "avg": 1.81,
+          "top4": 96.74
         },
         {
           "level": 10,
@@ -14124,7 +14466,9 @@
           },
           "count": 362,
           "source_patch": "18.3",
-          "source_id": "1604949"
+          "source_id": "1604949",
+          "avg": 1.73,
+          "top4": 96.96
         },
         {
           "level": 10,
@@ -14157,7 +14501,9 @@
           },
           "count": 272,
           "source_patch": "18.3",
-          "source_id": "1621693"
+          "source_id": "1621693",
+          "avg": 1.74,
+          "top4": 97.43
         }
       ],
       "retained_core": [
@@ -15524,7 +15870,9 @@
           },
           "count": 1175,
           "source_patch": "18.3",
-          "source_id": "1605738"
+          "source_id": "1605738",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 4,
@@ -15548,7 +15896,9 @@
           },
           "count": 516,
           "source_patch": "18.3",
-          "source_id": "1622693"
+          "source_id": "1622693",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 4,
@@ -15572,7 +15922,9 @@
           },
           "count": 451,
           "source_patch": "18.3",
-          "source_id": "1612042"
+          "source_id": "1612042",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 5,
@@ -15593,7 +15945,9 @@
           },
           "count": 843,
           "source_patch": "18.3",
-          "source_id": "1611741"
+          "source_id": "1611741",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 5,
@@ -15619,7 +15973,9 @@
           },
           "count": 559,
           "source_patch": "18.3",
-          "source_id": "1624606"
+          "source_id": "1624606",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 5,
@@ -15645,7 +16001,9 @@
           },
           "count": 548,
           "source_patch": "18.3",
-          "source_id": "1604556"
+          "source_id": "1604556",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 6,
@@ -15673,7 +16031,9 @@
           },
           "count": 1182,
           "source_patch": "18.3",
-          "source_id": "1605741"
+          "source_id": "1605741",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 6,
@@ -15701,7 +16061,9 @@
           },
           "count": 490,
           "source_patch": "18.3",
-          "source_id": "1624607"
+          "source_id": "1624607",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 6,
@@ -15724,7 +16086,9 @@
           },
           "count": 463,
           "source_patch": "18.3",
-          "source_id": "1604518"
+          "source_id": "1604518",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 7,
@@ -15749,7 +16113,9 @@
           },
           "count": 3367,
           "source_patch": "18.3",
-          "source_id": "1604855"
+          "source_id": "1604855",
+          "avg": 5.19,
+          "top4": 35.61
         },
         {
           "level": 7,
@@ -15774,7 +16140,9 @@
           },
           "count": 805,
           "source_patch": "18.3",
-          "source_id": "1607027"
+          "source_id": "1607027",
+          "avg": 5.8,
+          "top4": 23.48
         },
         {
           "level": 7,
@@ -15799,7 +16167,9 @@
           },
           "count": 629,
           "source_patch": "18.3",
-          "source_id": "1607257"
+          "source_id": "1607257",
+          "avg": 5.28,
+          "top4": 34.02
         },
         {
           "level": 8,
@@ -15826,7 +16196,9 @@
           },
           "count": 1552,
           "source_patch": "18.3",
-          "source_id": "1603591"
+          "source_id": "1603591",
+          "avg": 2.8,
+          "top4": 85.82
         },
         {
           "level": 8,
@@ -15853,7 +16225,9 @@
           },
           "count": 948,
           "source_patch": "18.3",
-          "source_id": "1604702"
+          "source_id": "1604702",
+          "avg": 2.31,
+          "top4": 91.14
         },
         {
           "level": 8,
@@ -15880,7 +16254,9 @@
           },
           "count": 897,
           "source_patch": "18.3",
-          "source_id": "1605164"
+          "source_id": "1605164",
+          "avg": 3.35,
+          "top4": 77.26
         },
         {
           "level": 9,
@@ -15909,7 +16285,9 @@
           },
           "count": 242,
           "source_patch": "18.3",
-          "source_id": "1613942"
+          "source_id": "1613942",
+          "avg": 1.76,
+          "top4": 99.17
         },
         {
           "level": 9,
@@ -15938,7 +16316,9 @@
           },
           "count": 87,
           "source_patch": "18.3",
-          "source_id": "1607109"
+          "source_id": "1607109",
+          "avg": 1.8,
+          "top4": 97.7
         },
         {
           "level": 9,
@@ -15967,7 +16347,9 @@
           },
           "count": 64,
           "source_patch": "18.3",
-          "source_id": "1640727"
+          "source_id": "1640727",
+          "avg": 2.25,
+          "top4": 89.06
         },
         {
           "level": 10,
@@ -15998,7 +16380,9 @@
           },
           "count": 4,
           "source_patch": "18.3",
-          "source_id": "1648452"
+          "source_id": "1648452",
+          "avg": 2.25,
+          "top4": 100
         },
         {
           "level": 10,
@@ -16029,7 +16413,9 @@
           },
           "count": 3,
           "source_patch": "18.3",
-          "source_id": "1799231"
+          "source_id": "1799231",
+          "avg": 1.67,
+          "top4": 100
         }
       ],
       "retained_core": [
@@ -16951,7 +17337,9 @@
           },
           "count": 120,
           "source_patch": "18.3",
-          "source_id": "1651820"
+          "source_id": "1651820",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 4,
@@ -16970,7 +17358,9 @@
           },
           "count": 113,
           "source_patch": "18.3",
-          "source_id": "1616244"
+          "source_id": "1616244",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 4,
@@ -16989,7 +17379,9 @@
           },
           "count": 75,
           "source_patch": "18.3",
-          "source_id": "1639720"
+          "source_id": "1639720",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 5,
@@ -17010,7 +17402,9 @@
           },
           "count": 46,
           "source_patch": "18.3",
-          "source_id": "1656760"
+          "source_id": "1656760",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 5,
@@ -17031,7 +17425,9 @@
           },
           "count": 45,
           "source_patch": "18.3",
-          "source_id": "1651821"
+          "source_id": "1651821",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 5,
@@ -17057,7 +17453,9 @@
           },
           "count": 23,
           "source_patch": "18.3",
-          "source_id": "1641567"
+          "source_id": "1641567",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 6,
@@ -17080,7 +17478,9 @@
           },
           "count": 35,
           "source_patch": "18.3",
-          "source_id": "1619452"
+          "source_id": "1619452",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 6,
@@ -17103,7 +17503,9 @@
           },
           "count": 24,
           "source_patch": "18.3",
-          "source_id": "1631063"
+          "source_id": "1631063",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 6,
@@ -17126,7 +17528,9 @@
           },
           "count": 18,
           "source_patch": "18.3",
-          "source_id": "1639723"
+          "source_id": "1639723",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 8,
@@ -17153,7 +17557,9 @@
           },
           "count": 251,
           "source_patch": "18.3",
-          "source_id": "1605032"
+          "source_id": "1605032",
+          "avg": 5.33,
+          "top4": 34.66
         },
         {
           "level": 8,
@@ -17180,7 +17586,9 @@
           },
           "count": 69,
           "source_patch": "18.3",
-          "source_id": "1619597"
+          "source_id": "1619597",
+          "avg": 5.52,
+          "top4": 28.99
         },
         {
           "level": 8,
@@ -17207,7 +17615,9 @@
           },
           "count": 21,
           "source_patch": "18.3",
-          "source_id": "1616941"
+          "source_id": "1616941",
+          "avg": 6.33,
+          "top4": 9.52
         },
         {
           "level": 9,
@@ -17236,7 +17646,9 @@
           },
           "count": 96,
           "source_patch": "18.3",
-          "source_id": "1614775"
+          "source_id": "1614775",
+          "avg": 3.16,
+          "top4": 79.17
         },
         {
           "level": 9,
@@ -17263,7 +17675,9 @@
           },
           "count": 35,
           "source_patch": "18.3",
-          "source_id": "1624862"
+          "source_id": "1624862",
+          "avg": 3.54,
+          "top4": 68.57
         },
         {
           "level": 9,
@@ -17292,7 +17706,9 @@
           },
           "count": 24,
           "source_patch": "18.3",
-          "source_id": "1697452"
+          "source_id": "1697452",
+          "avg": 3.46,
+          "top4": 79.17
         },
         {
           "level": 10,
@@ -17323,7 +17739,9 @@
           },
           "count": 13,
           "source_patch": "18.3",
-          "source_id": "1669739"
+          "source_id": "1669739",
+          "avg": 2.31,
+          "top4": 100
         },
         {
           "level": 10,
@@ -17354,7 +17772,9 @@
           },
           "count": 3,
           "source_patch": "18.3",
-          "source_id": "1632274"
+          "source_id": "1632274",
+          "avg": 1.33,
+          "top4": 100
         },
         {
           "level": 10,
@@ -17385,7 +17805,9 @@
           },
           "count": 3,
           "source_patch": "18.3",
-          "source_id": "2041933"
+          "source_id": "2041933",
+          "avg": 2.33,
+          "top4": 100
         }
       ],
       "retained_core": [
@@ -18600,7 +19022,9 @@
           },
           "count": 2589,
           "source_patch": "18.3",
-          "source_id": "1606478"
+          "source_id": "1606478",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 4,
@@ -18619,7 +19043,9 @@
           },
           "count": 830,
           "source_patch": "18.3",
-          "source_id": "1605314"
+          "source_id": "1605314",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 4,
@@ -18638,7 +19064,9 @@
           },
           "count": 627,
           "source_patch": "18.3",
-          "source_id": "1606477"
+          "source_id": "1606477",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 5,
@@ -18659,7 +19087,9 @@
           },
           "count": 5775,
           "source_patch": "18.3",
-          "source_id": "1605104"
+          "source_id": "1605104",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 5,
@@ -18680,7 +19110,9 @@
           },
           "count": 1244,
           "source_patch": "18.3",
-          "source_id": "1605105"
+          "source_id": "1605105",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 5,
@@ -18701,7 +19133,9 @@
           },
           "count": 41,
           "source_patch": "18.3",
-          "source_id": "1653502"
+          "source_id": "1653502",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 6,
@@ -18724,7 +19158,9 @@
           },
           "count": 133,
           "source_patch": "18.3",
-          "source_id": "1637657"
+          "source_id": "1637657",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 6,
@@ -18747,7 +19183,9 @@
           },
           "count": 24,
           "source_patch": "18.3",
-          "source_id": "1626438"
+          "source_id": "1626438",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 6,
@@ -18770,7 +19208,9 @@
           },
           "count": 20,
           "source_patch": "18.3",
-          "source_id": "1642285"
+          "source_id": "1642285",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 7,
@@ -18795,7 +19235,9 @@
           },
           "count": 495,
           "source_patch": "18.3",
-          "source_id": "1605109"
+          "source_id": "1605109",
+          "avg": 5.09,
+          "top4": 37.37
         },
         {
           "level": 7,
@@ -18820,7 +19262,9 @@
           },
           "count": 257,
           "source_patch": "18.3",
-          "source_id": "1618599"
+          "source_id": "1618599",
+          "avg": 4.63,
+          "top4": 48.25
         },
         {
           "level": 7,
@@ -18845,7 +19289,9 @@
           },
           "count": 14,
           "source_patch": "18.3",
-          "source_id": "1693099"
+          "source_id": "1693099",
+          "avg": 5,
+          "top4": 35.71
         },
         {
           "level": 8,
@@ -18872,7 +19318,9 @@
           },
           "count": 172,
           "source_patch": "18.3",
-          "source_id": "1609921"
+          "source_id": "1609921",
+          "avg": 2.81,
+          "top4": 84.3
         },
         {
           "level": 8,
@@ -18899,7 +19347,9 @@
           },
           "count": 70,
           "source_patch": "18.3",
-          "source_id": "1640763"
+          "source_id": "1640763",
+          "avg": 2.54,
+          "top4": 92.86
         },
         {
           "level": 8,
@@ -18926,7 +19376,9 @@
           },
           "count": 33,
           "source_patch": "18.3",
-          "source_id": "1627550"
+          "source_id": "1627550",
+          "avg": 3.55,
+          "top4": 60.61
         },
         {
           "level": 9,
@@ -18955,7 +19407,9 @@
           },
           "count": 15,
           "source_patch": "18.3",
-          "source_id": "1741287"
+          "source_id": "1741287",
+          "avg": 1.67,
+          "top4": 100
         },
         {
           "level": 9,
@@ -18984,7 +19438,9 @@
           },
           "count": 8,
           "source_patch": "18.3",
-          "source_id": "1678647"
+          "source_id": "1678647",
+          "avg": 1.63,
+          "top4": 100
         },
         {
           "level": 9,
@@ -19013,7 +19469,9 @@
           },
           "count": 6,
           "source_patch": "18.3",
-          "source_id": "1726753"
+          "source_id": "1726753",
+          "avg": 2.33,
+          "top4": 83.33
         }
       ],
       "retained_core": [
@@ -20269,7 +20727,9 @@
           },
           "count": 619,
           "source_patch": "18.3",
-          "source_id": "1609210"
+          "source_id": "1609210",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 4,
@@ -20288,7 +20748,9 @@
           },
           "count": 600,
           "source_patch": "18.3",
-          "source_id": "1622258"
+          "source_id": "1622258",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 4,
@@ -20307,7 +20769,9 @@
           },
           "count": 328,
           "source_patch": "18.3",
-          "source_id": "1623750"
+          "source_id": "1623750",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 5,
@@ -20328,7 +20792,9 @@
           },
           "count": 321,
           "source_patch": "18.3",
-          "source_id": "1626846"
+          "source_id": "1626846",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 5,
@@ -20349,7 +20815,9 @@
           },
           "count": 231,
           "source_patch": "18.3",
-          "source_id": "1609358"
+          "source_id": "1609358",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 5,
@@ -20370,7 +20838,9 @@
           },
           "count": 145,
           "source_patch": "18.3",
-          "source_id": "1632599"
+          "source_id": "1632599",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 6,
@@ -20393,7 +20863,9 @@
           },
           "count": 120,
           "source_patch": "18.3",
-          "source_id": "1611296"
+          "source_id": "1611296",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 6,
@@ -20416,7 +20888,9 @@
           },
           "count": 111,
           "source_patch": "18.3",
-          "source_id": "1609214"
+          "source_id": "1609214",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 6,
@@ -20439,7 +20913,9 @@
           },
           "count": 86,
           "source_patch": "18.3",
-          "source_id": "1620542"
+          "source_id": "1620542",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 8,
@@ -20464,7 +20940,9 @@
           },
           "count": 26,
           "source_patch": "18.3",
-          "source_id": "1649992"
+          "source_id": "1649992",
+          "avg": 6.12,
+          "top4": 15.38
         },
         {
           "level": 8,
@@ -20489,7 +20967,9 @@
           },
           "count": 21,
           "source_patch": "18.3",
-          "source_id": "1671421"
+          "source_id": "1671421",
+          "avg": 6.43,
+          "top4": 4.76
         },
         {
           "level": 8,
@@ -20514,7 +20994,9 @@
           },
           "count": 15,
           "source_patch": "18.3",
-          "source_id": "1632141"
+          "source_id": "1632141",
+          "avg": 6.47,
+          "top4": 6.67
         },
         {
           "level": 9,
@@ -20541,7 +21023,9 @@
           },
           "count": 1661,
           "source_patch": "18.3",
-          "source_id": "1604546"
+          "source_id": "1604546",
+          "avg": 4.04,
+          "top4": 57.13
         },
         {
           "level": 9,
@@ -20568,7 +21052,9 @@
           },
           "count": 877,
           "source_patch": "18.3",
-          "source_id": "1608000"
+          "source_id": "1608000",
+          "avg": 4.33,
+          "top4": 52.91
         },
         {
           "level": 9,
@@ -20595,7 +21081,9 @@
           },
           "count": 374,
           "source_patch": "18.3",
-          "source_id": "1610979"
+          "source_id": "1610979",
+          "avg": 4.26,
+          "top4": 54.01
         },
         {
           "level": 10,
@@ -20624,7 +21112,9 @@
           },
           "count": 136,
           "source_patch": "18.3",
-          "source_id": "1609292"
+          "source_id": "1609292",
+          "avg": 2.29,
+          "top4": 91.18
         },
         {
           "level": 10,
@@ -20653,7 +21143,9 @@
           },
           "count": 83,
           "source_patch": "18.3",
-          "source_id": "1611390"
+          "source_id": "1611390",
+          "avg": 1.49,
+          "top4": 100
         },
         {
           "level": 10,
@@ -20682,7 +21174,9 @@
           },
           "count": 79,
           "source_patch": "18.3",
-          "source_id": "1639951"
+          "source_id": "1639951",
+          "avg": 1.66,
+          "top4": 97.47
         }
       ],
       "retained_core": [
@@ -21957,7 +22451,9 @@
           },
           "count": 483,
           "source_patch": "18.3",
-          "source_id": "1604483"
+          "source_id": "1604483",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 4,
@@ -21981,7 +22477,9 @@
           },
           "count": 422,
           "source_patch": "18.3",
-          "source_id": "1611020"
+          "source_id": "1611020",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 4,
@@ -22000,7 +22498,9 @@
           },
           "count": 399,
           "source_patch": "18.3",
-          "source_id": "1624369"
+          "source_id": "1624369",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 5,
@@ -22026,7 +22526,9 @@
           },
           "count": 616,
           "source_patch": "18.3",
-          "source_id": "1608831"
+          "source_id": "1608831",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 5,
@@ -22052,7 +22554,9 @@
           },
           "count": 237,
           "source_patch": "18.3",
-          "source_id": "1631303"
+          "source_id": "1631303",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 5,
@@ -22078,7 +22582,9 @@
           },
           "count": 213,
           "source_patch": "18.3",
-          "source_id": "1604485"
+          "source_id": "1604485",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 6,
@@ -22106,7 +22612,9 @@
           },
           "count": 251,
           "source_patch": "18.3",
-          "source_id": "1622098"
+          "source_id": "1622098",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 6,
@@ -22134,7 +22642,9 @@
           },
           "count": 247,
           "source_patch": "18.3",
-          "source_id": "1609128"
+          "source_id": "1609128",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 6,
@@ -22162,7 +22672,9 @@
           },
           "count": 223,
           "source_patch": "18.3",
-          "source_id": "1620606"
+          "source_id": "1620606",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 7,
@@ -22187,7 +22699,9 @@
           },
           "count": 5,
           "source_patch": "18.3",
-          "source_id": "1647926"
+          "source_id": "1647926",
+          "avg": 5.2,
+          "top4": 40
         },
         {
           "level": 7,
@@ -22212,7 +22726,9 @@
           },
           "count": 5,
           "source_patch": "18.3",
-          "source_id": "1787743"
+          "source_id": "1787743",
+          "avg": 4.4,
+          "top4": 40
         },
         {
           "level": 8,
@@ -22239,7 +22755,9 @@
           },
           "count": 692,
           "source_patch": "18.3",
-          "source_id": "1605417"
+          "source_id": "1605417",
+          "avg": 6.38,
+          "top4": 13.15
         },
         {
           "level": 8,
@@ -22266,7 +22784,9 @@
           },
           "count": 617,
           "source_patch": "18.3",
-          "source_id": "1605609"
+          "source_id": "1605609",
+          "avg": 5.25,
+          "top4": 33.71
         },
         {
           "level": 8,
@@ -22293,7 +22813,9 @@
           },
           "count": 271,
           "source_patch": "18.3",
-          "source_id": "1628241"
+          "source_id": "1628241",
+          "avg": 6.26,
+          "top4": 11.07
         },
         {
           "level": 9,
@@ -22322,7 +22844,9 @@
           },
           "count": 201,
           "source_patch": "18.3",
-          "source_id": "1619633"
+          "source_id": "1619633",
+          "avg": 2.35,
+          "top4": 90.55
         },
         {
           "level": 9,
@@ -22351,7 +22875,9 @@
           },
           "count": 192,
           "source_patch": "18.3",
-          "source_id": "1613824"
+          "source_id": "1613824",
+          "avg": 3.14,
+          "top4": 76.56
         },
         {
           "level": 9,
@@ -22380,7 +22906,9 @@
           },
           "count": 182,
           "source_patch": "18.3",
-          "source_id": "1604340"
+          "source_id": "1604340",
+          "avg": 3.34,
+          "top4": 73.63
         },
         {
           "level": 10,
@@ -22411,7 +22939,9 @@
           },
           "count": 53,
           "source_patch": "18.3",
-          "source_id": "1667117"
+          "source_id": "1667117",
+          "avg": 1.26,
+          "top4": 98.11
         },
         {
           "level": 10,
@@ -22442,7 +22972,9 @@
           },
           "count": 33,
           "source_patch": "18.3",
-          "source_id": "1622099"
+          "source_id": "1622099",
+          "avg": 1,
+          "top4": 100
         },
         {
           "level": 10,
@@ -22473,7 +23005,9 @@
           },
           "count": 30,
           "source_patch": "18.3",
-          "source_id": "1692298"
+          "source_id": "1692298",
+          "avg": 1.2,
+          "top4": 100
         }
       ],
       "retained_core": [
@@ -23720,7 +24254,9 @@
           },
           "count": 532,
           "source_patch": "18.3",
-          "source_id": "1604984"
+          "source_id": "1604984",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 4,
@@ -23739,7 +24275,9 @@
           },
           "count": 458,
           "source_patch": "18.3",
-          "source_id": "1608247"
+          "source_id": "1608247",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 4,
@@ -23758,7 +24296,9 @@
           },
           "count": 458,
           "source_patch": "18.3",
-          "source_id": "1617065"
+          "source_id": "1617065",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 5,
@@ -23784,7 +24324,9 @@
           },
           "count": 210,
           "source_patch": "18.3",
-          "source_id": "1606060"
+          "source_id": "1606060",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 5,
@@ -23805,7 +24347,9 @@
           },
           "count": 165,
           "source_patch": "18.3",
-          "source_id": "1604985"
+          "source_id": "1604985",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 5,
@@ -23826,7 +24370,9 @@
           },
           "count": 150,
           "source_patch": "18.3",
-          "source_id": "1606673"
+          "source_id": "1606673",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 6,
@@ -23849,7 +24395,9 @@
           },
           "count": 204,
           "source_patch": "18.3",
-          "source_id": "1607182"
+          "source_id": "1607182",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 6,
@@ -23872,7 +24420,9 @@
           },
           "count": 165,
           "source_patch": "18.3",
-          "source_id": "1610414"
+          "source_id": "1610414",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 6,
@@ -23895,7 +24445,9 @@
           },
           "count": 129,
           "source_patch": "18.3",
-          "source_id": "1606674"
+          "source_id": "1606674",
+          "avg": null,
+          "top4": null
         },
         {
           "level": 8,
@@ -23922,7 +24474,9 @@
           },
           "count": 475,
           "source_patch": "18.3",
-          "source_id": "1604005"
+          "source_id": "1604005",
+          "avg": 5.26,
+          "top4": 34.95
         },
         {
           "level": 8,
@@ -23949,7 +24503,9 @@
           },
           "count": 172,
           "source_patch": "18.3",
-          "source_id": "1608213"
+          "source_id": "1608213",
+          "avg": 5.49,
+          "top4": 30.81
         },
         {
           "level": 8,
@@ -23976,7 +24532,9 @@
           },
           "count": 156,
           "source_patch": "18.3",
-          "source_id": "1611205"
+          "source_id": "1611205",
+          "avg": 6.56,
+          "top4": 9.62
         },
         {
           "level": 9,
@@ -24005,7 +24563,9 @@
           },
           "count": 245,
           "source_patch": "18.3",
-          "source_id": "1613353"
+          "source_id": "1613353",
+          "avg": 2.98,
+          "top4": 80.41
         },
         {
           "level": 9,
@@ -24034,7 +24594,9 @@
           },
           "count": 107,
           "source_patch": "18.3",
-          "source_id": "1605724"
+          "source_id": "1605724",
+          "avg": 2.51,
+          "top4": 87.85
         },
         {
           "level": 9,
@@ -24063,7 +24625,9 @@
           },
           "count": 74,
           "source_patch": "18.3",
-          "source_id": "1612616"
+          "source_id": "1612616",
+          "avg": 3.24,
+          "top4": 77.03
         },
         {
           "level": 10,
@@ -24092,7 +24656,9 @@
           },
           "count": 32,
           "source_patch": "18.3",
-          "source_id": "1613080"
+          "source_id": "1613080",
+          "avg": 1.31,
+          "top4": 100
         },
         {
           "level": 10,
@@ -24121,7 +24687,9 @@
           },
           "count": 12,
           "source_patch": "18.3",
-          "source_id": "1608489"
+          "source_id": "1608489",
+          "avg": 2.25,
+          "top4": 91.67
         },
         {
           "level": 10,
@@ -24150,7 +24718,9 @@
           },
           "count": 12,
           "source_patch": "18.3",
-          "source_id": "1733347"
+          "source_id": "1733347",
+          "avg": 1.83,
+          "top4": 91.67
         }
       ],
       "retained_core": [
