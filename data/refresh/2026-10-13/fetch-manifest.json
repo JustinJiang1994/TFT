@@ -1,0 +1,12 @@
+{
+  "retrieved_at": "2026-10-13T08:16:59.584439+00:00",
+  "sources": {
+    "metatft-comps.json": "https://api-hc.metatft.com/tft-comps-api/comps_data?queue=1100",
+    "metatft-stats.json": "https://api-hc.metatft.com/tft-comps-api/comps_stats?queue=1100&patch=current&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&cluster_id=426",
+    "jcc-comps.html": "https://www.dataj.cc/comp"
+  },
+  "jcc_rows_extraction": "JSON-decoded Next.js initialRows; 38 raw records; only 6 reviewed relationships exposed, not extending cohort",
+  "detail_log": "detail-fetch-log.json",
+  "missing": "金铲铲段位与时间窗、15套准确对应、国服逐等级/装备/强化统计；未重新抓取棋子装备评级接口",
+  "release_action": "audit_only; existing published snapshot retained"
+}

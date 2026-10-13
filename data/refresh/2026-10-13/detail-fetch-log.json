@@ -1,0 +1,128 @@
+[
+  {
+    "id": "426000",
+    "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426000&cluster_id=426",
+    "ok": true,
+    "updated": 1791879243389
+  },
+  {
+    "id": "426003",
+    "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426003&cluster_id=426",
+    "ok": true,
+    "updated": 1791879243381
+  },
+  {
+    "id": "426007",
+    "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426007&cluster_id=426",
+    "ok": true,
+    "updated": 1791879243381
+  },
+  {
+    "id": "426002",
+    "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426002&cluster_id=426",
+    "ok": true,
+    "updated": 1791879243365
+  },
+  {
+    "id": "426004",
+    "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426004&cluster_id=426",
+    "ok": true,
+    "updated": 1791879245266
+  },
+  {
+    "id": "426027",
+    "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426027&cluster_id=426",
+    "ok": true,
+    "updated": 1791879245249
+  },
+  {
+    "id": "426008",
+    "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426008&cluster_id=426",
+    "ok": true,
+    "updated": 1791879245424
+  },
+  {
+    "id": "426001",
+    "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426001&cluster_id=426",
+    "ok": true,
+    "updated": 1791879245479
+  },
+  {
+    "id": "426021",
+    "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426021&cluster_id=426",
+    "ok": true,
+    "updated": 1791879247084
+  },
+  {
+    "id": "426006",
+    "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426006&cluster_id=426",
+    "ok": true,
+    "updated": 1791879248524
+  },
+  {
+    "id": "426005",
+    "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426005&cluster_id=426",
+    "ok": true,
+    "updated": 1791879247285
+  },
+  {
+    "id": "426010",
+    "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426010&cluster_id=426",
+    "ok": true,
+    "updated": 1791879249444
+  },
+  {
+    "id": "426014",
+    "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426014&cluster_id=426",
+    "ok": true,
+    "updated": 1791879249108
+  },
+  {
+    "id": "426012",
+    "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426012&cluster_id=426",
+    "ok": true,
+    "updated": 1791879250715
+  },
+  {
+    "id": "426013",
+    "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426013&cluster_id=426",
+    "ok": true,
+    "updated": 1791879251608
+  },
+  {
+    "id": "426037",
+    "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426037&cluster_id=426",
+    "ok": true,
+    "updated": 1791879253260
+  },
+  {
+    "id": "426009",
+    "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426009&cluster_id=426",
+    "ok": true,
+    "updated": 1791879253386
+  },
+  {
+    "id": "426011",
+    "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426011&cluster_id=426",
+    "ok": true,
+    "updated": 1791879254049
+  },
+  {
+    "id": "426023",
+    "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426023&cluster_id=426",
+    "ok": true,
+    "updated": 1791879254371
+  },
+  {
+    "id": "426022",
+    "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426022&cluster_id=426",
+    "ok": true,
+    "updated": 1791879254998
+  },
+  {
+    "id": "426016",
+    "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426016&cluster_id=426",
+    "ok": true,
+    "updated": 1791879255213
+  }
+]
