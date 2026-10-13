@@ -24,13 +24,14 @@ class Page(HTMLParser):
             if attrs.get(key):
                 self.links.append(attrs[key])
 
-pages = {name: Page(ROOT / name) for name in ('index.html', 'equipment.html', 'assistant.html', 'versions.html')}
+page_paths = list(ROOT.glob('*.html')) + list((ROOT / 'releases').rglob('*.html'))
+pages = {str(p.relative_to(ROOT)): Page(p) for p in page_paths}
 for name, page in pages.items():
     for link in page.links:
         url = urlsplit(link)
         if url.scheme or url.netloc:
             continue
-        target = unquote(url.path) or name
+        target = str(((ROOT / name).parent / unquote(url.path)).resolve().relative_to(ROOT)) if url.path else name
         assert (ROOT / target).is_file(), f'{name}: missing {target}'
         if url.fragment and target in pages:
             assert unquote(url.fragment) in pages[target].ids, f'{name}: missing anchor {link}'
@@ -38,7 +39,11 @@ for name, page in pages.items():
     assert 'file:///Users/' not in text, f'{name}: local absolute link'
     for payload in re.findall(r'<script[^>]*type=["\']application/json["\'][^>]*>(.*?)</script>', text, re.S):
         json.loads(payload)
-assert len([i for i in pages['index.html'].ids if re.fullmatch(r'c\d+', i)]) == 21
+catalog = json.loads((ROOT / 'data/knowledge/releases.json').read_text())
+active = next(r for r in catalog['releases'] if r['id'] == catalog['active'])
+knowledge = json.loads((ROOT / active['knowledge']).read_text())
+assert {i for i in pages['index.html'].ids if i.startswith('comp-')} == {'comp-' + c['id'] for c in knowledge['comps']}
+assert len([i for i in pages['tft-18.4b.html'].ids if re.fullmatch(r'c\d+', i)]) == 21
 files = list((ROOT / 'data').rglob('*.json'))
 for path in files:
     json.loads(path.read_text(encoding='utf-8'))
@@ -49,4 +54,4 @@ with zipfile.ZipFile(ROOT / 'downloads/metatft-guide-skill.zip') as archive:
 for path in ROOT.rglob('*'):
     if path.is_file() and '.git' not in path.parts:
         assert path.stat().st_size < 100 * 1024 * 1024, f'File exceeds GitHub limit: {path}'
-print(f'PASS: 4 pages, 21 compositions, {len(files)} JSON files, local links and Skill archive.')
+print(f'PASS: {len(pages)} pages, {len(knowledge["comps"])} current compositions, historical 21 retained, {len(files)} JSON files, local links and Skill archive.')

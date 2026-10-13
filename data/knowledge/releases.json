@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "active": "jcc-s18-18.3-20261013T083011Z",
+  "releases": [
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z",
+      "platform": "jcc",
+      "set": 18,
+      "patch": "18.3",
+      "previous_patch": "18.2a",
+      "snapshot": "20261013T083011Z",
+      "comps": 15,
+      "path": "releases/jcc-s18-18.3-20261013T083011Z/guide.html",
+      "knowledge": "data/knowledge/jcc/set18/18.3/20261013T083011Z/knowledge.json"
+    }
+  ]
+}
