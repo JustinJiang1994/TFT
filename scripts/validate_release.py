@@ -24,7 +24,7 @@ class Page(HTMLParser):
             if attrs.get(key):
                 self.links.append(attrs[key])
 
-page_paths = list(ROOT.glob('*.html')) + list((ROOT / 'releases').rglob('*.html'))
+page_paths = list(ROOT.glob('*.html')) + list((ROOT / 'releases').rglob('*.html')) + [p for p in (ROOT / 'games').rglob('*.html') if '/raw/' not in str(p) and '/research/' not in str(p)] + list((ROOT/'docs/research').glob('*.html'))
 pages = {str(p.relative_to(ROOT)): Page(p) for p in page_paths}
 for name, page in pages.items():
     for link in page.links:
@@ -39,12 +39,12 @@ for name, page in pages.items():
     assert 'file:///Users/' not in text, f'{name}: local absolute link'
     for payload in re.findall(r'<script[^>]*type=["\']application/json["\'][^>]*>(.*?)</script>', text, re.S):
         json.loads(payload)
-catalog = json.loads((ROOT / 'data/knowledge/releases.json').read_text())
+catalog = json.loads((ROOT / 'games/jcc/releases.json').read_text())
 active = next(r for r in catalog['releases'] if r['id'] == catalog['active'])
 knowledge = json.loads((ROOT / active['knowledge']).read_text())
-assert {i for i in pages['index.html'].ids if i.startswith('comp-')} == {'comp-' + c['id'] for c in knowledge['comps']}
-assert len([i for i in pages['tft-18.4b.html'].ids if re.fullmatch(r'c\d+', i)]) == 21
-files = list((ROOT / 'data').rglob('*.json'))
+assert {i for i in pages[active['path']].ids if i.startswith('comp-')} == {'comp-' + c['id'] for c in knowledge['comps']}
+assert len([i for i in pages['games/tft/set18/18.4b/index.html'].ids if re.fullmatch(r'c\d+', i)]) == 21
+files = list((ROOT / 'games').rglob('*.json')) + list((ROOT / 'docs').rglob('*.json'))
 for path in files:
     json.loads(path.read_text(encoding='utf-8'))
 assert (ROOT / 'skills/metatft-guide/SKILL.md').is_file()

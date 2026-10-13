@@ -25,7 +25,7 @@ def main():
     set_id=args.set or int(re.search(r'"initialSetId":(\d+)',flight)[1])
     versions_body=request(api_url('/gamedata/gameVersion',setId=set_id));versions=json.loads(versions_body)['data'];versions=sorted(versions,key=lambda x:x['startTime'],reverse=True)
     patch=args.patch or versions[0]['gameVersion'];idx=next(i for i,v in enumerate(versions) if v['gameVersion']==patch);previous=versions[idx+1]['gameVersion'] if idx+1<len(versions) else None
-    stamp=dt.datetime.now(dt.timezone.utc).strftime('%Y%m%dT%H%M%SZ');out=ROOT/'data/knowledge/jcc'/f'set{set_id}'/patch/stamp;out.mkdir(parents=True,exist_ok=False)
+    stamp=dt.datetime.now(dt.timezone.utc).strftime('%Y%m%dT%H%M%SZ');out=ROOT/'games/jcc'/f'set{set_id}'/patch/'snapshots'/stamp/'data';out.mkdir(parents=True,exist_ok=False)
     (out/'raw').mkdir();(out/'raw/list.html').write_text(html);(out/'raw/versions.json').write_bytes(versions_body)
     logs=[]
     def fetch(job):

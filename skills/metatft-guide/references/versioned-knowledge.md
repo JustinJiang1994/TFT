@@ -10,20 +10,20 @@
 python3 scripts/knowledge/refresh.py
 ```
 
-默认只抓取、校验并生成 `releases/` 预览。指定已有快照发布：
+默认只抓取、校验并生成 对应平台版本的 `snapshots/时间戳/pages/` 预览。指定已有快照发布：
 
 ```sh
-python3 scripts/knowledge/refresh.py --snapshot data/knowledge/jcc/set18/PATCH/TIMESTAMP --publish
+python3 scripts/knowledge/refresh.py --snapshot games/jcc/set18/PATCH/snapshots/TIMESTAMP/data --publish
 node scripts/knowledge/test_engine.cjs
 ```
 
-`--publish` 更新本地主页面及版本目录，不会自动 git push 或部署。仅在用户已授权发布时推送。首次迁移会保留已存在的旧TFT页面；全新项目应按实际历史资产调整历史链接，不伪造不存在的历史版本。
+`--publish` 更新本地主页面及版本目录，不会自动 git push 或部署。仅在用户已授权发布时推送。平台先分开，再按赛季、补丁、时间戳组织页面与数据。历史页面保留，旧链接仅跳转；全新项目应按实际历史资产调整历史链接，不伪造不存在的历史版本。
 
 ## 数据分层与验证
 
 - `raw/` 保存完整接口返回，manifest记录请求URL、时间、SHA256、失败项、来源限制。
 - `knowledge.json` 统一棋子、装备、职责、星级、条件、分等级棋盘、强化与神器关联；键包括平台、赛季、补丁、阵容ID。
-- `releases/` 固化每次生成的页面；`data/knowledge/releases.json` 指向当前快照。
+- `games/{platform}/set{N}/{patch}/snapshots/{timestamp}/pages/` 固化页面，同快照的 `data/` 保存证据；`games/{platform}/releases.json` 分别指向各平台当前快照。根目录仅放平台选择与兼容入口。
 - 页面、筛选器、反向索引及装备补全从同一个当期知识库生成。不得把TFT统计填进金铲铲空缺。
 - 校验S/A集合与完整榜单一致、请求全部成功、原始哈希正确、棋盘不含不可购买单位、索引无越界、三件套多重集合匹配。出错停止发布，不用旧数据补齐。
 - 同平台、同赛季前后补丁按稳定ID及棋盘/主C/星级/入场条件比较；定义变化不计算可比差值。低样本明确标记。不同时间窗与段位未知时不能把变化说成补丁的因果效果。

@@ -15,14 +15,16 @@
    cd TFT
    ```
 
-2. 用 Chrome、Edge 或 Safari 打开根目录的 **`index.html`** 查看手册，打开 **`assistant.html`** 使用对局助手。
+2. 用 Chrome、Edge 或 Safari 打开根目录的 **`index.html`** 选择金铲铲或TFT，再进入对应版本手册和助手。
 3. 阅读和筛选不需要安装 Python、Node 或启动服务器；更新数据时才需要开发环境。
 
 页面内嵌样式、脚本和数据，可离线使用。原始来源、历史版本和页面间跳转需要保留仓库目录结构。GitHub 文件预览和部分文件预览器不会执行交互脚本，请下载后使用正常浏览器打开。
 
 | 入口 | 用途 |
 | --- | --- |
-| [当前版本手册](index.html) | 版本定调、装备泛用性、每套阵容详细攻略 |
+| [平台选择首页](index.html) | 先选金铲铲或TFT，再选版本 |
+| [金铲铲版本目录](games/jcc/index.html) / [TFT版本目录](games/tft/index.html) | 各平台独立维护版本与当前入口 |
+| [金铲铲当前手册](games/jcc/current.html) | 版本定调、装备泛用性、每套阵容详细攻略 |
 | [独立对局助手](assistant.html) | 按已有条件查当前过渡与后续补牌 |
 | [版本记录](versions.html) | 查看历史发布快照 |
 | [TFT 历史手册](tft-18.4b.html) | 原 TFT 18.4b 的21套攻略 |
@@ -36,9 +38,9 @@
 | 金铲铲之战 | [金铲铲大数据](https://www.dataj.cc/comp)，非官方站点 | S18 / 来源标注18.3，2026-10-13抓取；榜单38套，入选15套（11S、4A） |
 | TFT（云顶之弈） | [MetaTFT](https://www.metatft.com/comps) | 18.4b，2026-10-12历史快照；21套 S/A 攻略 |
 
-**当前主页面使用金铲铲数据。** 两个平台的补丁编号、平衡调整、统计人群和来源字段不能直接视为相同；阵容强度、装备评级和强化推荐分别维护，不用 TFT 数据填补金铲铲的缺项。
+**首页提供两个平台入口，当前金铲铲助手使用金铲铲数据。** 两个平台的补丁编号、平衡调整、统计人群和来源字段不能直接视为相同；阵容强度、装备评级和强化推荐分别维护，不用 TFT 数据填补金铲铲的缺项。
 
-上表表示仓库快照，不保证实时反映游戏最新版本。当前发布指针见 [releases.json](data/knowledge/releases.json)。现有自动采集流水线接入金铲铲来源；TFT 保留历史资料，尚未接入同一套自动更新命令。
+上表表示仓库快照，不保证实时反映游戏最新版本。当前发布指针见 [金铲铲版本清单](games/jcc/releases.json)和[TFT版本清单](games/tft/releases.json)。现有自动采集流水线接入金铲铲来源；TFT 保留历史资料，尚未接入同一套自动更新命令。
 
 ## 对局时怎么用
 
@@ -103,16 +105,16 @@ python3 scripts/knowledge/refresh.py
 python3 scripts/knowledge/refresh.py --set 18 --patch 18.3
 ```
 
-流程为：**完整抓榜 → 重新选择 S/A → 获取各阵容详情与词库 → 构建关联 → 校验 → 生成预览**。命令会输出快照与预览位置，打开对应 `releases/…/guide.html` 和 `assistant.html` 检查。
+流程为：**完整抓榜 → 重新选择 S/A → 获取各阵容详情与词库 → 构建关联 → 校验 → 生成预览**。命令会输出快照与预览位置，打开对应 `games/jcc/set18/补丁/snapshots/时间戳/pages/guide.html` 和同目录的 `assistant.html` 检查。
 
 ### 发布为当前入口
 
 ```sh
 # 将占位路径替换为刚生成的实际快照目录
-python3 scripts/knowledge/refresh.py --snapshot data/knowledge/jcc/set18/18.3/NEW_TIMESTAMP --publish
+python3 scripts/knowledge/refresh.py --snapshot games/jcc/set18/18.3/snapshots/NEW_TIMESTAMP/data --publish
 ```
 
-发布更新根目录页面、版本记录和当前指针。每次抓取创建新时间戳；已发布快照拒绝覆盖。同一补丁重新更新，也应创建新快照。
+发布更新平台版本清单、平台当前入口和根目录导航；内容页与数据同放在对应平台、赛季、补丁和快照下。每次抓取创建新时间戳；已发布快照拒绝覆盖。同一补丁重新更新，也应创建新快照。
 
 采集失败会阻止发布，不会拿旧版数据补齐。`--publish` 只发布到本地项目，不会自动提交 Git、部署网站或创建定时更新任务。
 
@@ -129,30 +131,42 @@ node --check templates/knowledge-ui.js
 ## 项目结构
 
 ```text
-TFT/
-├── index.html                    当前版本手册
-├── assistant.html                当前版本独立助手
-├── versions.html                 发布历史入口
-├── *-tft-18.4b.html / tft-18.4b.html
-│                                 TFT历史页面
-├── data/knowledge/
-│   ├── releases.json             发布目录与当前指针
-│   └── jcc/set18/补丁/时间戳/
-│       ├── manifest.json         请求、时间、哈希与数据限制
-│       ├── raw/                  完整原始响应
-│       └── knowledge.json        归一化知识库与反向索引
-├── releases/                     各次生成的独立页面
-├── scripts/knowledge/            采集、归一化、校验、生成与发布
-├── scripts/validate_release.py   交付文件检查
-├── templates/                    页面样式、交互与匹配引擎
+TFT/                              本地目录名称，暂不改动
+├── index.html                    平台选择首页
+├── versions.html                 两个平台的版本入口
+├── games/
+│   ├── jcc/                      金铲铲
+│   │   ├── index.html            本平台版本列表
+│   │   ├── current.html          当前手册快捷入口
+│   │   ├── assistant.html        当前助手快捷入口
+│   │   ├── releases.json         本平台发布清单与当前指针
+│   │   └── set18/18.3/
+│   │       ├── snapshots/20261013T083011Z/
+│   │       │   ├── pages/        guide.html、assistant.html
+│   │       │   └── data/         manifest、knowledge、raw
+│   │       └── research/         本版本早期核查资料
+│   └── tft/                      TFT，与金铲铲完全分开
+│       ├── index.html / current.html / assistant.html
+│       ├── releases.json
+│       └── set18/18.4b/
+│           ├── index.html / assistant.html / equipment.html
+│           ├── data/             该版阵容与装备来源
+│           └── research/         该版刷新核查资料
+├── docs/research/                跨平台对照说明与迁移前核查记录
+├── docs/migration-paths.json     原路径 → 新路径对照
+├── scripts/knowledge/            共用采集、生成、入口维护脚本
+├── scripts/validate_release.py   文件、链接与发布清单检查
+├── templates/                    共用页面样式与匹配引擎
 ├── skills/metatft-guide/         可复用Skill与流程模板
-└── downloads/                    Skill压缩包
+└── downloads/                   Skill压缩包
 ```
 
-`data/comps/`、`data/equipment/`、`data/versions/`、`data/refresh/` 保留迁移前历史证据。维护新版页面时修改 `templates/` 和生成脚本；直接编辑生成的 HTML 会在下次生成时被覆盖。修改可复用流程后，同步 Skill 中的 `assets/version-pipeline/` 与下载包。
+根目录旧页面名和旧 `releases/` 页面仅保留轻量跳转，兼容已有书签；实际内容归入平台及版本目录。历史原始响应不改写，内部记录的旧路径可通过迁移对照表定位。TFT18.4b保留原历史资料组织；后续新采集版本按与金铲铲相同的快照结构保存。
+
+维护新版页面时修改 `templates/` 和生成脚本；直接编辑生成的 HTML 会在下次生成时被覆盖。修改可复用流程后，同步 Skill 中的 `assets/version-pipeline/` 与下载包。
 
 ## 分享与部署
 
-离线分享可发送完整仓库压缩包；在线分享可将整个目录部署到静态站点服务，例如 GitHub Pages。项目无需后端、数据库或运行时 API 请求。部署应保留 `data/`、`releases/` 与历史页面，确保原始证据和版本链接可用。
+离线分享可发送完整仓库压缩包；在线分享可将整个目录部署到静态站点服务，例如 GitHub Pages。项目无需后端、数据库或运行时 API 请求。部署应保留 `games/`、`docs/` 与兼容跳转页面，确保原始证据和版本链接可用。
 
 仓库：[JustinJiang1994/TFT](https://github.com/JustinJiang1994/TFT)。源码推送与网站部署是两个步骤；仅将文件上传到 GitHub，不代表已经有可直接访问的网页地址。

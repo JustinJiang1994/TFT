@@ -10,8 +10,8 @@
       "previous_patch": "18.2a",
       "snapshot": "20261013T083011Z",
       "comps": 15,
-      "path": "releases/jcc-s18-18.3-20261013T083011Z/guide.html",
-      "knowledge": "data/knowledge/jcc/set18/18.3/20261013T083011Z/knowledge.json"
+      "path": "games/jcc/set18/18.3/snapshots/20261013T083011Z/pages/guide.html",
+      "knowledge": "games/jcc/set18/18.3/snapshots/20261013T083011Z/data/knowledge.json"
     }
   ]
 }

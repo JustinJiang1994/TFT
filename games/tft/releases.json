@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "active": "tft-s18-18.4b-20261012",
+  "releases": [
+    {
+      "id": "tft-s18-18.4b-20261012",
+      "platform": "tft",
+      "set": 18,
+      "patch": "18.4b",
+      "snapshot": "2026-10-12",
+      "comps": 21,
+      "path": "games/tft/set18/18.4b/index.html",
+      "assistant": "games/tft/set18/18.4b/assistant.html"
+    }
+  ]
+}
