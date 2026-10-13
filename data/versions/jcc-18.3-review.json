@@ -1,0 +1,171 @@
+{
+  "release": "guide-2026-10-13-jcc-review",
+  "checked_at": "2026-10-13",
+  "review_platform": "金铲铲之战",
+  "review_patch": "18.3",
+  "compare_patch": "18.2a",
+  "review_status": "patch comparison complete; composition statistics remain TFT reference",
+  "reference_platform": "TFT / MetaTFT",
+  "reference_patch": "18.4b",
+  "reference_dates": [
+    "2026-10-12",
+    "2026-10-13"
+  ],
+  "scope": 21,
+  "sources": {
+    "current": "https://www.taptap.cn/moment/853961338387434337",
+    "previous": "https://www.taptap.cn/moment/849355947523443908",
+    "detail": "https://news.17173.com/content/09302026/222535206.shtml",
+    "tft": "https://teamfighttactics.leagueoflegends.com/en-gb/news/game-updates/teamfight-tactics-patch-18-4/"
+  },
+  "comps": [
+    {
+      "id": "426000",
+      "name": "护卫 雷恩加尔",
+      "assessment": "有升有降",
+      "reason": "拉莫斯护盾、卡西奥佩娅伤害提高；6护卫双抗略降。",
+      "evidence_type": "announcement-based inference; not before-after composition statistics"
+    },
+    {
+      "id": "426003",
+      "name": "绝命花妖 阿兹尔",
+      "assessment": "受益候选",
+      "reason": "阿兹尔伤害与拉莫斯护盾上调。",
+      "evidence_type": "announcement-based inference; not before-after composition statistics"
+    },
+    {
+      "id": "426007",
+      "name": "峡谷野怪 苍蓝哨戒",
+      "assessment": "待核实",
+      "reason": "未据本次提取的改动确认整套升降；不等于完全没变。",
+      "evidence_type": "announcement-based inference; not before-after composition statistics"
+    },
+    {
+      "id": "426002",
+      "name": "永恒之森 厄斐琉斯",
+      "assessment": "前排受益",
+      "reason": "莉莉娅治疗增强；不能据此认定厄斐琉斯整套评级提高。",
+      "evidence_type": "announcement-based inference; not before-after composition statistics"
+    },
+    {
+      "id": "426004",
+      "name": "月蚀骑士 厄斐琉斯 奈德丽",
+      "assessment": "形态相关",
+      "reason": "奈德丽物理穿透提高但倍率降低，法术形态增强，不能一概算加强。",
+      "evidence_type": "announcement-based inference; not before-after composition statistics"
+    },
+    {
+      "id": "426027",
+      "name": "重装战士 莫甘娜",
+      "assessment": "前排取舍",
+      "reason": "塔里克被动护盾下降、治疗增强。",
+      "evidence_type": "announcement-based inference; not before-after composition statistics"
+    },
+    {
+      "id": "426008",
+      "name": "重装战士 拉露恩",
+      "assessment": "待核实",
+      "reason": "未据本次提取的改动确认整套升降；不等于完全没变。",
+      "evidence_type": "announcement-based inference; not before-after composition statistics"
+    },
+    {
+      "id": "426001",
+      "name": "迅捷射手 厄斐琉斯",
+      "assessment": "待核实",
+      "reason": "未据本次提取的改动确认整套升降；不等于完全没变。",
+      "evidence_type": "announcement-based inference; not before-after composition statistics"
+    },
+    {
+      "id": "426021",
+      "name": "迅捷射手 凯尔",
+      "assessment": "待核实",
+      "reason": "未据本次提取的改动确认整套升降；不等于完全没变。",
+      "evidence_type": "announcement-based inference; not before-after composition statistics"
+    },
+    {
+      "id": "426006",
+      "name": "神谕 提莫 阿利斯塔",
+      "assessment": "受益候选",
+      "reason": "阿利斯塔治疗、伤害上调；高档神谕回蓝削弱，需看实际羁绊档位。",
+      "evidence_type": "announcement-based inference; not before-after composition statistics"
+    },
+    {
+      "id": "426005",
+      "name": "裁决使 瑟提",
+      "assessment": "前排受益",
+      "reason": "瑟提治疗增强。",
+      "evidence_type": "announcement-based inference; not before-after composition statistics"
+    },
+    {
+      "id": "426010",
+      "name": "神谕 阿狸",
+      "assessment": "有升有降",
+      "reason": "瑟提治疗增强；高档神谕回蓝削弱，按实际羁绊核对。",
+      "evidence_type": "announcement-based inference; not before-after composition statistics"
+    },
+    {
+      "id": "426014",
+      "name": "法师 维迦",
+      "assessment": "强度重分配",
+      "reason": "维迦基础伤害提高、击杀成长降低；即时战力与后期成长方向不同。",
+      "evidence_type": "announcement-based inference; not before-after composition statistics"
+    },
+    {
+      "id": "426012",
+      "name": "裁决使 卡兹克",
+      "assessment": "待核实",
+      "reason": "未据本次提取的改动确认整套升降；不等于完全没变。",
+      "evidence_type": "announcement-based inference; not before-after composition statistics"
+    },
+    {
+      "id": "426013",
+      "name": "神谕 提莫",
+      "assessment": "有升有降",
+      "reason": "拉莫斯护盾增强；高档神谕回蓝削弱。",
+      "evidence_type": "announcement-based inference; not before-after composition statistics"
+    },
+    {
+      "id": "426037",
+      "name": "狂战士 绯红印记树怪",
+      "assessment": "待核实",
+      "reason": "未据本次提取的改动确认整套升降；不等于完全没变。",
+      "evidence_type": "announcement-based inference; not before-after composition statistics"
+    },
+    {
+      "id": "426009",
+      "name": "神谕 莫甘娜",
+      "assessment": "羁绊需核对",
+      "reason": "高档神谕回蓝削弱；低档不能直接套用此结论。",
+      "evidence_type": "announcement-based inference; not before-after composition statistics"
+    },
+    {
+      "id": "426011",
+      "name": "永恒之森 德莱文",
+      "assessment": "延续上版约束",
+      "reason": "18.2a已调整德莱文部分悬赏收益；不能当作18.3新削弱。",
+      "evidence_type": "announcement-based inference; not before-after composition statistics"
+    },
+    {
+      "id": "426023",
+      "name": "狂战士 沃里克",
+      "assessment": "受益候选",
+      "reason": "沃里克伤害、治疗与暗影狼伤害上调。",
+      "evidence_type": "announcement-based inference; not before-after composition statistics"
+    },
+    {
+      "id": "426022",
+      "name": "魔战士 易 雷恩加尔",
+      "assessment": "前排受益",
+      "reason": "瑟提治疗增强；主C强度变化仍需阵容统计。",
+      "evidence_type": "announcement-based inference; not before-after composition statistics"
+    },
+    {
+      "id": "426016",
+      "name": "猎人 希维尔",
+      "assessment": "有升有降",
+      "reason": "猎人高档加成降低；希维尔索敌调整，奈德丽有升有降。",
+      "evidence_type": "announcement-based inference; not before-after composition statistics"
+    }
+  ],
+  "emerging_comps": "unverified: no matched before/after snapshots"
+}

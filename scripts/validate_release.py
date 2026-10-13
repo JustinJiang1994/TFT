@@ -24,7 +24,7 @@ class Page(HTMLParser):
             if attrs.get(key):
                 self.links.append(attrs[key])
 
-pages = {name: Page(ROOT / name) for name in ('index.html', 'equipment.html', 'assistant.html')}
+pages = {name: Page(ROOT / name) for name in ('index.html', 'equipment.html', 'assistant.html', 'versions.html')}
 for name, page in pages.items():
     for link in page.links:
         url = urlsplit(link)
@@ -49,4 +49,4 @@ with zipfile.ZipFile(ROOT / 'downloads/metatft-guide-skill.zip') as archive:
 for path in ROOT.rglob('*'):
     if path.is_file() and '.git' not in path.parts:
         assert path.stat().st_size < 100 * 1024 * 1024, f'File exceeds GitHub limit: {path}'
-print(f'PASS: 3 pages, 21 compositions, {len(files)} JSON files, local links and Skill archive.')
+print(f'PASS: 4 pages, 21 compositions, {len(files)} JSON files, local links and Skill archive.')
