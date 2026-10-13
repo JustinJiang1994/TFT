@@ -501,4 +501,4 @@ document.addEventListener('change',e=>{const p=e.target.closest('.eq-picker');if
 document.addEventListener('click',e=>{const b=e.target.closest('[data-eq-clear]');if(!b)return;const p=b.closest('.eq-picker');p.querySelectorAll('[data-eq-item]').forEach(s=>s.value='0');render(p);});
 // The matching function is pure; UI state remains local to each unit panel.
 })();
-</script></body></html>
+</script><script>(function(){const section=document.getElementById("flex-map");const wrap=section.closest("details");wrap.hidden=true;const entry=document.createElement("section");entry.className="card";entry.innerHTML="<h2>对局助手</h2><p>选当前与目标等级，查看过渡阵容和补牌建议。独立条件区与结果区，自动保留已选内容。</p><a href=\"assistant.html\" style=\"display:inline-block;padding:12px 22px;background:#204f59;color:white;border-radius:9px\">打开对局助手 →</a>";wrap.before(entry);document.querySelectorAll('a[href="#flex-map"]').forEach(a=>a.href="assistant.html");})();</script><a class="assistant-return" href="assistant.html" style="position:fixed;bottom:18px;right:20px;background:#204f59;color:white;padding:10px 18px;border-radius:24px;z-index:50;box-shadow:0 3px 12px #0002">打开对局助手 →</a></body></html>

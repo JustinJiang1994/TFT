@@ -6,6 +6,7 @@
 
 下载仓库（Code → Download ZIP）并解压，用Chrome、Edge或Safari打开 **[index.html](index.html)**。保留整个目录，即可使用来源链接；筛选和装备补全在本地浏览器中运行，不需要账户或安装依赖。GitHub文件预览不会运行网页交互。
 
+- [对局助手](assistant.html)：固定等级栏、棋子/转职/海克斯标签、当前过渡/升级补牌双视图，浏览器本地保存选择。
 - [正式手册](index.html)：第一章版本与装备泛用性；第二章选阵与过渡筛选；第三章21套阵容详细攻略。
 - [装备速查](equipment.html)：按阵容、棋子查看S/A单件装备、三件套和已有装备补全。
 - 正文可折叠区域默认收起，左侧章节和阵容索引常驻。
@@ -34,6 +35,7 @@ Skill内附历史页面设计样例和数据验证脚本。样例不是实时数
 
 ```text
 index.html                  正式手册
+assistant.html             独立对局助手
 equipment.html             装备速查
 data/comps/                阵容原始响应与整理记录
 data/equipment/            装备原始响应、评级与分析记录
