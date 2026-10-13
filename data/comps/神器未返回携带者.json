@@ -1,0 +1,158 @@
+[
+  {
+    "comp_id": "426003",
+    "artifact_id": "DA_Artifact_HellfireHatchet",
+    "count": 50,
+    "reason": "接口未返回携带者分布"
+  },
+  {
+    "comp_id": "426003",
+    "artifact_id": "DA_Artifact_TitanicHydra",
+    "count": 46,
+    "reason": "接口未返回携带者分布"
+  },
+  {
+    "comp_id": "426007",
+    "artifact_id": "DA_Artifact_StatikkShiv",
+    "count": 82,
+    "reason": "接口未返回携带者分布"
+  },
+  {
+    "comp_id": "426002",
+    "artifact_id": "DA_Artifact_SeekersArmguard",
+    "count": 59,
+    "reason": "接口未返回携带者分布"
+  },
+  {
+    "comp_id": "426027",
+    "artifact_id": "DA_Artifact_NavoriFlickerblade",
+    "count": 38,
+    "reason": "接口未返回携带者分布"
+  },
+  {
+    "comp_id": "426027",
+    "artifact_id": "DA_Artifact_GoldCollector",
+    "count": 36,
+    "reason": "接口未返回携带者分布"
+  },
+  {
+    "comp_id": "426027",
+    "artifact_id": "DA_Artifact_GamblersBlade",
+    "count": 24,
+    "reason": "接口未返回携带者分布"
+  },
+  {
+    "comp_id": "426027",
+    "artifact_id": "DA_Artifact_Fishbones",
+    "count": 22,
+    "reason": "接口未返回携带者分布"
+  },
+  {
+    "comp_id": "426008",
+    "artifact_id": "DA_Artifact_Fishbones",
+    "count": 47,
+    "reason": "接口未返回携带者分布"
+  },
+  {
+    "comp_id": "426008",
+    "artifact_id": "DA_Artifact_GoldCollector",
+    "count": 47,
+    "reason": "接口未返回携带者分布"
+  },
+  {
+    "comp_id": "426008",
+    "artifact_id": "DA_Artifact_GamblersBlade",
+    "count": 45,
+    "reason": "接口未返回携带者分布"
+  },
+  {
+    "comp_id": "426008",
+    "artifact_id": "DA_Artifact_RapidFireCannon",
+    "count": 31,
+    "reason": "接口未返回携带者分布"
+  },
+  {
+    "comp_id": "426001",
+    "artifact_id": "DA_Artifact_Dawncore",
+    "count": 23,
+    "reason": "接口未返回携带者分布"
+  },
+  {
+    "comp_id": "426001",
+    "artifact_id": "DA_Artifact_Manazane",
+    "count": 20,
+    "reason": "接口未返回携带者分布"
+  },
+  {
+    "comp_id": "426001",
+    "artifact_id": "DA_Artifact_LichBane",
+    "count": 13,
+    "reason": "接口未返回携带者分布"
+  },
+  {
+    "comp_id": "426001",
+    "artifact_id": "DA_Artifact_LudensTempest",
+    "count": 13,
+    "reason": "接口未返回携带者分布"
+  },
+  {
+    "comp_id": "426001",
+    "artifact_id": "DA_Artifact_EternalPact",
+    "count": 10,
+    "reason": "接口未返回携带者分布"
+  },
+  {
+    "comp_id": "426010",
+    "artifact_id": "DA_Artifact_NavoriFlickerblade",
+    "count": 102,
+    "reason": "接口未返回携带者分布"
+  },
+  {
+    "comp_id": "426010",
+    "artifact_id": "DA_Artifact_GamblersBlade",
+    "count": 85,
+    "reason": "接口未返回携带者分布"
+  },
+  {
+    "comp_id": "426010",
+    "artifact_id": "DA_Artifact_HellfireHatchet",
+    "count": 67,
+    "reason": "接口未返回携带者分布"
+  },
+  {
+    "comp_id": "426010",
+    "artifact_id": "DA_Artifact_TitanicHydra",
+    "count": 67,
+    "reason": "接口未返回携带者分布"
+  },
+  {
+    "comp_id": "426010",
+    "artifact_id": "DA_Artifact_Fishbones",
+    "count": 63,
+    "reason": "接口未返回携带者分布"
+  },
+  {
+    "comp_id": "426010",
+    "artifact_id": "DA_Artifact_RapidFireCannon",
+    "count": 63,
+    "reason": "接口未返回携带者分布"
+  },
+  {
+    "comp_id": "426009",
+    "artifact_id": "DA_Artifact_NavoriFlickerblade",
+    "count": 33,
+    "reason": "接口未返回携带者分布"
+  },
+  {
+    "comp_id": "426009",
+    "artifact_id": "DA_Artifact_GamblersBlade",
+    "count": 23,
+    "reason": "接口未返回携带者分布"
+  },
+  {
+    "comp_id": "426016",
+    "artifact_id": "DA_Artifact_BlightingJewel",
+    "count": 11,
+    "reason": "接口未返回携带者分布"
+  }
+]

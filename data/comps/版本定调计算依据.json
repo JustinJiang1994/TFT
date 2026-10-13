@@ -1,0 +1,54 @@
+{
+  "snapshot": "2026-10-12 15:47:54 Asia/Shanghai / 18.4b",
+  "population": "ranked queue1100 platinum+ last3days, comp/player placement records",
+  "total_records": 7493456,
+  "economy_counts": {
+    "lvl 7": 1321179,
+    "Fast 8": 2218719,
+    "lvl 6": 1102971,
+    "lvl 5": 1028843,
+    "Fast 9": 1801850,
+    "Standard": 16977,
+    "未分类": 2917
+  },
+  "economy_percent": {
+    "lvl 7": 17.631103725704133,
+    "Fast 8": 29.608754625369123,
+    "lvl 6": 14.719122925389833,
+    "lvl 5": 13.729886450257398,
+    "Fast 9": 24.045647295453527,
+    "Standard": 0.2265576791269609,
+    "未分类": 0.03892729869902486
+  },
+  "reroll_percent": 46.080113101351365,
+  "sa_group_comparison": {
+    "ad": {
+      "comps": 10,
+      "sample_count": 1401760,
+      "weighted_avg": 4.30240269375642,
+      "weighted_top4": 0.5418545257390709,
+      "s_count": 3,
+      "default_s_count": 1
+    },
+    "ap": {
+      "comps": 11,
+      "sample_count": 2473279,
+      "weighted_avg": 4.24858740158308,
+      "weighted_top4": 0.5479361608617548,
+      "s_count": 3,
+      "default_s_count": 3
+    }
+  },
+  "sa_reroll_percent": 52.74620461884384,
+  "formulas": {
+    "share": "sum(count by levelling)/sum(all counts)",
+    "weighted_avg": "sum(comp count * comp avg)/sum(comp count)",
+    "weighted_top4": "sum(comp count * comp top4)/sum(comp count)"
+  },
+  "limits": [
+    "AD/AP comparison restricted to selected S/A, not all comps",
+    "levelling is comp route label, not actual final level",
+    "timing statistics from individual details are separate from main filtered pool",
+    "no isolated trait causal ranking"
+  ]
+}

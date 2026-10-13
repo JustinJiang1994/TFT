@@ -1,0 +1,227 @@
+{
+  "乐芙兰": {
+    "id": "DA_18_LeBlanc",
+    "slug": "LeBlanc",
+    "cost": 2
+  },
+  "伊泽瑞尔": {
+    "id": "DA_18_Ezreal",
+    "slug": "Ezreal",
+    "cost": 4
+  },
+  "伊莉丝": {
+    "id": "DA_18_Elise",
+    "slug": "Elise",
+    "cost": 2
+  },
+  "克格莫": {
+    "id": "DA_KogMaw18_AD",
+    "slug": "KogMaw",
+    "cost": 3
+  },
+  "凯南": {
+    "id": "DA_18_Kennen",
+    "slug": "Kennen",
+    "cost": 5
+  },
+  "凯尔": {
+    "id": "DA_18_Kayle",
+    "slug": "Kayle",
+    "cost": 2
+  },
+  "卡兹克": {
+    "id": "DA_18_KhaZix",
+    "slug": "KhaZix",
+    "cost": 3
+  },
+  "卡西奥佩娅": {
+    "id": "DA_18_Cassiopeia",
+    "slug": "Cassiopeia",
+    "cost": 3
+  },
+  "厄斐琉斯": {
+    "id": "DA_18_Aphelios",
+    "slug": "Aphelios",
+    "cost": 4
+  },
+  "塔里克": {
+    "id": "DA_Taric18",
+    "slug": "Taric",
+    "cost": 5
+  },
+  "墨菲特": {
+    "id": "DA_18_Malphite",
+    "slug": "Malphite",
+    "cost": 4
+  },
+  "奈德丽": {
+    "id": "DA_Nidalee18_AP",
+    "slug": "Nidalee",
+    "cost": 4
+  },
+  "奥恩": {
+    "id": "DA_18_Ornn",
+    "slug": "Ornn",
+    "cost": 1
+  },
+  "婕拉": {
+    "id": "DA_18_Zyra",
+    "slug": "Zyra",
+    "cost": 4
+  },
+  "希维尔": {
+    "id": "DA_18_Sivir",
+    "slug": "Sivir",
+    "cost": 4
+  },
+  "德莱文": {
+    "id": "DA_Draven18",
+    "slug": "Draven",
+    "cost": 5
+  },
+  "拉莫斯": {
+    "id": "DA_18_Rammus",
+    "slug": "Rammus",
+    "cost": 3
+  },
+  "拉露恩": {
+    "id": "DA_18_Alune",
+    "slug": "Alune",
+    "cost": 5
+  },
+  "提莫": {
+    "id": "DA_18_Teemo",
+    "slug": "Teemo",
+    "cost": 2
+  },
+  "易": {
+    "id": "DA_18_MasterYi_AD",
+    "slug": "MasterYi",
+    "cost": 3
+  },
+  "暗影狼": {
+    "id": "DA_Murkwolf18",
+    "slug": "Murkwolf",
+    "cost": 2
+  },
+  "沃里克": {
+    "id": "DA_18_Warwick",
+    "slug": "Warwick",
+    "cost": 2
+  },
+  "瑟庄妮": {
+    "id": "DA_18_Sejuani",
+    "slug": "Sejuani",
+    "cost": 2
+  },
+  "瑟提": {
+    "id": "DA_18_Sett",
+    "slug": "Sett",
+    "cost": 4
+  },
+  "索拉卡": {
+    "id": "DA_18_Soraka",
+    "slug": "Soraka",
+    "cost": 4
+  },
+  "绯红印记树怪": {
+    "id": "DA_Brambleback18",
+    "slug": "Brambleback",
+    "cost": 4
+  },
+  "绯红树怪": {
+    "id": "DA_Cinderling18",
+    "slug": "Cinderling",
+    "cost": 1
+  },
+  "维迦": {
+    "id": "DA_18_Veigar",
+    "slug": "Veigar",
+    "cost": 1
+  },
+  "苍蓝哨戒": {
+    "id": "DA_18_Sentry",
+    "slug": "Pebbles",
+    "cost": 1
+  },
+  "苍蓝雕纹魔像": {
+    "id": "DA_Sentinel18",
+    "slug": "Sentinel",
+    "cost": 4
+  },
+  "茂凯": {
+    "id": "DA_18_Maokai",
+    "slug": "Maokai",
+    "cost": 5
+  },
+  "莉莉娅": {
+    "id": "DA_18_Lillia",
+    "slug": "Lillia",
+    "cost": 4
+  },
+  "莫甘娜": {
+    "id": "DA_18_Morgana",
+    "slug": "Morgana",
+    "cost": 4
+  },
+  "蔚": {
+    "id": "DA_Vi18",
+    "slug": "Vi",
+    "cost": 3
+  },
+  "费德提克": {
+    "id": "DA_Fiddlesticks18",
+    "slug": "Fiddlesticks",
+    "cost": 3
+  },
+  "赫卡里姆": {
+    "id": "DA_18_Hecarim",
+    "slug": "Hecarim",
+    "cost": 3
+  },
+  "远古巨龙": {
+    "id": "DA_18_ElderDragon",
+    "slug": "ElderDragon",
+    "cost": 5
+  },
+  "远古石甲虫": {
+    "id": "DA_Krug18",
+    "slug": "Krug",
+    "cost": 3
+  },
+  "阿兹尔": {
+    "id": "DA_18_Azir",
+    "slug": "Azir",
+    "cost": 3
+  },
+  "阿利斯塔": {
+    "id": "DA_18_Alistar",
+    "slug": "Alistar",
+    "cost": 2
+  },
+  "阿木木": {
+    "id": "DA_Amumu18",
+    "slug": "Amumu",
+    "cost": 4
+  },
+  "阿狸": {
+    "id": "DA_18_Ahri",
+    "slug": "Ahri",
+    "cost": 4
+  },
+  "雷恩加尔": {
+    "id": "DA_18_Rengar",
+    "slug": "Rengar",
+    "cost": 3
+  },
+  "韦鲁斯": {
+    "id": "DA_18_Varus",
+    "slug": "Varus",
+    "cost": 1
+  },
+  "黛安娜": {
+    "id": "DA_18_Diana",
+    "slug": "Diana",
+    "cost": 3
+  }
+}

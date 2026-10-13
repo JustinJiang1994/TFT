@@ -1,0 +1,21 @@
+{
+  "scope": "2026-10-12 / 18.4b snapshot, all returned entries not all mathematically possible builds",
+  "comps": 21,
+  "augment_lookup": 260,
+  "augment_extra_ids": 1,
+  "augment_guide_occurrences": 847,
+  "augment_matrix_cells": 5481,
+  "artifact_catalog": 32,
+  "artifact_edges": 1625,
+  "artifact_missing_bearer_rows": 26,
+  "early_edges": 840,
+  "unique_openers": 657,
+  "variants": 5113,
+  "builds": 6300,
+  "levels": 131,
+  "unresolved_ids": [
+    "DA_18_FloraFatalisAugmentPlus"
+  ],
+  "emblem_catalog": 21,
+  "emblem_comp_edges": 434
+}

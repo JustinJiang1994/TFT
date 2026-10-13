@@ -1,0 +1,20 @@
+{
+  "source": "https://www.metatft.com/comps",
+  "set": "TFTSet18",
+  "patch_label_observed": "18.4b",
+  "queue": 1100,
+  "rank": "白金及以上",
+  "days": 3,
+  "cluster_id": 426,
+  "stats_updated_beijing": "2026-10-12 15:47:54",
+  "record_count": 7493456,
+  "all_comps": 60,
+  "selected_count": 21,
+  "grade_rule": {
+    "S": "avg < 4.25",
+    "A": "4.25 <= avg < 4.5"
+  },
+  "default_count": 16,
+  "situational_count": 5,
+  "note": "分级复现网站公开前端规则；条件分类依据网站转职频率筛选规则。中文词库仅用于名称，不用于推断国服版本。"
+}

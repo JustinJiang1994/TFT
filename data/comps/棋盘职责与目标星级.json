@@ -1,0 +1,1005 @@
+[
+  {
+    "id": "426000",
+    "name": "护卫 雷恩加尔",
+    "units": {
+      "雷恩加尔": {
+        "role": "主C",
+        "target": "★★★ 追3星",
+        "priority_three": true
+      },
+      "慎": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "莉莉娅": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "奥恩": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "费德提克": {
+        "role": "辅助／羁绊",
+        "target": "★★ → ★★★ 可追",
+        "priority_three": false
+      },
+      "拉莫斯": {
+        "role": "主坦",
+        "target": "★★★ 追3星",
+        "priority_three": true
+      },
+      "卡西奥佩娅": {
+        "role": "副C",
+        "target": "★★★ 追3星",
+        "priority_three": true
+      }
+    },
+    "note": "",
+    "evidence": "职责依据现有中文玩法解释与装备示例归纳；三星候选来自selected.stars，优先级依据玩法解释；其余两星为常规成型建议。"
+  },
+  {
+    "id": "426003",
+    "name": "绝命花妖 阿兹尔",
+    "units": {
+      "拉莫斯": {
+        "role": "主坦",
+        "target": "★★★ 追3星",
+        "priority_three": true
+      },
+      "提莫": {
+        "role": "辅助／羁绊",
+        "target": "★★ → ★★★ 可追",
+        "priority_three": false
+      },
+      "费德提克": {
+        "role": "辅助／羁绊",
+        "target": "★★ → ★★★ 可追",
+        "priority_three": false
+      },
+      "阿兹尔": {
+        "role": "主C",
+        "target": "★★★ 追3星",
+        "priority_three": true
+      },
+      "婕拉": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "索拉卡": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "维迦": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      }
+    },
+    "note": "费德提克若先三星，可接替拉莫斯承接主坦装备。",
+    "evidence": "职责依据现有中文玩法解释与装备示例归纳；三星候选来自selected.stars，优先级依据玩法解释；其余两星为常规成型建议。"
+  },
+  {
+    "id": "426007",
+    "name": "峡谷野怪 苍蓝哨戒",
+    "units": {
+      "塔里克": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "远古石甲虫": {
+        "role": "主坦",
+        "target": "★★ → ★★★ 可追",
+        "priority_three": false
+      },
+      "苍蓝雕纹魔像": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "纳尔": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "暗影狼": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "远古巨龙": {
+        "role": "副C",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "绯红印记树怪": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "苍蓝哨戒": {
+        "role": "主C",
+        "target": "★★★ 追3星",
+        "priority_three": true
+      }
+    },
+    "note": "远古石甲虫先两星稳前排，提人口后再考虑三星；不要在5级强追三费坦克。",
+    "evidence": "职责依据现有中文玩法解释与装备示例归纳；三星候选来自selected.stars，优先级依据玩法解释；其余两星为常规成型建议。"
+  },
+  {
+    "id": "426002",
+    "name": "永恒之森 厄斐琉斯",
+    "units": {
+      "奥恩": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "阿利斯塔": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "莉莉娅": {
+        "role": "主坦",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "赫卡里姆": {
+        "role": "主坦",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "纳尔": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "厄斐琉斯": {
+        "role": "主C",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "伊泽瑞尔": {
+        "role": "副C",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "乐芙兰": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "霞": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      }
+    },
+    "note": "赫卡里姆、莉莉娅谁先两星、谁有合适装备，谁先承接肉装。",
+    "evidence": "职责依据现有中文玩法解释与装备示例归纳；三星候选来自selected.stars，优先级依据玩法解释；其余两星为常规成型建议。"
+  },
+  {
+    "id": "426004",
+    "name": "月蚀骑士 厄斐琉斯 奈德丽",
+    "units": {
+      "阿木木": {
+        "role": "主坦",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "苍蓝雕纹魔像": {
+        "role": "主坦",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "蔚": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "黛安娜": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "奈德丽": {
+        "role": "主C",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "厄斐琉斯": {
+        "role": "主C",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "克格莫": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "韦鲁斯": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      }
+    },
+    "note": "",
+    "evidence": "职责依据现有中文玩法解释与装备示例归纳；三星候选来自selected.stars，优先级依据玩法解释；其余两星为常规成型建议。"
+  },
+  {
+    "id": "426027",
+    "name": "重装战士 莫甘娜",
+    "units": {
+      "伊莉丝": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "塔里克": {
+        "role": "主坦",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "苍蓝雕纹魔像": {
+        "role": "主坦",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "黛安娜": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "莫甘娜": {
+        "role": "主C",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "远古巨龙": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "拉露恩": {
+        "role": "副C",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "卡西奥佩娅": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      }
+    },
+    "note": "",
+    "evidence": "职责依据现有中文玩法解释与装备示例归纳；三星候选来自selected.stars，优先级依据玩法解释；其余两星为常规成型建议。"
+  },
+  {
+    "id": "426008",
+    "name": "重装战士 拉露恩",
+    "units": {
+      "赫卡里姆": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "莉莉娅": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "苍蓝雕纹魔像": {
+        "role": "主坦",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "塔里克": {
+        "role": "主坦",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "莫甘娜": {
+        "role": "副C",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "黛安娜": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "费德提克": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "拉露恩": {
+        "role": "主C",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "艾翁": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      }
+    },
+    "note": "",
+    "evidence": "职责依据现有中文玩法解释与装备示例归纳；三星候选来自selected.stars，优先级依据玩法解释；其余两星为常规成型建议。"
+  },
+  {
+    "id": "426001",
+    "name": "迅捷射手 厄斐琉斯",
+    "units": {
+      "阿木木": {
+        "role": "主坦",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "苍蓝雕纹魔像": {
+        "role": "主坦",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "洛": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "绯红印记树怪": {
+        "role": "主C",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "厄斐琉斯": {
+        "role": "主C",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "深红锋喙鸟": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "霞": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "韦鲁斯": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      }
+    },
+    "note": "",
+    "evidence": "职责依据现有中文玩法解释与装备示例归纳；三星候选来自selected.stars，优先级依据玩法解释；其余两星为常规成型建议。"
+  },
+  {
+    "id": "426021",
+    "name": "迅捷射手 凯尔",
+    "units": {
+      "慎": {
+        "role": "辅助／羁绊",
+        "target": "★★ → ★★★ 可追",
+        "priority_three": false
+      },
+      "瑟庄妮": {
+        "role": "主坦",
+        "target": "★★★ 追3星",
+        "priority_three": true
+      },
+      "蕾欧娜": {
+        "role": "辅助／羁绊",
+        "target": "★★ → ★★★ 可追",
+        "priority_three": false
+      },
+      "黛安娜": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "阿木木": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "凯尔": {
+        "role": "主C",
+        "target": "★★★ 追3星",
+        "priority_three": true
+      },
+      "韦鲁斯": {
+        "role": "副C",
+        "target": "★★ → ★★★ 可追",
+        "priority_three": false
+      },
+      "厄斐琉斯": {
+        "role": "副C",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      }
+    },
+    "note": "",
+    "evidence": "职责依据现有中文玩法解释与装备示例归纳；三星候选来自selected.stars，优先级依据玩法解释；其余两星为常规成型建议。"
+  },
+  {
+    "id": "426006",
+    "name": "神谕 提莫 阿利斯塔",
+    "units": {
+      "阿利斯塔": {
+        "role": "主坦",
+        "target": "★★★ 追3星",
+        "priority_three": true
+      },
+      "莫甘娜": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "可酷伯": {
+        "role": "辅助／羁绊",
+        "target": "★★ → ★★★ 可追",
+        "priority_three": false
+      },
+      "赫卡里姆": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "苍蓝雕纹魔像": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "提莫": {
+        "role": "主C",
+        "target": "★★★ 追3星",
+        "priority_three": true
+      },
+      "乐芙兰": {
+        "role": "副C",
+        "target": "★★ → ★★★ 可追",
+        "priority_three": false
+      },
+      "维迦": {
+        "role": "辅助／羁绊",
+        "target": "★★ → ★★★ 可追",
+        "priority_three": false
+      }
+    },
+    "note": "",
+    "evidence": "职责依据现有中文玩法解释与装备示例归纳；三星候选来自selected.stars，优先级依据玩法解释；其余两星为常规成型建议。"
+  },
+  {
+    "id": "426005",
+    "name": "裁决使 瑟提",
+    "units": {
+      "阿利斯塔": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "费德提克": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "瑟提": {
+        "role": "主坦",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "奥恩": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "索拉卡": {
+        "role": "副C",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "阿狸": {
+        "role": "副C",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "芸阿娜": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "伊泽瑞尔": {
+        "role": "主C",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      }
+    },
+    "note": "",
+    "evidence": "职责依据现有中文玩法解释与装备示例归纳；三星候选来自selected.stars，优先级依据玩法解释；其余两星为常规成型建议。"
+  },
+  {
+    "id": "426010",
+    "name": "神谕 阿狸",
+    "units": {
+      "远古石甲虫": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "瑟提": {
+        "role": "主坦",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "苍蓝雕纹魔像": {
+        "role": "主坦",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "塔里克": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "莫甘娜": {
+        "role": "副C",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "卡尔玛": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "阿狸": {
+        "role": "主C",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "苍蓝哨戒": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      }
+    },
+    "note": "",
+    "evidence": "职责依据现有中文玩法解释与装备示例归纳；三星候选来自selected.stars，优先级依据玩法解释；其余两星为常规成型建议。"
+  },
+  {
+    "id": "426014",
+    "name": "法师 维迦",
+    "units": {
+      "奥恩": {
+        "role": "主坦",
+        "target": "★★★ 追3星",
+        "priority_three": true
+      },
+      "雷克塞": {
+        "role": "辅助／羁绊",
+        "target": "★★ → ★★★ 可追",
+        "priority_three": false
+      },
+      "费德提克": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "卡西奥佩娅": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "阿利斯塔": {
+        "role": "辅助／羁绊",
+        "target": "★★ → ★★★ 可追",
+        "priority_three": false
+      },
+      "维迦": {
+        "role": "主C",
+        "target": "★★★ 追3星",
+        "priority_three": true
+      },
+      "乐芙兰": {
+        "role": "副C",
+        "target": "★★ → ★★★ 可追",
+        "priority_three": false
+      }
+    },
+    "note": "",
+    "evidence": "职责依据现有中文玩法解释与装备示例归纳；三星候选来自selected.stars，优先级依据玩法解释；其余两星为常规成型建议。"
+  },
+  {
+    "id": "426012",
+    "name": "裁决使 卡兹克",
+    "units": {
+      "卡兹克": {
+        "role": "主C",
+        "target": "★★★ 追3星",
+        "priority_three": true
+      },
+      "赫卡里姆": {
+        "role": "主坦",
+        "target": "★★★ 追3星",
+        "priority_three": true
+      },
+      "黛安娜": {
+        "role": "辅助／羁绊",
+        "target": "★★ → ★★★ 可追",
+        "priority_three": false
+      },
+      "费德提克": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "伊泽瑞尔": {
+        "role": "副C",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "索拉卡": {
+        "role": "副C",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "奥恩": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      }
+    },
+    "note": "",
+    "evidence": "职责依据现有中文玩法解释与装备示例归纳；三星候选来自selected.stars，优先级依据玩法解释；其余两星为常规成型建议。"
+  },
+  {
+    "id": "426013",
+    "name": "神谕 提莫",
+    "units": {
+      "苍蓝雕纹魔像": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "拉莫斯": {
+        "role": "主坦",
+        "target": "★★★ 追3星",
+        "priority_three": true
+      },
+      "远古石甲虫": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "莫甘娜": {
+        "role": "副C",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "费德提克": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "提莫": {
+        "role": "主C",
+        "target": "★★★ 追3星",
+        "priority_three": true
+      },
+      "苍蓝哨戒": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "维迦": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      }
+    },
+    "note": "拉莫斯先两星稳血，根据数量与血量升7再追三星。",
+    "evidence": "职责依据现有中文玩法解释与装备示例归纳；三星候选来自selected.stars，优先级依据玩法解释；其余两星为常规成型建议。"
+  },
+  {
+    "id": "426037",
+    "name": "狂战士 绯红印记树怪",
+    "units": {
+      "暗影狼": {
+        "role": "辅助／羁绊",
+        "target": "★★ → ★★★ 可追",
+        "priority_three": false
+      },
+      "赫卡里姆": {
+        "role": "主坦",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "黛安娜": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "苍蓝雕纹魔像": {
+        "role": "主坦",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "伊莉丝": {
+        "role": "副C",
+        "target": "★★ → ★★★ 可追",
+        "priority_three": false
+      },
+      "绯红印记树怪": {
+        "role": "主C",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "卡蜜尔": {
+        "role": "辅助／羁绊",
+        "target": "★★ → ★★★ 可追",
+        "priority_three": false
+      },
+      "沃里克": {
+        "role": "辅助／羁绊",
+        "target": "★★ → ★★★ 可追",
+        "priority_three": false
+      }
+    },
+    "note": "伊莉丝为转职输出分支；没有对应条件时以现有前排质量为准。",
+    "evidence": "职责依据现有中文玩法解释与装备示例归纳；三星候选来自selected.stars，优先级依据玩法解释；其余两星为常规成型建议。"
+  },
+  {
+    "id": "426009",
+    "name": "神谕 莫甘娜",
+    "units": {
+      "塔里克": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "苍蓝雕纹魔像": {
+        "role": "主坦",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "赫卡里姆": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "莫甘娜": {
+        "role": "主C",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "黛安娜": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "绯红印记树怪": {
+        "role": "副C",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "拉露恩": {
+        "role": "副C",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "克格莫": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "苍蓝哨戒": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      }
+    },
+    "note": "",
+    "evidence": "职责依据现有中文玩法解释与装备示例归纳；三星候选来自selected.stars，优先级依据玩法解释；其余两星为常规成型建议。"
+  },
+  {
+    "id": "426011",
+    "name": "永恒之森 德莱文",
+    "units": {
+      "阿利斯塔": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "塔里克": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "茂凯": {
+        "role": "主坦",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "阿木木": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "凯南": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "纳尔": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "德莱文": {
+        "role": "主C",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "艾翁": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "伊泽瑞尔": {
+        "role": "副C",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      }
+    },
+    "note": "",
+    "evidence": "职责依据现有中文玩法解释与装备示例归纳；三星候选来自selected.stars，优先级依据玩法解释；其余两星为常规成型建议。"
+  },
+  {
+    "id": "426023",
+    "name": "狂战士 沃里克",
+    "units": {
+      "雷克塞": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "墨菲特": {
+        "role": "主坦",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "远古石甲虫": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "绯红印记树怪": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "暗影狼": {
+        "role": "主C",
+        "target": "★★★ 追3星",
+        "priority_three": true
+      },
+      "黛安娜": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "沃里克": {
+        "role": "主C",
+        "target": "★★★ 追3星",
+        "priority_three": true
+      },
+      "阿兹尔": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      }
+    },
+    "note": "",
+    "evidence": "职责依据现有中文玩法解释与装备示例归纳；三星候选来自selected.stars，优先级依据玩法解释；其余两星为常规成型建议。"
+  },
+  {
+    "id": "426022",
+    "name": "魔战士 易 雷恩加尔",
+    "units": {
+      "远古石甲虫": {
+        "role": "主坦",
+        "target": "★★ → ★★★ 可追",
+        "priority_three": false
+      },
+      "约里克": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "瑟提": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "蔚": {
+        "role": "主坦",
+        "target": "★★ → ★★★ 可追",
+        "priority_three": false
+      },
+      "雷恩加尔": {
+        "role": "主C",
+        "target": "★★★ 追3星",
+        "priority_three": true
+      },
+      "易": {
+        "role": "主C",
+        "target": "★★★ 追3星",
+        "priority_three": true
+      },
+      "奈德丽": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      }
+    },
+    "note": "蔚、远古石甲虫先两星，来牌多再追三星；优先保证双C质量。",
+    "evidence": "职责依据现有中文玩法解释与装备示例归纳；三星候选来自selected.stars，优先级依据玩法解释；其余两星为常规成型建议。"
+  },
+  {
+    "id": "426016",
+    "name": "猎人 希维尔",
+    "units": {
+      "墨菲特": {
+        "role": "主坦",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "奈德丽": {
+        "role": "主C",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "远古石甲虫": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "苍蓝雕纹魔像": {
+        "role": "主坦",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "雷克塞": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "希维尔": {
+        "role": "主C",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "克格莫": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      },
+      "绯红树怪": {
+        "role": "辅助／羁绊",
+        "target": "★★ 目标2星",
+        "priority_three": false
+      }
+    },
+    "note": "",
+    "evidence": "职责依据现有中文玩法解释与装备示例归纳；三星候选来自selected.stars，优先级依据玩法解释；其余两星为常规成型建议。"
+  }
+]

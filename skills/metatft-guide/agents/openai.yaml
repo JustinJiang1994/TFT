@@ -1,0 +1,4 @@
+interface:
+  display_name: "MetaTFT 中文阵容攻略"
+  short_description: "调研完整阵容榜，生成中文攻略、海克斯与神器定阵树及摇摆过渡地图"
+  default_prompt: "使用 $metatft-guide 核查指定版本的全部S/A阵容，生成可筛选的中文攻略与定阵地图。"

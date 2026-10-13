@@ -1,0 +1,632 @@
+[
+  {
+    "unit": "乐芙兰",
+    "kind": "overall",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_overall?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_LeBlanc",
+    "status": "ok",
+    "updated": 1791865726395
+  },
+  {
+    "unit": "乐芙兰",
+    "kind": "items",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_items?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_LeBlanc&num_items=3",
+    "status": "ok",
+    "updated": 1791865726536
+  },
+  {
+    "unit": "伊泽瑞尔",
+    "kind": "overall",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_overall?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Ezreal",
+    "status": "ok",
+    "updated": 1791865726270
+  },
+  {
+    "unit": "伊泽瑞尔",
+    "kind": "items",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_items?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Ezreal&num_items=3",
+    "status": "ok",
+    "updated": 1791865726253
+  },
+  {
+    "unit": "伊莉丝",
+    "kind": "overall",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_overall?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Elise",
+    "status": "ok",
+    "updated": 1791865727270
+  },
+  {
+    "unit": "伊莉丝",
+    "kind": "items",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_items?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Elise&num_items=3",
+    "status": "ok",
+    "updated": 1791865727548
+  },
+  {
+    "unit": "克格莫",
+    "kind": "overall",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_overall?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_KogMaw18_AD",
+    "status": "ok",
+    "updated": 1791865727574
+  },
+  {
+    "unit": "克格莫",
+    "kind": "items",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_items?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_KogMaw18_AD&num_items=3",
+    "status": "ok",
+    "updated": 1791865728090
+  },
+  {
+    "unit": "凯南",
+    "kind": "overall",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_overall?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Kennen",
+    "status": "ok",
+    "updated": 1791865728298
+  },
+  {
+    "unit": "凯南",
+    "kind": "items",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_items?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Kennen&num_items=3",
+    "status": "ok",
+    "updated": 1791865728738
+  },
+  {
+    "unit": "凯尔",
+    "kind": "overall",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_overall?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Kayle",
+    "status": "ok",
+    "updated": 1791865728902
+  },
+  {
+    "unit": "凯尔",
+    "kind": "items",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_items?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Kayle&num_items=3",
+    "status": "ok",
+    "updated": 1791865729444
+  },
+  {
+    "unit": "卡兹克",
+    "kind": "overall",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_overall?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_KhaZix",
+    "status": "ok",
+    "updated": 1791865729684
+  },
+  {
+    "unit": "卡兹克",
+    "kind": "items",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_items?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_KhaZix&num_items=3",
+    "status": "ok",
+    "updated": 1791865729828
+  },
+  {
+    "unit": "卡西奥佩娅",
+    "kind": "overall",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_overall?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Cassiopeia",
+    "status": "ok",
+    "updated": 1791865730094
+  },
+  {
+    "unit": "卡西奥佩娅",
+    "kind": "items",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_items?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Cassiopeia&num_items=3",
+    "status": "ok",
+    "updated": 1791865730596
+  },
+  {
+    "unit": "厄斐琉斯",
+    "kind": "overall",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_overall?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Aphelios",
+    "status": "ok",
+    "updated": 1791865730810
+  },
+  {
+    "unit": "厄斐琉斯",
+    "kind": "items",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_items?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Aphelios&num_items=3",
+    "status": "ok",
+    "updated": 1791865730997
+  },
+  {
+    "unit": "塔里克",
+    "kind": "overall",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_overall?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_Taric18",
+    "status": "ok",
+    "updated": 1791865731276
+  },
+  {
+    "unit": "塔里克",
+    "kind": "items",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_items?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_Taric18&num_items=3",
+    "status": "ok",
+    "updated": 1791865732047
+  },
+  {
+    "unit": "墨菲特",
+    "kind": "overall",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_overall?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Malphite",
+    "status": "ok",
+    "updated": 1791865731957
+  },
+  {
+    "unit": "墨菲特",
+    "kind": "items",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_items?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Malphite&num_items=3",
+    "status": "ok",
+    "updated": 1791865732203
+  },
+  {
+    "unit": "奈德丽",
+    "kind": "overall",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_overall?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_Nidalee18_AP",
+    "status": "ok",
+    "updated": 1791865732403
+  },
+  {
+    "unit": "奈德丽",
+    "kind": "items",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_items?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_Nidalee18_AP&num_items=3",
+    "status": "ok",
+    "updated": 1791865733109
+  },
+  {
+    "unit": "奥恩",
+    "kind": "overall",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_overall?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Ornn",
+    "status": "ok",
+    "updated": 1791865733432
+  },
+  {
+    "unit": "奥恩",
+    "kind": "items",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_items?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Ornn&num_items=3",
+    "status": "ok",
+    "updated": 1791865733634
+  },
+  {
+    "unit": "婕拉",
+    "kind": "overall",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_overall?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Zyra",
+    "status": "ok",
+    "updated": 1791865734417
+  },
+  {
+    "unit": "婕拉",
+    "kind": "items",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_items?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Zyra&num_items=3",
+    "status": "ok",
+    "updated": 1791865734324
+  },
+  {
+    "unit": "希维尔",
+    "kind": "overall",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_overall?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Sivir",
+    "status": "ok",
+    "updated": 1791865734463
+  },
+  {
+    "unit": "希维尔",
+    "kind": "items",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_items?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Sivir&num_items=3",
+    "status": "ok",
+    "updated": 1791865735237
+  },
+  {
+    "unit": "德莱文",
+    "kind": "overall",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_overall?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_Draven18",
+    "status": "ok",
+    "updated": 1791865735310
+  },
+  {
+    "unit": "德莱文",
+    "kind": "items",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_items?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_Draven18&num_items=3",
+    "status": "ok",
+    "updated": 1791865735377
+  },
+  {
+    "unit": "拉莫斯",
+    "kind": "overall",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_overall?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Rammus",
+    "status": "ok",
+    "updated": 1791865735661
+  },
+  {
+    "unit": "拉莫斯",
+    "kind": "items",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_items?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Rammus&num_items=3",
+    "status": "ok",
+    "updated": 1791865736449
+  },
+  {
+    "unit": "拉露恩",
+    "kind": "overall",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_overall?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Alune",
+    "status": "ok",
+    "updated": 1791865736673
+  },
+  {
+    "unit": "拉露恩",
+    "kind": "items",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_items?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Alune&num_items=3",
+    "status": "ok",
+    "updated": 1791865736776
+  },
+  {
+    "unit": "提莫",
+    "kind": "overall",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_overall?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Teemo",
+    "status": "ok",
+    "updated": 1791865736784
+  },
+  {
+    "unit": "提莫",
+    "kind": "items",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_items?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Teemo&num_items=3",
+    "status": "ok",
+    "updated": 1791865737782
+  },
+  {
+    "unit": "易",
+    "kind": "overall",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_overall?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_MasterYi_AD",
+    "status": "ok",
+    "updated": 1791865737707
+  },
+  {
+    "unit": "易",
+    "kind": "items",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_items?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_MasterYi_AD&num_items=3",
+    "status": "ok",
+    "updated": 1791865737763
+  },
+  {
+    "unit": "暗影狼",
+    "kind": "overall",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_overall?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_Murkwolf18",
+    "status": "ok",
+    "updated": 1791865738612
+  },
+  {
+    "unit": "暗影狼",
+    "kind": "items",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_items?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_Murkwolf18&num_items=3",
+    "status": "ok",
+    "updated": 1791865738633
+  },
+  {
+    "unit": "沃里克",
+    "kind": "overall",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_overall?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Warwick",
+    "status": "ok",
+    "updated": 1791865739301
+  },
+  {
+    "unit": "沃里克",
+    "kind": "items",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_items?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Warwick&num_items=3",
+    "status": "ok",
+    "updated": 1791865739447
+  },
+  {
+    "unit": "瑟庄妮",
+    "kind": "overall",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_overall?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Sejuani",
+    "status": "ok",
+    "updated": 1791865739637
+  },
+  {
+    "unit": "瑟庄妮",
+    "kind": "items",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_items?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Sejuani&num_items=3",
+    "status": "ok",
+    "updated": 1791865740199
+  },
+  {
+    "unit": "瑟提",
+    "kind": "overall",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_overall?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Sett",
+    "status": "ok",
+    "updated": 1791865740211
+  },
+  {
+    "unit": "瑟提",
+    "kind": "items",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_items?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Sett&num_items=3",
+    "status": "ok",
+    "updated": 1791865740542
+  },
+  {
+    "unit": "索拉卡",
+    "kind": "overall",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_overall?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Soraka",
+    "status": "ok",
+    "updated": 1791865740700
+  },
+  {
+    "unit": "索拉卡",
+    "kind": "items",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_items?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Soraka&num_items=3",
+    "status": "ok",
+    "updated": 1791865741117
+  },
+  {
+    "unit": "绯红印记树怪",
+    "kind": "overall",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_overall?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_Brambleback18",
+    "status": "ok",
+    "updated": 1791865741514
+  },
+  {
+    "unit": "绯红印记树怪",
+    "kind": "items",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_items?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_Brambleback18&num_items=3",
+    "status": "ok",
+    "updated": 1791865741830
+  },
+  {
+    "unit": "绯红树怪",
+    "kind": "overall",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_overall?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_Cinderling18",
+    "status": "ok",
+    "updated": 1791865741883
+  },
+  {
+    "unit": "绯红树怪",
+    "kind": "items",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_items?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_Cinderling18&num_items=3",
+    "status": "ok",
+    "updated": 1791865742654
+  },
+  {
+    "unit": "维迦",
+    "kind": "overall",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_overall?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Veigar",
+    "status": "ok",
+    "updated": 1791865742453
+  },
+  {
+    "unit": "维迦",
+    "kind": "items",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_items?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Veigar&num_items=3",
+    "status": "ok",
+    "updated": 1791865742790
+  },
+  {
+    "unit": "苍蓝哨戒",
+    "kind": "overall",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_overall?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Sentry",
+    "status": "ok",
+    "updated": 1791865743310
+  },
+  {
+    "unit": "苍蓝哨戒",
+    "kind": "items",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_items?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Sentry&num_items=3",
+    "status": "ok",
+    "updated": 1791865743357
+  },
+  {
+    "unit": "苍蓝雕纹魔像",
+    "kind": "overall",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_overall?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_Sentinel18",
+    "status": "ok",
+    "updated": 1791865744000
+  },
+  {
+    "unit": "苍蓝雕纹魔像",
+    "kind": "items",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_items?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_Sentinel18&num_items=3",
+    "status": "ok",
+    "updated": 1791865744112
+  },
+  {
+    "unit": "茂凯",
+    "kind": "overall",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_overall?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Maokai",
+    "status": "ok",
+    "updated": 1791865744253
+  },
+  {
+    "unit": "茂凯",
+    "kind": "items",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_items?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Maokai&num_items=3",
+    "status": "ok",
+    "updated": 1791865744960
+  },
+  {
+    "unit": "莉莉娅",
+    "kind": "overall",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_overall?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Lillia",
+    "status": "ok",
+    "updated": 1791865745025
+  },
+  {
+    "unit": "莉莉娅",
+    "kind": "items",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_items?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Lillia&num_items=3",
+    "status": "ok",
+    "updated": 1791865745390
+  },
+  {
+    "unit": "莫甘娜",
+    "kind": "overall",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_overall?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Morgana",
+    "status": "ok",
+    "updated": 1791865745491
+  },
+  {
+    "unit": "莫甘娜",
+    "kind": "items",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_items?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Morgana&num_items=3",
+    "status": "ok",
+    "updated": 1791865745916
+  },
+  {
+    "unit": "蔚",
+    "kind": "overall",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_overall?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_Vi18",
+    "status": "ok",
+    "updated": 1791865746468
+  },
+  {
+    "unit": "蔚",
+    "kind": "items",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_items?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_Vi18&num_items=3",
+    "status": "ok",
+    "updated": 1791865746624
+  },
+  {
+    "unit": "费德提克",
+    "kind": "overall",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_overall?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_Fiddlesticks18",
+    "status": "ok",
+    "updated": 1791865746746
+  },
+  {
+    "unit": "费德提克",
+    "kind": "items",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_items?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_Fiddlesticks18&num_items=3",
+    "status": "ok",
+    "updated": 1791865747261
+  },
+  {
+    "unit": "赫卡里姆",
+    "kind": "overall",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_overall?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Hecarim",
+    "status": "ok",
+    "updated": 1791865747502
+  },
+  {
+    "unit": "赫卡里姆",
+    "kind": "items",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_items?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Hecarim&num_items=3",
+    "status": "ok",
+    "updated": 1791865747683
+  },
+  {
+    "unit": "远古巨龙",
+    "kind": "overall",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_overall?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_ElderDragon",
+    "status": "ok",
+    "updated": 1791865747984
+  },
+  {
+    "unit": "远古巨龙",
+    "kind": "items",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_items?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_ElderDragon&num_items=3",
+    "status": "ok",
+    "updated": 1791865748422
+  },
+  {
+    "unit": "远古石甲虫",
+    "kind": "overall",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_overall?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_Krug18",
+    "status": "ok",
+    "updated": 1791865748652
+  },
+  {
+    "unit": "远古石甲虫",
+    "kind": "items",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_items?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_Krug18&num_items=3",
+    "status": "ok",
+    "updated": 1791865749184
+  },
+  {
+    "unit": "阿兹尔",
+    "kind": "overall",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_overall?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Azir",
+    "status": "ok",
+    "updated": 1791865749132
+  },
+  {
+    "unit": "阿兹尔",
+    "kind": "items",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_items?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Azir&num_items=3",
+    "status": "ok",
+    "updated": 1791865749568
+  },
+  {
+    "unit": "阿利斯塔",
+    "kind": "overall",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_overall?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Alistar",
+    "status": "ok",
+    "updated": 1791865749871
+  },
+  {
+    "unit": "阿利斯塔",
+    "kind": "items",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_items?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Alistar&num_items=3",
+    "status": "ok",
+    "updated": 1791865750261
+  },
+  {
+    "unit": "阿木木",
+    "kind": "overall",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_overall?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_Amumu18",
+    "status": "ok",
+    "updated": 1791865750530
+  },
+  {
+    "unit": "阿木木",
+    "kind": "items",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_items?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_Amumu18&num_items=3",
+    "status": "ok",
+    "updated": 1791865750787
+  },
+  {
+    "unit": "阿狸",
+    "kind": "overall",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_overall?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Ahri",
+    "status": "ok",
+    "updated": 1791865750920
+  },
+  {
+    "unit": "阿狸",
+    "kind": "items",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_items?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Ahri&num_items=3",
+    "status": "ok",
+    "updated": 1791865751592
+  },
+  {
+    "unit": "雷恩加尔",
+    "kind": "overall",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_overall?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Rengar",
+    "status": "ok",
+    "updated": 1791865751793
+  },
+  {
+    "unit": "雷恩加尔",
+    "kind": "items",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_items?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Rengar&num_items=3",
+    "status": "ok",
+    "updated": 1791865752039
+  },
+  {
+    "unit": "韦鲁斯",
+    "kind": "overall",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_overall?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Varus",
+    "status": "ok",
+    "updated": 1791865752231
+  },
+  {
+    "unit": "韦鲁斯",
+    "kind": "items",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_items?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Varus&num_items=3",
+    "status": "ok",
+    "updated": 1791865752708
+  },
+  {
+    "unit": "黛安娜",
+    "kind": "overall",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_overall?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Diana",
+    "status": "ok",
+    "updated": 1791865753051
+  },
+  {
+    "unit": "黛安娜",
+    "kind": "items",
+    "url": "https://api-hc.metatft.com/tft-stat-api/unit_detail_items?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM&unit=DA_18_Diana&num_items=3",
+    "status": "ok",
+    "updated": 1791865753412
+  }
+]

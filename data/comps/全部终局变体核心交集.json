@@ -1,0 +1,200 @@
+[
+  {
+    "id": "426000",
+    "all_variant_count": 250,
+    "intersection_unit_ids": [
+      "DA_18_Rengar",
+      "DA_Fiddlesticks18"
+    ],
+    "intersection_units": [
+      "雷恩加尔",
+      "费德提克"
+    ]
+  },
+  {
+    "id": "426003",
+    "all_variant_count": 248,
+    "intersection_unit_ids": [
+      "DA_18_Azir",
+      "DA_18_Rammus",
+      "DA_Fiddlesticks18"
+    ],
+    "intersection_units": [
+      "阿兹尔",
+      "拉莫斯",
+      "费德提克"
+    ]
+  },
+  {
+    "id": "426007",
+    "all_variant_count": 223,
+    "intersection_unit_ids": [],
+    "intersection_units": []
+  },
+  {
+    "id": "426002",
+    "all_variant_count": 250,
+    "intersection_unit_ids": [],
+    "intersection_units": []
+  },
+  {
+    "id": "426004",
+    "all_variant_count": 250,
+    "intersection_unit_ids": [],
+    "intersection_units": []
+  },
+  {
+    "id": "426027",
+    "all_variant_count": 250,
+    "intersection_unit_ids": [],
+    "intersection_units": []
+  },
+  {
+    "id": "426008",
+    "all_variant_count": 250,
+    "intersection_unit_ids": [],
+    "intersection_units": []
+  },
+  {
+    "id": "426001",
+    "all_variant_count": 250,
+    "intersection_unit_ids": [],
+    "intersection_units": []
+  },
+  {
+    "id": "426021",
+    "all_variant_count": 214,
+    "intersection_unit_ids": [
+      "DA_18_Kayle",
+      "DA_18_Leona",
+      "DA_18_Sejuani"
+    ],
+    "intersection_units": [
+      "凯尔",
+      "蕾欧娜",
+      "瑟庄妮"
+    ]
+  },
+  {
+    "id": "426006",
+    "all_variant_count": 238,
+    "intersection_unit_ids": [
+      "DA_18_Teemo"
+    ],
+    "intersection_units": [
+      "提莫"
+    ]
+  },
+  {
+    "id": "426005",
+    "all_variant_count": 250,
+    "intersection_unit_ids": [],
+    "intersection_units": []
+  },
+  {
+    "id": "426010",
+    "all_variant_count": 250,
+    "intersection_unit_ids": [
+      "DA_18_Ahri",
+      "DA_18_Morgana",
+      "DA_18_Sett",
+      "DA_Sentinel18"
+    ],
+    "intersection_units": [
+      "阿狸",
+      "莫甘娜",
+      "瑟提",
+      "苍蓝雕纹魔像"
+    ]
+  },
+  {
+    "id": "426014",
+    "all_variant_count": 231,
+    "intersection_unit_ids": [
+      "DA_18_LeBlanc",
+      "DA_18_Ornn",
+      "DA_18_RekSai",
+      "DA_18_Veigar"
+    ],
+    "intersection_units": [
+      "乐芙兰",
+      "奥恩",
+      "雷克塞",
+      "维迦"
+    ]
+  },
+  {
+    "id": "426012",
+    "all_variant_count": 250,
+    "intersection_unit_ids": [
+      "DA_18_Hecarim"
+    ],
+    "intersection_units": [
+      "赫卡里姆"
+    ]
+  },
+  {
+    "id": "426013",
+    "all_variant_count": 242,
+    "intersection_unit_ids": [
+      "DA_18_Teemo"
+    ],
+    "intersection_units": [
+      "提莫"
+    ]
+  },
+  {
+    "id": "426037",
+    "all_variant_count": 241,
+    "intersection_unit_ids": [
+      "DA_Brambleback18"
+    ],
+    "intersection_units": [
+      "绯红印记树怪"
+    ]
+  },
+  {
+    "id": "426009",
+    "all_variant_count": 250,
+    "intersection_unit_ids": [],
+    "intersection_units": []
+  },
+  {
+    "id": "426011",
+    "all_variant_count": 249,
+    "intersection_unit_ids": [],
+    "intersection_units": []
+  },
+  {
+    "id": "426023",
+    "all_variant_count": 227,
+    "intersection_unit_ids": [
+      "DA_18_Warwick",
+      "DA_Murkwolf18"
+    ],
+    "intersection_units": [
+      "沃里克",
+      "暗影狼"
+    ]
+  },
+  {
+    "id": "426022",
+    "all_variant_count": 250,
+    "intersection_unit_ids": [
+      "DA_18_MasterYi_AD"
+    ],
+    "intersection_units": [
+      "易"
+    ]
+  },
+  {
+    "id": "426016",
+    "all_variant_count": 250,
+    "intersection_unit_ids": [
+      "DA_18_Sivir"
+    ],
+    "intersection_units": [
+      "希维尔"
+    ]
+  }
+]
