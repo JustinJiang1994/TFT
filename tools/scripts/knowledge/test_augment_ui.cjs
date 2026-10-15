@@ -218,3 +218,25 @@ assertDefender(false);
 assert(html.includes('id="clear-items" class="clear-action"'));
 for(const id of ['clear-hex','clear','reset'])assert(html.includes('id="'+id+'" class="clear-action"'));
 console.log('PASS: equipment page clear resets stock/emblems, preserves hand/augments and rechecks prerequisites; all clears prominent.');
+elements.get('flow-nav').handlers.click({target:{closest:()=>({dataset:{step:'1'}})}});
+for(const level of [4,9]){
+ elements.get('current').value=String(level);elements.get('current').handlers.change();
+ const summaries=[...elements.get('combined-recommendations').innerHTML.matchAll(/<summary class="recommendation-summary">([\s\S]*?)<\/summary>/g)].map(m=>m[1]);
+ assert(summaries.length);
+ for(const summary of summaries){
+  assert(summary.includes('current-board-preview'));
+  assert(summary.includes('当前 '+level+' 级 · 推荐上场 1/'+level+' 人'));
+  assert(summary.includes('还空 '+(level-1)+' 个位置'));
+  assert(summary.includes(K.units[common.ids[0]].name));
+ }
+}
+console.log('PASS: collapsed recommendation cards show level, board members and capacity; changing 4 to 9 updates visible vacancies.');
+elements.get('coach-toggle').handlers.click();
+for(const level of [3,4]){
+ elements.get('current').value=String(level);elements.get('current').handlers.change();
+ const body=elements.get('combined-recommendations').innerHTML;
+ assert(body.includes('逐级过渡教练'));assert(body.includes('上场 1/'+level+' 人'));assert(body.includes('升到 '+(level+1)+'级'));
+}
+elements.get('coach-toggle').handlers.click();
+assert(!elements.get('combined-recommendations').innerHTML.includes('逐级过渡教练'));
+console.log('PASS: coach toggles without losing hand and level changes update current and next level.');

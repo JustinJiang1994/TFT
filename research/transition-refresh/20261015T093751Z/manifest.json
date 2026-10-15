@@ -1,0 +1,338 @@
+{
+  "scope": "Existing cohort; capture only, not automatically merged into published versions",
+  "requests": [
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z:104",
+      "url": "https://www.dataj.cc/api/web/comp/104/battle-builds?setId=18&gameVersion=18.3",
+      "retrieved_at": "2026-10-15T09:37:51.304454+00:00",
+      "scope": "explicit JCC 18.3",
+      "ok": true,
+      "file": "research/transition-refresh/20261015T093751Z/jcc-104.json",
+      "sha256": "76ca5c54be7263489b65a4c4a81ecac0f34e6a15ce5439627bdb272fef331469"
+    },
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z:87",
+      "url": "https://www.dataj.cc/api/web/comp/87/battle-builds?setId=18&gameVersion=18.3",
+      "retrieved_at": "2026-10-15T09:37:51.304906+00:00",
+      "scope": "explicit JCC 18.3",
+      "ok": true,
+      "file": "research/transition-refresh/20261015T093751Z/jcc-87.json",
+      "sha256": "6cb8cdb76f524d7c546cd62873d251c216ea9bb5c59c592518c0d85d793906e3"
+    },
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z:120",
+      "url": "https://www.dataj.cc/api/web/comp/120/battle-builds?setId=18&gameVersion=18.3",
+      "retrieved_at": "2026-10-15T09:37:51.305167+00:00",
+      "scope": "explicit JCC 18.3",
+      "ok": true,
+      "file": "research/transition-refresh/20261015T093751Z/jcc-120.json",
+      "sha256": "25a4883a7ffc958f429ac55405b33508f7a954b8e984099ce507eb2662fbcedf"
+    },
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z:113",
+      "url": "https://www.dataj.cc/api/web/comp/113/battle-builds?setId=18&gameVersion=18.3",
+      "retrieved_at": "2026-10-15T09:37:51.305415+00:00",
+      "scope": "explicit JCC 18.3",
+      "ok": true,
+      "file": "research/transition-refresh/20261015T093751Z/jcc-113.json",
+      "sha256": "2df24664e7f8c5b90d1b1d06f1e989e4531fff8693ca62e03e18ab4da5661af4"
+    },
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z:100",
+      "url": "https://www.dataj.cc/api/web/comp/100/battle-builds?setId=18&gameVersion=18.3",
+      "retrieved_at": "2026-10-15T09:37:51.549581+00:00",
+      "scope": "explicit JCC 18.3",
+      "ok": true,
+      "file": "research/transition-refresh/20261015T093751Z/jcc-100.json",
+      "sha256": "fd36b4eb1d8d95c605e0b5fafe772e4ac266a4aa1de1094d3d733b7a768422e5"
+    },
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z:110",
+      "url": "https://www.dataj.cc/api/web/comp/110/battle-builds?setId=18&gameVersion=18.3",
+      "retrieved_at": "2026-10-15T09:37:51.617306+00:00",
+      "scope": "explicit JCC 18.3",
+      "ok": true,
+      "file": "research/transition-refresh/20261015T093751Z/jcc-110.json",
+      "sha256": "c0487370bda82555b26a56d2701a2bbcb0781b7fc29befaf7d952ea8e3872784"
+    },
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z:106",
+      "url": "https://www.dataj.cc/api/web/comp/106/battle-builds?setId=18&gameVersion=18.3",
+      "retrieved_at": "2026-10-15T09:37:51.620135+00:00",
+      "scope": "explicit JCC 18.3",
+      "ok": true,
+      "file": "research/transition-refresh/20261015T093751Z/jcc-106.json",
+      "sha256": "63192651647b2642cc9fb7d485d6d3028e23a25e4156f224c678d81db884a8b6"
+    },
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z:91",
+      "url": "https://www.dataj.cc/api/web/comp/91/battle-builds?setId=18&gameVersion=18.3",
+      "retrieved_at": "2026-10-15T09:37:51.787404+00:00",
+      "scope": "explicit JCC 18.3",
+      "ok": true,
+      "file": "research/transition-refresh/20261015T093751Z/jcc-91.json",
+      "sha256": "ea1db7fe4cce1e764969350b3f8a88e2d8e30b91bd356f283b8681a4a537f125"
+    },
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z:99",
+      "url": "https://www.dataj.cc/api/web/comp/99/battle-builds?setId=18&gameVersion=18.3",
+      "retrieved_at": "2026-10-15T09:37:51.811260+00:00",
+      "scope": "explicit JCC 18.3",
+      "ok": true,
+      "file": "research/transition-refresh/20261015T093751Z/jcc-99.json",
+      "sha256": "8d0b553790585872f70be3c65e2941d7bea931759d793f281af90ea4aede0532"
+    },
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z:116",
+      "url": "https://www.dataj.cc/api/web/comp/116/battle-builds?setId=18&gameVersion=18.3",
+      "retrieved_at": "2026-10-15T09:37:51.848457+00:00",
+      "scope": "explicit JCC 18.3",
+      "ok": true,
+      "file": "research/transition-refresh/20261015T093751Z/jcc-116.json",
+      "sha256": "06cd294e277d7a52f44c39cdd599a16ec665d6c8621621654d1f06967ece7018"
+    },
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z:114",
+      "url": "https://www.dataj.cc/api/web/comp/114/battle-builds?setId=18&gameVersion=18.3",
+      "retrieved_at": "2026-10-15T09:37:51.966807+00:00",
+      "scope": "explicit JCC 18.3",
+      "ok": true,
+      "file": "research/transition-refresh/20261015T093751Z/jcc-114.json",
+      "sha256": "f096df8ec557c98ad3a079947e6c096b408d0093ae047d29ba3c1072345df181"
+    },
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z:115",
+      "url": "https://www.dataj.cc/api/web/comp/115/battle-builds?setId=18&gameVersion=18.3",
+      "retrieved_at": "2026-10-15T09:37:52.025625+00:00",
+      "scope": "explicit JCC 18.3",
+      "ok": true,
+      "file": "research/transition-refresh/20261015T093751Z/jcc-115.json",
+      "sha256": "f6b783442096e4aca707bfbbfc72a6864602f943a837627f1501add1e3545079"
+    },
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z:89",
+      "url": "https://www.dataj.cc/api/web/comp/89/battle-builds?setId=18&gameVersion=18.3",
+      "retrieved_at": "2026-10-15T09:37:52.057427+00:00",
+      "scope": "explicit JCC 18.3",
+      "ok": true,
+      "file": "research/transition-refresh/20261015T093751Z/jcc-89.json",
+      "sha256": "775985047da08ceedde72a70105e6a7875c5bd936aac117a25eb8251b07a525f"
+    },
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z:105",
+      "url": "https://www.dataj.cc/api/web/comp/105/battle-builds?setId=18&gameVersion=18.3",
+      "retrieved_at": "2026-10-15T09:37:52.076253+00:00",
+      "scope": "explicit JCC 18.3",
+      "ok": true,
+      "file": "research/transition-refresh/20261015T093751Z/jcc-105.json",
+      "sha256": "0db57014ff46a77c2d4e80fbe965afa4c1c67cb1703d250d5169d9c018fff5a8"
+    },
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z:112",
+      "url": "https://www.dataj.cc/api/web/comp/112/battle-builds?setId=18&gameVersion=18.3",
+      "retrieved_at": "2026-10-15T09:37:52.182558+00:00",
+      "scope": "explicit JCC 18.3",
+      "ok": true,
+      "file": "research/transition-refresh/20261015T093751Z/jcc-112.json",
+      "sha256": "89049eee91d9fc80704ecc3d74548222a7feb0fd679bcc2d5f2a809caa3c1014"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426003",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426003&cluster_id=426",
+      "retrieved_at": "2026-10-15T09:37:52.254450+00:00",
+      "scope": "fixed TFT cluster 426; endpoint default filters, patch not embedded",
+      "ok": true,
+      "file": "research/transition-refresh/20261015T093751Z/tft-426003.json",
+      "sha256": "60d6fb3fe32a3dda2e804d6d4f67a3b41dc5eceae010d94d022b27b84557d98a"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426007",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426007&cluster_id=426",
+      "retrieved_at": "2026-10-15T09:37:52.257979+00:00",
+      "scope": "fixed TFT cluster 426; endpoint default filters, patch not embedded",
+      "ok": true,
+      "file": "research/transition-refresh/20261015T093751Z/tft-426007.json",
+      "sha256": "316346e91d038d2cfef7686f26113f9473e713a352a169d53019162719d88bdd"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426000",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426000&cluster_id=426",
+      "retrieved_at": "2026-10-15T09:37:52.313973+00:00",
+      "scope": "fixed TFT cluster 426; endpoint default filters, patch not embedded",
+      "ok": true,
+      "file": "research/transition-refresh/20261015T093751Z/tft-426000.json",
+      "sha256": "c8af4822de3153cba4b0dfc62dabf223564aa6d5f4e60ba54f73936b8dbe340b"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426027",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426027&cluster_id=426",
+      "retrieved_at": "2026-10-15T09:37:52.392114+00:00",
+      "scope": "fixed TFT cluster 426; endpoint default filters, patch not embedded",
+      "ok": true,
+      "file": "research/transition-refresh/20261015T093751Z/tft-426027.json",
+      "sha256": "ec2d0d7ea4a1020c1470e8297e39056a73daee02295ca33777cd8563b934f881"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426002",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426002&cluster_id=426",
+      "retrieved_at": "2026-10-15T09:37:54.188710+00:00",
+      "scope": "fixed TFT cluster 426; endpoint default filters, patch not embedded",
+      "ok": true,
+      "file": "research/transition-refresh/20261015T093751Z/tft-426002.json",
+      "sha256": "373388eeb0dfe05630fdcb956b84d79f227140f16bbecf811fbb7a646a325c4f"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426004",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426004&cluster_id=426",
+      "retrieved_at": "2026-10-15T09:37:54.310246+00:00",
+      "scope": "fixed TFT cluster 426; endpoint default filters, patch not embedded",
+      "ok": true,
+      "file": "research/transition-refresh/20261015T093751Z/tft-426004.json",
+      "sha256": "4f848cf64130eb30e6f343008f6422b2110c6fab44af9fb64a63e91ae5f33a1e"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426021",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426021&cluster_id=426",
+      "retrieved_at": "2026-10-15T09:37:54.336328+00:00",
+      "scope": "fixed TFT cluster 426; endpoint default filters, patch not embedded",
+      "ok": true,
+      "file": "research/transition-refresh/20261015T093751Z/tft-426021.json",
+      "sha256": "1a193b81617ef3aaa9aa0071422344b59dcfaf3a87b05395f48d28106ae6c5d3"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426008",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426008&cluster_id=426",
+      "retrieved_at": "2026-10-15T09:37:54.380992+00:00",
+      "scope": "fixed TFT cluster 426; endpoint default filters, patch not embedded",
+      "ok": true,
+      "file": "research/transition-refresh/20261015T093751Z/tft-426008.json",
+      "sha256": "35c6f034fa486a3e2f88815c327db4c376b6a26470c073620294edb420e8de93"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426006",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426006&cluster_id=426",
+      "retrieved_at": "2026-10-15T09:37:55.996554+00:00",
+      "scope": "fixed TFT cluster 426; endpoint default filters, patch not embedded",
+      "ok": true,
+      "file": "research/transition-refresh/20261015T093751Z/tft-426006.json",
+      "sha256": "dc5d13fd2b616f50e4e55ab615b667806cef38ae07ec8c852632ee63b223d54c"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426001",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426001&cluster_id=426",
+      "retrieved_at": "2026-10-15T09:37:56.165360+00:00",
+      "scope": "fixed TFT cluster 426; endpoint default filters, patch not embedded",
+      "ok": true,
+      "file": "research/transition-refresh/20261015T093751Z/tft-426001.json",
+      "sha256": "349c51c7ef1b5111669d1046a0c90d08ed8bcf9389a4c24d8df3421c7663e840"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426005",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426005&cluster_id=426",
+      "retrieved_at": "2026-10-15T09:37:56.186917+00:00",
+      "scope": "fixed TFT cluster 426; endpoint default filters, patch not embedded",
+      "ok": true,
+      "file": "research/transition-refresh/20261015T093751Z/tft-426005.json",
+      "sha256": "d53ed75affc021e1906f27cf7bbda2b6607cf9d2e4b44c2fe32916365622650f"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426012",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426012&cluster_id=426",
+      "retrieved_at": "2026-10-15T09:37:56.212090+00:00",
+      "scope": "fixed TFT cluster 426; endpoint default filters, patch not embedded",
+      "ok": true,
+      "file": "research/transition-refresh/20261015T093751Z/tft-426012.json",
+      "sha256": "76b80eaa960bcc5eb8df157aa9dd20faeda9ea55c16960d10b4b86abe472594f"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426013",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426013&cluster_id=426",
+      "retrieved_at": "2026-10-15T09:37:57.730284+00:00",
+      "scope": "fixed TFT cluster 426; endpoint default filters, patch not embedded",
+      "ok": true,
+      "file": "research/transition-refresh/20261015T093751Z/tft-426013.json",
+      "sha256": "80475af2c3d90922984355b40bdcb23afb26907e0529d8001620623ca97dcb56"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426014",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426014&cluster_id=426",
+      "retrieved_at": "2026-10-15T09:37:58.034818+00:00",
+      "scope": "fixed TFT cluster 426; endpoint default filters, patch not embedded",
+      "ok": true,
+      "file": "research/transition-refresh/20261015T093751Z/tft-426014.json",
+      "sha256": "89a44ccc42f9261355e84b0cbc45831e9374ac76907586bdab5866a2c00d8d84"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426010",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426010&cluster_id=426",
+      "retrieved_at": "2026-10-15T09:37:58.035517+00:00",
+      "scope": "fixed TFT cluster 426; endpoint default filters, patch not embedded",
+      "ok": true,
+      "file": "research/transition-refresh/20261015T093751Z/tft-426010.json",
+      "sha256": "ba3613712caf8ae8fc5db5b1568eab112b5957c205e2e752655dcbf8ebef2f51"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426009",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426009&cluster_id=426",
+      "retrieved_at": "2026-10-15T09:37:58.254611+00:00",
+      "scope": "fixed TFT cluster 426; endpoint default filters, patch not embedded",
+      "ok": true,
+      "file": "research/transition-refresh/20261015T093751Z/tft-426009.json",
+      "sha256": "5dc83a8ab07b17080ba77b7618a31d05400c93093b216aa1918ef2b6f249522b"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426037",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426037&cluster_id=426",
+      "retrieved_at": "2026-10-15T09:37:59.517804+00:00",
+      "scope": "fixed TFT cluster 426; endpoint default filters, patch not embedded",
+      "ok": true,
+      "file": "research/transition-refresh/20261015T093751Z/tft-426037.json",
+      "sha256": "7ce642d9e0591e93263ee6b1437e24c036587b3bea42ac27e4ea3da4f4d32b4b"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426022",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426022&cluster_id=426",
+      "retrieved_at": "2026-10-15T09:37:59.791952+00:00",
+      "scope": "fixed TFT cluster 426; endpoint default filters, patch not embedded",
+      "ok": true,
+      "file": "research/transition-refresh/20261015T093751Z/tft-426022.json",
+      "sha256": "cf7e5b08c0c9f1df85973abb8c7c6de71d60344c2574b5383df62887d1678439"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426011",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426011&cluster_id=426",
+      "retrieved_at": "2026-10-15T09:37:59.810330+00:00",
+      "scope": "fixed TFT cluster 426; endpoint default filters, patch not embedded",
+      "ok": true,
+      "file": "research/transition-refresh/20261015T093751Z/tft-426011.json",
+      "sha256": "7ff64b533d59bb997cbae9cfc45ea5992240169004c8b81a197c60a2204f986d"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426023",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426023&cluster_id=426",
+      "retrieved_at": "2026-10-15T09:38:00.070030+00:00",
+      "scope": "fixed TFT cluster 426; endpoint default filters, patch not embedded",
+      "ok": true,
+      "file": "research/transition-refresh/20261015T093751Z/tft-426023.json",
+      "sha256": "4a0962e619e5a840340743d780c653377652d6a5c3afed84381142c9dcc6f0ab"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426016",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426016&cluster_id=426",
+      "retrieved_at": "2026-10-15T09:38:01.296295+00:00",
+      "scope": "fixed TFT cluster 426; endpoint default filters, patch not embedded",
+      "ok": true,
+      "file": "research/transition-refresh/20261015T093751Z/tft-426016.json",
+      "sha256": "1c48bbd70b34e7a3eb8bb52998d041b4b5ba1a4e1e754b7159e7eaaf74ded59e"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426029",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426029&cluster_id=426",
+      "retrieved_at": "2026-10-15T09:38:01.686392+00:00",
+      "scope": "fixed TFT cluster 426; endpoint default filters, patch not embedded",
+      "ok": true,
+      "file": "research/transition-refresh/20261015T093751Z/tft-426029.json",
+      "sha256": "6d1b87df83fe9b126fa400bbed62dafca1723d489f27cff9ed6ecb4f4a19a598"
+    }
+  ]
+}

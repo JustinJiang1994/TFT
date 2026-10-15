@@ -1,0 +1,301 @@
+{
+  "scope": "Existing cohort; capture only, not automatically merged into published versions",
+  "requests": [
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z:104",
+      "url": "https://www.dataj.cc/api/web/comp/104/battle-builds?setId=18&gameVersion=18.3",
+      "retrieved_at": "2026-10-15T09:37:41.204219+00:00",
+      "scope": "explicit JCC 18.3",
+      "ok": false,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z:87",
+      "url": "https://www.dataj.cc/api/web/comp/87/battle-builds?setId=18&gameVersion=18.3",
+      "retrieved_at": "2026-10-15T09:37:41.204694+00:00",
+      "scope": "explicit JCC 18.3",
+      "ok": false,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z:120",
+      "url": "https://www.dataj.cc/api/web/comp/120/battle-builds?setId=18&gameVersion=18.3",
+      "retrieved_at": "2026-10-15T09:37:41.204945+00:00",
+      "scope": "explicit JCC 18.3",
+      "ok": false,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z:113",
+      "url": "https://www.dataj.cc/api/web/comp/113/battle-builds?setId=18&gameVersion=18.3",
+      "retrieved_at": "2026-10-15T09:37:41.205149+00:00",
+      "scope": "explicit JCC 18.3",
+      "ok": false,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z:100",
+      "url": "https://www.dataj.cc/api/web/comp/100/battle-builds?setId=18&gameVersion=18.3",
+      "retrieved_at": "2026-10-15T09:37:41.218468+00:00",
+      "scope": "explicit JCC 18.3",
+      "ok": false,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z:110",
+      "url": "https://www.dataj.cc/api/web/comp/110/battle-builds?setId=18&gameVersion=18.3",
+      "retrieved_at": "2026-10-15T09:37:41.218574+00:00",
+      "scope": "explicit JCC 18.3",
+      "ok": false,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z:106",
+      "url": "https://www.dataj.cc/api/web/comp/106/battle-builds?setId=18&gameVersion=18.3",
+      "retrieved_at": "2026-10-15T09:37:41.218659+00:00",
+      "scope": "explicit JCC 18.3",
+      "ok": false,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z:91",
+      "url": "https://www.dataj.cc/api/web/comp/91/battle-builds?setId=18&gameVersion=18.3",
+      "retrieved_at": "2026-10-15T09:37:41.218751+00:00",
+      "scope": "explicit JCC 18.3",
+      "ok": false,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z:99",
+      "url": "https://www.dataj.cc/api/web/comp/99/battle-builds?setId=18&gameVersion=18.3",
+      "retrieved_at": "2026-10-15T09:37:41.218817+00:00",
+      "scope": "explicit JCC 18.3",
+      "ok": false,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z:116",
+      "url": "https://www.dataj.cc/api/web/comp/116/battle-builds?setId=18&gameVersion=18.3",
+      "retrieved_at": "2026-10-15T09:37:41.218912+00:00",
+      "scope": "explicit JCC 18.3",
+      "ok": false,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z:114",
+      "url": "https://www.dataj.cc/api/web/comp/114/battle-builds?setId=18&gameVersion=18.3",
+      "retrieved_at": "2026-10-15T09:37:41.218981+00:00",
+      "scope": "explicit JCC 18.3",
+      "ok": false,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z:115",
+      "url": "https://www.dataj.cc/api/web/comp/115/battle-builds?setId=18&gameVersion=18.3",
+      "retrieved_at": "2026-10-15T09:37:41.219054+00:00",
+      "scope": "explicit JCC 18.3",
+      "ok": false,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z:89",
+      "url": "https://www.dataj.cc/api/web/comp/89/battle-builds?setId=18&gameVersion=18.3",
+      "retrieved_at": "2026-10-15T09:37:41.219145+00:00",
+      "scope": "explicit JCC 18.3",
+      "ok": false,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z:105",
+      "url": "https://www.dataj.cc/api/web/comp/105/battle-builds?setId=18&gameVersion=18.3",
+      "retrieved_at": "2026-10-15T09:37:41.219206+00:00",
+      "scope": "explicit JCC 18.3",
+      "ok": false,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z:112",
+      "url": "https://www.dataj.cc/api/web/comp/112/battle-builds?setId=18&gameVersion=18.3",
+      "retrieved_at": "2026-10-15T09:37:41.219278+00:00",
+      "scope": "explicit JCC 18.3",
+      "ok": false,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426003",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426003&cluster_id=426",
+      "retrieved_at": "2026-10-15T09:37:41.219408+00:00",
+      "scope": "fixed TFT cluster 426; endpoint default filters, patch not embedded",
+      "ok": false,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426007",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426007&cluster_id=426",
+      "retrieved_at": "2026-10-15T09:37:41.219564+00:00",
+      "scope": "fixed TFT cluster 426; endpoint default filters, patch not embedded",
+      "ok": false,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426000",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426000&cluster_id=426",
+      "retrieved_at": "2026-10-15T09:37:41.219641+00:00",
+      "scope": "fixed TFT cluster 426; endpoint default filters, patch not embedded",
+      "ok": false,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426027",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426027&cluster_id=426",
+      "retrieved_at": "2026-10-15T09:37:41.219703+00:00",
+      "scope": "fixed TFT cluster 426; endpoint default filters, patch not embedded",
+      "ok": false,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426002",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426002&cluster_id=426",
+      "retrieved_at": "2026-10-15T09:37:41.219784+00:00",
+      "scope": "fixed TFT cluster 426; endpoint default filters, patch not embedded",
+      "ok": false,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426004",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426004&cluster_id=426",
+      "retrieved_at": "2026-10-15T09:37:41.219837+00:00",
+      "scope": "fixed TFT cluster 426; endpoint default filters, patch not embedded",
+      "ok": false,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426021",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426021&cluster_id=426",
+      "retrieved_at": "2026-10-15T09:37:41.219894+00:00",
+      "scope": "fixed TFT cluster 426; endpoint default filters, patch not embedded",
+      "ok": false,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426008",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426008&cluster_id=426",
+      "retrieved_at": "2026-10-15T09:37:41.219963+00:00",
+      "scope": "fixed TFT cluster 426; endpoint default filters, patch not embedded",
+      "ok": false,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426006",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426006&cluster_id=426",
+      "retrieved_at": "2026-10-15T09:37:41.220064+00:00",
+      "scope": "fixed TFT cluster 426; endpoint default filters, patch not embedded",
+      "ok": false,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426001",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426001&cluster_id=426",
+      "retrieved_at": "2026-10-15T09:37:41.220136+00:00",
+      "scope": "fixed TFT cluster 426; endpoint default filters, patch not embedded",
+      "ok": false,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426005",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426005&cluster_id=426",
+      "retrieved_at": "2026-10-15T09:37:41.220188+00:00",
+      "scope": "fixed TFT cluster 426; endpoint default filters, patch not embedded",
+      "ok": false,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426012",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426012&cluster_id=426",
+      "retrieved_at": "2026-10-15T09:37:41.220286+00:00",
+      "scope": "fixed TFT cluster 426; endpoint default filters, patch not embedded",
+      "ok": false,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426013",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426013&cluster_id=426",
+      "retrieved_at": "2026-10-15T09:37:41.220340+00:00",
+      "scope": "fixed TFT cluster 426; endpoint default filters, patch not embedded",
+      "ok": false,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426014",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426014&cluster_id=426",
+      "retrieved_at": "2026-10-15T09:37:41.220390+00:00",
+      "scope": "fixed TFT cluster 426; endpoint default filters, patch not embedded",
+      "ok": false,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426010",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426010&cluster_id=426",
+      "retrieved_at": "2026-10-15T09:37:41.220442+00:00",
+      "scope": "fixed TFT cluster 426; endpoint default filters, patch not embedded",
+      "ok": false,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426009",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426009&cluster_id=426",
+      "retrieved_at": "2026-10-15T09:37:41.220526+00:00",
+      "scope": "fixed TFT cluster 426; endpoint default filters, patch not embedded",
+      "ok": false,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426037",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426037&cluster_id=426",
+      "retrieved_at": "2026-10-15T09:37:41.220591+00:00",
+      "scope": "fixed TFT cluster 426; endpoint default filters, patch not embedded",
+      "ok": false,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426022",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426022&cluster_id=426",
+      "retrieved_at": "2026-10-15T09:37:41.220646+00:00",
+      "scope": "fixed TFT cluster 426; endpoint default filters, patch not embedded",
+      "ok": false,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426011",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426011&cluster_id=426",
+      "retrieved_at": "2026-10-15T09:37:41.220723+00:00",
+      "scope": "fixed TFT cluster 426; endpoint default filters, patch not embedded",
+      "ok": false,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426023",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426023&cluster_id=426",
+      "retrieved_at": "2026-10-15T09:37:41.220773+00:00",
+      "scope": "fixed TFT cluster 426; endpoint default filters, patch not embedded",
+      "ok": false,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426016",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426016&cluster_id=426",
+      "retrieved_at": "2026-10-15T09:37:41.220831+00:00",
+      "scope": "fixed TFT cluster 426; endpoint default filters, patch not embedded",
+      "ok": false,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426029",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426029&cluster_id=426",
+      "retrieved_at": "2026-10-15T09:37:41.220883+00:00",
+      "scope": "fixed TFT cluster 426; endpoint default filters, patch not embedded",
+      "ok": false,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    }
+  ]
+}

@@ -108,6 +108,24 @@ def build():
     for c in comps:
         if c['version']==versions[1]['id'] and c.get('emblem_policy'):
             c['final_branches']=branches.get(c['source_id'],{})
+    # Fresh explicit-patch boards are isolated from the original published snapshot.
+    refresh=ROOT/'research/transition-refresh/20261015T093751Z/manifest.json'
+    if refresh.exists():
+        for row in read(refresh)['requests']:
+            c=next(c for c in comps if c['id']==row['id'])
+            if not row['ok'] or not c['version'].startswith('jcc'): continue
+            raw=ROOT/row['file']
+            assert hashlib.sha256(raw.read_bytes()).hexdigest()==row['sha256']
+            boards=[]
+            for stage in read(raw)['data']:
+                for b in stage['builds']:
+                    assert b['gameVersion']=='18.3'
+                    ids=[c['version']+':'+str(h['heroBaseId']) for h in b['heroes']]
+                    buy=list(dict.fromkeys(i for i in ids if units.get(i,{}).get('purchasable')))
+                    if not buy: continue
+                    boards.append(dict(level=stage['peopleNum'],units=buy,stars={c['version']+':'+str(h['heroBaseId']):h.get('heroStarNum') for h in b['heroes']},count=b['sampleCount'],avg=b.get('avgPlacement'),source='金铲铲 18.3 分等级棋盘',source_id=b['id'],source_url=row['url']))
+            c['transition_boards']=boards
+            c['transition_capture']=row['retrieved_at']
     apply_roles(comps)
     supplement(comps, units, items)
     result=dict(trait_catalog=traits,versions=versions,comps=comps,units=units,items=items,augment_coverage=dict(tft_covered=augment_audit["covered"],tft_total=22,related_only=sum(bool(r["augments"]) and all(p["match"]=="related" for a in r["augments"] for p in a["sources"]) for r in augment_audit["rows"]),unmapped=augment_audit["unmapped"]),
