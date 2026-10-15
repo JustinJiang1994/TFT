@@ -29,3 +29,7 @@ assert(detail.traits.some(t=>t.name==='护卫'&&t.count===emblem.after));assert(
 const native=K.units[emblem.holder].traits.map(id=>K.trait_catalog[id]?.name);assert(!native.includes('护卫'));
 assert(detail.baseline);assert.deepEqual([...defender.final_branches.without_emblem.units.filter(id=>!detail.swap.remove.includes(id)),...detail.swap.add].sort(),[...detail.units].sort());
 console.log('PASS: source-specified Rengar emblem holder, no duplicate trait bonus, explicit baseline roster swaps.');
+assert(f.traits.every(t=>t.newTier&&t.previous===0&&t.active===2));
+assert(detail.traits.filter(t=>!t.verified).every(t=>!t.newTier));
+assert.deepEqual(detail.beforeUnits,defender.final_branches.without_emblem.units);
+console.log('PASS: before/after roster evidence and verified-only tier highlighting.');

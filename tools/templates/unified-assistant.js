@@ -26,7 +26,9 @@ function emblemFit(K,c,s){
  for(const r of rows){if(!r.holder)continue;let t=traits.find(t=>t.name===r.trait);if(t){t.count=r.after;t.active=r.active;}else traits.push({name:r.trait,count:r.after,active:r.active,verified:r.verified});}
  const baseline=c.active_final?.key==='with_emblem'?c.final_branches?.without_emblem:null;
  const swap=boardDifference(baseline?.units||c.units,c.units);
- return {rows,score,traits,units:c.units,swap,baseline:baseline?.title||null};
+ const beforeUnits=baseline?.units||c.units,beforeTraits=naturalTraits(K,beforeUnits);
+ for(const t of traits){const old=beforeTraits.find(x=>x.id===t.id||x.name===t.name);t.previous=old?.active||0;t.newTier=!!t.verified&&t.active>t.previous;}
+ return {rows,score,traits,units:c.units,beforeUnits,beforeTraits,swap,baseline:baseline?.title||null};
 }
 function transitionCoach(K,cs,s){
  const level=Number(s.current),out=[];
@@ -319,14 +321,19 @@ function boardEquipmentHTML(c,id){
  if(!b)return '<div class="board-equipment empty-equipment">暂无推荐配装</div>';
  return `<div class="board-equipment" aria-label="推荐装备"><span class="equipment-rating">推荐配装 · ${esc(b.tier?b.tier+'级':'未评级')}</span>${b.cross_game?'<small>TFT 18.4b 参考</small>':''}${b.items.map(item=>`<span class="board-item">${esc(K.items[item]?.name||item)}</span>`).join('')}</div>`;
 }
+function boardEmblemsHTML(fit,id){return fit.rows.filter(r=>r.holder===id).map(r=>'<div class="board-emblem"><strong>'+esc(r.name)+'</strong><small>'+(r.sourced?'来源指定携带':'建议携带 · 推导')+(r.needsSlot?' · 需腾装备位':'')+'</small></div>').join('');}
+function emblemTraitsHTML(fit){return '<div class="emblem-traits">'+fit.traits.map(t=>'<span class="badge '+(t.newTier?'trait-new-tier':'')+'">'+esc(t.name)+' '+t.count+'人 · '+(t.verified?(t.active?(t.newTier?'新开／提升：'+t.previous+' → '+t.active+'档':'开启'+t.active+'档'):'未开启'):'档位待核实')+'</span>').join('')+'</div>';}
+function emblemComparisonHTML(c,fit){const column=(ids,after)=>'<div><h4>'+ (after?'调整后':'调整前')+'</h4><div class="comparison-units">'+ids.map(id=>'<div class="comparison-unit '+((after?fit.swap.add:fit.swap.remove).includes(id)?(after?'unit-added':'unit-removed'):'')+'"><strong>'+esc(name(id))+'</strong><small>'+((after?fit.swap.add:fit.swap.remove).includes(id)?(after?'补入':'换下'):'保留')+'</small>'+(after?boardEmblemsHTML(fit,id):'')+'</div>').join('')+'</div></div>';return '<div class="emblem-comparison">'+column(fit.beforeUnits,false)+column(fit.units,true)+'</div><small>'+ (fit.baseline?'调整前：'+esc(fit.baseline)+'；两套棋盘的人口可能不同。':'保持当前成型名单，仅增加已选转职。')+'对照卡片不代表站位。</small>';}
 function positioningHTML(c){
+ const emblemPlan=emblemFit(K,c,s);
  const cells=Array.from({length:28},()=>[]),missing=[];
  for(const id of c.units){const h=c.heroes.find(h=>h.id===id)||{},match=typeof h.position==='string'&&h.position.match(/^([1-4]),([1-7])$/);if(match)cells[(Number(match[1])-1)*7+Number(match[2])-1].push(id);else missing.push(id);}
- const piece=id=>{const u=K.units[id]||{},h=c.heroes.find(h=>h.id===id)||{},cost=u.purchasable!==false&&u.cost>=1&&u.cost<=5?u.cost:'special';return `<div class="board-piece cost-${cost}"><strong>${esc(name(id))}</strong><span>${h.stars?'★'.repeat(h.stars)+' '+h.stars+'星':'星级未确认'}</span><small>${esc(h.role||'定位未确认')}</small>${boardEquipmentHTML(c,id)}</div>`;};
+ const piece=id=>{const u=K.units[id]||{},h=c.heroes.find(h=>h.id===id)||{},cost=u.purchasable!==false&&u.cost>=1&&u.cost<=5?u.cost:'special';return `<div class="board-piece cost-${cost}"><strong>${esc(name(id))}</strong><span>${h.stars?'★'.repeat(h.stars)+' '+h.stars+'星':'星级未确认'}</span><small>${esc(h.role||'定位未确认')}</small>${boardEquipmentHTML(c,id)}${boardEmblemsHTML(emblemPlan,id)}</div>`;};
  return `<div class="position-board"><p class="muted">前排 · 靠近对手</p><div class="board-scroll"><div class="hex-board">${Array.from({length:4},(_,r)=>`<div class="hex-row">${cells.slice(r*7,r*7+7).map((ids,col)=>`<div class="hex-cell" aria-label="第${r+1}排第${col+1}格">${ids.map(piece).join('')||'<span class="empty-hex">·</span>'}</div>`).join('')}</div>`).join('')}</div></div><p class="muted">后排 · 己方底线</p></div>${missing.length?'<p class="muted">以下棋子暂无已确认站位，不自动安排格子：</p><div class="unplaced-units">'+missing.map(piece).join('')+'</div>':''}`;
 }
 function formationBoardHTML(c){
- return `<section class="flat-section"><h3>成型棋盘 · 站位与星级</h3><p class="muted">按归档坐标展示；颜色按费用区分，星级沿用来源目标。站位需结合对手调整。</p>${positioningHTML(c)}${expectedTraitsHTML(c,c.units,true)}</section>`;
+ const fit=emblemFit(K,c,s);
+ return `<section class="flat-section"><h3>成型棋盘 · 站位与星级</h3><p class="muted">按归档坐标展示；颜色按费用区分，星级沿用来源目标。站位需结合对手调整。</p>${fit.rows.length?emblemComparisonHTML(c,fit):''}${positioningHTML(c)}${fit.rows.length?emblemTraitsHTML(fit):expectedTraitsHTML(c,c.units,true)}</section>`;
 }
 function fullDirectionHTML(c){
  return `<section class="composition-overview" aria-label="阵容特征"><strong>${esc(c.route)}</strong><span>均名 ${decimal(c.avg)} · 前四 ${decimal(c.top4)}% · 样本 ${num(c.count)}</span></section>${expectedTraitsHTML(c,c.units,true)}<section id="direction-levels" class="flat-section">${levelNavigatorHTML(c)}</section>${gateHTML(c)}${flatSections(branchHTML(c))}${formationBoardHTML(c)}${componentsHTML(c)}<section class="flat-section"><h3>运营路线</h3><p>${esc(c.route)}</p>${c.flow.map(x=>'<p><strong>'+esc(x[0])+'</strong>：'+esc(x[1])+'</p>').join('')||'<p>来源未提供具体搜牌回合。</p>'}</section>${flatSections(recommendationHTML(c))}<p><a href="${esc(c.guide)}">完整阵容攻略</a> · <a href="${esc(c.source)}">数据来源</a></p><small>${esc(c.cohort)}</small>`;
@@ -429,7 +436,7 @@ $('flow-next').addEventListener('click',()=>goStep(s.step+1));$('flow-back').add
 function emblemFitHTML(c){const fit=emblemFit(K,c,s);if(!fit.rows.length)return '';
  return '<div class="coach-current"><strong>转职搭配方案</strong>'+fit.rows.map(r=>'<p><strong>'+esc(r.name)+'</strong> → '+(r.holder?esc(name(r.holder))+' <small>（'+(r.sourced?'来源指定':'推导：优先非核心、少承装棋子')+'）</small>':'暂无可确认的携带者')+(r.needsSlot?'<br><small>该棋子推荐装备已占满，需腾出1个装备位；不直接覆盖核心装备。</small>':'')+'</p>').join('')+
  '<p><strong>补入：</strong>'+esc(names(fit.swap.add)||'无需补人')+'<br><strong>换下：</strong>'+esc(names(fit.swap.remove)||'无需换人，保留当前成型名单')+'</p>'+(fit.baseline?'<small>以上换人相对于已收录的「'+esc(fit.baseline)+'」棋盘；不同人口需先升级。</small>':'<small>没有对应的换人来源，按现有成型名单分配转职。</small>')+
- '<p><strong>调整后的成型阵容与羁绊</strong></p><p>'+esc(names(fit.units))+'</p>'+fit.traits.map(t=>'<span class="badge">'+esc(t.name)+' '+t.count+'人 · '+(t.verified?(t.active?'开启'+t.active+'档':'未开启'):'档位待核实')+'</span>').join('')+'<small>多转职按同一棋盘累计，每种按1枚计算。未核实档位不借用另一游戏的数据；推导搭配未验证实战强度。</small></div>';
+ '<p><strong>调整后的成型阵容与羁绊</strong></p><p>'+esc(names(fit.units))+'</p>'+emblemComparisonHTML(c,fit)+emblemTraitsHTML(fit)+'<small>多转职按同一棋盘累计，每种按1枚计算。未核实档位不借用另一游戏的数据；推导搭配未验证实战强度。</small></div>';
 }
 
 function transitionCoachHTML(cs){
