@@ -90,11 +90,12 @@ console.log('PASS: top cards start collapsed, reasons/core/material gaps visible
 
 elements.get('reset').handlers.click();choose(groups[0].key);
 const hexCards=elements.get('combined-recommendations').innerHTML;
-assert.equal((hexCards.match(/recommendation-card hex-direction/g)||[]).length,groups[0].comps.length);
+const eligibleCount=keys=>K.comps.filter(c=>keys.every(k=>c.augments.some(a=>U.augmentKey(a)===k))).map(c=>U.activeComp(K,c,{owned:[],ownedEmblems:[],augments:keys})).filter(c=>U.recommendationEligible(K,c,{owned:[],ownedEmblems:[],augments:keys})).length;
+assert.equal((hexCards.match(/recommendation-card hex-direction/g)||[]).length,eligibleCount([groups[0].key]));
 assert(hexCards.includes('符合已选海克斯'));assert(!hexCards.includes('把手里的牌告诉我'));
 assert.equal(elements.get('flow-output').hidden,false);
 choose(groups[1].key);
-const intersection=groups[0].comps.filter(id=>groups[1].comps.includes(id)).length;
+const intersection=eligibleCount([groups[0].key,groups[1].key]);
 assert.equal((elements.get('combined-recommendations').innerHTML.match(/recommendation-card hex-direction/g)||[]).length,intersection);
 console.log('PASS: choosing a hex immediately shows every matching direction without hand/items; multiple hexes intersect.');
 elements.get('reset').handlers.click();
@@ -118,7 +119,7 @@ elements.get('component-stock').handlers.input({target:{dataset:{component:'法�
 for(const a of wolf.augments.slice(1,3)){
  const key=U.augmentKey(a);addNext(key);selectedKeys.push(key);
  const expected=K.comps.filter(c=>selectedKeys.every(key=>c.augments.some(a=>U.augmentKey(a)===key)));
- assert.equal((elements.get('combined-recommendations').innerHTML.match(/recommendation-card hex-direction/g)||[]).length,expected.length);
+ assert.equal((elements.get('combined-recommendations').innerHTML.match(/recommendation-card hex-direction/g)||[]).length,eligibleCount(selectedKeys));
  assert(elements.get('selected-augments').innerHTML.includes(a.name));assert(elements.get('flow-0').innerHTML.includes(a.name));
  assert(elements.get('flow-1').innerHTML.includes(K.units[common.ids[0]].name));assert(elements.get('flow-2').innerHTML.includes('法杖 × 2'));
 }
@@ -180,3 +181,18 @@ const elise=pieces.find(p=>p.includes('<strong>伊莉丝</strong>'));
 assert(elise.includes('推荐配装 · C级'));
 assert(elise.includes('石像鬼石板甲'));
 console.log('PASS: per-unit board equipment matches recommended combinations and original grades.');
+
+elements.get('reset').handlers.click();
+const defender=K.comps.find(c=>c.source_id==='426000');
+const painful=defender.augments.find(a=>a.name==='D个痛快！'||a.name==='D个痛快!');assert(painful);
+choose(U.augmentKey(painful));
+const assertDefender=expected=>assert.equal(elements.get('combined-recommendations').innerHTML.includes('data-direction="'+defender.id+'"'),expected);
+assertDefender(false);
+elements.get('flow-nav').handlers.click({target:{closest:()=>({dataset:{step:'2'}})}});
+elements.get('component-stock').handlers.input({target:{dataset:{component:'大剑'},value:'2'}});
+assertDefender(false);
+elements.get('owned-emblems').handlers.change({target:{matches:()=>true,value:'护卫纹章',checked:true}});
+assertDefender(true);
+elements.get('owned-emblems').handlers.change({target:{matches:()=>true,value:'护卫纹章',checked:false}});
+assertDefender(false);
+console.log('PASS: no defender recommendation without emblem, including component-only state; selecting/removing emblem updates it.');

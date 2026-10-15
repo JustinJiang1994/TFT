@@ -19,5 +19,5 @@ const f=get('426002');assert.deepEqual(f.final_branches.with_emblem.units,f.fina
 const alt=activeComp(K,get('426001'),base);assert.equal(alt.active_final.relation,'alternative');assert(!alt.units.some(i=>K.units[i].name==='绯红印记树怪'));assert(alt.units.some(i=>K.units[i].name==='奈德丽'));
 assert(activeComp(K,get('426021'),{...base,ownedEmblems:get('426021').emblems}).branch_fallback);
 assert(activeComp(K,get('426037'),base).branch_gap);
-const hand=alt.units.slice(0,5);const p=plan(K,get('426001'),{...base,owned:hand});assert(p.length);assert.equal(p[0].units.length,4);
+const hand=alt.units.slice(0,5);const p=plan(K,get('426001'),{...base,owned:hand});assert.deepEqual(p,[]); // Alternative-route evidence cannot authorize a recommendation.
 console.log('PASS: 4 paired boards, 3 baseline fallbacks, one honest gap; automatic emblem/inventory switch, exact swaps, branch-specific roles/builds and no inherited ratings.');

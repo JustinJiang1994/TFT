@@ -1,0 +1,340 @@
+{
+  "scope": "Archived project snapshots, not fresh live-meta verification",
+  "sources": [
+    "games/jcc/set18/18.3/snapshots/20261013T083011Z/data/raw/comps/*/detail.json",
+    "research/2026-10-15-dual-source/tft/emblem-verification/audit.json"
+  ],
+  "rows": [
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z:104",
+      "name": "野怪小红",
+      "required": [],
+      "emblemPolicy": null,
+      "recommendedWithoutPrerequisites": true,
+      "source": "https://www.dataj.cc/comp/104"
+    },
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z:87",
+      "name": "献祭三狼",
+      "required": [],
+      "emblemPolicy": null,
+      "recommendedWithoutPrerequisites": true,
+      "source": "https://www.dataj.cc/comp/87"
+    },
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z:120",
+      "name": "黑暗仪式蜘蛛",
+      "required": [
+        {
+          "kind": "augment",
+          "name": "黑暗仪式"
+        }
+      ],
+      "emblemPolicy": null,
+      "recommendedWithoutPrerequisites": false,
+      "source": "https://www.dataj.cc/comp/120"
+    },
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z:113",
+      "name": "古纳拉95",
+      "required": [],
+      "emblemPolicy": null,
+      "recommendedWithoutPrerequisites": true,
+      "source": "https://www.dataj.cc/comp/113"
+    },
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z:100",
+      "name": "重装女警",
+      "required": [],
+      "emblemPolicy": null,
+      "recommendedWithoutPrerequisites": true,
+      "source": "https://www.dataj.cc/comp/100"
+    },
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z:110",
+      "name": "射箭韦鲁斯",
+      "required": [],
+      "emblemPolicy": null,
+      "recommendedWithoutPrerequisites": true,
+      "source": "https://www.dataj.cc/comp/110"
+    },
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z:106",
+      "name": "主宰女警",
+      "required": [],
+      "emblemPolicy": null,
+      "recommendedWithoutPrerequisites": true,
+      "source": "https://www.dataj.cc/comp/106"
+    },
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z:91",
+      "name": "永森95",
+      "required": [],
+      "emblemPolicy": null,
+      "recommendedWithoutPrerequisites": true,
+      "source": "https://www.dataj.cc/comp/91"
+    },
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z:99",
+      "name": "7野怪鸡哥",
+      "required": [],
+      "emblemPolicy": null,
+      "recommendedWithoutPrerequisites": true,
+      "source": "https://www.dataj.cc/comp/99"
+    },
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z:116",
+      "name": "裁决螳螂",
+      "required": [],
+      "emblemPolicy": null,
+      "recommendedWithoutPrerequisites": true,
+      "source": "https://www.dataj.cc/comp/116"
+    },
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z:114",
+      "name": "5迅射月男",
+      "required": [
+        {
+          "kind": "item",
+          "name": "迅捷射手纹章"
+        }
+      ],
+      "emblemPolicy": null,
+      "recommendedWithoutPrerequisites": false,
+      "source": "https://www.dataj.cc/comp/114"
+    },
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z:115",
+      "name": "卡丽蜜儿",
+      "required": [
+        {
+          "kind": "augment",
+          "name": "宝宝学院"
+        }
+      ],
+      "emblemPolicy": null,
+      "recommendedWithoutPrerequisites": false,
+      "source": "https://www.dataj.cc/comp/115"
+    },
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z:89",
+      "name": "巨龙95",
+      "required": [],
+      "emblemPolicy": null,
+      "recommendedWithoutPrerequisites": true,
+      "source": "https://www.dataj.cc/comp/89"
+    },
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z:105",
+      "name": "森林月男",
+      "required": [
+        {
+          "kind": "item",
+          "name": "永恒之森纹章"
+        }
+      ],
+      "emblemPolicy": null,
+      "recommendedWithoutPrerequisites": false,
+      "source": "https://www.dataj.cc/comp/105"
+    },
+    {
+      "id": "jcc-s18-18.3-20261013T083011Z:112",
+      "name": "地狱火95",
+      "required": [
+        {
+          "kind": "item",
+          "name": "地狱火纹章"
+        }
+      ],
+      "emblemPolicy": null,
+      "recommendedWithoutPrerequisites": false,
+      "source": "https://www.dataj.cc/comp/112"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426003",
+      "name": "绝命花妖 / 阿兹尔",
+      "required": [],
+      "emblemPolicy": null,
+      "recommendedWithoutPrerequisites": true,
+      "source": "https://www.metatft.com/comps"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426007",
+      "name": "峡谷野怪 / 苍蓝哨戒",
+      "required": [],
+      "emblemPolicy": null,
+      "recommendedWithoutPrerequisites": true,
+      "source": "https://www.metatft.com/comps"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426000",
+      "name": "护卫 / 雷恩加尔",
+      "required": [
+        {
+          "kind": "item",
+          "name": "护卫纹章"
+        }
+      ],
+      "emblemPolicy": "required",
+      "recommendedWithoutPrerequisites": false,
+      "source": "https://www.metatft.com/comps"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426027",
+      "name": "重装战士 / 莫甘娜",
+      "required": [],
+      "emblemPolicy": null,
+      "recommendedWithoutPrerequisites": true,
+      "source": "https://www.metatft.com/comps"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426002",
+      "name": "永恒之森 / 伊泽瑞尔 / 厄斐琉斯",
+      "required": [],
+      "emblemPolicy": "optional",
+      "recommendedWithoutPrerequisites": true,
+      "source": "https://www.metatft.com/comps"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426004",
+      "name": "月蚀骑士 / 厄斐琉斯 / 奈德丽",
+      "required": [],
+      "emblemPolicy": null,
+      "recommendedWithoutPrerequisites": true,
+      "source": "https://www.metatft.com/comps"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426021",
+      "name": "迅捷射手 / 凯尔",
+      "required": [],
+      "emblemPolicy": "optional",
+      "recommendedWithoutPrerequisites": true,
+      "source": "https://www.metatft.com/comps"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426008",
+      "name": "重装战士 / 拉露恩",
+      "required": [],
+      "emblemPolicy": null,
+      "recommendedWithoutPrerequisites": true,
+      "source": "https://www.metatft.com/comps"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426006",
+      "name": "神谕 / 提莫 / 阿利斯塔",
+      "required": [],
+      "emblemPolicy": null,
+      "recommendedWithoutPrerequisites": true,
+      "source": "https://www.metatft.com/comps"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426001",
+      "name": "迅捷射手 / 厄斐琉斯",
+      "required": [
+        {
+          "kind": "item",
+          "name": "迅捷射手纹章"
+        }
+      ],
+      "emblemPolicy": "required",
+      "recommendedWithoutPrerequisites": false,
+      "source": "https://www.metatft.com/comps"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426005",
+      "name": "裁决使 / 瑟提",
+      "required": [],
+      "emblemPolicy": null,
+      "recommendedWithoutPrerequisites": true,
+      "source": "https://www.metatft.com/comps"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426012",
+      "name": "裁决使 / 卡兹克",
+      "required": [],
+      "emblemPolicy": null,
+      "recommendedWithoutPrerequisites": true,
+      "source": "https://www.metatft.com/comps"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426013",
+      "name": "神谕 / 提莫",
+      "required": [],
+      "emblemPolicy": null,
+      "recommendedWithoutPrerequisites": true,
+      "source": "https://www.metatft.com/comps"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426014",
+      "name": "法师 / 维迦",
+      "required": [],
+      "emblemPolicy": null,
+      "recommendedWithoutPrerequisites": true,
+      "source": "https://www.metatft.com/comps"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426010",
+      "name": "神谕 / 阿狸",
+      "required": [],
+      "emblemPolicy": null,
+      "recommendedWithoutPrerequisites": true,
+      "source": "https://www.metatft.com/comps"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426009",
+      "name": "神谕 / 莫甘娜",
+      "required": [],
+      "emblemPolicy": null,
+      "recommendedWithoutPrerequisites": true,
+      "source": "https://www.metatft.com/comps"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426037",
+      "name": "狂战士 / 绯红印记树怪",
+      "required": [],
+      "emblemPolicy": "unknown",
+      "recommendedWithoutPrerequisites": false,
+      "source": "https://www.metatft.com/comps"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426022",
+      "name": "魔战士 / 易 / 雷恩加尔",
+      "required": [],
+      "emblemPolicy": "optional",
+      "recommendedWithoutPrerequisites": true,
+      "source": "https://www.metatft.com/comps"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426011",
+      "name": "永恒之森 / 德莱文",
+      "required": [],
+      "emblemPolicy": null,
+      "recommendedWithoutPrerequisites": true,
+      "source": "https://www.metatft.com/comps"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426023",
+      "name": "狂战士 / 沃里克",
+      "required": [],
+      "emblemPolicy": null,
+      "recommendedWithoutPrerequisites": true,
+      "source": "https://www.metatft.com/comps"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426016",
+      "name": "猎人 / 希维尔",
+      "required": [],
+      "emblemPolicy": "optional",
+      "recommendedWithoutPrerequisites": true,
+      "source": "https://www.metatft.com/comps"
+    },
+    {
+      "id": "tft-s18-18.4b-20261015:426029",
+      "name": "魔战士 / 易",
+      "required": [],
+      "emblemPolicy": "optional",
+      "recommendedWithoutPrerequisites": true,
+      "source": "https://www.metatft.com/comps"
+    }
+  ]
+}

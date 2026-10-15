@@ -39,13 +39,14 @@ function activeComp(K,c,s){
  if(!b)return {...c,branch_gap:true};
  const fallback=has&&b.key!=='with_emblem';
  const sourceBoard={level:b.level,units:b.units,stars:Object.fromEntries(b.members.filter(m=>m.stars).map(m=>[m.id,m.stars])),avg:null,top4:null,count:null,source:b.source};
- return {...c,active_final:b,branch_fallback:fallback,original_units:c.units,original_tier:c.tier,units:b.units,traits:[],tier:'未单评',avg:null,top4:null,count:null,
+ return {...c,name:b.relation==='alternative'?b.title:c.name,augments:b.relation==='alternative'?[]:c.augments,active_final:b,branch_fallback:fallback,original_units:c.units,original_tier:c.tier,units:b.units,traits:[],tier:'未单评',avg:null,top4:null,count:null,
   conditions:c.conditions.filter(x=>!(x.kind==='item'&&c.emblems.includes(x.name)&&b.key==='without_emblem')),
   heroes:b.heroes?b.heroes.map(h=>({...h,stars:b.members.find(m=>m.id===h.id)?.stars})):b.members.map(m=>({...(!b.relation||b.relation!=='alternative'?c.heroes.find(h=>h.id===m.id)||{}:{}),id:m.id,role:(!b.relation||b.relation!=='alternative'?c.heroes.find(h=>h.id===m.id)?.role:null)||'本变体职责未核实',stars:m.stars})),
   builds:b.members.filter(m=>m.items.length).map(m=>({unit:m.id,items:m.items,avg:null,count:null,tier:null,source:'当前变体攻略配装（未提供的部件不补造）'})),
   boards:[sourceBoard],cohort:'当前展示攻略变体，未单独统计评级/均名；原方向榜单评级 '+c.tier+' 不自动转用于此变体。'};
 }
 
+function recommendationEligible(K,c,s){c=activeComp(K,c,s);const gate=eligibility(K,c,s);return c.active_final?.relation!=='alternative'&&!c.branch_gap&&!gate.pending.length&&gate.ready;}
 function eligibility(K,c,s){
  const equipped=(s.owned||[]).filter(i=>K.units[i]?.version===c.version).flatMap(i=>profile(K,s,i).items);
  const names=new Set([...(s.ownedEmblems||[]),...[...(s.bag||[]),...equipped].filter(i=>K.items[i]?.version===c.version).map(i=>K.items[i].name)]);
@@ -56,7 +57,7 @@ function eligibility(K,c,s){
 
 function plan(K,c,s){
  c=activeComp(K,c,s);
- if(!eligibility(K,c,s).ready)return [];
+ if(!recommendationEligible(K,c,s))return [];
  const level=Number(s.current),owned=[...new Set(s.owned)].filter(i=>K.units[i]?.version===c.version);
  const eligible=owned.filter(i=>!K.units[i].special&&K.units[i].purchasable!==false);
  const qualities=new Map(eligible.map(i=>[i,combatQuality(K,s,i).value]));
@@ -98,7 +99,7 @@ function materialFit(K,c,s){const p=componentPlan(K,c),stock=cleanStock(K,s.comp
  const priority=Object.keys(primary.missing).sort((a,b)=>Number(!!finish[b])-Number(!!finish[a])||primary.missing[b]-primary.missing[a]||a.localeCompare(b));
  return {c,p,primary,total,finish,priority,confidence:complete?2:primaryComplete?1:0,ready:eligibility(K,c,s).ready,uncertain:eligibility(K,c,s).pending.length>0,alternative:c.active_final?.relation==='alternative'};
 }
-function rankMaterials(K,cs,s){return cs.map(c=>materialFit(K,c,s)).sort((a,b)=>Number(b.ready)-Number(a.ready)||Number(a.alternative)-Number(b.alternative)||Number(a.uncertain)-Number(b.uncertain)||b.confidence-a.confidence||b.primary.ratio-a.primary.ratio||b.total.ratio-a.total.ratio||b.total.matched-a.total.matched||a.c.name.localeCompare(b.c.name,'zh-CN'));}
+function rankMaterials(K,cs,s){return cs.map(c=>activeComp(K,c,s)).filter(c=>recommendationEligible(K,c,s)).map(c=>materialFit(K,c,s)).sort((a,b)=>Number(b.ready)-Number(a.ready)||Number(a.alternative)-Number(b.alternative)||Number(a.uncertain)-Number(b.uncertain)||b.confidence-a.confidence||b.primary.ratio-a.primary.ratio||b.total.ratio-a.total.ratio||b.total.matched-a.total.matched||a.c.name.localeCompare(b.c.name,'zh-CN'));}
 
 function craftSequence(K,c,s,board,fit){const stock=cleanStock(K,s.componentStock),assigned=new Map((board?.units||[]).map(i=>[i,[]])),steps=[];
  const recipes=fit.p.rows.flatMap((r,priority)=>(r.build?.items||[]).map(item=>({target:r.unit,item,priority})));
@@ -116,7 +117,7 @@ function combinedRecommendations(K,cs,s){const references=[],ranked=[];
  const rosterRatio=retained.length/Math.max(1,c.units.length),coreRatio=cores.length?coreHeld.length/cores.length:0,boardRatio=(b?.units.length||0)/Math.max(1,Number(s.current));
  const score=30*rosterRatio+20*coreRatio+30*fit.primary.ratio+10*fit.total.ratio+10*boardRatio;
  const row={c,fit,board:b,score,retained,cores,coreHeld,missingCore:cores.filter(i=>!owned.has(i)),missingMembers:c.units.filter(i=>!owned.has(i)),craft:boardOptions[0]?.craft||{steps:[],remaining:cleanStock(K,s.componentStock)}};
- if(!fit.ready||fit.alternative||fit.uncertain||c.branch_gap||!fit.confidence||!b)references.push(row);else ranked.push(row);}
+ if(!recommendationEligible(K,c,s)||!fit.confidence||!b)references.push(row);else ranked.push(row);}
  ranked.sort((a,b)=>b.score-a.score||b.fit.confidence-a.fit.confidence||a.c.name.localeCompare(b.c.name,'zh-CN'));
  const seen=new Set(),top=[];for(const r of ranked){const signature=JSON.stringify(r.c.units.map(i=>[K.units[i].name,K.units[i].cost]).sort((a,b)=>a[0].localeCompare(b[0])));if(seen.has(signature))continue;seen.add(signature);if(top.length<3)top.push(r);}
  return {top,references,eligible:ranked.length};
@@ -169,7 +170,7 @@ function transitionRoute(K,c){
   previous={level:l.level,units:chosen.units};return row;
  });
 }
-const api={recommendedBuilds,expectedTraits,transitionRoute,levelVariants,formationProfile,craftSequence,combinedRecommendations,componentName,stockOptions,cleanStock,matchMaterials,materialFit,rankMaterials,recipeParts,componentSummary,componentPlan,activeComp,boardDifference,ownedEmblemNames,eligibility,unitGroups,chooseUnit,setSharedProfile,profile,containsItems,combatQuality,evidenceBuild,transfers,directions,naturalTraits,unitRole,plan,scoped,boardRows,select,changeVersion,augmentKey,augmentGroups};if(typeof module!=='undefined')module.exports=api;
+const api={recommendationEligible,recommendedBuilds,expectedTraits,transitionRoute,levelVariants,formationProfile,craftSequence,combinedRecommendations,componentName,stockOptions,cleanStock,matchMaterials,materialFit,rankMaterials,recipeParts,componentSummary,componentPlan,activeComp,boardDifference,ownedEmblemNames,eligibility,unitGroups,chooseUnit,setSharedProfile,profile,containsItems,combatQuality,evidenceBuild,transfers,directions,naturalTraits,unitRole,plan,scoped,boardRows,select,changeVersion,augmentKey,augmentGroups};if(typeof module!=='undefined')module.exports=api;
 if(typeof document==='undefined')return;
 const K=JSON.parse(document.getElementById('data').textContent),E=root.KnowledgeEngine,$=id=>document.getElementById(id),esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const defaults={step:0,version:'all',mode:'all',current:4,target:8,tier:'all',search:'',owned:[],profiles:{},bag:[],ownedEmblems:[],emblem:'',augment:'',augments:[],showAll:false};let s={...defaults};
@@ -261,7 +262,7 @@ function fullDirectionHTML(c){
  return `<section class="composition-overview" aria-label="阵容特征"><strong>${esc(c.route)}</strong><span>均名 ${decimal(c.avg)} · 前四 ${decimal(c.top4)}% · 样本 ${num(c.count)}</span></section>${expectedTraitsHTML(c,c.units,true)}<section id="direction-levels" class="flat-section">${levelNavigatorHTML(c)}</section>${gateHTML(c)}${flatSections(branchHTML(c))}${formationBoardHTML(c)}${componentsHTML(c)}<section class="flat-section"><h3>运营路线</h3><p>${esc(c.route)}</p>${c.flow.map(x=>'<p><strong>'+esc(x[0])+'</strong>：'+esc(x[1])+'</p>').join('')||'<p>来源未提供具体搜牌回合。</p>'}</section>${flatSections(recommendationHTML(c))}<p><a href="${esc(c.guide)}">完整阵容攻略</a> · <a href="${esc(c.source)}">数据来源</a></p><small>${esc(c.cohort)}</small>`;
 }
 
-function card(c){const v=version(c);return `<article id="comp-${esc(c.id)}"><small class="version-label">${esc(v.label)}</small> <span class="badge tier">${esc(c.tier)}</span><h2>${esc(c.name)}</h2>${gateHTML(c)}${branchHTML(c)}${componentsHTML(c)}<p>${esc(c.route)} · 均名 ${decimal(c.avg)} · 前四 ${decimal(c.top4)}% · 样本 ${num(c.count)}</p><p>${esc(names(c.units))}</p><p class="muted">${esc(c.traits.join(' / '))}</p>${recommendationHTML(c)}${c.situational&&!c.emblem_policy?`<p>条件分支标记：${esc(c.emblems.join('、')||'来源命名标记')}；属于使用率／命名规则，不自动视为硬性入场条件。</p>`:''}${c.conditions.length?`<p>来源入场条件：${esc(c.conditions.map(x=>x.name).join('、'))}</p>`:''}<details class="card-detail" data-id="${esc(c.id)}"><summary>查看补牌、装备与运营</summary><div class="detail-body"></div></details><p><a href="${esc(c.guide)}">${v.game==='TFT'?'完整名单与核实依据':'完整阵容攻略'}</a> · <a href="${esc(c.source)}">数据来源</a>${c.raw?` · <a href="${esc(c.raw)}">原始详情</a>`:''}</p><small>${esc(c.cohort)}</small></article>`;}
+function card(c){const v=version(c);return `<article id="comp-${esc(c.id)}"><small class="version-label">${esc(v.label)}</small> <span class="badge tier">${esc(c.tier)}</span><h2>${esc(c.name)}</h2>${!recommendationEligible(K,c,s)?'<p class="muted"><strong>仅供查阅 · 不进入当前推荐</strong>：前置条件未满足或路线尚未核实。</p>':''}${gateHTML(c)}${branchHTML(c)}${componentsHTML(c)}<p>${esc(c.route)} · 均名 ${decimal(c.avg)} · 前四 ${decimal(c.top4)}% · 样本 ${num(c.count)}</p><p>${esc(names(c.units))}</p><p class="muted">${esc(c.traits.join(' / '))}</p>${recommendationHTML(c)}${c.situational&&!c.emblem_policy?`<p>条件分支标记：${esc(c.emblems.join('、')||'来源命名标记')}；属于使用率／命名规则，不自动视为硬性入场条件。</p>`:''}${c.conditions.length?`<p>来源入场条件：${esc(c.conditions.map(x=>x.name).join('、'))}</p>`:''}<details class="card-detail" data-id="${esc(c.id)}"><summary>查看补牌、装备与运营</summary><div class="detail-body"></div></details><p><a href="${esc(c.guide)}">${v.game==='TFT'?'完整名单与核实依据':'完整阵容攻略'}</a> · <a href="${esc(c.source)}">数据来源</a>${c.raw?` · <a href="${esc(c.raw)}">原始详情</a>`:''}</p><small>${esc(c.cohort)}</small></article>`;}
 function gear(c){return `<details><summary>已有装备补全 · ${c.builds.length}条出装记录</summary><p>每条出装保留来源均名与样本；未评级不等于 S/A。重复装备分别计件。统计相关性不代表必做。</p><div class="gear" data-id="${esc(c.id)}"><label>携带者<select class="carrier">${E.unique(c.builds.map(b=>b.unit)).map(i=>`<option value="${esc(i)}">${esc(name(i))}</option>`).join('')}</select></label><div class="gear-choices"></div><div class="gear-result"></div></div></details>`;}
 function detail(c){return boardHTML(c)+`<details><summary>棋子职责与星级</summary>${c.heroes.map(h=>`<p>${esc(name(h.id))} · ${esc(h.role)} · ${h.stars?`${h.stars}星（来源标记）`:'星级未标'}</p>`).join('')}</details>`+gear(c)+`<details><summary>运营与海克斯</summary><p>${esc(c.route)}</p><p>${esc(c.flow.map(x=>x.join('：')).join(' → ')||'来源仅提供运营类型，未核实具体搜牌回合。')}</p>${c.augments.map(a=>`<p>${esc(({1:'银色',2:'金色',3:'棱彩'})[a.rarity]||'未标阶位')} · ${esc(a.name)}${a.sources?' · 攻略明确推荐':' · 均名 '+decimal(a.avg)+' · 样本 '+num(a.count)}</p>`).join('')||'<p>本次未接入经核实的推荐关系；不表示没有适配海克斯。</p>'}</details>`;}
 function fill(box,c,added=[]){
@@ -352,15 +353,15 @@ function goStep(step){s.step=Math.max(0,Math.min(2,step));if(s.step>0&&!s.augmen
 $('flow-nav').addEventListener('click',e=>{const b=e.target.closest('[data-step]');if(b)goStep(Number(b.dataset.step));});
 $('flow-next').addEventListener('click',()=>goStep(s.step+1));$('flow-back').addEventListener('click',()=>goStep(s.step-1));
 function render(){
- const rows=directions(K,s),scope=scoped(K,s),groups=augmentGroups(K,s);
- $('status').textContent=s.augments.length?`已选 ${s.augments.length} 个海克斯 · ${rows.length} 套共同推荐方向 · ${rows.filter(c=>eligibility(K,c,s).ready).length} 套满足已记录前置`:`${groups.length} 个推荐海克斯 · 覆盖 ${scope.filter(c=>c.augments.length).length} / ${scope.length} 套阵容`;
+ const rows=directions(K,s),eligibleRows=rows.filter(c=>recommendationEligible(K,c,s)),scope=scoped(K,s),groups=augmentGroups(K,s);
+ $('status').textContent=s.augments.length?`已选 ${s.augments.length} 个海克斯 · ${eligibleRows.length} 套可推荐方向 · ${rows.length-eligibleRows.length} 套因前置未满足或路线待核实而排除`:`${groups.length} 个推荐海克斯 · 覆盖 ${scope.filter(c=>c.augments.length).length} / ${scope.length} 套阵容`;
  $('results').innerHTML=!s.augments.length&&!s.showAll?'<div class="note"><h2>先选一个你拿到的海克斯</h2><p>这里会显示它能走向的最终阵容、成型棋子、运营路线和推荐依据。拿到第二个海克斯后可继续点击，找共同方向。</p></div>':rows.map(card).join('')||'<p class="note">没有同时推荐这些海克斯的已收录阵容。可以取消一项查看其他方向；未收录不代表无法搭配。</p>';
- $('combined-recommendations').innerHTML=(!s.augments.length&&!s.showAll)?'<div class="note"><h2>先选海克斯，再决定往哪走</h2><p class="muted">在第一个节点选择已拿到的海克斯，再补充手牌和散件。选择后这里立即显示匹配阵容，无需先填写手牌。</p></div>':(s.step===0||!s.owned.length?hexDirectionsHTML(rows):combinedHTML(rows));
+ $('combined-recommendations').innerHTML=(!s.augments.length&&!s.showAll)?'<div class="note"><h2>先选海克斯，再决定往哪走</h2><p class="muted">在第一个节点选择已拿到的海克斯，再补充手牌和散件。选择后这里立即显示匹配阵容，无需先填写手牌。</p></div>':(s.step===0||!s.owned.length?hexDirectionsHTML(eligibleRows):combinedHTML(eligibleRows));
  $('hand-count').textContent=unitGroups(K,s).filter(g=>g.ids.some(id=>s.owned.includes(id))).length+' 名';
  $('emblem-count').textContent=s.ownedEmblems.length?s.ownedEmblems.length+' 个':'';
- $('material-matches').innerHTML=(!s.augments.length&&!s.showAll)?'':materialsHTML(rows);
+ $('material-matches').innerHTML=(!s.augments.length&&!s.showAll)?'':materialsHTML(eligibleRows);
  $('planning-input').hidden=!s.augments.length&&!s.showAll;
- $('plans').innerHTML=(!s.augments.length&&!s.showAll)?'':planningHTML(rows);
+ $('plans').innerHTML=(!s.augments.length&&!s.showAll)?'':planningHTML(eligibleRows);
  renderAugments();flowRender();save();
 }
 $('coverage').innerHTML=`<p>金铲铲15套有来源推荐；TFT ${K.augment_coverage.tft_covered}/22套接入作者推荐（其中${K.augment_coverage.related_only}套仅有相关分支参考），另${K.augment_coverage.tft_total-K.augment_coverage.tft_covered}套保留缺口。</p><ul>${K.comps.filter(c=>c.augment_gap).map(c=>`<li>${esc(c.name)}：${esc(c.augment_gap)}</li>`).join('')}</ul><p>另有${K.augment_coverage.unmapped.length}个来源条目无法核实中文名与阶位，未进入筛选。</p>`;
