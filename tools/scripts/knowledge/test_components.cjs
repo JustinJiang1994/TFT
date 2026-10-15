@@ -6,6 +6,6 @@ let x=U.componentSummary(K,[{unit:'a',build:{items:[rage,rage]}},{unit:'b',build
 assert.equal(U.recipeParts({items:{a:{version:'x',recipe:['a']}}},'a'),null);
 assert.equal(U.recipeParts({items:{a:{version:'x',recipe:['b']},b:{version:'y',component:true}}},'a'),null);
 assert.equal(U.componentSummary(K,[{unit:'a',build:{items:['unknown']}}]).special.length,1);
-for(const c of K.comps){const p=U.componentPlan(K,c);const used=p.rows.filter(r=>!r.missing).map(r=>r.unit);assert.equal(used.length,new Set(used).size);assert(used.every(i=>c.units.includes(i)));assert(p.rows.every(r=>r.missing||c.builds.includes(r.build)));}
+for(const c of K.comps){const p=U.componentPlan(K,c);const used=p.rows.filter(r=>!r.missing).map(r=>r.unit);assert.equal(used.length,new Set(used).size);assert(used.every(i=>c.units.includes(i)));assert(p.rows.every(r=>r.missing||[...c.builds,...(c.cross_game_builds||[])].includes(r.build)));}
 const c=K.comps.find(c=>c.source_id==='426029');const no=U.activeComp(K,c,{owned:[],ownedEmblems:[],bag:[]}),yes=U.activeComp(K,c,{owned:[],ownedEmblems:c.emblems,bag:[]});const p=U.componentPlan(K,no);assert(p.rows.find(r=>r.role==='主C').unit.endsWith('DA_18_MasterYi_AD'));assert.notDeepEqual(U.componentPlan(K,yes).total.counts,p.total.counts);
 console.log('PASS: recipe expansion, repeated items across carriers, unknown/special/cyclic recipes, source-only builds, unique carriers, active branch changes totals.');

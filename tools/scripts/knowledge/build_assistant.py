@@ -6,6 +6,7 @@ from verify_metatft import verify
 from audit_augments import audit
 from branch_boards import build_branches
 from role_evidence import apply_roles
+from cross_game_equipment import supplement
 ROOT = Path(__file__).resolve().parents[3]
 OUT = ROOT / 'games/assistant'
 CAP = ROOT / 'research/2026-10-15-dual-source/tft'
@@ -108,6 +109,7 @@ def build():
         if c['version']==versions[1]['id'] and c.get('emblem_policy'):
             c['final_branches']=branches.get(c['source_id'],{})
     apply_roles(comps)
+    supplement(comps, units, items)
     result=dict(trait_catalog=traits,versions=versions,comps=comps,units=units,items=items,augment_coverage=dict(tft_covered=augment_audit["covered"],tft_total=22,related_only=sum(bool(r["augments"]) and all(p["match"]=="related" for a in r["augments"] for p in a["sources"]) for r in augment_audit["rows"]),unmapped=augment_audit["unmapped"]),
                 provenance=dict(planner='星级、费用、同版本整套装备适配、自然羁绊与棋盘重合度的启发式建议；非战斗模拟或胜率统计，未计站位、对手、转职及动态羁绊。',trait_sources=['games/jcc/set18/18.3/snapshots/20261013T083011Z/data/raw/catalog.json','research/2026-10-15-dual-source/tft/raw/lookup-zh_cn.json'],jcc=str(jp.relative_to(ROOT)),jcc_sha256=hashlib.sha256(jp.read_bytes()).hexdigest(),tft='research/2026-10-15-dual-source/tft/verification/verified-sa.json'))
     assert len(comps)==37 and len({c['id'] for c in comps})==37
