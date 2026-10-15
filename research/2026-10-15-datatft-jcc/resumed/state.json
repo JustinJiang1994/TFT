@@ -1,0 +1,2524 @@
+{
+  "source": "https://jcc.datatft.com/",
+  "scope": {
+    "season": "18",
+    "version": "jcc_18.3",
+    "tier": "grandmaster",
+    "time": 5
+  },
+  "requests": {
+    "team-list": {
+      "key": "team-list",
+      "url": "https://api.datatft.com/team/list",
+      "method": "POST",
+      "body": {
+        "season": "18",
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "time": 5
+      },
+      "at": "2026-10-15T04:35:06.360872+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/team-list.json",
+      "sha256": "4f159a02e3e9437d65a636841607f679e2c29e0370abb82f43263e7afe5e4bbd",
+      "bytes": 29684
+    },
+    "team-comps": {
+      "key": "team-comps",
+      "url": "https://api.datatft.com/team/comps",
+      "method": "POST",
+      "body": {
+        "season": "18"
+      },
+      "at": "2026-10-15T04:35:07.105236+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/team-comps.json",
+      "sha256": "6ee0ac171165680614b37a27dda26149758f1f4fcb5a19705ee311925c029760",
+      "bytes": 4646
+    },
+    "team-rank": {
+      "key": "team-rank",
+      "url": "https://api.datatft.com/team/rank",
+      "method": "POST",
+      "body": {
+        "season": "18"
+      },
+      "at": "2026-10-15T04:35:07.775832+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/team-rank.json",
+      "sha256": "31d5497b44adae36cd2c9c7c816e18fd1bd62a3ece109a396581e868d73a12b7",
+      "bytes": 14181
+    },
+    "home": {
+      "key": "home",
+      "url": "https://api.datatft.com/team/home",
+      "method": "POST",
+      "body": {
+        "season": "18",
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "time": 5,
+        "gamePlatform": 2
+      },
+      "at": "2026-10-15T04:35:08.464241+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/home.json",
+      "sha256": "ba88b609358031ffc3ac8509b40180a8408a1c66cb11a3d119c8cbdf0b2066e7",
+      "bytes": 20030
+    },
+    "stats-hero": {
+      "key": "stats-hero",
+      "url": "https://api.datatft.com/data/explore/list",
+      "method": "POST",
+      "body": {
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "filterTargetType": "hero"
+      },
+      "at": "2026-10-15T04:35:09.182514+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/stats-hero.json",
+      "sha256": "a8f29000dfac7edcb12063405300df438fdd5b3de1debc7f797e8a94a61a017c",
+      "bytes": 9814
+    },
+    "stats-equip": {
+      "key": "stats-equip",
+      "url": "https://api.datatft.com/data/explore/list",
+      "method": "POST",
+      "body": {
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "filterTargetType": "equip"
+      },
+      "at": "2026-10-15T04:35:09.851746+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/stats-equip.json",
+      "sha256": "9e6f43238fcac46236d13ec27c204fb770ccefb6e96c318e2aed6f026c8ea4d8",
+      "bytes": 18381
+    },
+    "stats-trait": {
+      "key": "stats-trait",
+      "url": "https://api.datatft.com/data/explore/list",
+      "method": "POST",
+      "body": {
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "filterTargetType": "trait"
+      },
+      "at": "2026-10-15T04:35:10.615670+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/stats-trait.json",
+      "sha256": "b07dc3c385ec5ed5350ed3c66d72138aab3c9a9fb6bdcd24a27cf01a9f7d2c72",
+      "bytes": 8111
+    },
+    "augment-config": {
+      "key": "augment-config",
+      "url": "https://api.datatft.com/augment-tier/config?platform=jcc&season=18",
+      "method": "GET",
+      "body": {
+        "platform": "jcc",
+        "season": "18"
+      },
+      "at": "2026-10-15T04:35:11.326284+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/augment-config.json",
+      "sha256": "9dd1274d9bbcda575be61b8f45d1888e55f2f6dbd69f00b8214b176686bb04c9",
+      "bytes": 839
+    },
+    "strategies/16218": {
+      "key": "strategies/16218",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16218
+      },
+      "at": "2026-10-15T04:35:11.984409+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16218.json",
+      "sha256": "4d949c4ea5bb4f4532cad445e5ca8294d22f8fc81eca49ef7c60a87dd5b21c93",
+      "bytes": 1817
+    },
+    "strategies/16222": {
+      "key": "strategies/16222",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16222
+      },
+      "at": "2026-10-15T04:35:12.651650+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16222.json",
+      "sha256": "e5c06c1564b30795ce86307802239c40de0a6a2255a79cdc3048b6e31646e1bf",
+      "bytes": 1751
+    },
+    "strategies/16223": {
+      "key": "strategies/16223",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16223
+      },
+      "at": "2026-10-15T04:35:13.316400+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16223.json",
+      "sha256": "2e08d17953e5bbb39cac14a45e1ca5e76eace152699245875af00495261cdd41",
+      "bytes": 2183
+    },
+    "strategies/16230": {
+      "key": "strategies/16230",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16230
+      },
+      "at": "2026-10-15T04:35:14.002601+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16230.json",
+      "sha256": "5f0316c87de7362efb3fac3d024c50d2200437a0aa59b8941ea47d7a3228c49e",
+      "bytes": 1561
+    },
+    "strategies/16234": {
+      "key": "strategies/16234",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16234
+      },
+      "at": "2026-10-15T04:35:14.700007+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16234.json",
+      "sha256": "6549ddd91aa99a92e969d4fd3dbaecb8f5dd6f4d24dcedde616bb2e471ae2575",
+      "bytes": 2116
+    },
+    "strategies/16235": {
+      "key": "strategies/16235",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16235
+      },
+      "at": "2026-10-15T04:35:15.383303+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16235.json",
+      "sha256": "dda86281302893fd68d7cb4b292de23475ef58aa5ac984798243ec124d858656",
+      "bytes": 2723
+    },
+    "strategies/16236": {
+      "key": "strategies/16236",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16236
+      },
+      "at": "2026-10-15T04:35:16.054897+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16236.json",
+      "sha256": "55ce36b559c9b38ad4b8ee549b9a62bd457c8c013a43782eb397f28ff2002fa3",
+      "bytes": 2839
+    },
+    "strategies/16241": {
+      "key": "strategies/16241",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16241
+      },
+      "at": "2026-10-15T04:35:16.782807+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16241.json",
+      "sha256": "21538b4a76a7a2deea48ad063a23f49e9f0e4f0ee3fbae7c76987996aea757be",
+      "bytes": 7349
+    },
+    "strategies/16242": {
+      "key": "strategies/16242",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16242
+      },
+      "at": "2026-10-15T04:35:17.452001+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16242.json",
+      "sha256": "6a33366c66f9ec03a58c1cea1ce1525aa10ea86eef1cc0b7843418863d635b2d",
+      "bytes": 5934
+    },
+    "strategies/16244": {
+      "key": "strategies/16244",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16244
+      },
+      "at": "2026-10-15T04:35:18.141856+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16244.json",
+      "sha256": "3ebbd85772fda05078f66280d676d984e3a27bd0cb33ce26a41a441fdddb4714",
+      "bytes": 3458
+    },
+    "strategies/16253": {
+      "key": "strategies/16253",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16253
+      },
+      "at": "2026-10-15T04:35:18.841926+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16253.json",
+      "sha256": "26df7d0c0ae062bb1b86974bacbaeb203bbfcf5f5fa54e797c0c46bd90da304c",
+      "bytes": 4740
+    },
+    "strategies/16258": {
+      "key": "strategies/16258",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16258
+      },
+      "at": "2026-10-15T04:35:19.537797+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16258.json",
+      "sha256": "84a81e45b722d8859d65c770599567037dd0908ad204d7c094d22ee704c67503",
+      "bytes": 1641
+    },
+    "strategies/16260": {
+      "key": "strategies/16260",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16260
+      },
+      "at": "2026-10-15T04:35:20.214809+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16260.json",
+      "sha256": "cf9d3b0ab1e550c87c8ee33573df95b38e08325ee72461d3525701273f13ab61",
+      "bytes": 5176
+    },
+    "strategies/16261": {
+      "key": "strategies/16261",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16261
+      },
+      "at": "2026-10-15T04:35:20.883049+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16261.json",
+      "sha256": "13d8d219921fc59d7ec87b08f84e355beefc3b4af794c5cd54c125b9762a2160",
+      "bytes": 2266
+    },
+    "strategies/16264": {
+      "key": "strategies/16264",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16264
+      },
+      "at": "2026-10-15T04:35:21.567908+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16264.json",
+      "sha256": "9feb4667ebf82b80f6e6bf7598273c382a5249fe814eefd59a7b4306892a79b1",
+      "bytes": 4572
+    },
+    "strategies/16265": {
+      "key": "strategies/16265",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16265
+      },
+      "at": "2026-10-15T04:35:22.273030+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16265.json",
+      "sha256": "a9f8b835661a282cdf4ba448410297a703f6961fe28981abee867229a58568e9",
+      "bytes": 6695
+    },
+    "strategies/16266": {
+      "key": "strategies/16266",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16266
+      },
+      "at": "2026-10-15T04:35:22.951481+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16266.json",
+      "sha256": "8876257a50c025828f2a4f777b813cdaa4e424a171d20341faa14901b8aaff28",
+      "bytes": 2516
+    },
+    "strategies/16270": {
+      "key": "strategies/16270",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16270
+      },
+      "at": "2026-10-15T04:35:23.625297+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16270.json",
+      "sha256": "57c30f900608a64165c50f488244caca85f6bff8d375f2744142d406d32b187c",
+      "bytes": 6853
+    },
+    "strategies/16271": {
+      "key": "strategies/16271",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16271
+      },
+      "at": "2026-10-15T04:35:24.332724+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16271.json",
+      "sha256": "935994aaefef1c4fbbd4688439290b49531ee94919b5abb4baab990e3ddd8cd3",
+      "bytes": 4366
+    },
+    "strategies/16276": {
+      "key": "strategies/16276",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16276
+      },
+      "at": "2026-10-15T04:35:25.014262+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16276.json",
+      "sha256": "3ed8ef8b7d7501e0130d0887da614aa83c2add6f227596b1b45895494322116c",
+      "bytes": 4139
+    },
+    "strategies/16277": {
+      "key": "strategies/16277",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16277
+      },
+      "at": "2026-10-15T04:35:25.665163+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16277.json",
+      "sha256": "b551fd666f8e7b64476845f166e861fde4c995d60801ded36cb718a15fab71cd",
+      "bytes": 2600
+    },
+    "strategies/16278": {
+      "key": "strategies/16278",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16278
+      },
+      "at": "2026-10-15T04:35:26.323456+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16278.json",
+      "sha256": "dbf870227867b98ca5ef1bd118d740c31aaea3836b441cf9fe1131a02c4b9b32",
+      "bytes": 2599
+    },
+    "strategies/16279": {
+      "key": "strategies/16279",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16279
+      },
+      "at": "2026-10-15T04:35:26.997481+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16279.json",
+      "sha256": "4b27d4e29239fcd59cfc010eb720057db754f1ba5db0198208bd38937540b89f",
+      "bytes": 2677
+    },
+    "strategies/16282": {
+      "key": "strategies/16282",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16282
+      },
+      "at": "2026-10-15T04:35:27.676026+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16282.json",
+      "sha256": "7dfac14eb40c65c36d36562a47d5d892ebc0cd74ec04e112523b9ac5d9238c59",
+      "bytes": 7038
+    },
+    "strategies/16288": {
+      "key": "strategies/16288",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16288
+      },
+      "at": "2026-10-15T04:35:28.357181+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16288.json",
+      "sha256": "5c71b71d2f0a928916cb1587b259b7db50eb2778ed9b891f2449b2867935bfb1",
+      "bytes": 2316
+    },
+    "strategies/16291": {
+      "key": "strategies/16291",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16291
+      },
+      "at": "2026-10-15T04:35:29.036571+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16291.json",
+      "sha256": "2de63689c4ad36a782c853cfb8ddce4cbf13170ede5f339efa0decdc021c75a3",
+      "bytes": 3499
+    },
+    "strategies/16292": {
+      "key": "strategies/16292",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16292
+      },
+      "at": "2026-10-15T04:35:29.683238+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16292.json",
+      "sha256": "8ead6668335db06ec99cc2370be634fc99c02babf78fe2cee9ba11861a57d79b",
+      "bytes": 3987
+    },
+    "strategies/16294": {
+      "key": "strategies/16294",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16294
+      },
+      "at": "2026-10-15T04:35:30.356740+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16294.json",
+      "sha256": "01d8c6e126321e338ead93401fb5d0c7c1c4fcb0adca60fdd00c6495045f9fa8",
+      "bytes": 2382
+    },
+    "strategies/16312": {
+      "key": "strategies/16312",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16312
+      },
+      "at": "2026-10-15T04:35:31.025432+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16312.json",
+      "sha256": "e81845e5494314f80f78072f771ef85771428818c4cfcf690dd356d51c22c4cd",
+      "bytes": 2468
+    },
+    "strategies/16313": {
+      "key": "strategies/16313",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16313
+      },
+      "at": "2026-10-15T04:35:31.691429+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16313.json",
+      "sha256": "2bfc66e42f1636f9ce8e07109a12e959de6319af80e49214e7e04def0ff50c2d",
+      "bytes": 2026
+    },
+    "strategies/16314": {
+      "key": "strategies/16314",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16314
+      },
+      "at": "2026-10-15T04:35:32.349087+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16314.json",
+      "sha256": "c546f029a8b9c3d5afd4a7ca4062d3b7b018b7594924270106d40b9cfa862020",
+      "bytes": 7572
+    }
+  },
+  "attempts": [
+    {
+      "key": "team-list",
+      "url": "https://api.datatft.com/team/list",
+      "method": "POST",
+      "body": {
+        "season": "18",
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "time": 5
+      },
+      "at": "2026-10-15T02:33:16.614820+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/team-list.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "team-comps",
+      "url": "https://api.datatft.com/team/comps",
+      "method": "POST",
+      "body": {
+        "season": "18"
+      },
+      "at": "2026-10-15T02:33:17.304549+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/team-comps.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "team-rank",
+      "url": "https://api.datatft.com/team/rank",
+      "method": "POST",
+      "body": {
+        "season": "18"
+      },
+      "at": "2026-10-15T02:33:17.990224+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/team-rank.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "home",
+      "url": "https://api.datatft.com/team/home",
+      "method": "POST",
+      "body": {
+        "season": "18",
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "time": 5,
+        "gamePlatform": 2
+      },
+      "at": "2026-10-15T02:33:18.665603+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/home.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "stats-hero",
+      "url": "https://api.datatft.com/data/explore/list",
+      "method": "POST",
+      "body": {
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "filterTargetType": "hero"
+      },
+      "at": "2026-10-15T02:33:19.356355+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/stats-hero.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "stats-equip",
+      "url": "https://api.datatft.com/data/explore/list",
+      "method": "POST",
+      "body": {
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "filterTargetType": "equip"
+      },
+      "at": "2026-10-15T02:33:20.048380+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/stats-equip.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "stats-trait",
+      "url": "https://api.datatft.com/data/explore/list",
+      "method": "POST",
+      "body": {
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "filterTargetType": "trait"
+      },
+      "at": "2026-10-15T02:33:20.730392+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/stats-trait.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "augment-config",
+      "url": "https://api.datatft.com/augment-tier/config?platform=jcc&season=18",
+      "method": "GET",
+      "body": {
+        "platform": "jcc",
+        "season": "18"
+      },
+      "at": "2026-10-15T02:33:21.377581+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/augment-config.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "strategies/16218",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16218
+      },
+      "at": "2026-10-15T02:33:22.053218+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/strategies/16218.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "team-list",
+      "url": "https://api.datatft.com/team/list",
+      "method": "POST",
+      "body": {
+        "season": "18",
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "time": 5
+      },
+      "at": "2026-10-15T02:49:41.537474+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/team-list.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "team-comps",
+      "url": "https://api.datatft.com/team/comps",
+      "method": "POST",
+      "body": {
+        "season": "18"
+      },
+      "at": "2026-10-15T02:49:42.253484+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/team-comps.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "team-rank",
+      "url": "https://api.datatft.com/team/rank",
+      "method": "POST",
+      "body": {
+        "season": "18"
+      },
+      "at": "2026-10-15T02:49:42.979220+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/team-rank.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "home",
+      "url": "https://api.datatft.com/team/home",
+      "method": "POST",
+      "body": {
+        "season": "18",
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "time": 5,
+        "gamePlatform": 2
+      },
+      "at": "2026-10-15T02:49:43.640794+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/home.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "stats-hero",
+      "url": "https://api.datatft.com/data/explore/list",
+      "method": "POST",
+      "body": {
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "filterTargetType": "hero"
+      },
+      "at": "2026-10-15T02:49:44.329255+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/stats-hero.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "stats-equip",
+      "url": "https://api.datatft.com/data/explore/list",
+      "method": "POST",
+      "body": {
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "filterTargetType": "equip"
+      },
+      "at": "2026-10-15T02:49:45.008558+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/stats-equip.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "stats-trait",
+      "url": "https://api.datatft.com/data/explore/list",
+      "method": "POST",
+      "body": {
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "filterTargetType": "trait"
+      },
+      "at": "2026-10-15T02:49:45.693854+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/stats-trait.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "augment-config",
+      "url": "https://api.datatft.com/augment-tier/config?platform=jcc&season=18",
+      "method": "GET",
+      "body": {
+        "platform": "jcc",
+        "season": "18"
+      },
+      "at": "2026-10-15T02:49:46.356415+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/augment-config.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "strategies/16218",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16218
+      },
+      "at": "2026-10-15T02:49:47.020733+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/strategies/16218.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "team-list",
+      "url": "https://api.datatft.com/team/list",
+      "method": "POST",
+      "body": {
+        "season": "18",
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "time": 5
+      },
+      "at": "2026-10-15T03:04:35.980178+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/team-list.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "team-comps",
+      "url": "https://api.datatft.com/team/comps",
+      "method": "POST",
+      "body": {
+        "season": "18"
+      },
+      "at": "2026-10-15T03:04:36.767650+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/team-comps.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "team-rank",
+      "url": "https://api.datatft.com/team/rank",
+      "method": "POST",
+      "body": {
+        "season": "18"
+      },
+      "at": "2026-10-15T03:04:37.463092+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/team-rank.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "home",
+      "url": "https://api.datatft.com/team/home",
+      "method": "POST",
+      "body": {
+        "season": "18",
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "time": 5,
+        "gamePlatform": 2
+      },
+      "at": "2026-10-15T03:04:38.192068+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/home.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "stats-hero",
+      "url": "https://api.datatft.com/data/explore/list",
+      "method": "POST",
+      "body": {
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "filterTargetType": "hero"
+      },
+      "at": "2026-10-15T03:04:38.874991+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/stats-hero.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "stats-equip",
+      "url": "https://api.datatft.com/data/explore/list",
+      "method": "POST",
+      "body": {
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "filterTargetType": "equip"
+      },
+      "at": "2026-10-15T03:04:39.599450+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/stats-equip.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "stats-trait",
+      "url": "https://api.datatft.com/data/explore/list",
+      "method": "POST",
+      "body": {
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "filterTargetType": "trait"
+      },
+      "at": "2026-10-15T03:04:40.285262+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/stats-trait.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "augment-config",
+      "url": "https://api.datatft.com/augment-tier/config?platform=jcc&season=18",
+      "method": "GET",
+      "body": {
+        "platform": "jcc",
+        "season": "18"
+      },
+      "at": "2026-10-15T03:04:40.972971+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/augment-config.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "strategies/16218",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16218
+      },
+      "at": "2026-10-15T03:04:41.650489+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/strategies/16218.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "team-list",
+      "url": "https://api.datatft.com/team/list",
+      "method": "POST",
+      "body": {
+        "season": "18",
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "time": 5
+      },
+      "at": "2026-10-15T03:19:32.205639+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/team-list.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "team-comps",
+      "url": "https://api.datatft.com/team/comps",
+      "method": "POST",
+      "body": {
+        "season": "18"
+      },
+      "at": "2026-10-15T03:19:32.945893+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/team-comps.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "team-rank",
+      "url": "https://api.datatft.com/team/rank",
+      "method": "POST",
+      "body": {
+        "season": "18"
+      },
+      "at": "2026-10-15T03:19:33.613263+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/team-rank.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "home",
+      "url": "https://api.datatft.com/team/home",
+      "method": "POST",
+      "body": {
+        "season": "18",
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "time": 5,
+        "gamePlatform": 2
+      },
+      "at": "2026-10-15T03:19:34.296147+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/home.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "stats-hero",
+      "url": "https://api.datatft.com/data/explore/list",
+      "method": "POST",
+      "body": {
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "filterTargetType": "hero"
+      },
+      "at": "2026-10-15T03:19:34.980170+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/stats-hero.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "stats-equip",
+      "url": "https://api.datatft.com/data/explore/list",
+      "method": "POST",
+      "body": {
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "filterTargetType": "equip"
+      },
+      "at": "2026-10-15T03:19:35.658746+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/stats-equip.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "stats-trait",
+      "url": "https://api.datatft.com/data/explore/list",
+      "method": "POST",
+      "body": {
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "filterTargetType": "trait"
+      },
+      "at": "2026-10-15T03:19:36.318299+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/stats-trait.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "augment-config",
+      "url": "https://api.datatft.com/augment-tier/config?platform=jcc&season=18",
+      "method": "GET",
+      "body": {
+        "platform": "jcc",
+        "season": "18"
+      },
+      "at": "2026-10-15T03:19:36.981998+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/augment-config.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "strategies/16218",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16218
+      },
+      "at": "2026-10-15T03:19:37.659687+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/strategies/16218.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "team-list",
+      "url": "https://api.datatft.com/team/list",
+      "method": "POST",
+      "body": {
+        "season": "18",
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "time": 5
+      },
+      "at": "2026-10-15T03:34:34.556394+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/team-list.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "team-comps",
+      "url": "https://api.datatft.com/team/comps",
+      "method": "POST",
+      "body": {
+        "season": "18"
+      },
+      "at": "2026-10-15T03:34:35.317231+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/team-comps.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "team-rank",
+      "url": "https://api.datatft.com/team/rank",
+      "method": "POST",
+      "body": {
+        "season": "18"
+      },
+      "at": "2026-10-15T03:34:35.996693+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/team-rank.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "home",
+      "url": "https://api.datatft.com/team/home",
+      "method": "POST",
+      "body": {
+        "season": "18",
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "time": 5,
+        "gamePlatform": 2
+      },
+      "at": "2026-10-15T03:34:36.663274+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/home.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "stats-hero",
+      "url": "https://api.datatft.com/data/explore/list",
+      "method": "POST",
+      "body": {
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "filterTargetType": "hero"
+      },
+      "at": "2026-10-15T03:34:37.345914+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/stats-hero.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "stats-equip",
+      "url": "https://api.datatft.com/data/explore/list",
+      "method": "POST",
+      "body": {
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "filterTargetType": "equip"
+      },
+      "at": "2026-10-15T03:34:38.015576+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/stats-equip.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "stats-trait",
+      "url": "https://api.datatft.com/data/explore/list",
+      "method": "POST",
+      "body": {
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "filterTargetType": "trait"
+      },
+      "at": "2026-10-15T03:34:38.689194+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/stats-trait.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "augment-config",
+      "url": "https://api.datatft.com/augment-tier/config?platform=jcc&season=18",
+      "method": "GET",
+      "body": {
+        "platform": "jcc",
+        "season": "18"
+      },
+      "at": "2026-10-15T03:34:39.370539+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/augment-config.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "strategies/16218",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16218
+      },
+      "at": "2026-10-15T03:34:40.046665+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/strategies/16218.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "team-list",
+      "url": "https://api.datatft.com/team/list",
+      "method": "POST",
+      "body": {
+        "season": "18",
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "time": 5
+      },
+      "at": "2026-10-15T03:50:03.373206+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/team-list.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "team-comps",
+      "url": "https://api.datatft.com/team/comps",
+      "method": "POST",
+      "body": {
+        "season": "18"
+      },
+      "at": "2026-10-15T03:50:04.207127+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/team-comps.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "team-rank",
+      "url": "https://api.datatft.com/team/rank",
+      "method": "POST",
+      "body": {
+        "season": "18"
+      },
+      "at": "2026-10-15T03:50:04.903736+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/team-rank.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "home",
+      "url": "https://api.datatft.com/team/home",
+      "method": "POST",
+      "body": {
+        "season": "18",
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "time": 5,
+        "gamePlatform": 2
+      },
+      "at": "2026-10-15T03:50:05.566851+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/home.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "stats-hero",
+      "url": "https://api.datatft.com/data/explore/list",
+      "method": "POST",
+      "body": {
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "filterTargetType": "hero"
+      },
+      "at": "2026-10-15T03:50:06.245515+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/stats-hero.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "stats-equip",
+      "url": "https://api.datatft.com/data/explore/list",
+      "method": "POST",
+      "body": {
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "filterTargetType": "equip"
+      },
+      "at": "2026-10-15T03:50:06.917432+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/stats-equip.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "stats-trait",
+      "url": "https://api.datatft.com/data/explore/list",
+      "method": "POST",
+      "body": {
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "filterTargetType": "trait"
+      },
+      "at": "2026-10-15T03:50:07.576347+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/stats-trait.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "augment-config",
+      "url": "https://api.datatft.com/augment-tier/config?platform=jcc&season=18",
+      "method": "GET",
+      "body": {
+        "platform": "jcc",
+        "season": "18"
+      },
+      "at": "2026-10-15T03:50:08.244637+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/augment-config.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "strategies/16218",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16218
+      },
+      "at": "2026-10-15T03:50:08.938994+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/strategies/16218.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "team-list",
+      "url": "https://api.datatft.com/team/list",
+      "method": "POST",
+      "body": {
+        "season": "18",
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "time": 5
+      },
+      "at": "2026-10-15T04:05:06.569714+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/team-list.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "team-comps",
+      "url": "https://api.datatft.com/team/comps",
+      "method": "POST",
+      "body": {
+        "season": "18"
+      },
+      "at": "2026-10-15T04:05:07.301501+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/team-comps.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "team-rank",
+      "url": "https://api.datatft.com/team/rank",
+      "method": "POST",
+      "body": {
+        "season": "18"
+      },
+      "at": "2026-10-15T04:05:07.974057+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/team-rank.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "home",
+      "url": "https://api.datatft.com/team/home",
+      "method": "POST",
+      "body": {
+        "season": "18",
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "time": 5,
+        "gamePlatform": 2
+      },
+      "at": "2026-10-15T04:05:08.658357+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/home.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "stats-hero",
+      "url": "https://api.datatft.com/data/explore/list",
+      "method": "POST",
+      "body": {
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "filterTargetType": "hero"
+      },
+      "at": "2026-10-15T04:05:09.399033+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/stats-hero.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "stats-equip",
+      "url": "https://api.datatft.com/data/explore/list",
+      "method": "POST",
+      "body": {
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "filterTargetType": "equip"
+      },
+      "at": "2026-10-15T04:05:10.119831+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/stats-equip.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "stats-trait",
+      "url": "https://api.datatft.com/data/explore/list",
+      "method": "POST",
+      "body": {
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "filterTargetType": "trait"
+      },
+      "at": "2026-10-15T04:05:10.802802+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/stats-trait.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "augment-config",
+      "url": "https://api.datatft.com/augment-tier/config?platform=jcc&season=18",
+      "method": "GET",
+      "body": {
+        "platform": "jcc",
+        "season": "18"
+      },
+      "at": "2026-10-15T04:05:11.487011+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/augment-config.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "strategies/16218",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16218
+      },
+      "at": "2026-10-15T04:05:12.176863+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/strategies/16218.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "team-list",
+      "url": "https://api.datatft.com/team/list",
+      "method": "POST",
+      "body": {
+        "season": "18",
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "time": 5
+      },
+      "at": "2026-10-15T04:20:03.371205+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/team-list.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "team-comps",
+      "url": "https://api.datatft.com/team/comps",
+      "method": "POST",
+      "body": {
+        "season": "18"
+      },
+      "at": "2026-10-15T04:20:04.103237+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/team-comps.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "team-rank",
+      "url": "https://api.datatft.com/team/rank",
+      "method": "POST",
+      "body": {
+        "season": "18"
+      },
+      "at": "2026-10-15T04:20:04.787178+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/team-rank.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "home",
+      "url": "https://api.datatft.com/team/home",
+      "method": "POST",
+      "body": {
+        "season": "18",
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "time": 5,
+        "gamePlatform": 2
+      },
+      "at": "2026-10-15T04:20:05.459505+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/home.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "stats-hero",
+      "url": "https://api.datatft.com/data/explore/list",
+      "method": "POST",
+      "body": {
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "filterTargetType": "hero"
+      },
+      "at": "2026-10-15T04:20:06.144657+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/stats-hero.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "stats-equip",
+      "url": "https://api.datatft.com/data/explore/list",
+      "method": "POST",
+      "body": {
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "filterTargetType": "equip"
+      },
+      "at": "2026-10-15T04:20:06.824066+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/stats-equip.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "stats-trait",
+      "url": "https://api.datatft.com/data/explore/list",
+      "method": "POST",
+      "body": {
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "filterTargetType": "trait"
+      },
+      "at": "2026-10-15T04:20:07.532858+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/stats-trait.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "augment-config",
+      "url": "https://api.datatft.com/augment-tier/config?platform=jcc&season=18",
+      "method": "GET",
+      "body": {
+        "platform": "jcc",
+        "season": "18"
+      },
+      "at": "2026-10-15T04:20:08.232306+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/augment-config.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "strategies/16218",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16218
+      },
+      "at": "2026-10-15T04:20:08.902263+00:00",
+      "ok": false,
+      "http_status": 200,
+      "api_code": 42000,
+      "file": "failures/strategies/16218.json",
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "error": "Source API returned non-success"
+    },
+    {
+      "key": "team-list",
+      "url": "https://api.datatft.com/team/list",
+      "method": "POST",
+      "body": {
+        "season": "18",
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "time": 5
+      },
+      "at": "2026-10-15T04:35:06.360872+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/team-list.json",
+      "sha256": "4f159a02e3e9437d65a636841607f679e2c29e0370abb82f43263e7afe5e4bbd",
+      "bytes": 29684
+    },
+    {
+      "key": "team-comps",
+      "url": "https://api.datatft.com/team/comps",
+      "method": "POST",
+      "body": {
+        "season": "18"
+      },
+      "at": "2026-10-15T04:35:07.105236+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/team-comps.json",
+      "sha256": "6ee0ac171165680614b37a27dda26149758f1f4fcb5a19705ee311925c029760",
+      "bytes": 4646
+    },
+    {
+      "key": "team-rank",
+      "url": "https://api.datatft.com/team/rank",
+      "method": "POST",
+      "body": {
+        "season": "18"
+      },
+      "at": "2026-10-15T04:35:07.775832+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/team-rank.json",
+      "sha256": "31d5497b44adae36cd2c9c7c816e18fd1bd62a3ece109a396581e868d73a12b7",
+      "bytes": 14181
+    },
+    {
+      "key": "home",
+      "url": "https://api.datatft.com/team/home",
+      "method": "POST",
+      "body": {
+        "season": "18",
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "time": 5,
+        "gamePlatform": 2
+      },
+      "at": "2026-10-15T04:35:08.464241+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/home.json",
+      "sha256": "ba88b609358031ffc3ac8509b40180a8408a1c66cb11a3d119c8cbdf0b2066e7",
+      "bytes": 20030
+    },
+    {
+      "key": "stats-hero",
+      "url": "https://api.datatft.com/data/explore/list",
+      "method": "POST",
+      "body": {
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "filterTargetType": "hero"
+      },
+      "at": "2026-10-15T04:35:09.182514+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/stats-hero.json",
+      "sha256": "a8f29000dfac7edcb12063405300df438fdd5b3de1debc7f797e8a94a61a017c",
+      "bytes": 9814
+    },
+    {
+      "key": "stats-equip",
+      "url": "https://api.datatft.com/data/explore/list",
+      "method": "POST",
+      "body": {
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "filterTargetType": "equip"
+      },
+      "at": "2026-10-15T04:35:09.851746+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/stats-equip.json",
+      "sha256": "9e6f43238fcac46236d13ec27c204fb770ccefb6e96c318e2aed6f026c8ea4d8",
+      "bytes": 18381
+    },
+    {
+      "key": "stats-trait",
+      "url": "https://api.datatft.com/data/explore/list",
+      "method": "POST",
+      "body": {
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "filterTargetType": "trait"
+      },
+      "at": "2026-10-15T04:35:10.615670+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/stats-trait.json",
+      "sha256": "b07dc3c385ec5ed5350ed3c66d72138aab3c9a9fb6bdcd24a27cf01a9f7d2c72",
+      "bytes": 8111
+    },
+    {
+      "key": "augment-config",
+      "url": "https://api.datatft.com/augment-tier/config?platform=jcc&season=18",
+      "method": "GET",
+      "body": {
+        "platform": "jcc",
+        "season": "18"
+      },
+      "at": "2026-10-15T04:35:11.326284+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/augment-config.json",
+      "sha256": "9dd1274d9bbcda575be61b8f45d1888e55f2f6dbd69f00b8214b176686bb04c9",
+      "bytes": 839
+    },
+    {
+      "key": "strategies/16218",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16218
+      },
+      "at": "2026-10-15T04:35:11.984409+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16218.json",
+      "sha256": "4d949c4ea5bb4f4532cad445e5ca8294d22f8fc81eca49ef7c60a87dd5b21c93",
+      "bytes": 1817
+    },
+    {
+      "key": "strategies/16222",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16222
+      },
+      "at": "2026-10-15T04:35:12.651650+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16222.json",
+      "sha256": "e5c06c1564b30795ce86307802239c40de0a6a2255a79cdc3048b6e31646e1bf",
+      "bytes": 1751
+    },
+    {
+      "key": "strategies/16223",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16223
+      },
+      "at": "2026-10-15T04:35:13.316400+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16223.json",
+      "sha256": "2e08d17953e5bbb39cac14a45e1ca5e76eace152699245875af00495261cdd41",
+      "bytes": 2183
+    },
+    {
+      "key": "strategies/16230",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16230
+      },
+      "at": "2026-10-15T04:35:14.002601+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16230.json",
+      "sha256": "5f0316c87de7362efb3fac3d024c50d2200437a0aa59b8941ea47d7a3228c49e",
+      "bytes": 1561
+    },
+    {
+      "key": "strategies/16234",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16234
+      },
+      "at": "2026-10-15T04:35:14.700007+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16234.json",
+      "sha256": "6549ddd91aa99a92e969d4fd3dbaecb8f5dd6f4d24dcedde616bb2e471ae2575",
+      "bytes": 2116
+    },
+    {
+      "key": "strategies/16235",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16235
+      },
+      "at": "2026-10-15T04:35:15.383303+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16235.json",
+      "sha256": "dda86281302893fd68d7cb4b292de23475ef58aa5ac984798243ec124d858656",
+      "bytes": 2723
+    },
+    {
+      "key": "strategies/16236",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16236
+      },
+      "at": "2026-10-15T04:35:16.054897+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16236.json",
+      "sha256": "55ce36b559c9b38ad4b8ee549b9a62bd457c8c013a43782eb397f28ff2002fa3",
+      "bytes": 2839
+    },
+    {
+      "key": "strategies/16241",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16241
+      },
+      "at": "2026-10-15T04:35:16.782807+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16241.json",
+      "sha256": "21538b4a76a7a2deea48ad063a23f49e9f0e4f0ee3fbae7c76987996aea757be",
+      "bytes": 7349
+    },
+    {
+      "key": "strategies/16242",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16242
+      },
+      "at": "2026-10-15T04:35:17.452001+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16242.json",
+      "sha256": "6a33366c66f9ec03a58c1cea1ce1525aa10ea86eef1cc0b7843418863d635b2d",
+      "bytes": 5934
+    },
+    {
+      "key": "strategies/16244",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16244
+      },
+      "at": "2026-10-15T04:35:18.141856+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16244.json",
+      "sha256": "3ebbd85772fda05078f66280d676d984e3a27bd0cb33ce26a41a441fdddb4714",
+      "bytes": 3458
+    },
+    {
+      "key": "strategies/16253",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16253
+      },
+      "at": "2026-10-15T04:35:18.841926+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16253.json",
+      "sha256": "26df7d0c0ae062bb1b86974bacbaeb203bbfcf5f5fa54e797c0c46bd90da304c",
+      "bytes": 4740
+    },
+    {
+      "key": "strategies/16258",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16258
+      },
+      "at": "2026-10-15T04:35:19.537797+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16258.json",
+      "sha256": "84a81e45b722d8859d65c770599567037dd0908ad204d7c094d22ee704c67503",
+      "bytes": 1641
+    },
+    {
+      "key": "strategies/16260",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16260
+      },
+      "at": "2026-10-15T04:35:20.214809+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16260.json",
+      "sha256": "cf9d3b0ab1e550c87c8ee33573df95b38e08325ee72461d3525701273f13ab61",
+      "bytes": 5176
+    },
+    {
+      "key": "strategies/16261",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16261
+      },
+      "at": "2026-10-15T04:35:20.883049+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16261.json",
+      "sha256": "13d8d219921fc59d7ec87b08f84e355beefc3b4af794c5cd54c125b9762a2160",
+      "bytes": 2266
+    },
+    {
+      "key": "strategies/16264",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16264
+      },
+      "at": "2026-10-15T04:35:21.567908+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16264.json",
+      "sha256": "9feb4667ebf82b80f6e6bf7598273c382a5249fe814eefd59a7b4306892a79b1",
+      "bytes": 4572
+    },
+    {
+      "key": "strategies/16265",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16265
+      },
+      "at": "2026-10-15T04:35:22.273030+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16265.json",
+      "sha256": "a9f8b835661a282cdf4ba448410297a703f6961fe28981abee867229a58568e9",
+      "bytes": 6695
+    },
+    {
+      "key": "strategies/16266",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16266
+      },
+      "at": "2026-10-15T04:35:22.951481+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16266.json",
+      "sha256": "8876257a50c025828f2a4f777b813cdaa4e424a171d20341faa14901b8aaff28",
+      "bytes": 2516
+    },
+    {
+      "key": "strategies/16270",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16270
+      },
+      "at": "2026-10-15T04:35:23.625297+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16270.json",
+      "sha256": "57c30f900608a64165c50f488244caca85f6bff8d375f2744142d406d32b187c",
+      "bytes": 6853
+    },
+    {
+      "key": "strategies/16271",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16271
+      },
+      "at": "2026-10-15T04:35:24.332724+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16271.json",
+      "sha256": "935994aaefef1c4fbbd4688439290b49531ee94919b5abb4baab990e3ddd8cd3",
+      "bytes": 4366
+    },
+    {
+      "key": "strategies/16276",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16276
+      },
+      "at": "2026-10-15T04:35:25.014262+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16276.json",
+      "sha256": "3ed8ef8b7d7501e0130d0887da614aa83c2add6f227596b1b45895494322116c",
+      "bytes": 4139
+    },
+    {
+      "key": "strategies/16277",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16277
+      },
+      "at": "2026-10-15T04:35:25.665163+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16277.json",
+      "sha256": "b551fd666f8e7b64476845f166e861fde4c995d60801ded36cb718a15fab71cd",
+      "bytes": 2600
+    },
+    {
+      "key": "strategies/16278",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16278
+      },
+      "at": "2026-10-15T04:35:26.323456+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16278.json",
+      "sha256": "dbf870227867b98ca5ef1bd118d740c31aaea3836b441cf9fe1131a02c4b9b32",
+      "bytes": 2599
+    },
+    {
+      "key": "strategies/16279",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16279
+      },
+      "at": "2026-10-15T04:35:26.997481+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16279.json",
+      "sha256": "4b27d4e29239fcd59cfc010eb720057db754f1ba5db0198208bd38937540b89f",
+      "bytes": 2677
+    },
+    {
+      "key": "strategies/16282",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16282
+      },
+      "at": "2026-10-15T04:35:27.676026+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16282.json",
+      "sha256": "7dfac14eb40c65c36d36562a47d5d892ebc0cd74ec04e112523b9ac5d9238c59",
+      "bytes": 7038
+    },
+    {
+      "key": "strategies/16288",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16288
+      },
+      "at": "2026-10-15T04:35:28.357181+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16288.json",
+      "sha256": "5c71b71d2f0a928916cb1587b259b7db50eb2778ed9b891f2449b2867935bfb1",
+      "bytes": 2316
+    },
+    {
+      "key": "strategies/16291",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16291
+      },
+      "at": "2026-10-15T04:35:29.036571+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16291.json",
+      "sha256": "2de63689c4ad36a782c853cfb8ddce4cbf13170ede5f339efa0decdc021c75a3",
+      "bytes": 3499
+    },
+    {
+      "key": "strategies/16292",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16292
+      },
+      "at": "2026-10-15T04:35:29.683238+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16292.json",
+      "sha256": "8ead6668335db06ec99cc2370be634fc99c02babf78fe2cee9ba11861a57d79b",
+      "bytes": 3987
+    },
+    {
+      "key": "strategies/16294",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16294
+      },
+      "at": "2026-10-15T04:35:30.356740+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16294.json",
+      "sha256": "01d8c6e126321e338ead93401fb5d0c7c1c4fcb0adca60fdd00c6495045f9fa8",
+      "bytes": 2382
+    },
+    {
+      "key": "strategies/16312",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16312
+      },
+      "at": "2026-10-15T04:35:31.025432+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16312.json",
+      "sha256": "e81845e5494314f80f78072f771ef85771428818c4cfcf690dd356d51c22c4cd",
+      "bytes": 2468
+    },
+    {
+      "key": "strategies/16313",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16313
+      },
+      "at": "2026-10-15T04:35:31.691429+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16313.json",
+      "sha256": "2bfc66e42f1636f9ce8e07109a12e959de6319af80e49214e7e04def0ff50c2d",
+      "bytes": 2026
+    },
+    {
+      "key": "strategies/16314",
+      "url": "https://api.datatft.com/team/strategy",
+      "method": "POST",
+      "body": {
+        "id": 16314
+      },
+      "at": "2026-10-15T04:35:32.349087+00:00",
+      "ok": true,
+      "http_status": 200,
+      "api_code": 1,
+      "file": "data/strategies/16314.json",
+      "sha256": "c546f029a8b9c3d5afd4a7ca4062d3b7b018b7594924270106d40b9cfa862020",
+      "bytes": 7572
+    }
+  ],
+  "anonymous_device_id": "did_2129a9fa_1792031596614",
+  "updated_at": "2026-10-15T04:35:33.041833+00:00",
+  "strategy_circuit_breaker": "First failed strategy stops this endpoint family until next cycle",
+  "required_keys": [
+    "team-list",
+    "team-comps",
+    "team-rank",
+    "home",
+    "stats-hero",
+    "stats-equip",
+    "stats-trait",
+    "augment-config",
+    "strategies/16218",
+    "strategies/16222",
+    "strategies/16223",
+    "strategies/16230",
+    "strategies/16234",
+    "strategies/16235",
+    "strategies/16236",
+    "strategies/16241",
+    "strategies/16242",
+    "strategies/16244",
+    "strategies/16253",
+    "strategies/16258",
+    "strategies/16260",
+    "strategies/16261",
+    "strategies/16264",
+    "strategies/16265",
+    "strategies/16266",
+    "strategies/16270",
+    "strategies/16271",
+    "strategies/16276",
+    "strategies/16277",
+    "strategies/16278",
+    "strategies/16279",
+    "strategies/16282",
+    "strategies/16288",
+    "strategies/16291",
+    "strategies/16292",
+    "strategies/16294",
+    "strategies/16312",
+    "strategies/16313",
+    "strategies/16314"
+  ],
+  "pending_keys": [],
+  "endpoint_coverage_complete": true,
+  "full_collection_complete": true,
+  "completion_note": "当前赛季默认口径：三份阵容列表及全部关联攻略、首页、棋子/装备/羁绊统计、强化评级配置、公开脚本装备评级及已存基础词库。非全站历史及任意筛选组合。",
+  "coverage_report": "coverage-report.json"
+}

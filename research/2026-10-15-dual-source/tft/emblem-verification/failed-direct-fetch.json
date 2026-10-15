@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://www.pivottft.com/comps/defender-rengar-reroll/",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "url": "https://www.pivottft.com/comps/elderwood-aphelios/",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "url": "https://www.pivottft.com/comps/rapidfire-aphelios/",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "url": "https://www.pivottft.com/comps/lunar-kayle/",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "url": "https://www.pivottft.com/comps/rengar-master-yi-reroll/",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "url": "https://www.pivottft.com/comps/master-yi-reroll/",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  }
+]

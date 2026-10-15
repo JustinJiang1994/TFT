@@ -1,0 +1,275 @@
+{
+  "game": "TFT",
+  "patch": "18.4b",
+  "checked_at": "2026-10-15",
+  "rows": [
+    {
+      "id": "426000",
+      "name": "护卫 / 雷恩加尔",
+      "status": "required",
+      "emblems": [
+        "护卫纹章"
+      ],
+      "note": "当前6护卫雷恩加尔分支要求护卫纹章给雷恩加尔；攻略明确把拿到纹章作为入场条件。",
+      "alternative": "无纹章改玩以蕾欧娜补第6护卫的蛇女分支；这是不同阵容，不沿用本分支评级。",
+      "sources": [
+        {
+          "url": "https://www.pivottft.com/comps/defender-rengar-reroll/",
+          "patch": "18.4b",
+          "verified_at": "2026-10-15",
+          "match": "exact roster or documented level variant"
+        }
+      ]
+    },
+    {
+      "id": "426001",
+      "name": "迅捷射手 / 厄斐琉斯",
+      "status": "required",
+      "emblems": [
+        "迅捷射手纹章"
+      ],
+      "note": "当前5迅捷射手分支需迅捷射手纹章给绯红印记树怪；MetaTFT对应棋盘明确为转职变体。",
+      "alternative": "无转职可改奈德丽月男，攻略提供独立无转职棋盘；不能把当前5迅射棋盘视为原样可用。",
+      "sources": [
+        {
+          "url": "https://www.pivottft.com/comps/rapidfire-aphelios/",
+          "patch": "18.4b",
+          "verified_at": "2026-10-15",
+          "match": "exact roster or documented level variant"
+        },
+        {
+          "url": "https://www.metatft.com/pro-comps?comp=034d3180-d2d7-41af-837a-74aa2a6803e2",
+          "variant": "Lvl 8 Rapidfire-Emblem",
+          "units": [
+            "DA_18_Aphelios",
+            "DA_18_Rakan",
+            "DA_18_Varus",
+            "DA_18_Xayah",
+            "DA_Amumu18",
+            "DA_Brambleback18",
+            "DA_CrimsonRaptor18",
+            "DA_Sentinel18"
+          ],
+          "items": [
+            "DA_GargoyleStoneplate",
+            "DA_SpiritVisage",
+            "DA_GargoyleStoneplate",
+            "DA_18_EmblemRapidfire",
+            "DA_SteraksGage",
+            "DA_Quicksilver",
+            "DA_InfinityEdge",
+            "DA_StrikersFlail",
+            "DA_LastWhisper"
+          ],
+          "match": "exact",
+          "updated_at": "2026-10-14T09:19:24.999Z",
+          "patch_limit": "作者未显式标注18.4b；10月15日归档的对应棋盘证据。"
+        }
+      ]
+    },
+    {
+      "id": "426002",
+      "name": "永恒之森 / 伊泽瑞尔 / 厄斐琉斯",
+      "status": "optional",
+      "emblems": [
+        "永恒之森纹章"
+      ],
+      "note": "无永恒之森转职也能沿用森林月男方向，攻略明确允许降低森林档位；有转职更早达到高档位。",
+      "alternative": "8级攻略为奥恩、阿利斯塔、赫卡里姆、莉莉娅、乐芙兰、霞、伊泽瑞尔、厄斐琉斯；9级加纳尔即对应当前代表棋盘。无转职不要照搬有转职时的羁绊与强度。",
+      "sources": [
+        {
+          "url": "https://www.pivottft.com/comps/elderwood-aphelios/",
+          "patch": "18.4b",
+          "verified_at": "2026-10-15",
+          "match": "exact roster or documented level variant"
+        }
+      ]
+    },
+    {
+      "id": "426021",
+      "name": "迅捷射手 / 凯尔",
+      "status": "optional",
+      "emblems": [
+        "月蚀骑士纹章"
+      ],
+      "note": "同棋盘攻略的完整配装不含月蚀骑士纹章；月蚀由厄斐琉斯与黛安娜提供，转职不是入场前置。",
+      "alternative": "",
+      "sources": [
+        {
+          "url": "https://www.pivottft.com/comps/lunar-kayle/",
+          "patch": "18.4b",
+          "verified_at": "2026-10-15",
+          "match": "exact roster or documented level variant"
+        },
+        {
+          "url": "https://www.metatft.com/pro-comps?comp=a483ad08-cc76-45f6-b0f8-62ba33030899",
+          "variant": "Lvl 8 Varus",
+          "units": [
+            "DA_18_Aphelios",
+            "DA_18_Diana",
+            "DA_18_Kayle",
+            "DA_18_Leona",
+            "DA_18_Sejuani",
+            "DA_18_Shen",
+            "DA_18_Varus",
+            "DA_Amumu18"
+          ],
+          "items": [
+            "DA_GargoyleStoneplate",
+            "DA_SpiritVisage",
+            "DA_WarmogsArmor",
+            "DA_SpearOfShojin",
+            "DA_InfinityEdge",
+            "DA_Deathblade",
+            "DA_GuinsoosRageblade",
+            "DA_RabadonsDeathcap",
+            "DA_JeweledGauntlet"
+          ],
+          "match": "exact",
+          "updated_at": "2026-10-12T11:13:20.593Z",
+          "patch_limit": "作者未显式标注18.4b；10月15日归档的对应棋盘证据。"
+        }
+      ]
+    },
+    {
+      "id": "426022",
+      "name": "魔战士 / 易 / 雷恩加尔",
+      "status": "optional",
+      "emblems": [
+        "斗士纹章"
+      ],
+      "note": "PivotTFT的7人棋盘与当前代表棋盘一致，双C常规三件套均不含转职；斗士纹章属于可追加增强。",
+      "alternative": "",
+      "sources": [
+        {
+          "url": "https://www.pivottft.com/comps/rengar-master-yi-reroll/",
+          "patch": "18.4b",
+          "verified_at": "2026-10-15",
+          "match": "exact roster or documented level variant"
+        }
+      ]
+    },
+    {
+      "id": "426029",
+      "name": "魔战士 / 易",
+      "status": "optional",
+      "emblems": [
+        "斗士纹章"
+      ],
+      "note": "MetaTFT同棋盘的单核易变体给易常规三件套；另有独立斗士纹章变体，因此不把斗士转职作为整条路线的前置。",
+      "alternative": "PivotTFT主推斗士转职配装；来源侧重点不同，无转职按MetaTFT单核易变体走，不承诺沿用转职配装的收益。",
+      "sources": [
+        {
+          "url": "https://www.pivottft.com/comps/master-yi-reroll/",
+          "patch": "18.4b",
+          "verified_at": "2026-10-15",
+          "match": "exact roster or documented level variant"
+        },
+        {
+          "url": "https://www.metatft.com/pro-comps?comp=8c51379e-a96a-4767-bf58-8b90bc75925b",
+          "variant": "Lvl 7 Yi only",
+          "units": [
+            "DA_18_MasterYi_AD",
+            "DA_18_Sett",
+            "DA_18_Yorick",
+            "DA_KogMaw18_AD",
+            "DA_Krug18",
+            "DA_Nidalee18_AP",
+            "DA_Vi18"
+          ],
+          "items": [
+            "DA_GuinsoosRageblade",
+            "DA_EdgeOfNight",
+            "DA_TitansResolve",
+            "DA_SunfireCape",
+            "DA_GargoyleStoneplate",
+            "DA_WarmogsArmor"
+          ],
+          "match": "exact",
+          "updated_at": "2026-09-09T09:44:21.207Z",
+          "patch_limit": "作者未显式标注18.4b；10月15日归档的对应棋盘证据。"
+        }
+      ]
+    },
+    {
+      "id": "426016",
+      "name": "猎人 / 希维尔",
+      "status": "optional",
+      "emblems": [
+        "猎人纹章"
+      ],
+      "note": "MetaTFT的墨菲特8级变体与当前代表棋盘完全一致，希维尔和奈德丽均为无转职常规三件套；猎人纹章不是该棋盘入场前置。",
+      "alternative": "",
+      "sources": [
+        {
+          "url": "https://www.metatft.com/pro-comps?comp=1a6f5d18-c41f-47cb-ada6-572ae7449fce",
+          "variant": "Lvl 8 w/ Malphite",
+          "units": [
+            "DA_18_Malphite",
+            "DA_18_RekSai",
+            "DA_18_Sivir",
+            "DA_Cinderling18",
+            "DA_KogMaw18_AD",
+            "DA_Krug18",
+            "DA_Nidalee18_AP",
+            "DA_Sentinel18"
+          ],
+          "items": [
+            "DA_GargoyleStoneplate",
+            "DA_WarmogsArmor",
+            "DA_Crownguard",
+            "DA_InfinityEdge",
+            "DA_SteraksGage",
+            "DA_Bloodthirster",
+            "DA_InfinityEdge",
+            "DA_StrikersFlail",
+            "DA_RedBuff"
+          ],
+          "match": "exact",
+          "updated_at": "2026-09-27T09:25:37.478Z",
+          "patch_limit": "作者未显式标注18.4b；10月15日归档的对应棋盘证据。"
+        }
+      ]
+    },
+    {
+      "id": "426037",
+      "name": "狂战士 / 绯红印记树怪",
+      "status": "unknown",
+      "emblems": [
+        "狂战士纹章"
+      ],
+      "note": "LUM.GG同棋盘列出狂战士纹章，但未明确必需与否；显示的天然羁绊人数与MetaTFT档位也不同，不能仅凭装备清单或使用率断言。",
+      "alternative": "保留无转职可浏览与上场推导，显著标注未证实；不承诺成型狂战士档位与无转职强度。",
+      "sources": [
+        {
+          "url": "https://lum.gg/tft/team/brambleback-ravager",
+          "patch": "18.4b",
+          "match": "exact roster, requirement unresolved"
+        }
+      ]
+    }
+  ],
+  "evidence_files": [
+    {
+      "file": "emblem-verification/web-evidence.json",
+      "sha256": "f7230f04711fe217ecd503c48dd378046181c5faf38c96395fd462f3ecfb1b87"
+    },
+    {
+      "file": "augment-verification/pro-comps-directory.json",
+      "sha256": "48676b3dee4194492466e74691e169fe28ce9534a5f79a77f9f4bd3341cdd4f0"
+    },
+    {
+      "file": "augment-verification/manifest.json",
+      "sha256": "a68b2e77de3bfaad1a676b5ca8e3faac622e998f368da4e20a5de7d2919227ab"
+    },
+    {
+      "file": "raw/comps.json",
+      "sha256": "114469bbc7cda44335170a203dd081413c8a32f1a5e36a2184ac654c95ab8a45"
+    },
+    {
+      "file": "emblem-verification/rengar-web-evidence.json",
+      "sha256": "2a1b88bb12d60f6e63f077bd2378cd13a1019636d0c260d0ecc2ca8483f7edc3"
+    }
+  ],
+  "limits": "optional证明有对应无转职打法，不证明无转职仍为相同S/A强度。required仅约束已收录的具体转职分支。unknown不自动拦截。网页使用web工具核实；直接HTTP归档尝试403，保留web工具响应。"
+}

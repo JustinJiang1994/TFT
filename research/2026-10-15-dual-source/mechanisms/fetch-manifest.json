@@ -1,0 +1,41 @@
+[
+  {
+    "file": "tft-lookup-recheck.json",
+    "url": "https://data.metatft.com/lookups/TFTSet18_latest_zh_cn.json",
+    "retrieved_at": "2026-10-15T02:52:26.250240+00:00",
+    "ok": true,
+    "sha256": "853c03be3acd299f83204a0735662cc2f317c0d78a1d4d46e3d3beb3b1e52c00",
+    "metadata": {
+      "set": "TFTSet18",
+      "setName": "Enchanted Wilds",
+      "patch": "pbe",
+      "generated": "2026-10-06T21:13:15.212Z",
+      "coreHash": "69ca9bf869348e7a3365b1fe58a2a15944f4a6c1",
+      "release": "rls-18.4.0.5637330.Set18FullPC.Shipping.pbe",
+      "manifest": "F9A0F56B2A0F292A",
+      "tooltips": "curvetable"
+    }
+  },
+  {
+    "file": "tft-tables-recheck.json",
+    "url": "https://data.metatft.com/lookups/latest_TFTSet18_tables.json",
+    "retrieved_at": "2026-10-15T02:52:26.250547+00:00",
+    "ok": false,
+    "error": "curl: (56) The requested URL returned error: 403"
+  },
+  {
+    "file": "jcc-catalog-recheck.json",
+    "url": "https://www.dataj.cc/api/web/gamedata?setId=18",
+    "retrieved_at": "2026-10-15T02:52:26.251814+00:00",
+    "ok": true,
+    "sha256": "98557a8c9bc746a60be0bcee702440a57996ac0b5aad234acb9173f641695b2d",
+    "metadata": null
+  },
+  {
+    "file": "tft-official-18.4.html",
+    "url": "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4/",
+    "retrieved_at": "2026-10-15T02:54:05.496244+00:00",
+    "ok": true,
+    "sha256": "3ae56da62ce13944c942f1037a07b90f0212b11245e68a0690f9cae4939ffa9d"
+  }
+]

@@ -1,0 +1,551 @@
+{
+  "platform": "tft",
+  "source": "https://www.metatft.com/comps",
+  "official": false,
+  "set": "TFTSet18",
+  "cluster_id": 426,
+  "source_updated": 1792030417272,
+  "fetched_at": "2026-10-15T02:15:03.648161+00:00",
+  "rank_count": 60,
+  "cohort": "all clusters returned, no tier cutoff",
+  "stats_request_filters": {
+    "queue": 1100,
+    "patch": "current",
+    "days": 3,
+    "rank": "CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM",
+    "cluster_id": 426
+  },
+  "detail_filters": "source defaults; details endpoint has no explicit rank or days parameters",
+  "patch": "current alias; exact patch not yet verified",
+  "requests": [
+    {
+      "file": "raw/comps.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comps_data?queue=1100",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:34.228093+00:00",
+      "sha256": "114469bbc7cda44335170a203dd081413c8a32f1a5e36a2184ac654c95ab8a45",
+      "bytes": 266781
+    },
+    {
+      "file": "raw/comps/426000.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426000&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:36.026732+00:00",
+      "sha256": "e94a71ffcf4b6132289721e04308967a8a073c62c2696c8e1fa70979bd5c24d3",
+      "bytes": 275442
+    },
+    {
+      "file": "raw/comps/426001.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426001&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:37.303662+00:00",
+      "sha256": "4cf0fa935d9a0a6f1c68cc94344e687469cfe22df5c3a8f98a70c299d9cd4963",
+      "bytes": 295520
+    },
+    {
+      "file": "raw/comps/426002.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426002&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:37.373902+00:00",
+      "sha256": "809fa8441be2903d636b4cd832a9028234f386c4156351ab560f24bd7bf413a8",
+      "bytes": 281032
+    },
+    {
+      "file": "raw/comps/426003.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426003&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:37.559141+00:00",
+      "sha256": "9cda5c5b7683ed7b40aae696d0c38b8d8da897fac096ca924f6a6cca97664024",
+      "bytes": 300016
+    },
+    {
+      "file": "raw/comps/426004.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426004&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:37.887166+00:00",
+      "sha256": "f3870be94ea2797900d850c7f555ad22226b6d20b533f17a87024e68f360b5f4",
+      "bytes": 318984
+    },
+    {
+      "file": "raw/comps/426005.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426005&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:40.001428+00:00",
+      "sha256": "fc752e8b488f9d476e1174beb19d75014a0ad39552f470feb243ef35cfb97b1a",
+      "bytes": 322241
+    },
+    {
+      "file": "raw/comps/426006.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426006&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:39.182700+00:00",
+      "sha256": "54d9912db656fc5e29ee4159694f636e9ad51fb767470341e27dde986d4c3a25",
+      "bytes": 259294
+    },
+    {
+      "file": "raw/comps/426007.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426007&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:39.604452+00:00",
+      "sha256": "8ee4b077befde565bdaea9d0c293f2e2df5e17e74979f5a22973862660329c78",
+      "bytes": 278305
+    },
+    {
+      "file": "raw/comps/426008.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426008&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:39.952776+00:00",
+      "sha256": "2973d96a34924bdb5b0eeb94c009062b4be62946ef867d5c269a635d6edf0790",
+      "bytes": 301828
+    },
+    {
+      "file": "raw/comps/426009.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426009&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:41.660064+00:00",
+      "sha256": "7dc49f7225f71ec70d20eb6efab8011bdb0a3dacabf86877987553f403a21856",
+      "bytes": 282666
+    },
+    {
+      "file": "raw/comps/426010.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426010&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:42.241832+00:00",
+      "sha256": "e9a05ebc7c81d11833c498d236d6a50d3ed7c719ec667a0cca98c5dbbda267fb",
+      "bytes": 303156
+    },
+    {
+      "file": "raw/comps/426011.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426011&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:41.773196+00:00",
+      "sha256": "c260c9b8246f2c078bcccf2496b4314f75033594dbe03beac70ae8f427e67996",
+      "bytes": 318211
+    },
+    {
+      "file": "raw/comps/426012.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426012&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:41.826920+00:00",
+      "sha256": "3e41bf7a863d325efa137f6e13b25f110852e00aed4eea244486317cf38df8d1",
+      "bytes": 310292
+    },
+    {
+      "file": "raw/comps/426013.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426013&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:43.425738+00:00",
+      "sha256": "0c005922227958da869f787b2668de5bb561655ed5fe6e243e85ff51642e4022",
+      "bytes": 253362
+    },
+    {
+      "file": "raw/comps/426014.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426014&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:43.655214+00:00",
+      "sha256": "5280773e042c9ee15e6daec1ccb99d7b7ba2f828026b323d2c6ad1dbca3accee",
+      "bytes": 293815
+    },
+    {
+      "file": "raw/comps/426015.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426015&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:43.625513+00:00",
+      "sha256": "343a21ab2038b179c6d9a28bae775b5029d49aae86f86ed5b5de4fc46948aaed",
+      "bytes": 286060
+    },
+    {
+      "file": "raw/comps/426016.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426016&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:44.055460+00:00",
+      "sha256": "cb6ed79e47615012e2eca50c4ddafde24105002ed2072cf5c8416e1232833eca",
+      "bytes": 303961
+    },
+    {
+      "file": "raw/comps/426017.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426017&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:45.284065+00:00",
+      "sha256": "67794eee39ef3593891e48dfd9eb25a2b450573c400fee47025ff7b8920fd954",
+      "bytes": 302710
+    },
+    {
+      "file": "raw/comps/426018.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426018&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:45.478654+00:00",
+      "sha256": "5f354d7903cdb0de3cffd2364d47561e3d2504af6fe03beca78a75df6222dee9",
+      "bytes": 280726
+    },
+    {
+      "file": "raw/comps/426019.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426019&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:45.436372+00:00",
+      "sha256": "8e14b1168a41a2688cbf7f4cba65cb7c3a0e1ea5ec179370437181742693377b",
+      "bytes": 252578
+    },
+    {
+      "file": "raw/comps/426020.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426020&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:45.844549+00:00",
+      "sha256": "aecb7144d98eaaaa684ad8a8bd7614c7db7418689bd62bd691a9fb7ab52efec8",
+      "bytes": 299899
+    },
+    {
+      "file": "raw/comps/426021.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426021&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:47.498788+00:00",
+      "sha256": "ac69cbdbf17b165eff4a796ebac2b7ca63dbe0b535fd6375e4fedc7c641ab1dd",
+      "bytes": 280280
+    },
+    {
+      "file": "raw/comps/426022.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426022&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:47.261342+00:00",
+      "sha256": "ab47123a82fcc706f591a2ae7f48d6ae0611fdeaacb712515dc9b771c019f4e4",
+      "bytes": 286193
+    },
+    {
+      "file": "raw/comps/426023.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426023&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:47.251655+00:00",
+      "sha256": "171b2e9a43b46ef63a3216384ab4324d7037b20e0faf51464bccba461111bedd",
+      "bytes": 256158
+    },
+    {
+      "file": "raw/comps/426024.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426024&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:47.636928+00:00",
+      "sha256": "0ac07611c542b32fc59b1235a4f33f794655133fcc7bde01554473577c3581ac",
+      "bytes": 284557
+    },
+    {
+      "file": "raw/comps/426025.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426025&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:48.995625+00:00",
+      "sha256": "721422a981ebff90d65a3c3368acc9a2518fa3b44a3cb2cfce95df771e7647d6",
+      "bytes": 270150
+    },
+    {
+      "file": "raw/comps/426026.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426026&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:49.076891+00:00",
+      "sha256": "ac2fcc5ab57382269034e20edb3c73fafed341c52c81d592c001a6934712fccf",
+      "bytes": 277545
+    },
+    {
+      "file": "raw/comps/426027.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426027&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:49.310631+00:00",
+      "sha256": "aefa884b867542978eca04caeb6e85715ad7bad8e25cae858316516e83148217",
+      "bytes": 298563
+    },
+    {
+      "file": "raw/comps/426028.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426028&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:49.395791+00:00",
+      "sha256": "5db4343de9f7854b0f488c0d6283bc6dea0f47d964e0472bf56f7bed42e3096f",
+      "bytes": 319757
+    },
+    {
+      "file": "raw/comps/426029.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426029&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:50.746754+00:00",
+      "sha256": "9b385e12f944ab676cce4eb79a14ef969fa3abb635316076aee0547436f873e0",
+      "bytes": 275358
+    },
+    {
+      "file": "raw/comps/426030.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426030&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:50.860005+00:00",
+      "sha256": "97e11e64a0e6456e9f274811aeb058463afcfb9f3f0b0b21350a89c9671562f9",
+      "bytes": 329699
+    },
+    {
+      "file": "raw/comps/426031.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426031&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:51.088601+00:00",
+      "sha256": "da13dc0e75300777f4a2331e886c930c35e14952ad14dbbeb8a57921c34fae9c",
+      "bytes": 277157
+    },
+    {
+      "file": "raw/comps/426032.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426032&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:51.215234+00:00",
+      "sha256": "f54c19617b6954d958c0288a344f377f392d071c5d7311102c6c82b484484b7f",
+      "bytes": 301183
+    },
+    {
+      "file": "raw/comps/426033.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426033&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:52.509860+00:00",
+      "sha256": "47bacd1133d404fbee249888d0b63fa79d920788b5e9d020efab7a55956843e5",
+      "bytes": 275683
+    },
+    {
+      "file": "raw/comps/426034.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426034&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:52.656425+00:00",
+      "sha256": "a3907e6b863f7812be61ff7f25a8a0488a0782b2c1d22ca7726e174a4b116aed",
+      "bytes": 280168
+    },
+    {
+      "file": "raw/comps/426035.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426035&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:52.876699+00:00",
+      "sha256": "3f50eaeb3f3b7b849554576a6ec31985a195e00440701da6bfb152d4795dc7b9",
+      "bytes": 263319
+    },
+    {
+      "file": "raw/comps/426036.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426036&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:53.039136+00:00",
+      "sha256": "81a8c774edbd21c39154dc7eb3141d320490ace8b498fb39e5283b73e630139d",
+      "bytes": 296962
+    },
+    {
+      "file": "raw/comps/426037.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426037&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:54.254437+00:00",
+      "sha256": "264b6d87a64f6ab4e3f9e183343fffacde1e4d4100d5ef94e0e25b6d287a18d4",
+      "bytes": 245221
+    },
+    {
+      "file": "raw/comps/426038.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426038&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:54.421251+00:00",
+      "sha256": "5b6b172d9fbe62b5adb82fac8a8d7186c83001a8a39d5b041c851cb9d10cad73",
+      "bytes": 287103
+    },
+    {
+      "file": "raw/comps/426039.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426039&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:54.624134+00:00",
+      "sha256": "3f0ab46b09323e392b05f5ef1b262f977975389e8b6c89aad6a8eb1ef555ffa0",
+      "bytes": 249391
+    },
+    {
+      "file": "raw/comps/426040.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426040&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:54.831733+00:00",
+      "sha256": "d318b8cad88c583d8a0d6a53d0e19e72f9b0aa7dfca1d32f4843695634be6c06",
+      "bytes": 333045
+    },
+    {
+      "file": "raw/comps/426041.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426041&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:56.253135+00:00",
+      "sha256": "f971af780a25fce0effee774d79dd931dce72d6aa153d15e890b3d1c7eb34c09",
+      "bytes": 296593
+    },
+    {
+      "file": "raw/comps/426042.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426042&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:56.284263+00:00",
+      "sha256": "5f75c84ec53a8da7140bba26dec0277e6ca2409b0c0955e7e84ca4b1a95f4d94",
+      "bytes": 262288
+    },
+    {
+      "file": "raw/comps/426043.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426043&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:56.462242+00:00",
+      "sha256": "acf5cc1241b6c759c0970ab2e3a4959bef41c39d5dac7bc62af58b800d821166",
+      "bytes": 300020
+    },
+    {
+      "file": "raw/comps/426044.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426044&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:56.700483+00:00",
+      "sha256": "b8bfe5ea360a4cc68090e4655751933f3c98d9945846f8346ebb6e5a907c67e9",
+      "bytes": 250812
+    },
+    {
+      "file": "raw/comps/426045.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426045&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:58.272597+00:00",
+      "sha256": "40e4ee3f360b49cbac329bd4f6d36cd5284a42c2e86dd26978ac5cc32890f2ab",
+      "bytes": 283348
+    },
+    {
+      "file": "raw/comps/426046.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426046&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:58.119480+00:00",
+      "sha256": "c131c2546ab76f959d87a1c23325b2a9d895f668f6b4d3c28432789b0f9b100b",
+      "bytes": 291988
+    },
+    {
+      "file": "raw/comps/426047.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426047&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:58.217294+00:00",
+      "sha256": "ce0d5ea7b0d91cb935c8cc7a5e263304baf2f9711511e3a5fd91d7d0d80ccbf8",
+      "bytes": 242005
+    },
+    {
+      "file": "raw/comps/426048.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426048&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:59.555776+00:00",
+      "sha256": "aead6c6a65d032beaf285a2cc1b1a2a6e94662f2ee0a47ecbc325e843e25c307",
+      "bytes": 265297
+    },
+    {
+      "file": "raw/comps/426049.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426049&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:59.899768+00:00",
+      "sha256": "c8f99d30653d28feae27f7be738a3d01d60cab6cfeecefd05638eece84fd02c0",
+      "bytes": 250771
+    },
+    {
+      "file": "raw/comps/426050.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426050&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:15:00.026267+00:00",
+      "sha256": "6a0f91e16e590511aaaf836c6370fd0d9d48aaa078dc15c7ba0668d4cb3368fe",
+      "bytes": 268398
+    },
+    {
+      "file": "raw/comps/426051.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426051&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:15:00.034732+00:00",
+      "sha256": "46fa186bdc7e7ed28e5e1ffc02eaf5601b33884d2008872d6fbc5ef271e053d2",
+      "bytes": 256854
+    },
+    {
+      "file": "raw/comps/426052.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426052&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:15:01.613904+00:00",
+      "sha256": "50e0dcd5683f750ad6343c5a98b928f7203598fd0c0349b9de6cc19676d91e2f",
+      "bytes": 286887
+    },
+    {
+      "file": "raw/comps/426053.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426053&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:15:01.699235+00:00",
+      "sha256": "f12bcb4012db2fbfbd168e5d3d427fd267bda1b7b1c324720e8bba50e311c040",
+      "bytes": 299011
+    },
+    {
+      "file": "raw/comps/426054.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426054&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:15:01.841403+00:00",
+      "sha256": "cd9d01fe6043d09c2244d1193b4a191896449bee19b9d56c122406a2c4742eb1",
+      "bytes": 283047
+    },
+    {
+      "file": "raw/comps/426055.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426055&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:15:01.841462+00:00",
+      "sha256": "ae407dae59f46551e5954f0576b62a937d928c44f025438fe4bc6cd0769765e9",
+      "bytes": 275329
+    },
+    {
+      "file": "raw/comps/426056.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426056&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:15:03.476068+00:00",
+      "sha256": "b82efd3f127f241dc561533201ddffcac63b83b2943875c076f70c85be8764aa",
+      "bytes": 274931
+    },
+    {
+      "file": "raw/comps/426057.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426057&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:15:03.470664+00:00",
+      "sha256": "17301887a727d4f67eb832f60ef09b4be5ef889307b4f10d2033f639cd837452",
+      "bytes": 265058
+    },
+    {
+      "file": "raw/comps/426058.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426058&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:15:03.624695+00:00",
+      "sha256": "482d9266b8eaa0c0f9f7bcbfb43c1c704c05c1c57d72ad2978976c7bfe0976cf",
+      "bytes": 261973
+    },
+    {
+      "file": "raw/comps/426059.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426059&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:15:03.608593+00:00",
+      "sha256": "66b0b1f3edab94506d96d2e4d84e75a1df99fb0307e6826a17fd47f92148e3cf",
+      "bytes": 252279
+    },
+    {
+      "file": "raw/lookup-en_us.json",
+      "url": "https://data.metatft.com/lookups/TFTSet18_latest_en_us.json",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:35.776379+00:00",
+      "sha256": "ccaef13f86a8651f1ab8243e1397a5de767f3ff8917d4c68672fa972ebe8ba61",
+      "bytes": 1359823
+    },
+    {
+      "file": "raw/lookup-zh_cn.json",
+      "url": "https://data.metatft.com/lookups/TFTSet18_latest_zh_cn.json",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:35.574181+00:00",
+      "sha256": "853c03be3acd299f83204a0735662cc2f317c0d78a1d4d46e3d3beb3b1e52c00",
+      "bytes": 1373750
+    },
+    {
+      "file": "raw/stats.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comps_stats?queue=1100&patch=current&days=3&rank=CHALLENGER%2CDIAMOND%2CEMERALD%2CGRANDMASTER%2CMASTER%2CPLATINUM&cluster_id=426",
+      "ok": true,
+      "retrieved_at": "2026-10-15T02:14:35.237349+00:00",
+      "sha256": "c364c85a00fa9d1fe5ff019e34072fc9aa548f5469188cd07dac3f6eb693d03d",
+      "bytes": 5938
+    }
+  ],
+  "limits": [
+    "Separate endpoint populations must not be assumed identical",
+    "All returned clusters is not all possible in-game compositions",
+    "No cross-platform strength equivalence inferred",
+    "Chinese latest lookup metadata says patch=pbe; do not present its numbers as verified live-server values",
+    "Augment statistics use empty augment ids; pro guide recommendations are distinct from measured augment win rates"
+  ],
+  "lookup_metadata": {
+    "set": "TFTSet18",
+    "setName": "Enchanted Wilds",
+    "patch": "pbe",
+    "generated": "2026-10-06T21:13:15.212Z",
+    "coreHash": "69ca9bf869348e7a3365b1fe58a2a15944f4a6c1",
+    "release": "rls-18.4.0.5637330.Set18FullPC.Shipping.pbe",
+    "manifest": "F9A0F56B2A0F292A",
+    "tooltips": "curvetable"
+  }
+}

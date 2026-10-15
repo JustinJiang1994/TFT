@@ -1,0 +1,2101 @@
+[
+  {
+    "id": "426000",
+    "name_zh": "护卫 / DA_18_Rengar",
+    "unit_ids": [
+      "DA_18_Cassiopeia",
+      "DA_18_Lillia",
+      "DA_18_Ornn",
+      "DA_18_Rammus",
+      "DA_18_Rengar",
+      "DA_18_Shen",
+      "DA_Fiddlesticks18"
+    ],
+    "source_overall_default": {
+      "count": 11226,
+      "avg": 4.1807
+    },
+    "stats_filtered": {
+      "count": 32379,
+      "avg_placement": 4.13595231477192,
+      "top4_rate": 0.5697211155378487,
+      "win_rate": 0.13694060965440563,
+      "placement_counts": [
+        4434,
+        5338,
+        4529,
+        4146,
+        3968,
+        3771,
+        3373,
+        2820
+      ]
+    },
+    "detail_file": "raw/comps/426000.json"
+  },
+  {
+    "id": "426001",
+    "name_zh": "迅捷射手 / DA_18_Aphelios",
+    "unit_ids": [
+      "DA_18_Aphelios",
+      "DA_18_Rakan",
+      "DA_18_Varus",
+      "DA_18_Xayah",
+      "DA_Amumu18",
+      "DA_Brambleback18",
+      "DA_CrimsonRaptor18",
+      "DA_Sentinel18"
+    ],
+    "source_overall_default": {
+      "count": 15615,
+      "avg": 4.3427
+    },
+    "stats_filtered": {
+      "count": 40711,
+      "avg_placement": 4.300336518385694,
+      "top4_rate": 0.5544447446636044,
+      "win_rate": 0.09194075311340916,
+      "placement_counts": [
+        3743,
+        5948,
+        6532,
+        6349,
+        5493,
+        4953,
+        4287,
+        3406
+      ]
+    },
+    "detail_file": "raw/comps/426001.json"
+  },
+  {
+    "id": "426002",
+    "name_zh": "永恒之森 / DA_18_Ezreal / DA_18_Aphelios",
+    "unit_ids": [
+      "DA_18_Alistar",
+      "DA_18_Aphelios",
+      "DA_18_Ezreal",
+      "DA_18_GnarSmall",
+      "DA_18_Hecarim",
+      "DA_18_LeBlanc",
+      "DA_18_Lillia",
+      "DA_18_Ornn",
+      "DA_18_Xayah"
+    ],
+    "source_overall_default": {
+      "count": 45716,
+      "avg": 4.2951
+    },
+    "stats_filtered": {
+      "count": 155332,
+      "avg_placement": 4.192638992609378,
+      "top4_rate": 0.5524425102361393,
+      "win_rate": 0.14875234980557772,
+      "placement_counts": [
+        23106,
+        22222,
+        20453,
+        20031,
+        19699,
+        18846,
+        17153,
+        13822
+      ]
+    },
+    "detail_file": "raw/comps/426002.json"
+  },
+  {
+    "id": "426003",
+    "name_zh": "绝命花妖 / DA_18_Azir",
+    "unit_ids": [
+      "DA_18_Azir",
+      "DA_18_Rammus",
+      "DA_18_Soraka",
+      "DA_18_Teemo",
+      "DA_18_Veigar",
+      "DA_18_Zyra",
+      "DA_Fiddlesticks18"
+    ],
+    "source_overall_default": {
+      "count": 94755,
+      "avg": 4.2326
+    },
+    "stats_filtered": {
+      "count": 460067,
+      "avg_placement": 4.131724292331334,
+      "top4_rate": 0.568078127750958,
+      "win_rate": 0.1516626926078158,
+      "placement_counts": [
+        69775,
+        72711,
+        61239,
+        57629,
+        54828,
+        52499,
+        48782,
+        42604
+      ]
+    },
+    "detail_file": "raw/comps/426003.json"
+  },
+  {
+    "id": "426004",
+    "name_zh": "月蚀骑士 / DA_18_Aphelios / DA_Nidalee18_AP",
+    "unit_ids": [
+      "DA_18_Aphelios",
+      "DA_18_Diana",
+      "DA_18_Varus",
+      "DA_Amumu18",
+      "DA_KogMaw18_AD",
+      "DA_Nidalee18_AP",
+      "DA_Sentinel18",
+      "DA_Vi18"
+    ],
+    "source_overall_default": {
+      "count": 124861,
+      "avg": 4.3526
+    },
+    "stats_filtered": {
+      "count": 408819,
+      "avg_placement": 4.219867471912998,
+      "top4_rate": 0.5759468126481402,
+      "win_rate": 0.08401272934966329,
+      "placement_counts": [
+        34346,
+        63148,
+        71701,
+        66263,
+        56221,
+        47318,
+        39224,
+        30598
+      ]
+    },
+    "detail_file": "raw/comps/426004.json"
+  },
+  {
+    "id": "426005",
+    "name_zh": "裁决使 / DA_18_Sett",
+    "unit_ids": [
+      "DA_18_Ahri",
+      "DA_18_Alistar",
+      "DA_18_Ezreal",
+      "DA_18_Ornn",
+      "DA_18_Sett",
+      "DA_18_Soraka",
+      "DA_18_Yunara",
+      "DA_Fiddlesticks18"
+    ],
+    "source_overall_default": {
+      "count": 32986,
+      "avg": 4.545
+    },
+    "stats_filtered": {
+      "count": 102887,
+      "avg_placement": 4.35746984555872,
+      "top4_rate": 0.5383673350374683,
+      "win_rate": 0.09369502463868128,
+      "placement_counts": [
+        9640,
+        14263,
+        15916,
+        15572,
+        14321,
+        12868,
+        11144,
+        9163
+      ]
+    },
+    "detail_file": "raw/comps/426005.json"
+  },
+  {
+    "id": "426006",
+    "name_zh": "神谕 / DA_18_Teemo / DA_18_Alistar",
+    "unit_ids": [
+      "DA_18_Alistar",
+      "DA_18_Hecarim",
+      "DA_18_Kobuko",
+      "DA_18_LeBlanc",
+      "DA_18_Morgana",
+      "DA_18_Teemo",
+      "DA_18_Veigar",
+      "DA_Sentinel18"
+    ],
+    "source_overall_default": {
+      "count": 8845,
+      "avg": 4.4668
+    },
+    "stats_filtered": {
+      "count": 47641,
+      "avg_placement": 4.2833483763984805,
+      "top4_rate": 0.5614701622552003,
+      "win_rate": 0.06721101572175227,
+      "placement_counts": [
+        3202,
+        7587,
+        8252,
+        7708,
+        6886,
+        5819,
+        4741,
+        3446
+      ]
+    },
+    "detail_file": "raw/comps/426006.json"
+  },
+  {
+    "id": "426007",
+    "name_zh": "峡谷野怪 / DA_18_Sentry",
+    "unit_ids": [
+      "DA_18_ElderDragon",
+      "DA_18_GnarSmall",
+      "DA_18_Sentry",
+      "DA_Brambleback18",
+      "DA_Krug18",
+      "DA_Murkwolf18",
+      "DA_Sentinel18",
+      "DA_Taric18"
+    ],
+    "source_overall_default": {
+      "count": 115107,
+      "avg": 4.1343
+    },
+    "stats_filtered": {
+      "count": 581194,
+      "avg_placement": 4.135758455868436,
+      "top4_rate": 0.5707784319865656,
+      "win_rate": 0.14216423431762887,
+      "placement_counts": [
+        82625,
+        84475,
+        84381,
+        80252,
+        75096,
+        67237,
+        57974,
+        49154
+      ]
+    },
+    "detail_file": "raw/comps/426007.json"
+  },
+  {
+    "id": "426008",
+    "name_zh": "重装战士 / DA_18_Alune",
+    "unit_ids": [
+      "DA_18_Alune",
+      "DA_18_Diana",
+      "DA_18_Hecarim",
+      "DA_18_Ivern",
+      "DA_18_Lillia",
+      "DA_18_Morgana",
+      "DA_Fiddlesticks18",
+      "DA_Sentinel18",
+      "DA_Taric18"
+    ],
+    "source_overall_default": {
+      "count": 24817,
+      "avg": 4.3625
+    },
+    "stats_filtered": {
+      "count": 109220,
+      "avg_placement": 4.279060611609595,
+      "top4_rate": 0.5247024354513825,
+      "win_rate": 0.18765793810657388,
+      "placement_counts": [
+        20496,
+        12785,
+        11841,
+        12186,
+        12781,
+        13105,
+        13717,
+        12309
+      ]
+    },
+    "detail_file": "raw/comps/426008.json"
+  },
+  {
+    "id": "426009",
+    "name_zh": "神谕 / DA_18_Morgana",
+    "unit_ids": [
+      "DA_18_Alune",
+      "DA_18_Diana",
+      "DA_18_Hecarim",
+      "DA_18_Morgana",
+      "DA_18_Sentry",
+      "DA_Brambleback18",
+      "DA_KogMaw18_AD",
+      "DA_Sentinel18",
+      "DA_Taric18"
+    ],
+    "source_overall_default": {
+      "count": 7949,
+      "avg": 4.5602
+    },
+    "stats_filtered": {
+      "count": 43765,
+      "avg_placement": 4.383114360790586,
+      "top4_rate": 0.5239346509768079,
+      "win_rate": 0.12414029475608362,
+      "placement_counts": [
+        5433,
+        5357,
+        6004,
+        6136,
+        5732,
+        5559,
+        5242,
+        4302
+      ]
+    },
+    "detail_file": "raw/comps/426009.json"
+  },
+  {
+    "id": "426010",
+    "name_zh": "神谕 / DA_18_Ahri",
+    "unit_ids": [
+      "DA_18_Ahri",
+      "DA_18_Morgana",
+      "DA_18_Sentry",
+      "DA_18_Sett",
+      "DA_Karma18",
+      "DA_Krug18",
+      "DA_Sentinel18",
+      "DA_Taric18"
+    ],
+    "source_overall_default": {
+      "count": 109166,
+      "avg": 4.407
+    },
+    "stats_filtered": {
+      "count": 290496,
+      "avg_placement": 4.378218632958801,
+      "top4_rate": 0.529005562899317,
+      "win_rate": 0.11474168319012998,
+      "placement_counts": [
+        33332,
+        37273,
+        42125,
+        40944,
+        39039,
+        35456,
+        32721,
+        29606
+      ]
+    },
+    "detail_file": "raw/comps/426010.json"
+  },
+  {
+    "id": "426011",
+    "name_zh": "永恒之森 / DA_Draven18",
+    "unit_ids": [
+      "DA_18_Alistar",
+      "DA_18_Ezreal",
+      "DA_18_GnarSmall",
+      "DA_18_Ivern",
+      "DA_18_Kennen",
+      "DA_18_Maokai",
+      "DA_Amumu18",
+      "DA_Draven18",
+      "DA_Taric18"
+    ],
+    "source_overall_default": {
+      "count": 76815,
+      "avg": 4.4601
+    },
+    "stats_filtered": {
+      "count": 347914,
+      "avg_placement": 4.410719315692958,
+      "top4_rate": 0.4959329029587772,
+      "win_rate": 0.18525555165931812,
+      "placement_counts": [
+        64453,
+        37965,
+        34360,
+        35764,
+        39328,
+        44523,
+        47914,
+        43607
+      ]
+    },
+    "detail_file": "raw/comps/426011.json"
+  },
+  {
+    "id": "426012",
+    "name_zh": "裁决使 / DA_18_KhaZix",
+    "unit_ids": [
+      "DA_18_Diana",
+      "DA_18_Ezreal",
+      "DA_18_Hecarim",
+      "DA_18_KhaZix",
+      "DA_18_Ornn",
+      "DA_18_Soraka",
+      "DA_Fiddlesticks18"
+    ],
+    "source_overall_default": {
+      "count": 59299,
+      "avg": 4.2411
+    },
+    "stats_filtered": {
+      "count": 225902,
+      "avg_placement": 4.361785198891555,
+      "top4_rate": 0.5275384901417429,
+      "win_rate": 0.1320882506573647,
+      "placement_counts": [
+        29839,
+        33918,
+        29340,
+        26075,
+        26287,
+        26251,
+        27136,
+        27056
+      ]
+    },
+    "detail_file": "raw/comps/426012.json"
+  },
+  {
+    "id": "426013",
+    "name_zh": "神谕 / DA_18_Teemo",
+    "unit_ids": [
+      "DA_18_Morgana",
+      "DA_18_Rammus",
+      "DA_18_Sentry",
+      "DA_18_Teemo",
+      "DA_18_Veigar",
+      "DA_Fiddlesticks18",
+      "DA_Krug18",
+      "DA_Sentinel18"
+    ],
+    "source_overall_default": {
+      "count": 3577,
+      "avg": 4.4822
+    },
+    "stats_filtered": {
+      "count": 23927,
+      "avg_placement": 4.364985163204747,
+      "top4_rate": 0.5390562962343796,
+      "win_rate": 0.07330630668282694,
+      "placement_counts": [
+        1754,
+        3546,
+        3915,
+        3683,
+        3579,
+        2973,
+        2431,
+        2046
+      ]
+    },
+    "detail_file": "raw/comps/426013.json"
+  },
+  {
+    "id": "426014",
+    "name_zh": "法师 / DA_18_Veigar",
+    "unit_ids": [
+      "DA_18_Alistar",
+      "DA_18_Cassiopeia",
+      "DA_18_LeBlanc",
+      "DA_18_Ornn",
+      "DA_18_RekSai",
+      "DA_18_Veigar",
+      "DA_Fiddlesticks18"
+    ],
+    "source_overall_default": {
+      "count": 79862,
+      "avg": 4.2983
+    },
+    "stats_filtered": {
+      "count": 256133,
+      "avg_placement": 4.375625163489281,
+      "top4_rate": 0.5248835565897405,
+      "win_rate": 0.13418419336828913,
+      "placement_counts": [
+        34369,
+        35204,
+        32899,
+        31968,
+        31335,
+        30074,
+        29995,
+        30289
+      ]
+    },
+    "detail_file": "raw/comps/426014.json"
+  },
+  {
+    "id": "426015",
+    "name_zh": "主宰 / DA_18_Zyra",
+    "unit_ids": [
+      "DA_18_Rakan",
+      "DA_18_Sejuani",
+      "DA_18_Yorick",
+      "DA_18_Zyra",
+      "DA_Amumu18",
+      "DA_Nidalee18_AP",
+      "DA_Scuttlecrab18",
+      "DA_Vi18"
+    ],
+    "source_overall_default": {
+      "count": 26647,
+      "avg": 4.6009
+    },
+    "stats_filtered": {
+      "count": 77124,
+      "avg_placement": 4.604299569524402,
+      "top4_rate": 0.47900783154400706,
+      "win_rate": 0.09426378299880711,
+      "placement_counts": [
+        7270,
+        8403,
+        10363,
+        10907,
+        11168,
+        10917,
+        9801,
+        8295
+      ]
+    },
+    "detail_file": "raw/comps/426015.json"
+  },
+  {
+    "id": "426016",
+    "name_zh": "猎人 / DA_18_Sivir",
+    "unit_ids": [
+      "DA_18_Malphite",
+      "DA_18_RekSai",
+      "DA_18_Sivir",
+      "DA_Cinderling18",
+      "DA_KogMaw18_AD",
+      "DA_Krug18",
+      "DA_Nidalee18_AP",
+      "DA_Sentinel18"
+    ],
+    "source_overall_default": {
+      "count": 16360,
+      "avg": 4.5591
+    },
+    "stats_filtered": {
+      "count": 49700,
+      "avg_placement": 4.489597585513079,
+      "top4_rate": 0.5156740442655936,
+      "win_rate": 0.08396378269617706,
+      "placement_counts": [
+        4173,
+        6362,
+        7565,
+        7529,
+        6904,
+        6346,
+        5739,
+        5082
+      ]
+    },
+    "detail_file": "raw/comps/426016.json"
+  },
+  {
+    "id": "426017",
+    "name_zh": "重装战士 / DA_18_Aphelios",
+    "unit_ids": [
+      "DA_18_Aphelios",
+      "DA_18_Diana",
+      "DA_18_Hecarim",
+      "DA_18_Zyra",
+      "DA_Brambleback18",
+      "DA_CrimsonRaptor18",
+      "DA_Sentinel18",
+      "DA_Taric18"
+    ],
+    "source_overall_default": {
+      "count": 16882,
+      "avg": 4.6703
+    },
+    "stats_filtered": {
+      "count": 58859,
+      "avg_placement": 4.531796326814931,
+      "top4_rate": 0.5013336957814438,
+      "win_rate": 0.08070133709373248,
+      "placement_counts": [
+        4750,
+        7114,
+        8778,
+        8866,
+        8566,
+        7994,
+        7161,
+        5630
+      ]
+    },
+    "detail_file": "raw/comps/426017.json"
+  },
+  {
+    "id": "426018",
+    "name_zh": "护卫 / DA_18_Cassiopeia",
+    "unit_ids": [
+      "DA_18_Cassiopeia",
+      "DA_18_Leona",
+      "DA_18_Lillia",
+      "DA_18_Ornn",
+      "DA_18_Rammus",
+      "DA_18_Shen",
+      "DA_Fiddlesticks18"
+    ],
+    "source_overall_default": {
+      "count": 22104,
+      "avg": 4.7124
+    },
+    "stats_filtered": {
+      "count": 127432,
+      "avg_placement": 4.550944817628225,
+      "top4_rate": 0.4959193923033461,
+      "win_rate": 0.07610333354259527,
+      "placement_counts": [
+        9698,
+        16543,
+        18136,
+        18819,
+        18618,
+        17619,
+        15328,
+        12671
+      ]
+    },
+    "detail_file": "raw/comps/426018.json"
+  },
+  {
+    "id": "426019",
+    "name_zh": "黑荆棘 / DA_18_Yunara",
+    "unit_ids": [
+      "DA_18_Alistar",
+      "DA_18_Azir",
+      "DA_18_Ezreal",
+      "DA_18_RekSai",
+      "DA_18_Warwick",
+      "DA_18_Yunara",
+      "DA_Murkwolf18"
+    ],
+    "source_overall_default": {
+      "count": 7503,
+      "avg": 4.6123
+    },
+    "stats_filtered": {
+      "count": 28774,
+      "avg_placement": 4.579863765899771,
+      "top4_rate": 0.49683742267324665,
+      "win_rate": 0.0970320428164315,
+      "placement_counts": [
+        2792,
+        4146,
+        3835,
+        3523,
+        3331,
+        3504,
+        3723,
+        3920
+      ]
+    },
+    "detail_file": "raw/comps/426019.json"
+  },
+  {
+    "id": "426020",
+    "name_zh": "灵魂莲华 / DA_18_Ahri / DA_18_Sett",
+    "unit_ids": [
+      "DA_18_Ahri",
+      "DA_18_Sett",
+      "DA_18_Shen",
+      "DA_18_Yorick",
+      "DA_18_Zyra",
+      "DA_Amumu18",
+      "DA_Fiddlesticks18",
+      "DA_Krug18"
+    ],
+    "source_overall_default": {
+      "count": 12117,
+      "avg": 4.629
+    },
+    "stats_filtered": {
+      "count": 43075,
+      "avg_placement": 4.562042948345908,
+      "top4_rate": 0.4941845618107951,
+      "win_rate": 0.09518282066163668,
+      "placement_counts": [
+        4100,
+        5024,
+        5974,
+        6189,
+        5866,
+        5803,
+        5416,
+        4703
+      ]
+    },
+    "detail_file": "raw/comps/426020.json"
+  },
+  {
+    "id": "426021",
+    "name_zh": "迅捷射手 / DA_18_Kayle",
+    "unit_ids": [
+      "DA_18_Aphelios",
+      "DA_18_Diana",
+      "DA_18_Kayle",
+      "DA_18_Leona",
+      "DA_18_Sejuani",
+      "DA_18_Shen",
+      "DA_18_Varus",
+      "DA_Amumu18"
+    ],
+    "source_overall_default": {
+      "count": 34591,
+      "avg": 4.3996
+    },
+    "stats_filtered": {
+      "count": 255934,
+      "avg_placement": 4.277618448506256,
+      "top4_rate": 0.5435190322505021,
+      "win_rate": 0.14039166347573984,
+      "placement_counts": [
+        35931,
+        36723,
+        33905,
+        32546,
+        30810,
+        29780,
+        29130,
+        27109
+      ]
+    },
+    "detail_file": "raw/comps/426021.json"
+  },
+  {
+    "id": "426022",
+    "name_zh": "魔战士 / DA_18_MasterYi_AD / DA_18_Rengar",
+    "unit_ids": [
+      "DA_18_MasterYi_AD",
+      "DA_18_Rengar",
+      "DA_18_Sett",
+      "DA_18_Yorick",
+      "DA_Krug18",
+      "DA_Nidalee18_AP",
+      "DA_Vi18"
+    ],
+    "source_overall_default": {
+      "count": 17659,
+      "avg": 4.4642
+    },
+    "stats_filtered": {
+      "count": 70952,
+      "avg_placement": 4.405302176119067,
+      "top4_rate": 0.5222403878678543,
+      "win_rate": 0.11125831548088849,
+      "placement_counts": [
+        7894,
+        10615,
+        9483,
+        9062,
+        8875,
+        8589,
+        8637,
+        7797
+      ]
+    },
+    "detail_file": "raw/comps/426022.json"
+  },
+  {
+    "id": "426023",
+    "name_zh": "狂战士 / DA_18_Warwick",
+    "unit_ids": [
+      "DA_18_Azir",
+      "DA_18_Diana",
+      "DA_18_Malphite",
+      "DA_18_RekSai",
+      "DA_18_Warwick",
+      "DA_Brambleback18",
+      "DA_Krug18",
+      "DA_Murkwolf18"
+    ],
+    "source_overall_default": {
+      "count": 9232,
+      "avg": 4.3946
+    },
+    "stats_filtered": {
+      "count": 53098,
+      "avg_placement": 4.435967456401371,
+      "top4_rate": 0.5277599909601115,
+      "win_rate": 0.06923047949075295,
+      "placement_counts": [
+        3676,
+        7587,
+        8497,
+        8263,
+        7641,
+        6830,
+        5869,
+        4735
+      ]
+    },
+    "detail_file": "raw/comps/426023.json"
+  },
+  {
+    "id": "426024",
+    "name_zh": "宿敌 / DA_18_KhaZix",
+    "unit_ids": [
+      "DA_18_Aphelios",
+      "DA_18_Diana",
+      "DA_18_Ezreal",
+      "DA_18_Hecarim",
+      "DA_18_KhaZix",
+      "DA_18_LeBlanc",
+      "DA_18_Rengar"
+    ],
+    "source_overall_default": {
+      "count": 11375,
+      "avg": 4.884
+    },
+    "stats_filtered": {
+      "count": 67721,
+      "avg_placement": 4.677662763396879,
+      "top4_rate": 0.4691011650743492,
+      "win_rate": 0.09750299020983151,
+      "placement_counts": [
+        6603,
+        8333,
+        8521,
+        8311,
+        8610,
+        8880,
+        9334,
+        9129
+      ]
+    },
+    "detail_file": "raw/comps/426024.json"
+  },
+  {
+    "id": "426025",
+    "name_zh": "地狱火 / DA_18_Akali_AD",
+    "unit_ids": [
+      "DA_18_Akali_AD",
+      "DA_18_Camille",
+      "DA_18_Kayle",
+      "DA_18_Leona",
+      "DA_18_Ornn",
+      "DA_18_Sejuani",
+      "DA_18_Varus"
+    ],
+    "source_overall_default": {
+      "count": 22623,
+      "avg": 4.5341
+    },
+    "stats_filtered": {
+      "count": 81613,
+      "avg_placement": 4.644296864470121,
+      "top4_rate": 0.48579270459363094,
+      "win_rate": 0.08787815666621739,
+      "placement_counts": [
+        7172,
+        10489,
+        11341,
+        10645,
+        10432,
+        10003,
+        10144,
+        11387
+      ]
+    },
+    "detail_file": "raw/comps/426025.json"
+  },
+  {
+    "id": "426026",
+    "name_zh": "月蚀骑士 / DA_18_Lillia",
+    "unit_ids": [
+      "DA_18_Alistar",
+      "DA_18_Alune",
+      "DA_18_Aphelios",
+      "DA_18_Diana",
+      "DA_18_GnarSmall",
+      "DA_18_Hecarim",
+      "DA_18_Lillia",
+      "DA_18_Ornn",
+      "DA_18_Xayah"
+    ],
+    "source_overall_default": {
+      "count": 8473,
+      "avg": 4.8436
+    },
+    "stats_filtered": {
+      "count": 35445,
+      "avg_placement": 4.675525461983354,
+      "top4_rate": 0.4668923684581746,
+      "win_rate": 0.10170686979827902,
+      "placement_counts": [
+        3605,
+        3980,
+        4416,
+        4548,
+        4682,
+        4823,
+        4757,
+        4634
+      ]
+    },
+    "detail_file": "raw/comps/426026.json"
+  },
+  {
+    "id": "426027",
+    "name_zh": "重装战士 / DA_18_Morgana",
+    "unit_ids": [
+      "DA_18_Alune",
+      "DA_18_Cassiopeia",
+      "DA_18_Diana",
+      "DA_18_ElderDragon",
+      "DA_18_Elise",
+      "DA_18_Morgana",
+      "DA_Sentinel18",
+      "DA_Taric18"
+    ],
+    "source_overall_default": {
+      "count": 18267,
+      "avg": 4.4128
+    },
+    "stats_filtered": {
+      "count": 100673,
+      "avg_placement": 4.177654385982339,
+      "top4_rate": 0.5446743416804903,
+      "win_rate": 0.19909012346905328,
+      "placement_counts": [
+        20043,
+        12245,
+        11318,
+        11228,
+        11389,
+        11675,
+        12017,
+        10758
+      ]
+    },
+    "detail_file": "raw/comps/426027.json"
+  },
+  {
+    "id": "426028",
+    "name_zh": "裁决使 / DA_18_Malphite",
+    "unit_ids": [
+      "DA_18_Azir",
+      "DA_18_Kennen",
+      "DA_18_Malphite",
+      "DA_18_Soraka",
+      "DA_18_Yorick",
+      "DA_18_Zyra",
+      "DA_Amumu18",
+      "DA_Fiddlesticks18"
+    ],
+    "source_overall_default": {
+      "count": 63734,
+      "avg": 4.6426
+    },
+    "stats_filtered": {
+      "count": 172993,
+      "avg_placement": 4.571352598082004,
+      "top4_rate": 0.4930777545912262,
+      "win_rate": 0.08936199730624939,
+      "placement_counts": [
+        15459,
+        20536,
+        24257,
+        25047,
+        24084,
+        23142,
+        21694,
+        18774
+      ]
+    },
+    "detail_file": "raw/comps/426028.json"
+  },
+  {
+    "id": "426029",
+    "name_zh": "魔战士 / DA_18_MasterYi_AD",
+    "unit_ids": [
+      "DA_18_MasterYi_AD",
+      "DA_18_Sett",
+      "DA_18_Yorick",
+      "DA_KogMaw18_AD",
+      "DA_Krug18",
+      "DA_Nidalee18_AP",
+      "DA_Vi18"
+    ],
+    "source_overall_default": {
+      "count": 8057,
+      "avg": 4.452
+    },
+    "stats_filtered": {
+      "count": 40981,
+      "avg_placement": 4.4924477196749715,
+      "top4_rate": 0.5114565286352212,
+      "win_rate": 0.06893438422683683,
+      "placement_counts": [
+        2825,
+        5860,
+        6198,
+        6077,
+        5881,
+        5523,
+        4821,
+        3796
+      ]
+    },
+    "detail_file": "raw/comps/426029.json"
+  },
+  {
+    "id": "426030",
+    "name_zh": "地狱火 / DA_18_ElderDragon",
+    "unit_ids": [
+      "DA_18_ElderDragon",
+      "DA_18_Ivern",
+      "DA_18_Kennen",
+      "DA_18_Maokai",
+      "DA_Amumu18",
+      "DA_Draven18",
+      "DA_Sentinel18",
+      "DA_Taric18"
+    ],
+    "source_overall_default": {
+      "count": 166719,
+      "avg": 4.4692
+    },
+    "stats_filtered": {
+      "count": 704922,
+      "avg_placement": 4.5057580838731095,
+      "top4_rate": 0.4890399221474149,
+      "win_rate": 0.18837687006505685,
+      "placement_counts": [
+        132791,
+        83335,
+        64487,
+        64122,
+        69239,
+        78703,
+        89575,
+        122670
+      ]
+    },
+    "detail_file": "raw/comps/426030.json"
+  },
+  {
+    "id": "426031",
+    "name_zh": "迅捷射手 / DA_18_Kayle / DA_18_Xayah",
+    "unit_ids": [
+      "DA_18_Hecarim",
+      "DA_18_Kayle",
+      "DA_18_Leona",
+      "DA_18_Ornn",
+      "DA_18_Rakan",
+      "DA_18_Sejuani",
+      "DA_18_Xayah"
+    ],
+    "source_overall_default": {
+      "count": 25846,
+      "avg": 4.8212
+    },
+    "stats_filtered": {
+      "count": 150210,
+      "avg_placement": 4.73501098462153,
+      "top4_rate": 0.4586179348911524,
+      "win_rate": 0.1158977431595766,
+      "placement_counts": [
+        17409,
+        17248,
+        17105,
+        17127,
+        17592,
+        18716,
+        20842,
+        24171
+      ]
+    },
+    "detail_file": "raw/comps/426031.json"
+  },
+  {
+    "id": "426032",
+    "name_zh": "主宰 / DA_18_Zyra / DA_Amumu18",
+    "unit_ids": [
+      "DA_18_Ashe",
+      "DA_18_Maokai",
+      "DA_18_Sejuani",
+      "DA_18_Sivir",
+      "DA_18_Yorick",
+      "DA_18_Zyra",
+      "DA_Amumu18",
+      "DA_Scuttlecrab18",
+      "DA_Vi18"
+    ],
+    "source_overall_default": {
+      "count": 28683,
+      "avg": 4.6813
+    },
+    "stats_filtered": {
+      "count": 115757,
+      "avg_placement": 4.666776091294695,
+      "top4_rate": 0.46381644306607805,
+      "win_rate": 0.10625707300638407,
+      "placement_counts": [
+        12300,
+        12305,
+        14177,
+        14908,
+        15853,
+        16051,
+        15736,
+        14427
+      ]
+    },
+    "detail_file": "raw/comps/426032.json"
+  },
+  {
+    "id": "426033",
+    "name_zh": "重装战士 / DA_CrimsonRaptor18",
+    "unit_ids": [
+      "DA_18_Aphelios",
+      "DA_18_Diana",
+      "DA_18_Hecarim",
+      "DA_18_Rengar",
+      "DA_Brambleback18",
+      "DA_CrimsonRaptor18",
+      "DA_Sentinel18",
+      "DA_Taric18"
+    ],
+    "source_overall_default": {
+      "count": 3104,
+      "avg": 5.0122
+    },
+    "stats_filtered": {
+      "count": 16398,
+      "avg_placement": 4.788388827905842,
+      "top4_rate": 0.4464568849859739,
+      "win_rate": 0.09952433223563849,
+      "placement_counts": [
+        1632,
+        1928,
+        1886,
+        1875,
+        2035,
+        2115,
+        2407,
+        2520
+      ]
+    },
+    "detail_file": "raw/comps/426033.json"
+  },
+  {
+    "id": "426034",
+    "name_zh": "裁决使 / DA_18_Azir",
+    "unit_ids": [
+      "DA_18_Azir",
+      "DA_18_KhaZix",
+      "DA_18_RekSai",
+      "DA_18_Sett",
+      "DA_18_Yorick",
+      "DA_18_Yunara",
+      "DA_18_Zyra",
+      "DA_Vi18"
+    ],
+    "source_overall_default": {
+      "count": 5796,
+      "avg": 4.7331
+    },
+    "stats_filtered": {
+      "count": 35964,
+      "avg_placement": 4.625514403292181,
+      "top4_rate": 0.4832054276498721,
+      "win_rate": 0.08872761650539428,
+      "placement_counts": [
+        3191,
+        4632,
+        4793,
+        4762,
+        4853,
+        4520,
+        4619,
+        4594
+      ]
+    },
+    "detail_file": "raw/comps/426034.json"
+  },
+  {
+    "id": "426035",
+    "name_zh": "灵魂莲华 / DA_18_Yunara",
+    "unit_ids": [
+      "DA_18_Kayle",
+      "DA_18_LeBlanc",
+      "DA_18_Leona",
+      "DA_18_Sejuani",
+      "DA_18_Yorick",
+      "DA_18_Yunara",
+      "DA_Karma18"
+    ],
+    "source_overall_default": {
+      "count": 17596,
+      "avg": 4.7084
+    },
+    "stats_filtered": {
+      "count": 52079,
+      "avg_placement": 4.847520113673458,
+      "top4_rate": 0.4470323930951055,
+      "win_rate": 0.09765932525586128,
+      "placement_counts": [
+        5086,
+        6461,
+        5820,
+        5914,
+        5828,
+        6165,
+        7240,
+        9565
+      ]
+    },
+    "detail_file": "raw/comps/426035.json"
+  },
+  {
+    "id": "426036",
+    "name_zh": "永恒之森 / DA_18_Ezreal",
+    "unit_ids": [
+      "DA_18_Alistar",
+      "DA_18_Ezreal",
+      "DA_18_GnarSmall",
+      "DA_18_Hecarim",
+      "DA_18_Kennen",
+      "DA_18_LeBlanc",
+      "DA_18_Ornn",
+      "DA_18_Soraka",
+      "DA_Fiddlesticks18"
+    ],
+    "source_overall_default": {
+      "count": 26962,
+      "avg": 4.5237
+    },
+    "stats_filtered": {
+      "count": 194476,
+      "avg_placement": 4.53320718237726,
+      "top4_rate": 0.48540693967379006,
+      "win_rate": 0.13133240091322324,
+      "placement_counts": [
+        25541,
+        22837,
+        22416,
+        23606,
+        25025,
+        25635,
+        25550,
+        23866
+      ]
+    },
+    "detail_file": "raw/comps/426036.json"
+  },
+  {
+    "id": "426037",
+    "name_zh": "狂战士 / DA_Brambleback18",
+    "unit_ids": [
+      "DA_18_Camille",
+      "DA_18_Diana",
+      "DA_18_Elise",
+      "DA_18_Hecarim",
+      "DA_18_Warwick",
+      "DA_Brambleback18",
+      "DA_Murkwolf18",
+      "DA_Sentinel18"
+    ],
+    "source_overall_default": {
+      "count": 1658,
+      "avg": 4.4312
+    },
+    "stats_filtered": {
+      "count": 16226,
+      "avg_placement": 4.392641439664736,
+      "top4_rate": 0.5395661284358437,
+      "win_rate": 0.07068901762603229,
+      "placement_counts": [
+        1147,
+        2222,
+        2739,
+        2647,
+        2363,
+        2038,
+        1724,
+        1346
+      ]
+    },
+    "detail_file": "raw/comps/426037.json"
+  },
+  {
+    "id": "426038",
+    "name_zh": "灵魂莲华 / DA_18_Ahri",
+    "unit_ids": [
+      "DA_18_Ahri",
+      "DA_18_Ashe",
+      "DA_18_GnarSmall",
+      "DA_18_Sett",
+      "DA_18_Sivir",
+      "DA_18_Yorick",
+      "DA_18_Zyra",
+      "DA_Karma18",
+      "DA_Vi18"
+    ],
+    "source_overall_default": {
+      "count": 14744,
+      "avg": 4.6869
+    },
+    "stats_filtered": {
+      "count": 146995,
+      "avg_placement": 4.694431783393993,
+      "top4_rate": 0.45545086567570325,
+      "win_rate": 0.10888805741691894,
+      "placement_counts": [
+        16006,
+        14615,
+        16902,
+        19426,
+        20459,
+        20987,
+        20605,
+        17995
+      ]
+    },
+    "detail_file": "raw/comps/426038.json"
+  },
+  {
+    "id": "426039",
+    "name_zh": "主宰 / DA_18_Caitlyn",
+    "unit_ids": [
+      "DA_18_Caitlyn",
+      "DA_18_Rakan",
+      "DA_18_Sejuani",
+      "DA_18_Sivir",
+      "DA_18_Yorick",
+      "DA_Amumu18",
+      "DA_Scuttlecrab18",
+      "DA_Vi18"
+    ],
+    "source_overall_default": {
+      "count": 10651,
+      "avg": 4.9765
+    },
+    "stats_filtered": {
+      "count": 47478,
+      "avg_placement": 4.985466953115127,
+      "top4_rate": 0.4136231517755592,
+      "win_rate": 0.05581532499262817,
+      "placement_counts": [
+        2650,
+        4672,
+        5781,
+        6535,
+        6893,
+        6940,
+        6938,
+        7069
+      ]
+    },
+    "detail_file": "raw/comps/426039.json"
+  },
+  {
+    "id": "426040",
+    "name_zh": "主宰 / DA_18_Sivir",
+    "unit_ids": [
+      "DA_18_Ashe",
+      "DA_18_Ivern",
+      "DA_18_Kennen",
+      "DA_18_Maokai",
+      "DA_18_Rakan",
+      "DA_18_Sivir",
+      "DA_Amumu18",
+      "DA_Taric18",
+      "DA_Vi18"
+    ],
+    "source_overall_default": {
+      "count": 40465,
+      "avg": 4.78
+    },
+    "stats_filtered": {
+      "count": 184696,
+      "avg_placement": 4.652618356650929,
+      "top4_rate": 0.4596796898687573,
+      "win_rate": 0.12760427946463376,
+      "placement_counts": [
+        23568,
+        19455,
+        20195,
+        21683,
+        23747,
+        25409,
+        26776,
+        23863
+      ]
+    },
+    "detail_file": "raw/comps/426040.json"
+  },
+  {
+    "id": "426041",
+    "name_zh": "神谕 / DA_Nidalee18_AP",
+    "unit_ids": [
+      "DA_18_Morgana",
+      "DA_18_Sentry",
+      "DA_KogMaw18_AD",
+      "DA_Nidalee18_AP",
+      "DA_Scuttlecrab18",
+      "DA_Sentinel18",
+      "DA_Taric18",
+      "DA_Vi18"
+    ],
+    "source_overall_default": {
+      "count": 5834,
+      "avg": 4.9952
+    },
+    "stats_filtered": {
+      "count": 30881,
+      "avg_placement": 4.769178459246786,
+      "top4_rate": 0.4554904310093585,
+      "win_rate": 0.06907159742236327,
+      "placement_counts": [
+        2133,
+        3243,
+        4170,
+        4520,
+        4502,
+        4414,
+        4118,
+        3781
+      ]
+    },
+    "detail_file": "raw/comps/426041.json"
+  },
+  {
+    "id": "426042",
+    "name_zh": "花仙子 / DA_18_Tristana",
+    "unit_ids": [
+      "DA_18_Lillia",
+      "DA_18_Rakan",
+      "DA_18_Rammus",
+      "DA_18_Rengar",
+      "DA_18_Sivir",
+      "DA_18_Tristana",
+      "DA_Vi18"
+    ],
+    "source_overall_default": {
+      "count": 11128,
+      "avg": 5.0972
+    },
+    "stats_filtered": {
+      "count": 40423,
+      "avg_placement": 5.061969670732009,
+      "top4_rate": 0.39410731514236946,
+      "win_rate": 0.115577765133711,
+      "placement_counts": [
+        4672,
+        3875,
+        3458,
+        3926,
+        4247,
+        5166,
+        6743,
+        8336
+      ]
+    },
+    "detail_file": "raw/comps/426042.json"
+  },
+  {
+    "id": "426043",
+    "name_zh": "主宰 / DA_18_Zyra / DA_18_Azir",
+    "unit_ids": [
+      "DA_18_Azir",
+      "DA_18_Rakan",
+      "DA_18_Sejuani",
+      "DA_18_Yorick",
+      "DA_18_Zyra",
+      "DA_Amumu18",
+      "DA_Scuttlecrab18",
+      "DA_Vi18"
+    ],
+    "source_overall_default": {
+      "count": 5150,
+      "avg": 5.2198
+    },
+    "stats_filtered": {
+      "count": 35204,
+      "avg_placement": 4.96372571298716,
+      "top4_rate": 0.41597545733439384,
+      "win_rate": 0.06482217929780706,
+      "placement_counts": [
+        2282,
+        3316,
+        4235,
+        4811,
+        5048,
+        5160,
+        5136,
+        5216
+      ]
+    },
+    "detail_file": "raw/comps/426043.json"
+  },
+  {
+    "id": "426044",
+    "name_zh": "约德尔人和朋友 / DA_18_Veigar",
+    "unit_ids": [
+      "DA_18_GnarSmall",
+      "DA_18_Kobuko",
+      "DA_18_Rammus",
+      "DA_18_RekSai",
+      "DA_18_Sett",
+      "DA_18_Teemo",
+      "DA_18_Veigar",
+      "DA_Fiddlesticks18"
+    ],
+    "source_overall_default": {
+      "count": 4704,
+      "avg": 5.1775
+    },
+    "stats_filtered": {
+      "count": 58811,
+      "avg_placement": 4.918773698797844,
+      "top4_rate": 0.4269099318154767,
+      "win_rate": 0.04919147778476816,
+      "placement_counts": [
+        2893,
+        5953,
+        7745,
+        8516,
+        9014,
+        8721,
+        7968,
+        8001
+      ]
+    },
+    "detail_file": "raw/comps/426044.json"
+  },
+  {
+    "id": "426045",
+    "name_zh": "野兽之灵 / DA_Nidalee18_AP",
+    "unit_ids": [
+      "DA_18_Ashe",
+      "DA_18_Lillia",
+      "DA_18_Maokai",
+      "DA_18_Shen",
+      "DA_18_Sivir",
+      "DA_Amumu18",
+      "DA_KogMaw18_AD",
+      "DA_Nidalee18_AP"
+    ],
+    "source_overall_default": {
+      "count": 4874,
+      "avg": 5.0515
+    },
+    "stats_filtered": {
+      "count": 28812,
+      "avg_placement": 4.935027072053311,
+      "top4_rate": 0.4166666666666667,
+      "win_rate": 0.06306400111064835,
+      "placement_counts": [
+        1817,
+        2674,
+        3588,
+        3926,
+        4273,
+        4376,
+        4330,
+        3828
+      ]
+    },
+    "detail_file": "raw/comps/426045.json"
+  },
+  {
+    "id": "426046",
+    "name_zh": "灵魂莲华 / DA_18_Sett",
+    "unit_ids": [
+      "DA_18_Ashe",
+      "DA_18_ElderDragon",
+      "DA_18_GnarSmall",
+      "DA_18_Kennen",
+      "DA_18_Sett",
+      "DA_18_Yorick",
+      "DA_Amumu18",
+      "DA_Cinderling18"
+    ],
+    "source_overall_default": {
+      "count": 7124,
+      "avg": 4.8462
+    },
+    "stats_filtered": {
+      "count": 33360,
+      "avg_placement": 4.7550359712230215,
+      "top4_rate": 0.45152877697841726,
+      "win_rate": 0.0940347721822542,
+      "placement_counts": [
+        3137,
+        3777,
+        4006,
+        4143,
+        4306,
+        4668,
+        4775,
+        4548
+      ]
+    },
+    "detail_file": "raw/comps/426046.json"
+  },
+  {
+    "id": "426047",
+    "name_zh": "约德尔人和朋友 / DA_18_Rammus",
+    "unit_ids": [
+      "DA_18_GnarSmall",
+      "DA_18_Kobuko",
+      "DA_18_Lillia",
+      "DA_18_Rammus",
+      "DA_18_Sivir",
+      "DA_18_Teemo",
+      "DA_18_Tristana",
+      "DA_18_Veigar"
+    ],
+    "source_overall_default": {
+      "count": 1854,
+      "avg": 5.4213
+    },
+    "stats_filtered": {
+      "count": 31540,
+      "avg_placement": 5.039600507292327,
+      "top4_rate": 0.398858592263792,
+      "win_rate": 0.039822447685478754,
+      "placement_counts": [
+        1256,
+        2871,
+        3875,
+        4578,
+        5021,
+        4919,
+        4765,
+        4255
+      ]
+    },
+    "detail_file": "raw/comps/426047.json"
+  },
+  {
+    "id": "426048",
+    "name_zh": "花仙子 / DA_18_Tristana / DA_18_Sivir",
+    "unit_ids": [
+      "DA_18_Kobuko",
+      "DA_18_Lillia",
+      "DA_18_Rakan",
+      "DA_18_Rammus",
+      "DA_18_Sivir",
+      "DA_18_Tristana",
+      "DA_18_Xayah",
+      "DA_Vi18"
+    ],
+    "source_overall_default": {
+      "count": 9519,
+      "avg": 4.9551
+    },
+    "stats_filtered": {
+      "count": 63344,
+      "avg_placement": 4.835059358423845,
+      "top4_rate": 0.4365054306643092,
+      "win_rate": 0.084696261682243,
+      "placement_counts": [
+        5365,
+        6446,
+        7552,
+        8287,
+        8675,
+        9043,
+        9230,
+        8746
+      ]
+    },
+    "detail_file": "raw/comps/426048.json"
+  },
+  {
+    "id": "426049",
+    "name_zh": "黑荆棘 / DA_18_Veigar",
+    "unit_ids": [
+      "DA_18_Azir",
+      "DA_18_Kobuko",
+      "DA_18_Malphite",
+      "DA_18_Rammus",
+      "DA_18_RekSai",
+      "DA_18_Soraka",
+      "DA_18_Veigar",
+      "DA_Fiddlesticks18"
+    ],
+    "source_overall_default": {
+      "count": 2073,
+      "avg": 4.7559
+    },
+    "stats_filtered": {
+      "count": 24325,
+      "avg_placement": 4.9748406988694756,
+      "top4_rate": 0.41463514902363824,
+      "win_rate": 0.07704008221993834,
+      "placement_counts": [
+        1874,
+        2434,
+        2727,
+        3051,
+        3363,
+        3249,
+        3439,
+        4188
+      ]
+    },
+    "detail_file": "raw/comps/426049.json"
+  },
+  {
+    "id": "426050",
+    "name_zh": "绝命花妖 / DA_18_Soraka",
+    "unit_ids": [
+      "DA_18_Alune",
+      "DA_18_Diana",
+      "DA_18_Ivern",
+      "DA_18_Kennen",
+      "DA_18_Maokai",
+      "DA_18_Soraka",
+      "DA_Amumu18",
+      "DA_Fiddlesticks18",
+      "DA_Taric18"
+    ],
+    "source_overall_default": {
+      "count": 3692,
+      "avg": 5.2668
+    },
+    "stats_filtered": {
+      "count": 22991,
+      "avg_placement": 5.045626549519377,
+      "top4_rate": 0.3937192814579618,
+      "win_rate": 0.06941846809621156,
+      "placement_counts": [
+        1596,
+        2139,
+        2481,
+        2836,
+        3163,
+        3442,
+        3796,
+        3538
+      ]
+    },
+    "detail_file": "raw/comps/426050.json"
+  },
+  {
+    "id": "426051",
+    "name_zh": "峡谷野怪 / DA_Gromp18_AP",
+    "unit_ids": [
+      "DA_18_Sentry",
+      "DA_Brambleback18",
+      "DA_Gromp18_AP",
+      "DA_KogMaw18_AD",
+      "DA_Krug18",
+      "DA_Murkwolf18",
+      "DA_Scuttlecrab18",
+      "DA_Sentinel18"
+    ],
+    "source_overall_default": {
+      "count": 13196,
+      "avg": 4.7673
+    },
+    "stats_filtered": {
+      "count": 51401,
+      "avg_placement": 4.9004299527246555,
+      "top4_rate": 0.4343106165249703,
+      "win_rate": 0.06126339954475594,
+      "placement_counts": [
+        3149,
+        5271,
+        6745,
+        7159,
+        7295,
+        7184,
+        7038,
+        7560
+      ]
+    },
+    "detail_file": "raw/comps/426051.json"
+  },
+  {
+    "id": "426052",
+    "name_zh": "法师 / DA_18_Ahri",
+    "unit_ids": [
+      "DA_18_Ahri",
+      "DA_18_Alune",
+      "DA_18_Cassiopeia",
+      "DA_18_GnarSmall",
+      "DA_18_Lillia",
+      "DA_18_Sett",
+      "DA_Fiddlesticks18",
+      "DA_Karma18"
+    ],
+    "source_overall_default": {
+      "count": 5970,
+      "avg": 4.9883
+    },
+    "stats_filtered": {
+      "count": 30164,
+      "avg_placement": 4.974373425275163,
+      "top4_rate": 0.4080360694868055,
+      "win_rate": 0.07329929717544093,
+      "placement_counts": [
+        2211,
+        2935,
+        3346,
+        3816,
+        4275,
+        4449,
+        4461,
+        4671
+      ]
+    },
+    "detail_file": "raw/comps/426052.json"
+  },
+  {
+    "id": "426053",
+    "name_zh": "月蚀骑士 / DA_18_Aphelios",
+    "unit_ids": [
+      "DA_18_Alune",
+      "DA_18_Aphelios",
+      "DA_18_Diana",
+      "DA_18_Kayle",
+      "DA_18_Leona",
+      "DA_18_Maokai",
+      "DA_18_Sejuani",
+      "DA_Fiddlesticks18",
+      "DA_Taric18"
+    ],
+    "source_overall_default": {
+      "count": 10760,
+      "avg": 4.6892
+    },
+    "stats_filtered": {
+      "count": 62328,
+      "avg_placement": 4.655451803362855,
+      "top4_rate": 0.4707354639969195,
+      "win_rate": 0.1113303812090874,
+      "placement_counts": [
+        6939,
+        7469,
+        7452,
+        7480,
+        7777,
+        8046,
+        8469,
+        8696
+      ]
+    },
+    "detail_file": "raw/comps/426053.json"
+  },
+  {
+    "id": "426054",
+    "name_zh": "重装战士 / DA_18_Elise / DA_18_Cassiopeia",
+    "unit_ids": [
+      "DA_18_Cassiopeia",
+      "DA_18_Diana",
+      "DA_18_Elise",
+      "DA_18_Hecarim",
+      "DA_18_Morgana",
+      "DA_18_Rakan",
+      "DA_Sentinel18",
+      "DA_Taric18"
+    ],
+    "source_overall_default": {
+      "count": 54020,
+      "avg": 5.0079
+    },
+    "stats_filtered": {
+      "count": 342761,
+      "avg_placement": 5.287882810471436,
+      "top4_rate": 0.3432916813756524,
+      "win_rate": 0.10850125889468172,
+      "placement_counts": [
+        37190,
+        23262,
+        25809,
+        31406,
+        38368,
+        48993,
+        61947,
+        75786
+      ]
+    },
+    "detail_file": "raw/comps/426054.json"
+  },
+  {
+    "id": "426055",
+    "name_zh": "地狱火 / DA_Amumu18",
+    "unit_ids": [
+      "DA_18_Alune",
+      "DA_18_Aphelios",
+      "DA_18_Diana",
+      "DA_18_Kayle",
+      "DA_18_Leona",
+      "DA_18_Sejuani",
+      "DA_18_Shen",
+      "DA_Amumu18",
+      "DA_Taric18"
+    ],
+    "source_overall_default": {
+      "count": 3322,
+      "avg": 5.3498
+    },
+    "stats_filtered": {
+      "count": 32272,
+      "avg_placement": 5.207579325731284,
+      "top4_rate": 0.3701351016360932,
+      "win_rate": 0.06860436291522062,
+      "placement_counts": [
+        2214,
+        2720,
+        3265,
+        3746,
+        4268,
+        4548,
+        5090,
+        6421
+      ]
+    },
+    "detail_file": "raw/comps/426055.json"
+  },
+  {
+    "id": "426056",
+    "name_zh": "黑荆棘 / DA_18_Azir",
+    "unit_ids": [
+      "DA_18_Alistar",
+      "DA_18_Azir",
+      "DA_18_Ezreal",
+      "DA_18_LeBlanc",
+      "DA_18_Malphite",
+      "DA_18_RekSai",
+      "DA_18_Soraka",
+      "DA_18_Veigar"
+    ],
+    "source_overall_default": {
+      "count": 4799,
+      "avg": 5.1582
+    },
+    "stats_filtered": {
+      "count": 36535,
+      "avg_placement": 5.231996715478308,
+      "top4_rate": 0.3640892295059532,
+      "win_rate": 0.06415765704119337,
+      "placement_counts": [
+        2344,
+        3066,
+        3704,
+        4188,
+        4798,
+        5294,
+        6071,
+        7070
+      ]
+    },
+    "detail_file": "raw/comps/426056.json"
+  },
+  {
+    "id": "426057",
+    "name_zh": "宿敌 / DA_18_KhaZix / DA_Fiddlesticks18",
+    "unit_ids": [
+      "DA_18_Akali_AD",
+      "DA_18_Diana",
+      "DA_18_Kennen",
+      "DA_18_KhaZix",
+      "DA_18_Lillia",
+      "DA_18_Rakan",
+      "DA_18_Veigar",
+      "DA_Fiddlesticks18",
+      "DA_Nidalee18_AP"
+    ],
+    "source_overall_default": {
+      "count": 1413,
+      "avg": 6.0042
+    },
+    "stats_filtered": {
+      "count": 11279,
+      "avg_placement": 5.6601649082365455,
+      "top4_rate": 0.2924904690132104,
+      "win_rate": 0.049383810621509,
+      "placement_counts": [
+        557,
+        739,
+        921,
+        1082,
+        1306,
+        1591,
+        2025,
+        3058
+      ]
+    },
+    "detail_file": "raw/comps/426057.json"
+  },
+  {
+    "id": "426058",
+    "name_zh": "花仙子 / DA_18_Xayah",
+    "unit_ids": [
+      "DA_18_Hecarim",
+      "DA_18_Lillia",
+      "DA_18_Ornn",
+      "DA_18_Rakan",
+      "DA_18_Tristana",
+      "DA_18_Varus",
+      "DA_18_Xayah",
+      "DA_Amumu18"
+    ],
+    "source_overall_default": {
+      "count": 1938,
+      "avg": 6.2621
+    },
+    "stats_filtered": {
+      "count": 23579,
+      "avg_placement": 5.868781542898342,
+      "top4_rate": 0.2633699478349379,
+      "win_rate": 0.03749098774333093,
+      "placement_counts": [
+        884,
+        1256,
+        1777,
+        2293,
+        2649,
+        3236,
+        4052,
+        7432
+      ]
+    },
+    "detail_file": "raw/comps/426058.json"
+  },
+  {
+    "id": "426059",
+    "name_zh": "重装战士 / DA_18_Elise",
+    "unit_ids": [
+      "DA_18_Cassiopeia",
+      "DA_18_Diana",
+      "DA_18_Elise",
+      "DA_18_Hecarim",
+      "DA_18_Rakan",
+      "DA_Sentinel18",
+      "DA_Taric18"
+    ],
+    "source_overall_default": {
+      "count": 5998,
+      "avg": 6.2989
+    },
+    "stats_filtered": {
+      "count": 32497,
+      "avg_placement": 6.074160691756162,
+      "top4_rate": 0.21457365295258024,
+      "win_rate": 0.02815644521032711,
+      "placement_counts": [
+        915,
+        1388,
+        1992,
+        2678,
+        3671,
+        4885,
+        6396,
+        10572
+      ]
+    },
+    "detail_file": "raw/comps/426059.json"
+  }
+]

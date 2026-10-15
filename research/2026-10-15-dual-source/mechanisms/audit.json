@@ -1,0 +1,3049 @@
+{
+  "scope": "金铲铲10月13日已发布18.3归档，对照原6组TFT10月12日历史推荐；10月15日词库及官方18.4/B补丁用于核查",
+  "policy": "两个游戏并列；共同搭配需双方来源支持；各游戏独有搭配及机制差异分别标注，不推定整套机制完全相同",
+  "limits": [
+    "金铲铲gamedata接口无补丁参数，内部版本字段混杂，不能把词库归档当成锁定18.3的正式服机制包",
+    "MetaTFT latest词库复查仍标记pbe；官网18.4b统计标签不证明该词库就是18.4b机制",
+    "官方TFT补丁支持列出的变更字段；不能据此证明金铲铲已同步更新",
+    "未找到可锁定这些字段的金铲铲官方补丁证据；保留资料差异与待确认边界",
+    "TFT机制表请求返回403；未用其他地址冒充成功结果"
+  ],
+  "sources": [
+    {
+      "path": "games/jcc/set18/18.3/snapshots/20261013T083011Z/data/knowledge.json",
+      "sha256": "bf1261a773d58da41aaf26b489ee2844841fe6db9d337d197bcbaba610d177b4"
+    },
+    {
+      "path": "games/jcc/set18/18.3/snapshots/20261013T083011Z/data/raw/catalog.json",
+      "sha256": "165e9339b62b06c0359c73922e609416c17c2bebedc4bed443b3fac758f1db69"
+    },
+    {
+      "path": "games/tft/set18/18.4b/data/comps/selected.json",
+      "sha256": "e0b39f06c710e5f18bf230da272f30ef6b76c838bf13def4e80f690cd8215c4d"
+    },
+    {
+      "path": "games/tft/set18/18.4b/data/comps/data.json",
+      "sha256": "b8865ad123660786da331d966b01d2a3b4d4a7ffd6f211f395dcfc189db9b8ef"
+    },
+    {
+      "path": "research/2026-10-15-dual-source/tft/raw/lookup-zh_cn.json",
+      "sha256": "853c03be3acd299f83204a0735662cc2f317c0d78a1d4d46e3d3beb3b1e52c00"
+    },
+    {
+      "path": "research/2026-10-15-dual-source/mechanisms/fetch-manifest.json",
+      "sha256": "1fb8216c0554fa9e28b2b8cb010b5410f9d7a165e882a9c78e510f265de9560b"
+    },
+    {
+      "path": "research/2026-10-15-dual-source/mechanisms/tft-official-18.4.html",
+      "sha256": "3ae56da62ce13944c942f1037a07b90f0212b11245e68a0690f9cae4939ffa9d"
+    }
+  ],
+  "pairs": [
+    {
+      "jcc_id": "87",
+      "tft_id": "426023",
+      "focus": [
+        "沃里克",
+        "暗影狼"
+      ],
+      "mechanics": "两份词库都描述沃里克撕咬造成物理伤害、治疗自身并积累攻速；黑荆棘按祭品定位、星级和费用给属性。TFT原始词库的治疗数值已被官方B补丁推翻。",
+      "can_reference": [
+        "可参考6级追沃里克三星的路线分类；金铲铲本身已有该路线支持，不代表应照搬同一搜牌回合。",
+        "这组主C三件套没有同名交集；继续使用金铲铲来源的无尽之刃、汲取剑、水银，不把TFT三件套自动列为金铲铲替代。"
+      ],
+      "do_not_copy": [
+        "金铲铲归档给伊莉丝防装，暗影狼没有推荐装备；TFT给墨菲特防装、暗影狼三件输出装。不能把金铲铲祭品思路直接换成TFT的承装暗影狼，也不能仅凭标题认定某张牌必定被献祭。",
+        "TFT朔极之矛、斯特拉克的挑战护手、泰坦的坚决，不能直接替换金铲铲的续航与控制免疫配置。"
+      ],
+      "checks": [
+        "warwick",
+        "murkwolf"
+      ],
+      "common_units": [
+        {
+          "name": "暗影狼",
+          "jcc_id": "2507",
+          "jcc_catalog_id": "12507",
+          "tft_id": "TFT18_Murkwolf",
+          "cost": 2,
+          "jcc_base_traits": [
+            "峡谷野怪",
+            "狂战士"
+          ],
+          "tft_lookup_traits": [
+            "峡谷野怪",
+            "狂战士"
+          ],
+          "status": "名称和费用核对；基础羁绊为词库记录，非正式服全量机制等同证明"
+        },
+        {
+          "name": "沃里克",
+          "jcc_id": "2508",
+          "jcc_catalog_id": "12508",
+          "tft_id": "TFT18_Warwick",
+          "cost": 2,
+          "jcc_base_traits": [
+            "狂战士",
+            "黑荆棘"
+          ],
+          "tft_lookup_traits": [
+            "黑荆棘",
+            "狂战士"
+          ],
+          "status": "名称和费用核对；基础羁绊为词库记录，非正式服全量机制等同证明"
+        },
+        {
+          "name": "阿兹尔",
+          "jcc_id": "3510",
+          "jcc_catalog_id": "13510",
+          "tft_id": "TFT18_Azir",
+          "cost": 3,
+          "jcc_base_traits": [
+            "召唤师",
+            "裁决使",
+            "黑荆棘"
+          ],
+          "tft_lookup_traits": [
+            "黑荆棘",
+            "裁决使",
+            "召唤师"
+          ],
+          "status": "名称和费用核对；基础羁绊为词库记录，非正式服全量机制等同证明"
+        },
+        {
+          "name": "黛安娜",
+          "jcc_id": "3506",
+          "jcc_catalog_id": "13506",
+          "tft_id": "TFT18_Diana",
+          "cost": 3,
+          "jcc_base_traits": [
+            "月蚀骑士",
+            "狂战士",
+            "重装战士"
+          ],
+          "tft_lookup_traits": [
+            "月蚀骑士",
+            "狂战士",
+            "重装战士"
+          ],
+          "status": "名称和费用核对；基础羁绊为词库记录，非正式服全量机制等同证明"
+        }
+      ],
+      "jcc_only_units": [
+        "伊莉丝",
+        "卡兹克",
+        "索拉卡"
+      ],
+      "tft_only_units": [
+        "墨菲特",
+        "绯红印记树怪",
+        "远古石甲虫",
+        "雷克塞"
+      ],
+      "jcc_summons_excluded": [],
+      "jcc_traits": [
+        {
+          "name": "狂战士",
+          "threshold": 4,
+          "source_id": "83900102"
+        },
+        {
+          "name": "裁决使",
+          "threshold": 2,
+          "source_id": "83890101"
+        },
+        {
+          "name": "黑荆棘",
+          "threshold": 2,
+          "source_id": "84510101"
+        },
+        {
+          "name": "重装战士",
+          "threshold": 2,
+          "source_id": "83720101"
+        },
+        {
+          "name": "绝命花妖",
+          "threshold": 1,
+          "source_id": "83730101"
+        },
+        {
+          "name": "宿敌",
+          "threshold": 1,
+          "source_id": "84620101"
+        }
+      ],
+      "tft_traits": [
+        {
+          "name": "魔岩巨兽",
+          "source": "DA_18_Battlemage_1",
+          "source_tier_index": 1
+        },
+        {
+          "name": "黑荆棘",
+          "source": "DA_18_Blackthorn_2",
+          "source_tier_index": 2
+        },
+        {
+          "name": "斗士",
+          "source": "DA_18_Brawler_1",
+          "source_tier_index": 1
+        },
+        {
+          "name": "狂战士",
+          "source": "DA_18_Slayer_2",
+          "source_tier_index": 2
+        },
+        {
+          "name": "峡谷野怪",
+          "source": "DA_Riftbeast18_1",
+          "source_tier_index": 1
+        }
+      ],
+      "shared_builds": []
+    },
+    {
+      "jcc_id": "113",
+      "tft_id": "426008",
+      "focus": [
+        "拉露恩",
+        "苍蓝雕纹魔像"
+      ],
+      "mechanics": "拉露恩词库描述为多目标魔法碎片和满月全体分摊伤害；月蚀给邻格增益，重装在开战与低血量时给护盾。可参考法系回蓝、技能暴击及保护前排的职责分配。",
+      "can_reference": [
+        "拉露恩的珠光护手＋朔极之矛、苍蓝雕纹魔像的圣盾使的誓约，均有金铲铲与TFT历史推荐支持。"
+      ],
+      "do_not_copy": [
+        "金铲铲拉露恩第三件为纳什之牙，TFT为大天使之杖；不能把两者视为同一种回蓝件。纳什描述还有“暴击额外4”与“提升至4”的口径差异，不能直接做法力收益计算。",
+        "金铲铲苍蓝雕纹魔像配狂徒、石像鬼、誓约；TFT历史为三件誓约。只确认共同推荐单件，不推荐直接照搬三誓约。",
+        "金铲铲用远古巨龙、纳尔等副输出，TFT用莫甘娜等；9级上限与Fast 9的操作含义也不相同。"
+      ],
+      "checks": [
+        "lunar",
+        "nashor"
+      ],
+      "common_units": [
+        {
+          "name": "塔里克",
+          "jcc_id": "5451",
+          "jcc_catalog_id": "15451",
+          "tft_id": "TFT18_Taric",
+          "cost": 5,
+          "jcc_base_traits": [
+            "宝石骑士",
+            "重装战士"
+          ],
+          "tft_lookup_traits": [
+            "宝石骑士",
+            "重装战士"
+          ],
+          "status": "名称和费用核对；基础羁绊为词库记录，非正式服全量机制等同证明"
+        },
+        {
+          "name": "拉露恩",
+          "jcc_id": "5456",
+          "jcc_catalog_id": "15456",
+          "tft_id": "TFT18_Alune",
+          "cost": 5,
+          "jcc_base_traits": [
+            "月华神女",
+            "月蚀骑士",
+            "法师"
+          ],
+          "tft_lookup_traits": [
+            "月华神女",
+            "月蚀骑士",
+            "法师"
+          ],
+          "status": "名称和费用核对；基础羁绊为词库记录，非正式服全量机制等同证明"
+        },
+        {
+          "name": "苍蓝雕纹魔像",
+          "jcc_id": "4500",
+          "jcc_catalog_id": "14500",
+          "tft_id": "TFT18_Sentinel",
+          "cost": 4,
+          "jcc_base_traits": [
+            "峡谷野怪",
+            "神谕",
+            "重装战士"
+          ],
+          "tft_lookup_traits": [
+            "峡谷野怪",
+            "重装战士",
+            "神谕"
+          ],
+          "status": "名称和费用核对；基础羁绊为词库记录，非正式服全量机制等同证明"
+        },
+        {
+          "name": "赫卡里姆",
+          "jcc_id": "3500",
+          "jcc_catalog_id": "13500",
+          "tft_id": "TFT18_Hecarim",
+          "cost": 3,
+          "jcc_base_traits": [
+            "永恒之森",
+            "重装战士"
+          ],
+          "tft_lookup_traits": [
+            "永恒之森",
+            "重装战士"
+          ],
+          "status": "名称和费用核对；基础羁绊为词库记录，非正式服全量机制等同证明"
+        },
+        {
+          "name": "黛安娜",
+          "jcc_id": "3506",
+          "jcc_catalog_id": "13506",
+          "tft_id": "TFT18_Diana",
+          "cost": 3,
+          "jcc_base_traits": [
+            "月蚀骑士",
+            "狂战士",
+            "重装战士"
+          ],
+          "tft_lookup_traits": [
+            "月蚀骑士",
+            "狂战士",
+            "重装战士"
+          ],
+          "status": "名称和费用核对；基础羁绊为词库记录，非正式服全量机制等同证明"
+        }
+      ],
+      "jcc_only_units": [
+        "纳尔",
+        "远古巨龙",
+        "阿利斯塔"
+      ],
+      "tft_only_units": [
+        "艾翁",
+        "莉莉娅",
+        "莫甘娜",
+        "费德提克"
+      ],
+      "jcc_summons_excluded": [
+        "石皮树",
+        "生命花"
+      ],
+      "jcc_traits": [
+        {
+          "name": "重装战士",
+          "threshold": 4,
+          "source_id": "83720102"
+        },
+        {
+          "name": "永恒之森",
+          "threshold": 3,
+          "source_id": "83920101"
+        },
+        {
+          "name": "峡谷野怪",
+          "threshold": 3,
+          "source_id": "84660101"
+        },
+        {
+          "name": "斗士",
+          "threshold": 2,
+          "source_id": "85200101"
+        },
+        {
+          "name": "月蚀骑士",
+          "threshold": 2,
+          "source_id": "83870101"
+        },
+        {
+          "name": "宝石骑士",
+          "threshold": 1,
+          "source_id": "83840101"
+        },
+        {
+          "name": "顶级掠食者",
+          "threshold": 1,
+          "source_id": "83850101"
+        },
+        {
+          "name": "月华神女",
+          "threshold": 1,
+          "source_id": "83960101"
+        }
+      ],
+      "tft_traits": [
+        {
+          "name": "护卫",
+          "source": "DA_18_Defender_1",
+          "source_tier_index": 1
+        },
+        {
+          "name": "翠神",
+          "source": "DA_18_Greenfather_1",
+          "source_tier_index": 1
+        },
+        {
+          "name": "神谕",
+          "source": "DA_18_Invoker_1",
+          "source_tier_index": 1
+        },
+        {
+          "name": "月蚀骑士",
+          "source": "DA_18_Lunar_1",
+          "source_tier_index": 1
+        },
+        {
+          "name": "法师",
+          "source": "DA_18_Spellweaver_1",
+          "source_tier_index": 1
+        },
+        {
+          "name": "重装战士",
+          "source": "DA_18_Vanguard_2",
+          "source_tier_index": 2
+        },
+        {
+          "name": "月华神女",
+          "source": "DA_AluneUniqueTrait18_1",
+          "source_tier_index": 1
+        },
+        {
+          "name": "宝石骑士",
+          "source": "DA_Emerald18_1",
+          "source_tier_index": 1
+        },
+        {
+          "name": "绝命花妖",
+          "source": "DA_FloraFatalis18_1",
+          "source_tier_index": 1
+        }
+      ],
+      "shared_builds": [
+        {
+          "unit": "拉露恩",
+          "shared_items": [
+            "珠光护手",
+            "朔极之矛"
+          ],
+          "jcc_items": [
+            "珠光护手",
+            "纳什之牙",
+            "朔极之矛"
+          ],
+          "tft_items": [
+            "大天使之杖",
+            "珠光护手",
+            "朔极之矛"
+          ],
+          "same_multiset": false,
+          "status": "双方来源推荐交集，不授予跨平台装备评级"
+        },
+        {
+          "unit": "苍蓝雕纹魔像",
+          "shared_items": [
+            "圣盾使的誓约"
+          ],
+          "jcc_items": [
+            "狂徒铠甲",
+            "石像鬼石板甲",
+            "圣盾使的誓约"
+          ],
+          "tft_items": [
+            "圣盾使的誓约",
+            "圣盾使的誓约",
+            "圣盾使的誓约"
+          ],
+          "same_multiset": false,
+          "status": "双方来源推荐交集，不授予跨平台装备评级"
+        }
+      ]
+    },
+    {
+      "jcc_id": "116",
+      "tft_id": "426012",
+      "focus": [
+        "卡兹克",
+        "赫卡里姆"
+      ],
+      "mechanics": "卡兹克基础羁绊在两份词库中都是宿敌；裁决使来自进化选择，不能因为阵容名叫裁决螳螂就把他当作天然裁决使。技能描述是跳向远处敌人、对孤立目标获得额外效果。",
+      "can_reference": [
+        "卡兹克的正义之手在双方推荐中均出现；可参考输出与续航结合的承装方向。金铲铲仍保留夜之锋刃、班克斯的魔法帽。",
+        "赫卡里姆的石像鬼石板甲、振奋盔甲、狂徒铠甲是双方完全相同的来源推荐三件套，可作为有金铲铲依据的防装组合；并不由此获得跨平台S/A装备评级。"
+      ],
+      "do_not_copy": [
+        "要先完成正确的裁决使进化，再参考这条路线；不能把基础宿敌直接算进裁决使人数。",
+        "金铲铲副C标记是索拉卡，TFT历史出装记录还给伊泽瑞尔、黛安娜装备；不能按TFT记录转移金铲铲副C的装备优先级。",
+        "TFT纳什之牙不能无条件取代金铲铲夜之锋刃；前者属于回蓝方向，后者是低血量脱离选取与恢复。班克斯的魔法帽与灭世者的死亡之帽暂不自动合并ID。"
+      ],
+      "checks": [
+        "executioner",
+        "hecarim",
+        "visage"
+      ],
+      "common_units": [
+        {
+          "name": "伊泽瑞尔",
+          "jcc_id": "4508",
+          "jcc_catalog_id": "14508",
+          "tft_id": "TFT18_Ezreal",
+          "cost": 4,
+          "jcc_base_traits": [
+            "永恒之森",
+            "裁决使"
+          ],
+          "tft_lookup_traits": [
+            "永恒之森",
+            "裁决使"
+          ],
+          "status": "名称和费用核对；基础羁绊为词库记录，非正式服全量机制等同证明"
+        },
+        {
+          "name": "卡兹克",
+          "jcc_id": "3505",
+          "jcc_catalog_id": "13505",
+          "tft_id": "TFT18_KhaZix",
+          "cost": 3,
+          "jcc_base_traits": [
+            "宿敌"
+          ],
+          "tft_lookup_traits": [
+            "宿敌"
+          ],
+          "status": "名称和费用核对；基础羁绊为词库记录，非正式服全量机制等同证明"
+        },
+        {
+          "name": "奥恩",
+          "jcc_id": "1500",
+          "jcc_catalog_id": "11500",
+          "tft_id": "TFT18_Ornn",
+          "cost": 1,
+          "jcc_base_traits": [
+            "护卫",
+            "永恒之森"
+          ],
+          "tft_lookup_traits": [
+            "永恒之森",
+            "护卫"
+          ],
+          "status": "名称和费用核对；基础羁绊为词库记录，非正式服全量机制等同证明"
+        },
+        {
+          "name": "索拉卡",
+          "jcc_id": "4513",
+          "jcc_catalog_id": "14513",
+          "tft_id": "TFT18_Soraka",
+          "cost": 4,
+          "jcc_base_traits": [
+            "绝命花妖",
+            "裁决使"
+          ],
+          "tft_lookup_traits": [
+            "绝命花妖",
+            "裁决使"
+          ],
+          "status": "名称和费用核对；基础羁绊为词库记录，非正式服全量机制等同证明"
+        },
+        {
+          "name": "费德提克",
+          "jcc_id": "3502",
+          "jcc_catalog_id": "13502",
+          "tft_id": "TFT18_Fiddlesticks",
+          "cost": 3,
+          "jcc_base_traits": [
+            "护卫",
+            "法师",
+            "绝命花妖"
+          ],
+          "tft_lookup_traits": [
+            "绝命花妖",
+            "护卫",
+            "法师"
+          ],
+          "status": "名称和费用核对；基础羁绊为词库记录，非正式服全量机制等同证明"
+        },
+        {
+          "name": "赫卡里姆",
+          "jcc_id": "3500",
+          "jcc_catalog_id": "13500",
+          "tft_id": "TFT18_Hecarim",
+          "cost": 3,
+          "jcc_base_traits": [
+            "永恒之森",
+            "重装战士"
+          ],
+          "tft_lookup_traits": [
+            "永恒之森",
+            "重装战士"
+          ],
+          "status": "名称和费用核对；基础羁绊为词库记录，非正式服全量机制等同证明"
+        },
+        {
+          "name": "黛安娜",
+          "jcc_id": "3506",
+          "jcc_catalog_id": "13506",
+          "tft_id": "TFT18_Diana",
+          "cost": 3,
+          "jcc_base_traits": [
+            "月蚀骑士",
+            "狂战士",
+            "重装战士"
+          ],
+          "tft_lookup_traits": [
+            "月蚀骑士",
+            "狂战士",
+            "重装战士"
+          ],
+          "status": "名称和费用核对；基础羁绊为词库记录，非正式服全量机制等同证明"
+        }
+      ],
+      "jcc_only_units": [
+        "厄斐琉斯"
+      ],
+      "tft_only_units": [],
+      "jcc_summons_excluded": [
+        "生命花",
+        "石皮树"
+      ],
+      "jcc_traits": [
+        {
+          "name": "永恒之森",
+          "threshold": 3,
+          "source_id": "83920101"
+        },
+        {
+          "name": "裁决使",
+          "threshold": 2,
+          "source_id": "83890101"
+        },
+        {
+          "name": "护卫",
+          "threshold": 2,
+          "source_id": "83740101"
+        },
+        {
+          "name": "绝命花妖",
+          "threshold": 2,
+          "source_id": "83730102"
+        },
+        {
+          "name": "月蚀骑士",
+          "threshold": 2,
+          "source_id": "83870101"
+        },
+        {
+          "name": "重装战士",
+          "threshold": 2,
+          "source_id": "83720101"
+        },
+        {
+          "name": "宿敌",
+          "threshold": 1,
+          "source_id": "84620101"
+        }
+      ],
+      "tft_traits": [
+        {
+          "name": "护卫",
+          "source": "DA_18_Defender_1",
+          "source_tier_index": 1
+        },
+        {
+          "name": "永恒之森",
+          "source": "DA_18_Elderwood_1",
+          "source_tier_index": 1
+        },
+        {
+          "name": "裁决使",
+          "source": "DA_18_Executioner_1",
+          "source_tier_index": 1
+        },
+        {
+          "name": "宿敌",
+          "source": "DA_18_Rival_1",
+          "source_tier_index": 1
+        },
+        {
+          "name": "重装战士",
+          "source": "DA_18_Vanguard_1",
+          "source_tier_index": 1
+        },
+        {
+          "name": "绝命花妖",
+          "source": "DA_FloraFatalis18_2",
+          "source_tier_index": 2
+        }
+      ],
+      "shared_builds": [
+        {
+          "unit": "卡兹克",
+          "shared_items": [
+            "正义之手"
+          ],
+          "jcc_items": [
+            "夜之锋刃",
+            "班克斯的魔法帽",
+            "正义之手"
+          ],
+          "tft_items": [
+            "正义之手",
+            "纳什之牙",
+            "灭世者的死亡之帽"
+          ],
+          "same_multiset": false,
+          "status": "双方来源推荐交集，不授予跨平台装备评级"
+        },
+        {
+          "unit": "赫卡里姆",
+          "shared_items": [
+            "振奋盔甲",
+            "石像鬼石板甲",
+            "狂徒铠甲"
+          ],
+          "jcc_items": [
+            "振奋盔甲",
+            "石像鬼石板甲",
+            "狂徒铠甲"
+          ],
+          "tft_items": [
+            "石像鬼石板甲",
+            "振奋盔甲",
+            "狂徒铠甲"
+          ],
+          "same_multiset": true,
+          "status": "双方来源推荐交集，不授予跨平台装备评级"
+        }
+      ]
+    },
+    {
+      "jcc_id": "114",
+      "tft_id": "426001",
+      "focus": [
+        "厄斐琉斯",
+        "绯红印记树怪",
+        "阿木木"
+      ],
+      "mechanics": "迅捷射手描述为队伍攻速加成及射手攻击叠层；迅射纹章还给普攻附加最大生命值真实伤害。两份词库文本方向相符，但缺少锁定正式服的完整物品机制核验。",
+      "can_reference": [
+        "绯红印记树怪的迅捷射手纹章＋夜之锋刃、阿木木的石像鬼石板甲＋狂徒铠甲、月男的无尽之刃，均在双方推荐出现。按金铲铲棋盘与转职条件保留这些搭配。"
+      ],
+      "do_not_copy": [
+        "绯红印记树怪是4费，不能与1费绯红树怪混用；本次按名字与费用共同核对。",
+        "金铲铲阿木木是双石像鬼＋狂徒，TFT是棘刺背心＋石像鬼＋狂徒；共同两件不等于整套相同，重复件数量必须保留。",
+        "TFT月男的强袭者的链枷不能自动替换金铲铲海妖之怒；两者在本组分别属于不同来源推荐。"
+      ],
+      "checks": [
+        "brambleback",
+        "aphelios_tooltip"
+      ],
+      "common_units": [
+        {
+          "name": "厄斐琉斯",
+          "jcc_id": "4509",
+          "jcc_catalog_id": "14509",
+          "tft_id": "TFT18_Aphelios",
+          "cost": 4,
+          "jcc_base_traits": [
+            "月蚀骑士",
+            "迅捷射手"
+          ],
+          "tft_lookup_traits": [
+            "月蚀骑士",
+            "迅捷射手"
+          ],
+          "status": "名称和费用核对；基础羁绊为词库记录，非正式服全量机制等同证明"
+        },
+        {
+          "name": "洛",
+          "jcc_id": "1501",
+          "jcc_catalog_id": "11501",
+          "tft_id": "TFT18_Rakan",
+          "cost": 1,
+          "jcc_base_traits": [
+            "主宰",
+            "花仙子",
+            "重装战士"
+          ],
+          "tft_lookup_traits": [
+            "花仙子",
+            "主宰",
+            "重装战士"
+          ],
+          "status": "名称和费用核对；基础羁绊为词库记录，非正式服全量机制等同证明"
+        },
+        {
+          "name": "深红锋喙鸟",
+          "jcc_id": "3509",
+          "jcc_catalog_id": "13509",
+          "tft_id": "TFT18_MamaBeak",
+          "cost": 3,
+          "jcc_base_traits": [
+            "召唤师",
+            "峡谷野怪",
+            "迅捷射手"
+          ],
+          "tft_lookup_traits": [
+            "峡谷野怪",
+            "召唤师",
+            "迅捷射手"
+          ],
+          "status": "名称和费用核对；基础羁绊为词库记录，非正式服全量机制等同证明"
+        },
+        {
+          "name": "绯红印记树怪",
+          "jcc_id": "4506",
+          "jcc_catalog_id": "14506",
+          "tft_id": "TFT18_Brambleback",
+          "cost": 4,
+          "jcc_base_traits": [
+            "峡谷野怪",
+            "狂战士"
+          ],
+          "tft_lookup_traits": [
+            "峡谷野怪",
+            "狂战士"
+          ],
+          "status": "名称和费用核对；基础羁绊为词库记录，非正式服全量机制等同证明"
+        },
+        {
+          "name": "苍蓝雕纹魔像",
+          "jcc_id": "4500",
+          "jcc_catalog_id": "14500",
+          "tft_id": "TFT18_Sentinel",
+          "cost": 4,
+          "jcc_base_traits": [
+            "峡谷野怪",
+            "神谕",
+            "重装战士"
+          ],
+          "tft_lookup_traits": [
+            "峡谷野怪",
+            "重装战士",
+            "神谕"
+          ],
+          "status": "名称和费用核对；基础羁绊为词库记录，非正式服全量机制等同证明"
+        },
+        {
+          "name": "阿木木",
+          "jcc_id": "4503",
+          "jcc_catalog_id": "14503",
+          "tft_id": "TFT18_Amumu",
+          "cost": 4,
+          "jcc_base_traits": [
+            "主宰",
+            "地狱火"
+          ],
+          "tft_lookup_traits": [
+            "地狱火",
+            "主宰"
+          ],
+          "status": "名称和费用核对；基础羁绊为词库记录，非正式服全量机制等同证明"
+        },
+        {
+          "name": "霞",
+          "jcc_id": "1509",
+          "jcc_catalog_id": "11509",
+          "tft_id": "TFT18_Xayah",
+          "cost": 1,
+          "jcc_base_traits": [
+            "永恒之森",
+            "花仙子",
+            "迅捷射手"
+          ],
+          "tft_lookup_traits": [
+            "永恒之森",
+            "花仙子",
+            "迅捷射手"
+          ],
+          "status": "名称和费用核对；基础羁绊为词库记录，非正式服全量机制等同证明"
+        },
+        {
+          "name": "韦鲁斯",
+          "jcc_id": "1507",
+          "jcc_catalog_id": "11507",
+          "tft_id": "TFT18_Varus",
+          "cost": 1,
+          "jcc_base_traits": [
+            "地狱火",
+            "迅捷射手"
+          ],
+          "tft_lookup_traits": [
+            "地狱火",
+            "迅捷射手"
+          ],
+          "status": "名称和费用核对；基础羁绊为词库记录，非正式服全量机制等同证明"
+        }
+      ],
+      "jcc_only_units": [
+        "黛安娜"
+      ],
+      "tft_only_units": [],
+      "jcc_summons_excluded": [],
+      "jcc_traits": [
+        {
+          "name": "迅捷射手",
+          "threshold": 4,
+          "source_id": "83830103"
+        },
+        {
+          "name": "峡谷野怪",
+          "threshold": 3,
+          "source_id": "84660101"
+        },
+        {
+          "name": "地狱火",
+          "threshold": 2,
+          "source_id": "84700101"
+        },
+        {
+          "name": "花仙子",
+          "threshold": 2,
+          "source_id": "83930101"
+        },
+        {
+          "name": "狂战士",
+          "threshold": 2,
+          "source_id": "83900101"
+        },
+        {
+          "name": "月蚀骑士",
+          "threshold": 2,
+          "source_id": "83870101"
+        },
+        {
+          "name": "重装战士",
+          "threshold": 2,
+          "source_id": "83720101"
+        },
+        {
+          "name": "主宰",
+          "threshold": 2,
+          "source_id": "83710101"
+        }
+      ],
+      "tft_traits": [
+        {
+          "name": "花仙子",
+          "source": "DA_18_Fae_1",
+          "source_tier_index": 1
+        },
+        {
+          "name": "地狱火",
+          "source": "DA_18_Inferno_1",
+          "source_tier_index": 1
+        },
+        {
+          "name": "迅捷射手",
+          "source": "DA_18_Rapidfire_4",
+          "source_tier_index": 4
+        },
+        {
+          "name": "重装战士",
+          "source": "DA_18_Vanguard_1",
+          "source_tier_index": 1
+        },
+        {
+          "name": "主宰",
+          "source": "DA_Juggernaut18_1",
+          "source_tier_index": 1
+        },
+        {
+          "name": "峡谷野怪",
+          "source": "DA_Riftbeast18_1",
+          "source_tier_index": 1
+        }
+      ],
+      "shared_builds": [
+        {
+          "unit": "绯红印记树怪",
+          "shared_items": [
+            "迅捷射手纹章",
+            "夜之锋刃"
+          ],
+          "jcc_items": [
+            "迅捷射手纹章",
+            "夜之锋刃",
+            "巨人捕手"
+          ],
+          "tft_items": [
+            "迅捷射手纹章",
+            "夜之锋刃",
+            "水银"
+          ],
+          "same_multiset": false,
+          "status": "双方来源推荐交集，不授予跨平台装备评级"
+        },
+        {
+          "unit": "阿木木",
+          "shared_items": [
+            "石像鬼石板甲",
+            "狂徒铠甲"
+          ],
+          "jcc_items": [
+            "石像鬼石板甲",
+            "石像鬼石板甲",
+            "狂徒铠甲"
+          ],
+          "tft_items": [
+            "棘刺背心",
+            "石像鬼石板甲",
+            "狂徒铠甲"
+          ],
+          "same_multiset": false,
+          "status": "双方来源推荐交集，不授予跨平台装备评级"
+        },
+        {
+          "unit": "厄斐琉斯",
+          "shared_items": [
+            "无尽之刃"
+          ],
+          "jcc_items": [
+            "无尽之刃",
+            "海妖之怒",
+            "锐利之刃"
+          ],
+          "tft_items": [
+            "死亡之刃",
+            "无尽之刃",
+            "强袭者的链枷"
+          ],
+          "same_multiset": false,
+          "status": "双方来源推荐交集，不授予跨平台装备评级"
+        },
+        {
+          "unit": "苍蓝雕纹魔像",
+          "shared_items": [
+            "圣盾使的誓约"
+          ],
+          "jcc_items": [
+            "薄暮法袍",
+            "圣盾使的誓约",
+            "适应性头盔"
+          ],
+          "tft_items": [
+            "圣盾使的誓约",
+            "圣盾使的誓约",
+            "圣盾使的誓约"
+          ],
+          "same_multiset": false,
+          "status": "双方来源推荐交集，不授予跨平台装备评级"
+        }
+      ]
+    },
+    {
+      "jcc_id": "105",
+      "tft_id": "426002",
+      "focus": [
+        "厄斐琉斯",
+        "莉莉娅",
+        "伊泽瑞尔"
+      ],
+      "mechanics": "双方词库将厄斐琉斯列为月蚀骑士、迅捷射手；永恒之森由纹章和队友构成。森林植物依赖羁绊与星级，不能把植物当作普通可购买棋子或额外人口。",
+      "can_reference": [
+        "厄斐琉斯的鬼索的狂暴之刃＋海妖之怒、伊泽瑞尔的朔极之矛，均有双方推荐支持。可参考持续攻击叠加和回蓝方向。",
+        "金铲铲明确要求永恒之森纹章，开局条件仍以这一要求为准。"
+      ],
+      "do_not_copy": [
+        "金铲铲归档月男三件是海妖、鬼索、无尽；TFT历史记录是森林纹章、鬼索、海妖。不能因为纹章条件相同，就把金铲铲无尽固定换成纹章。",
+        "金铲铲还列拉露恩、索拉卡；TFT历史棋盘列赫卡里姆、乐芙兰。换人会改变羁绊与承装位置，不是无成本替换。",
+        "金铲铲推荐装备表没有指定森林纹章携带者，不能从TFT月男或莉莉娅的纹章记录反填一个“已确认国服携带者”。"
+      ],
+      "checks": [
+        "elderwood_emblem",
+        "lunar",
+        "aphelios_tooltip"
+      ],
+      "common_units": [
+        {
+          "name": "伊泽瑞尔",
+          "jcc_id": "4508",
+          "jcc_catalog_id": "14508",
+          "tft_id": "TFT18_Ezreal",
+          "cost": 4,
+          "jcc_base_traits": [
+            "永恒之森",
+            "裁决使"
+          ],
+          "tft_lookup_traits": [
+            "永恒之森",
+            "裁决使"
+          ],
+          "status": "名称和费用核对；基础羁绊为词库记录，非正式服全量机制等同证明"
+        },
+        {
+          "name": "厄斐琉斯",
+          "jcc_id": "4509",
+          "jcc_catalog_id": "14509",
+          "tft_id": "TFT18_Aphelios",
+          "cost": 4,
+          "jcc_base_traits": [
+            "月蚀骑士",
+            "迅捷射手"
+          ],
+          "tft_lookup_traits": [
+            "月蚀骑士",
+            "迅捷射手"
+          ],
+          "status": "名称和费用核对；基础羁绊为词库记录，非正式服全量机制等同证明"
+        },
+        {
+          "name": "奥恩",
+          "jcc_id": "1500",
+          "jcc_catalog_id": "11500",
+          "tft_id": "TFT18_Ornn",
+          "cost": 1,
+          "jcc_base_traits": [
+            "护卫",
+            "永恒之森"
+          ],
+          "tft_lookup_traits": [
+            "永恒之森",
+            "护卫"
+          ],
+          "status": "名称和费用核对；基础羁绊为词库记录，非正式服全量机制等同证明"
+        },
+        {
+          "name": "纳尔",
+          "jcc_id": "5452",
+          "jcc_catalog_id": "15452",
+          "tft_id": "TFT18_Gnar",
+          "cost": 5,
+          "jcc_base_traits": [
+            "斗士",
+            "永恒之森",
+            "约德尔人"
+          ],
+          "tft_lookup_traits": [
+            "永恒之森",
+            "约德尔人和朋友",
+            "斗士"
+          ],
+          "status": "名称和费用核对；基础羁绊为词库记录，非正式服全量机制等同证明"
+        },
+        {
+          "name": "莉莉娅",
+          "jcc_id": "4502",
+          "jcc_catalog_id": "14502",
+          "tft_id": "TFT18_Lillia",
+          "cost": 4,
+          "jcc_base_traits": [
+            "护卫",
+            "花仙子"
+          ],
+          "tft_lookup_traits": [
+            "花仙子",
+            "护卫"
+          ],
+          "status": "名称和费用核对；基础羁绊为词库记录，非正式服全量机制等同证明"
+        },
+        {
+          "name": "阿利斯塔",
+          "jcc_id": "2501",
+          "jcc_catalog_id": "12501",
+          "tft_id": "TFT18_Alistar",
+          "cost": 2,
+          "jcc_base_traits": [
+            "斗士",
+            "永恒之森"
+          ],
+          "tft_lookup_traits": [
+            "永恒之森",
+            "斗士"
+          ],
+          "status": "名称和费用核对；基础羁绊为词库记录，非正式服全量机制等同证明"
+        },
+        {
+          "name": "霞",
+          "jcc_id": "1509",
+          "jcc_catalog_id": "11509",
+          "tft_id": "TFT18_Xayah",
+          "cost": 1,
+          "jcc_base_traits": [
+            "永恒之森",
+            "花仙子",
+            "迅捷射手"
+          ],
+          "tft_lookup_traits": [
+            "永恒之森",
+            "花仙子",
+            "迅捷射手"
+          ],
+          "status": "名称和费用核对；基础羁绊为词库记录，非正式服全量机制等同证明"
+        }
+      ],
+      "jcc_only_units": [
+        "拉露恩",
+        "索拉卡"
+      ],
+      "tft_only_units": [
+        "乐芙兰",
+        "赫卡里姆"
+      ],
+      "jcc_summons_excluded": [
+        "石皮树",
+        "石皮树",
+        "生命花"
+      ],
+      "jcc_traits": [
+        {
+          "name": "永恒之森",
+          "threshold": 5,
+          "source_id": "83920102"
+        },
+        {
+          "name": "裁决使",
+          "threshold": 2,
+          "source_id": "83890101"
+        },
+        {
+          "name": "斗士",
+          "threshold": 2,
+          "source_id": "85200101"
+        },
+        {
+          "name": "护卫",
+          "threshold": 2,
+          "source_id": "83740101"
+        },
+        {
+          "name": "花仙子",
+          "threshold": 2,
+          "source_id": "83930101"
+        },
+        {
+          "name": "迅捷射手",
+          "threshold": 2,
+          "source_id": "83830101"
+        },
+        {
+          "name": "月蚀骑士",
+          "threshold": 2,
+          "source_id": "83870101"
+        },
+        {
+          "name": "绝命花妖",
+          "threshold": 1,
+          "source_id": "83730101"
+        },
+        {
+          "name": "月华神女",
+          "threshold": 1,
+          "source_id": "83960101"
+        }
+      ],
+      "tft_traits": [
+        {
+          "name": "斗士",
+          "source": "DA_18_Brawler_1",
+          "source_tier_index": 1
+        },
+        {
+          "name": "护卫",
+          "source": "DA_18_Defender_1",
+          "source_tier_index": 1
+        },
+        {
+          "name": "永恒之森",
+          "source": "DA_18_Elderwood_3",
+          "source_tier_index": 3
+        },
+        {
+          "name": "花仙子",
+          "source": "DA_18_Fae_1",
+          "source_tier_index": 1
+        },
+        {
+          "name": "迅捷射手",
+          "source": "DA_18_Rapidfire_1",
+          "source_tier_index": 1
+        }
+      ],
+      "shared_builds": [
+        {
+          "unit": "厄斐琉斯",
+          "shared_items": [
+            "海妖之怒",
+            "鬼索的狂暴之刃"
+          ],
+          "jcc_items": [
+            "海妖之怒",
+            "鬼索的狂暴之刃",
+            "无尽之刃"
+          ],
+          "tft_items": [
+            "永恒之森纹章",
+            "鬼索的狂暴之刃",
+            "海妖之怒"
+          ],
+          "same_multiset": false,
+          "status": "双方来源推荐交集，不授予跨平台装备评级"
+        },
+        {
+          "unit": "伊泽瑞尔",
+          "shared_items": [
+            "朔极之矛"
+          ],
+          "jcc_items": [
+            "红霸符",
+            "最后的轻语",
+            "朔极之矛"
+          ],
+          "tft_items": [
+            "死亡之刃",
+            "无尽之刃",
+            "朔极之矛"
+          ],
+          "same_multiset": false,
+          "status": "双方来源推荐交集，不授予跨平台装备评级"
+        }
+      ]
+    },
+    {
+      "jcc_id": "112",
+      "tft_id": "426016",
+      "focus": [
+        "希维尔"
+      ],
+      "mechanics": "希维尔基础羁绊在词库中为野兽之灵、猎人，并非天然地狱火。金铲铲通过地狱火纹章走燃烧与商店机制；TFT历史猎人分组不能替代这条条件路线。",
+      "can_reference": [
+        "希维尔的红霸符是两端共同推荐；可参考攻击/技能施加灼烧与重伤的用途。金铲铲仍使用红霸符、地狱火纹章、朔极之矛。"
+      ],
+      "do_not_copy": [
+        "不能把TFT无尽、红霸符、强袭者的链枷当作金铲铲地狱火95的无转职版；移除地狱火纹章会改变羁绊条件。",
+        "地狱火与红霸符的灼烧叠加描述，不等于重伤也叠加，更不证明红霸符是必做的最优解。",
+        "10月12日TFT special为空；10月15日该分组被前端规则判为条件类，原因是猎人纹章使用率达到50%。两个时点不能混合，更不能宣称这套在TFT无条件可玩。"
+      ],
+      "checks": [
+        "sivir",
+        "inferno_unverified"
+      ],
+      "common_units": [
+        {
+          "name": "希维尔",
+          "jcc_id": "4510",
+          "jcc_catalog_id": "14510",
+          "tft_id": "TFT18_Sivir",
+          "cost": 4,
+          "jcc_base_traits": [
+            "猎人",
+            "野兽之灵"
+          ],
+          "tft_lookup_traits": [
+            "野兽之灵",
+            "猎人"
+          ],
+          "status": "名称和费用核对；基础羁绊为词库记录，非正式服全量机制等同证明"
+        },
+        {
+          "name": "苍蓝雕纹魔像",
+          "jcc_id": "4500",
+          "jcc_catalog_id": "14500",
+          "tft_id": "TFT18_Sentinel",
+          "cost": 4,
+          "jcc_base_traits": [
+            "峡谷野怪",
+            "神谕",
+            "重装战士"
+          ],
+          "tft_lookup_traits": [
+            "峡谷野怪",
+            "重装战士",
+            "神谕"
+          ],
+          "status": "名称和费用核对；基础羁绊为词库记录，非正式服全量机制等同证明"
+        }
+      ],
+      "jcc_only_units": [
+        "凯南",
+        "塔里克",
+        "慎",
+        "艾希",
+        "蔚",
+        "阿木木",
+        "韦鲁斯"
+      ],
+      "tft_only_units": [
+        "克格莫",
+        "墨菲特",
+        "奈德丽",
+        "绯红树怪",
+        "远古石甲虫",
+        "雷克塞"
+      ],
+      "jcc_summons_excluded": [],
+      "jcc_traits": [
+        {
+          "name": "地狱火",
+          "threshold": 5,
+          "source_id": "84700103"
+        },
+        {
+          "name": "猎人",
+          "threshold": 2,
+          "source_id": "83750101"
+        },
+        {
+          "name": "野兽之灵",
+          "threshold": 2,
+          "source_id": "83970101"
+        },
+        {
+          "name": "重装战士",
+          "threshold": 2,
+          "source_id": "83720101"
+        },
+        {
+          "name": "主宰",
+          "threshold": 2,
+          "source_id": "83710101"
+        },
+        {
+          "name": "宝石骑士",
+          "threshold": 1,
+          "source_id": "83840101"
+        }
+      ],
+      "tft_traits": [
+        {
+          "name": "魔战士",
+          "source": "DA_18_Adaptor_1",
+          "source_tier_index": 1
+        },
+        {
+          "name": "魔岩巨兽",
+          "source": "DA_18_Battlemage_1",
+          "source_tier_index": 1
+        },
+        {
+          "name": "黑荆棘",
+          "source": "DA_18_Blackthorn_1",
+          "source_tier_index": 1
+        },
+        {
+          "name": "斗士",
+          "source": "DA_18_Brawler_1",
+          "source_tier_index": 1
+        },
+        {
+          "name": "帝王斑蝶",
+          "source": "DA_18_Caustic_1",
+          "source_tier_index": 1
+        },
+        {
+          "name": "猎人",
+          "source": "DA_18_Hunter_1",
+          "source_tier_index": 1
+        },
+        {
+          "name": "神谕",
+          "source": "DA_18_Invoker_1",
+          "source_tier_index": 1
+        },
+        {
+          "name": "野兽之灵",
+          "source": "DA_Primal18_1",
+          "source_tier_index": 1
+        },
+        {
+          "name": "峡谷野怪",
+          "source": "DA_Riftbeast18_1",
+          "source_tier_index": 1
+        }
+      ],
+      "shared_builds": [
+        {
+          "unit": "希维尔",
+          "shared_items": [
+            "红霸符"
+          ],
+          "jcc_items": [
+            "红霸符",
+            "地狱火纹章",
+            "朔极之矛"
+          ],
+          "tft_items": [
+            "无尽之刃",
+            "红霸符",
+            "强袭者的链枷"
+          ],
+          "same_multiset": false,
+          "status": "双方来源推荐交集，不授予跨平台装备评级"
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "warwick",
+      "title": "沃里克：旧词库差异已被官方补丁解释",
+      "finding": "金铲铲归档技能伤害为230/345/535，治疗25%；TFT官方B补丁改为相同的前三星伤害及25%治疗。PBE词库的215/325/500、20%属于旧值，不能当作实装差异。",
+      "status": "official_match",
+      "official_section": "2 COST UNIT",
+      "official_url": "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4/"
+    },
+    {
+      "id": "murkwolf",
+      "title": "暗影狼：强化攻击旧值已过时",
+      "finding": "金铲铲归档强化攻击为65/100/160；TFT官方B补丁也改为65/100/160。仅该字段相符，不证明献祭用途或整套装备相同。",
+      "status": "official_match",
+      "official_section": "2 COST UNIT",
+      "official_url": "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4/"
+    },
+    {
+      "id": "executioner",
+      "title": "裁决使：官方补丁与金铲铲归档不同",
+      "finding": "金铲铲词库3/4裁决的额外真实伤害写30%/40%；TFT官方18.4改为25%/35%。因此不能跨平台沿用相同增伤估算；未确认金铲铲当前客户端值。",
+      "status": "official_vs_jcc_snapshot",
+      "official_section": "TRAITS",
+      "official_url": "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4/"
+    },
+    {
+      "id": "elderwood_emblem",
+      "title": "森林纹章：双抗资料差异",
+      "finding": "金铲铲词库写35护甲和魔抗；TFT官方18.4将纹章双抗由35改为25。不能把两端纹章当成同等坦度。",
+      "status": "official_vs_jcc_snapshot",
+      "official_section": "EMBLEMS",
+      "official_url": "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4/"
+    },
+    {
+      "id": "lunar",
+      "title": "月蚀骑士：法强档位资料差异",
+      "finding": "金铲铲词库写7/10/14/18%法强；TFT官方18.4改为7/12/16/20%。邻格增益方向可以理解，具体收益不可套用同一数字。",
+      "status": "official_vs_jcc_snapshot",
+      "official_section": "TRAITS",
+      "official_url": "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4/"
+    },
+    {
+      "id": "hecarim",
+      "title": "赫卡里姆：初始法力资料差异",
+      "finding": "金铲铲词库初始/最大法力为30/110；TFT官方18.4改为50/110。相同防装组合不保证相同启动时间。",
+      "status": "official_vs_jcc_snapshot",
+      "official_section": "UNITS: TIER 3",
+      "official_url": "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4/"
+    },
+    {
+      "id": "visage",
+      "title": "振奋盔甲：伤害减免资料差异",
+      "finding": "金铲铲词库基础属性写8%伤害减免；TFT官方18.4改为10%。双方推荐同一件装备，不代表数值完全一致。",
+      "status": "official_vs_jcc_snapshot",
+      "official_section": "ITEMS",
+      "official_url": "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4/"
+    },
+    {
+      "id": "sivir",
+      "title": "希维尔：物理系数资料差异",
+      "finding": "金铲铲词库一/二星初始伤害的物理项为190/285；TFT官方18.4改为200/300。这里只比较物理项，不把含法术项的总伤害混为同一字段。",
+      "status": "official_vs_jcc_snapshot",
+      "official_section": "UNITS: TIER 4",
+      "official_url": "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4/"
+    },
+    {
+      "id": "brambleback",
+      "title": "4费绯红印记树怪：TFT官方调整了伤害分配",
+      "finding": "TFT官方18.4将普通技能物理加成由80%改为100%，跳跃伤害由155/235改为135/205。不能仅根据同名棋子或纹章效果推导两端收割强度。",
+      "status": "official_tft_only",
+      "official_section": "UNITS: TIER 4",
+      "official_url": "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4/"
+    },
+    {
+      "id": "aphelios_tooltip",
+      "title": "厄斐琉斯：动态文本不可直接当伤害计算器",
+      "finding": "金铲铲词库的挥击次数被展开为0，TFT词库该项仍含运行时计算。这个0不能读成实战不挥击；本次不确认精确次数或两端技能伤害完全一致。",
+      "status": "unresolved",
+      "official_section": null,
+      "official_url": null
+    },
+    {
+      "id": "nashor",
+      "title": "纳什之牙：文案口径尚未确认",
+      "finding": "金铲铲写普攻额外2法力、暴击额外4；TFT词库写暴击提升至4，计算字段为2+2。可能是文本表达差异，不能宣布实装多2法力；保留为待实测。",
+      "status": "unresolved",
+      "official_section": null,
+      "official_url": null
+    },
+    {
+      "id": "inferno_unverified",
+      "title": "地狱火：词库疑点不能升级成实装结论",
+      "finding": "金铲铲词库写纹章15%攻速、灼烧持续1秒；TFT PBE词库分别为40%攻速、3秒。本次未找到足以确认这些字段的正式补丁证据，不作跨平台实装差异或替代推荐。",
+      "status": "unresolved",
+      "official_section": null,
+      "official_url": null
+    }
+  ],
+  "shared_item_records": [
+    {
+      "name": "圣盾使的誓约",
+      "role": "开战给法力，低血量触发法力与护盾；单件共同推荐不证明三件叠放在金铲铲同样最优。",
+      "jcc_record": {
+        "id": "2023",
+        "name": "圣盾使的誓约",
+        "type": "成型装备",
+        "basicDesc": "+25护甲 +25魔法抗性 +1法力回复",
+        "descText": "战斗开始时：获得20法力值。  在40%生命值时，获得15法力值和相当于20%最大生命值的护盾值。",
+        "effectType": 0,
+        "fetterId": null,
+        "icon": "https://img.dataj.cc/images/equip/2023",
+        "mapId": 30,
+        "picture": "https://img.dataj.cc/images/equip/2023.png",
+        "planId": "18",
+        "sort": 0,
+        "synthesis1": "1004",
+        "synthesis2": "1005",
+        "tftEquipId": "0",
+        "setId": "18",
+        "season": "S19",
+        "version": "18.18.1"
+      },
+      "tft_lookup_record": {
+        "id": null,
+        "apiName": "DA_ProtectorsVow",
+        "name": "圣盾使的誓约",
+        "desc": "战斗开始时：获得<TFTCurveTable row=\"StartingMana\"/>法力值。\r\n\r\n生命值达到<TFTCurveTable row=\"Proc%HealthThreshold\" format=\"percent\"/>时，获得<TFTCurveTable row=\"ProcGainMana\"/>法力值和相当于<TFTCurveTable row=\"ProcShield%MaxHealth\" format=\"percent\"/>最大生命值的护盾值。",
+        "statLine": "<TFTCurveTable row=\"Armor\" icon=\"Icon.Armor\" type=\"stat\"/><TFTCurveTable row=\"MR\" icon=\"Icon.MR\" type=\"stat\"/><TFTCurveTable row=\"ManaRegen\" icon=\"Icon.Manaregen\" type=\"stat\"/>",
+        "icon": "T_ProtectorsVow",
+        "unique": false,
+        "composition": [
+          "DA_Component_ChainVest",
+          "DA_Component_TearOfTheGoddess"
+        ],
+        "associatedTraits": [],
+        "incompatibleTraits": [],
+        "effects": {},
+        "tags": [
+          "Item.Equippable.Item.Craftable",
+          "Item.Equippable.Category.Tank",
+          "Item.Equippable.Provides.Resource.Mana"
+        ],
+        "itemTags": [
+          "Item.Equippable.Item.Craftable",
+          "Item.Equippable.Category.Tank",
+          "Item.Equippable.Provides.Resource.Mana"
+        ],
+        "overlays": [],
+        "from": null,
+        "upgrade": "DA_ProtectorsVowRadiant",
+        "curve": "CT_ProtectorsVow",
+        "curveValues": {
+          "StartingMana": [
+            [
+              1,
+              20
+            ]
+          ],
+          "Proc%HealthThreshold": [
+            [
+              1,
+              0.4
+            ]
+          ],
+          "ProcGainMana": [
+            [
+              1,
+              15
+            ]
+          ],
+          "ProcShield%MaxHealth": [
+            [
+              1,
+              0.2
+            ]
+          ],
+          "Armor": [
+            [
+              1,
+              25
+            ]
+          ],
+          "MR": [
+            [
+              1,
+              25
+            ]
+          ],
+          "ManaRegen": [
+            [
+              1,
+              1
+            ]
+          ]
+        },
+        "curveTable": {
+          "MR": [
+            [
+              1,
+              25
+            ]
+          ],
+          "StartingMana": [
+            [
+              1,
+              20
+            ]
+          ],
+          "ManaRegen": [
+            [
+              1,
+              1
+            ]
+          ],
+          "ProcGainMana": [
+            [
+              1,
+              15
+            ]
+          ],
+          "ProcShield%MaxHealth": [
+            [
+              1,
+              0.2
+            ]
+          ],
+          "Proc%HealthThreshold": [
+            [
+              1,
+              0.4
+            ]
+          ],
+          "Armor": [
+            [
+              1,
+              25
+            ]
+          ]
+        },
+        "en_name": "Protector's Vow"
+      },
+      "status": "仅词库文本核对，PBE数值不得自动作为正式服值"
+    },
+    {
+      "name": "夜之锋刃",
+      "role": "低血量时脱离选取、清除负面效果并恢复；不能用一般回蓝装直接替代该保护作用。",
+      "jcc_record": {
+        "id": "2005",
+        "name": "夜之锋刃",
+        "type": "成型装备",
+        "basicDesc": "+10物理加成 +10法术加成 +20护甲 +15%攻击速度",
+        "descText": "救主灵刃：在40%生命值时，短暂变为不可被选取状态、摆脱负面效果、并治疗15%已损失生命值。",
+        "effectType": 0,
+        "fetterId": null,
+        "icon": "https://img.dataj.cc/images/equip/2005",
+        "mapId": 14,
+        "picture": "https://img.dataj.cc/images/equip/2005.png",
+        "planId": "18",
+        "sort": 0,
+        "synthesis1": "1001",
+        "synthesis2": "1005",
+        "tftEquipId": "0",
+        "setId": "18",
+        "season": "S19",
+        "version": "18.18.2"
+      },
+      "tft_lookup_record": {
+        "id": null,
+        "apiName": "DA_EdgeOfNight",
+        "name": "夜之锋刃",
+        "desc": "在<TFTCurveTable row=\"HPPercentageToProcAt\" format=\"percent\"/>生命值时，短暂变为不可被选取状态、摆脱负面效果并回复<TFTCurveTable row=\"MissingHPHeal\" format=\"percent\"/>已损失生命值。",
+        "statLine": "<TFTCurveTable row=\"AttackDamage\" icon=\"icon.AD\" format=\"percent\" type=\"stat\"/> <TFTCurveTable row=\"AbilityPower\" icon=\"icon.AP\" format=\"percent\" type=\"stat\"/> <TFTCurveTable row=\"Armor\" icon=\"icon.Armor\" type=\"stat\"/> <TFTCurveTable row=\"AttackSpeed\" icon=\"icon.AS\" format=\"percentMinusOne\" type=\"stat\"/>",
+        "icon": "T_EdgeOfNight",
+        "unique": false,
+        "composition": [
+          "DA_Component_BFSword",
+          "DA_Component_ChainVest"
+        ],
+        "associatedTraits": [],
+        "incompatibleTraits": [],
+        "effects": {},
+        "tags": [
+          "Item.Equippable.Item.Craftable",
+          "Item.Equippable.Category.Attack"
+        ],
+        "itemTags": [
+          "Item.Equippable.Item.Craftable",
+          "Item.Equippable.Category.Attack"
+        ],
+        "overlays": [],
+        "from": null,
+        "upgrade": "DA_EdgeOfNightRadiant",
+        "curve": "CT_EdgeOfNight",
+        "curveValues": {
+          "HPPercentageToProcAt": [
+            [
+              1,
+              0.4
+            ]
+          ],
+          "MissingHPHeal": [
+            [
+              1,
+              0.15
+            ]
+          ],
+          "AttackDamage": [
+            [
+              1,
+              0.1
+            ]
+          ],
+          "AbilityPower": [
+            [
+              1,
+              0.1
+            ]
+          ],
+          "Armor": [
+            [
+              1,
+              20
+            ]
+          ],
+          "AttackSpeed": [
+            [
+              1,
+              1.15
+            ]
+          ]
+        },
+        "curveTable": {
+          "Armor": [
+            [
+              1,
+              20
+            ]
+          ],
+          "AttackDamage": [
+            [
+              1,
+              0.1
+            ]
+          ],
+          "UntargetableDuration": [
+            [
+              1,
+              1
+            ]
+          ],
+          "HPPercentageToProcAt": [
+            [
+              1,
+              0.4
+            ]
+          ],
+          "AbilityPower": [
+            [
+              1,
+              0.1
+            ]
+          ],
+          "AttackSpeed": [
+            [
+              1,
+              1.15
+            ]
+          ],
+          "MissingHPHeal": [
+            [
+              1,
+              0.15
+            ]
+          ]
+        },
+        "en_name": "Edge of Night"
+      },
+      "status": "仅词库文本核对，PBE数值不得自动作为正式服值"
+    },
+    {
+      "name": "振奋盔甲",
+      "role": "回复已损失生命值，并提供伤害减免与回蓝属性；伤害减免存在官方TFT补丁与金铲铲归档差异。",
+      "jcc_record": {
+        "id": "2025",
+        "name": "振奋盔甲",
+        "type": "成型装备",
+        "basicDesc": "+300生命上限 +8%伤害减免 +2法力回复",
+        "descText": "每秒回复2%已损失生命值。",
+        "effectType": 0,
+        "fetterId": null,
+        "icon": "https://img.dataj.cc/images/equip/spiritvisage",
+        "mapId": 32,
+        "picture": "https://img.dataj.cc/images/equip/spiritvisage.png",
+        "planId": "18",
+        "sort": 0,
+        "synthesis1": "1004",
+        "synthesis2": "1007",
+        "tftEquipId": "0",
+        "setId": "18",
+        "season": "S19",
+        "version": "18.18.1"
+      },
+      "tft_lookup_record": {
+        "id": null,
+        "apiName": "DA_SpiritVisage",
+        "name": "振奋盔甲",
+        "desc": "每秒回复<TFTCurveTable row=\"MissingHealthRegen\"/>%已损失生命值。",
+        "statLine": "<TFTCurveTable row=\"BaseHealth\" icon=\"icon.Health\" type=\"stat\"/><TFTCurveTable row=\"IncomingDmgMod\" icon=\"icon.Dura\" format=\"invertedPercent\" type=\"stat\"/><TFTCurveTable row=\"BaseManaRegen\" icon=\"icon.ManaRegen\" type=\"stat\"/>",
+        "icon": "T_SpiritVisage",
+        "unique": false,
+        "composition": [
+          "DA_Component_GiantsBelt",
+          "DA_Component_TearOfTheGoddess"
+        ],
+        "associatedTraits": [],
+        "incompatibleTraits": [],
+        "effects": {},
+        "tags": [
+          "Item.Equippable.Item.Craftable",
+          "Item.Equippable.Item.SpiritVisage",
+          "Item.Equippable.Category.Tank",
+          "Item.Equippable.Provides.Resource.Mana"
+        ],
+        "itemTags": [
+          "Item.Equippable.Item.Craftable",
+          "Item.Equippable.Item.SpiritVisage",
+          "Item.Equippable.Category.Tank",
+          "Item.Equippable.Provides.Resource.Mana"
+        ],
+        "overlays": [],
+        "from": null,
+        "upgrade": "DA_SpiritVisage_Radiant",
+        "curve": "CT_SpiritVisage",
+        "curveValues": {
+          "MissingHealthRegen": [
+            [
+              1,
+              2
+            ]
+          ],
+          "BaseHealth": [
+            [
+              1,
+              300
+            ]
+          ],
+          "IncomingDmgMod": [
+            [
+              1,
+              0.9
+            ]
+          ],
+          "BaseManaRegen": [
+            [
+              1,
+              2
+            ]
+          ]
+        },
+        "curveTable": {
+          "BaseHealth": [
+            [
+              1,
+              300
+            ]
+          ],
+          "BaseManaRegen": [
+            [
+              1,
+              2
+            ]
+          ],
+          "MissingHealthRegen": [
+            [
+              1,
+              2
+            ]
+          ],
+          "RegenTickRate": [
+            [
+              1,
+              1
+            ]
+          ],
+          "IncomingDmgMod": [
+            [
+              1,
+              0.9
+            ]
+          ]
+        },
+        "en_name": "Spirit Visage"
+      },
+      "status": "仅词库文本核对，PBE数值不得自动作为正式服值"
+    },
+    {
+      "name": "无尽之刃",
+      "role": "物理加成与技能暴击；不能因裁决使也有技能暴击，就直接推导为无收益或必做。",
+      "jcc_record": {
+        "id": "2001",
+        "name": "无尽之刃",
+        "type": "成型装备",
+        "basicDesc": "+35物理加成 +35%暴击率",
+        "descText": "获得【技能暴击】。  技能暴击：技能伤害可产生暴击。额外的【技能暴击】提供10%暴击伤害。",
+        "effectType": 0,
+        "fetterId": null,
+        "icon": "https://img.dataj.cc/images/equip/2001",
+        "mapId": 11,
+        "picture": "https://img.dataj.cc/images/equip/2001.png",
+        "planId": "18",
+        "sort": 0,
+        "synthesis1": "1001",
+        "synthesis2": "1009",
+        "tftEquipId": "0",
+        "setId": "18",
+        "season": "S19",
+        "version": "18.18.1"
+      },
+      "tft_lookup_record": {
+        "id": null,
+        "apiName": "DA_InfinityEdge",
+        "name": "无尽之刃",
+        "desc": "获得<Keyword>技能暴击</>。\r\n\r\n<Rules>技能暴击：技能伤害可以造成暴击。额外的【技能暴击】提供10%暴击伤害。</>",
+        "statLine": "<TFTCurveTable row=\"AttackDamage\" icon=\"Icon.AD\" type=\"stat\" format=\"percent\"/> <TFTCurveTable row=\"CriticalStrikeChance\" icon=\"Icon.CritChance\" type=\"stat\" format=\"percent\"/>",
+        "icon": "T_InfinityEdge",
+        "unique": false,
+        "composition": [
+          "DA_Component_BFSword",
+          "DA_Component_SparringGloves"
+        ],
+        "associatedTraits": [],
+        "incompatibleTraits": [],
+        "effects": {},
+        "tags": [
+          "Item.Equippable.Item.Craftable",
+          "Item.Equippable.Category.Attack"
+        ],
+        "itemTags": [
+          "Item.Equippable.Item.Craftable",
+          "Item.Equippable.Category.Attack"
+        ],
+        "overlays": [],
+        "from": null,
+        "upgrade": "DA_InfinityEdgeRadiant",
+        "curve": "CT_InfinityEdge",
+        "curveValues": {
+          "AttackDamage": [
+            [
+              1,
+              0.35
+            ]
+          ],
+          "CriticalStrikeChance": [
+            [
+              1,
+              0.35
+            ]
+          ]
+        },
+        "curveTable": {
+          "CriticalStrikeChance": [
+            [
+              1,
+              0.35
+            ]
+          ],
+          "AttackDamage": [
+            [
+              1,
+              0.35
+            ]
+          ]
+        },
+        "en_name": "Infinity Edge"
+      },
+      "status": "仅词库文本核对，PBE数值不得自动作为正式服值"
+    },
+    {
+      "name": "朔极之矛",
+      "role": "普攻额外回蓝；不能与法强随时间成长的大天使之杖视为同一功能。",
+      "jcc_record": {
+        "id": "2004",
+        "name": "朔极之矛",
+        "type": "成型装备",
+        "basicDesc": "+15物理加成 +15法术加成 +1法力回复",
+        "descText": "每次普攻提供5额外法力值。",
+        "effectType": 0,
+        "fetterId": null,
+        "icon": "https://img.dataj.cc/images/equip/2004",
+        "mapId": 13,
+        "picture": "https://img.dataj.cc/images/equip/2004.png",
+        "planId": "18",
+        "sort": 0,
+        "synthesis1": "1001",
+        "synthesis2": "1004",
+        "tftEquipId": "0",
+        "setId": "18",
+        "season": "S19",
+        "version": "18.18.1"
+      },
+      "tft_lookup_record": {
+        "id": null,
+        "apiName": "DA_SpearOfShojin",
+        "name": "朔极之矛",
+        "desc": "每次普攻提供<TFTCurveTable row=\"ManaPerAttack\"/>额外法力值。",
+        "statLine": "<TFTCurveTable row=\"AttackDamage\" type=\"stat\" icon=\"Icon.AD\" format=\"percent\"/><TFTCurveTable row=\"AbilityPower\" type=\"stat\" icon=\"Icon.AP\" format=\"percent\"/><TFTCurveTable row=\"ManaPerSecond\" type=\"stat\" icon=\"Icon.ManaRegen\"/>",
+        "icon": "T_SpearOfShojin",
+        "unique": false,
+        "composition": [
+          "DA_Component_TearOfTheGoddess",
+          "DA_Component_BFSword"
+        ],
+        "associatedTraits": [],
+        "incompatibleTraits": [],
+        "effects": {},
+        "tags": [
+          "Item.Equippable.Item.Craftable",
+          "Item.Equippable.Category.Attack",
+          "Item.Equippable.Category.Magic",
+          "Item.Equippable.Provides.Resource.Mana"
+        ],
+        "itemTags": [
+          "Item.Equippable.Item.Craftable",
+          "Item.Equippable.Category.Attack",
+          "Item.Equippable.Category.Magic",
+          "Item.Equippable.Provides.Resource.Mana"
+        ],
+        "overlays": [],
+        "from": null,
+        "upgrade": "DA_SpearOfShojinRadiant",
+        "curve": "CT_SpearOfShojin",
+        "curveValues": {
+          "ManaPerAttack": [
+            [
+              1,
+              5
+            ]
+          ],
+          "AttackDamage": [
+            [
+              1,
+              0.15
+            ]
+          ],
+          "AbilityPower": [
+            [
+              1,
+              0.15
+            ]
+          ],
+          "ManaPerSecond": [
+            [
+              1,
+              1
+            ]
+          ]
+        },
+        "curveTable": {
+          "AbilityPower": [
+            [
+              1,
+              0.15
+            ]
+          ],
+          "ManaPerSecond": [
+            [
+              1,
+              1
+            ]
+          ],
+          "AttackDamage": [
+            [
+              1,
+              0.15
+            ]
+          ],
+          "ManaPerAttack": [
+            [
+              1,
+              5
+            ]
+          ]
+        },
+        "en_name": "Spear of Shojin"
+      },
+      "status": "仅词库文本核对，PBE数值不得自动作为正式服值"
+    },
+    {
+      "name": "正义之手",
+      "role": "根据生命状态在输出属性与全能吸血之间增强；共同推荐不等于替代所有保命装。",
+      "jcc_record": {
+        "id": "2039",
+        "name": "正义之手",
+        "type": "成型装备",
+        "basicDesc": "+20%暴击率 +1法力回复",
+        "descText": "获得2个效果： -18%物理加成和18%法术加成。 -15%全能汲取。  生命值高于50%时，物理加成和法术加成翻倍。生命值低于50%时，全能汲取效果翻倍。",
+        "effectType": 0,
+        "fetterId": null,
+        "icon": "https://img.dataj.cc/images/equip/2039",
+        "mapId": 42,
+        "picture": "https://img.dataj.cc/images/equip/2039.png",
+        "planId": "18",
+        "sort": 0,
+        "synthesis1": "1004",
+        "synthesis2": "1009",
+        "tftEquipId": "0",
+        "setId": "18",
+        "season": "S19",
+        "version": "18.18.2"
+      },
+      "tft_lookup_record": {
+        "id": null,
+        "apiName": "DA_HandOfJustice",
+        "name": "正义之手",
+        "desc": "获得2个效果：\r\n• <TFTCurveTable row=\"ADBase\" format=\"percent\"/>物理加成和<TFTCurveTable row=\"APBase\" format=\"percent\"/>法术加成。\r\n• <TFTCurveTable row=\"OmnivampBase\" format=\"percent\"/>全能吸血。\r\n\r\n生命值高于<TFTCurveTable row=\"HealthThreshold\" format=\"percent\"/>时，物理加成和法术加成翻倍。生命值低于<TFTCurveTable row=\"HealthThreshold\" format=\"percent\"/>时，全能吸血翻倍。",
+        "statLine": "<TFTCurveTable row=\"CritChanceBase\" icon=\"icon.critchance\" format=\"percent\" type=\"stat\"/> <TFTCurveTable row=\"ManaRegenBase\" icon=\"icon.manaregen\" type=\"stat\"/>",
+        "icon": "T_HandOfJustice",
+        "unique": false,
+        "composition": [
+          "DA_Component_TearOfTheGoddess",
+          "DA_Component_SparringGloves"
+        ],
+        "associatedTraits": [],
+        "incompatibleTraits": [],
+        "effects": {},
+        "tags": [
+          "Item.Equippable.Item.Craftable",
+          "Item.Equippable.Category.Attack",
+          "Item.Equippable.Category.Magic",
+          "Item.Equippable.Provides.Resource.Mana"
+        ],
+        "itemTags": [
+          "Item.Equippable.Item.Craftable",
+          "Item.Equippable.Category.Attack",
+          "Item.Equippable.Category.Magic",
+          "Item.Equippable.Provides.Resource.Mana"
+        ],
+        "overlays": [],
+        "from": null,
+        "upgrade": "DA_HandOfJusticeRadiant",
+        "curve": "CT_HandOfJustice",
+        "curveValues": {
+          "ADBase": [
+            [
+              1,
+              0.18
+            ]
+          ],
+          "APBase": [
+            [
+              1,
+              0.18
+            ]
+          ],
+          "OmnivampBase": [
+            [
+              1,
+              0.15
+            ]
+          ],
+          "HealthThreshold": [
+            [
+              1,
+              0.5
+            ]
+          ],
+          "CritChanceBase": [
+            [
+              1,
+              0.2
+            ]
+          ],
+          "ManaRegenBase": [
+            [
+              1,
+              1
+            ]
+          ]
+        },
+        "curveTable": {
+          "CritChanceBase": [
+            [
+              1,
+              0.2
+            ]
+          ],
+          "ManaRegenBase": [
+            [
+              1,
+              1
+            ]
+          ],
+          "APBase": [
+            [
+              1,
+              0.18
+            ]
+          ],
+          "ADBase": [
+            [
+              1,
+              0.18
+            ]
+          ],
+          "HealthThreshold": [
+            [
+              1,
+              0.5
+            ]
+          ],
+          "OmnivampBase": [
+            [
+              1,
+              0.15
+            ]
+          ]
+        },
+        "en_name": "Hand Of Justice"
+      },
+      "status": "仅词库文本核对，PBE数值不得自动作为正式服值"
+    },
+    {
+      "name": "海妖之怒",
+      "role": "通过攻击叠物理加成，达到攻击次数后获得攻速；与鬼索的叠加触发不同。",
+      "jcc_record": {
+        "id": "2013",
+        "name": "海妖之怒",
+        "type": "成型装备",
+        "basicDesc": "+10物理加成 +20魔法抗性 +10%攻击速度",
+        "descText": "攻击提供3.5%可叠加的物理加成，至多至15次攻击。在15次攻击后，获得15%攻击速度。",
+        "effectType": 0,
+        "fetterId": null,
+        "icon": "https://img.dataj.cc/images/equip/krakensfury",
+        "mapId": 22,
+        "picture": "https://img.dataj.cc/images/equip/krakensfury.png",
+        "planId": "18",
+        "sort": 0,
+        "synthesis1": "1002",
+        "synthesis2": "1006",
+        "tftEquipId": "0",
+        "setId": "18",
+        "season": "S19",
+        "version": "18.18.1"
+      },
+      "tft_lookup_record": {
+        "id": null,
+        "apiName": "DA_KrakensFury",
+        "name": "海妖之怒",
+        "desc": "每次攻击提供<TFTCurveTable row=\"ADCounter\"/>%可叠加物理加成，最多叠加15次。攻击<TFTCurveTable row=\"MaxStacks\"/>次后，获得<TFTCurveTable row=\"Bonus_AS\" format=\"percent\"/>攻击速度。",
+        "statLine": "<TFTCurveTable row=\"Base_AD\" type=\"stat\" icon=\"Icon.AD\" format=\"percent\"/> <TFTCurveTable row=\"Base_MR\" type=\"stat\" icon=\"Icon.MR\"/> <TFTCurveTable row=\"Base_AS\" type=\"stat\" icon=\"Icon.AS\" format=\"percentMinusOne\"/>",
+        "icon": "T_KrakensFury",
+        "unique": false,
+        "composition": [
+          "DA_Component_RecurveBow",
+          "DA_Component_NegatronCloak"
+        ],
+        "associatedTraits": [],
+        "incompatibleTraits": [],
+        "effects": {},
+        "tags": [
+          "Item.Equippable.Item.Craftable",
+          "Item.Equippable.Item.Stacking",
+          "Item.Equippable.Category.Attack"
+        ],
+        "itemTags": [
+          "Item.Equippable.Item.Craftable",
+          "Item.Equippable.Item.Stacking",
+          "Item.Equippable.Category.Attack"
+        ],
+        "overlays": [],
+        "from": null,
+        "upgrade": "DA_KrakensFury_Radiant",
+        "curve": "CT_KrakensFury",
+        "curveValues": {
+          "ADCounter": [
+            [
+              1,
+              3.5
+            ]
+          ],
+          "MaxStacks": [
+            [
+              1,
+              15
+            ]
+          ],
+          "Bonus_AS": [
+            [
+              1,
+              0.15
+            ]
+          ],
+          "Base_AD": [
+            [
+              1,
+              0.1
+            ]
+          ],
+          "Base_MR": [
+            [
+              1,
+              20
+            ]
+          ],
+          "Base_AS": [
+            [
+              1,
+              1.1
+            ]
+          ]
+        },
+        "curveTable": {
+          "ADCounter": [
+            [
+              1,
+              3.5
+            ]
+          ],
+          "Base_AS": [
+            [
+              1,
+              1.1
+            ]
+          ],
+          "Base_MR": [
+            [
+              1,
+              20
+            ]
+          ],
+          "Base_AD": [
+            [
+              1,
+              0.1
+            ]
+          ],
+          "StackCounter": [
+            [
+              1,
+              1
+            ]
+          ],
+          "Bonus_AS": [
+            [
+              1,
+              0.15
+            ]
+          ],
+          "MaxStacks": [
+            [
+              1,
+              15
+            ]
+          ]
+        },
+        "en_name": "Kraken's Fury"
+      },
+      "status": "仅词库文本核对，PBE数值不得自动作为正式服值"
+    },
+    {
+      "name": "狂徒铠甲",
+      "role": "提供生命值及最大生命值增益；不直接替代护甲、魔抗或回蓝。",
+      "jcc_record": {
+        "id": "2034",
+        "name": "狂徒铠甲",
+        "type": "成型装备",
+        "basicDesc": "+500生命上限",
+        "descText": "获得18%最大生命值。",
+        "effectType": 0,
+        "fetterId": null,
+        "icon": "https://img.dataj.cc/images/equip/2034",
+        "mapId": 38,
+        "picture": "https://img.dataj.cc/images/equip/2034.png",
+        "planId": "18",
+        "sort": 0,
+        "synthesis1": "1007",
+        "synthesis2": "1007",
+        "tftEquipId": "0",
+        "setId": "18",
+        "season": "S19",
+        "version": "18.18.1"
+      },
+      "tft_lookup_record": {
+        "id": null,
+        "apiName": "DA_WarmogsArmor",
+        "name": "狂徒铠甲",
+        "desc": "获得<TFTCurveTable row=\"HealthMaxMultiplier\" format=\"percentMinusOne\"/>最大生命值。",
+        "statLine": "<TFTCurveTable row=\"Base_Health\" icon=\"icon.Health\" type=\"stat\"/>",
+        "icon": "T_WarmogsArmor",
+        "unique": false,
+        "composition": [
+          "DA_Component_GiantsBelt",
+          "DA_Component_GiantsBelt"
+        ],
+        "associatedTraits": [],
+        "incompatibleTraits": [],
+        "effects": {},
+        "tags": [
+          "Item.Equippable.Item.Craftable",
+          "Item.Equippable.Category.Tank"
+        ],
+        "itemTags": [
+          "Item.Equippable.Item.Craftable",
+          "Item.Equippable.Category.Tank"
+        ],
+        "overlays": [],
+        "from": null,
+        "upgrade": "DA_WarmogsArmorRadiant",
+        "curve": "CT_WarmogsArmor",
+        "curveValues": {
+          "HealthMaxMultiplier": [
+            [
+              1,
+              1.18
+            ]
+          ],
+          "Base_Health": [
+            [
+              1,
+              500
+            ]
+          ]
+        },
+        "curveTable": {
+          "HealthMaxMultiplier": [
+            [
+              1,
+              1.18
+            ]
+          ],
+          "Base_Health": [
+            [
+              1,
+              500
+            ]
+          ]
+        },
+        "en_name": "Warmog's Armor"
+      },
+      "status": "仅词库文本核对，PBE数值不得自动作为正式服值"
+    },
+    {
+      "name": "珠光护手",
+      "role": "法术加成与技能暴击；用于本页拉露恩共同推荐，不外推到所有法系。",
+      "jcc_record": {
+        "id": "2038",
+        "name": "珠光护手",
+        "type": "成型装备",
+        "basicDesc": "+35%暴击率 +35法术加成",
+        "descText": "获得【技能暴击】。  技能暴击：技能伤害可产生暴击。额外的【技能暴击】提供10%暴击伤害。",
+        "effectType": 0,
+        "fetterId": null,
+        "icon": "https://img.dataj.cc/images/equip/2038",
+        "mapId": 41,
+        "picture": "https://img.dataj.cc/images/equip/2038.png",
+        "planId": "18",
+        "sort": 0,
+        "synthesis1": "1003",
+        "synthesis2": "1009",
+        "tftEquipId": "0",
+        "setId": "18",
+        "season": "S19",
+        "version": "18.18.1"
+      },
+      "tft_lookup_record": {
+        "id": null,
+        "apiName": "DA_JeweledGauntlet",
+        "name": "珠光护手",
+        "desc": "获得<Keyword>技能暴击</>。\r\n\r\n<Rules>技能暴击：技能伤害可以造成暴击。额外的【技能暴击】提供10%暴击伤害。</>",
+        "statLine": "<TFTCurveTable row=\"Base_AP\" icon=\"Icon.AP\" type=\"stat\" format=\"percent\"/> <TFTCurveTable row=\"Base_CritChance\" icon=\"Icon.CritChance\" type=\"stat\" format=\"percent\"/>",
+        "icon": "T_JeweledGauntlet",
+        "unique": false,
+        "composition": [
+          "DA_Component_SparringGloves",
+          "DA_Component_NeedlesslyLargeRod"
+        ],
+        "associatedTraits": [],
+        "incompatibleTraits": [],
+        "effects": {},
+        "tags": [
+          "Item.Equippable.Item.Craftable",
+          "Item.Equippable.Category.Magic"
+        ],
+        "itemTags": [
+          "Item.Equippable.Item.Craftable",
+          "Item.Equippable.Category.Magic"
+        ],
+        "overlays": [],
+        "from": null,
+        "upgrade": "DA_JeweledGauntletRadiant",
+        "curve": "CT_JeweledGauntlet",
+        "curveValues": {
+          "Base_AP": [
+            [
+              1,
+              0.35
+            ]
+          ],
+          "Base_CritChance": [
+            [
+              1,
+              0.35
+            ]
+          ]
+        },
+        "curveTable": {
+          "Base_CritChance": [
+            [
+              1,
+              0.35
+            ]
+          ],
+          "Base_AP": [
+            [
+              1,
+              0.35
+            ]
+          ]
+        },
+        "en_name": "Jeweled Gauntlet"
+      },
+      "status": "仅词库文本核对，PBE数值不得自动作为正式服值"
+    },
+    {
+      "name": "石像鬼石板甲",
+      "role": "按正在攻击携带者的敌人数获得双抗；相同装备不保证不同站位有相同收益。",
+      "jcc_record": {
+        "id": "2028",
+        "name": "石像鬼石板甲",
+        "type": "成型装备",
+        "basicDesc": "+100生命上限 +25护甲 +25魔法抗性",
+        "descText": "每有一个敌人正在以携带者为目标，携带者就会获得10护甲和10魔抗。",
+        "effectType": 0,
+        "fetterId": null,
+        "icon": "https://img.dataj.cc/images/equip/2248",
+        "mapId": 34,
+        "picture": "https://img.dataj.cc/images/equip/2248.png",
+        "planId": "18",
+        "sort": 0,
+        "synthesis1": "1005",
+        "synthesis2": "1006",
+        "tftEquipId": "0",
+        "setId": "18",
+        "season": "S19",
+        "version": "18.18.1"
+      },
+      "tft_lookup_record": {
+        "id": null,
+        "apiName": "DA_GargoyleStoneplate",
+        "name": "石像鬼石板甲",
+        "desc": "每有一个敌人以携带者为目标，携带者就会获得<TFTCurveTable row=\"ArmorPerTargetingEnemy\"/>护甲和<TFTCurveTable row=\"MRPerTargetingEnemy\"/>魔抗。",
+        "statLine": "<TFTCurveTable row=\"HealthMax\" icon=\"icon.Health\" type=\"stat\"/> <TFTCurveTable row=\"Armor\" icon=\"icon.Armor\" type=\"stat\"/> <TFTCurveTable row=\"MagicResist\" icon=\"icon.MR\" type=\"stat\"/>",
+        "icon": "T_GargoyleStoneplate",
+        "unique": false,
+        "composition": [
+          "DA_Component_ChainVest",
+          "DA_Component_NegatronCloak"
+        ],
+        "associatedTraits": [],
+        "incompatibleTraits": [],
+        "effects": {},
+        "tags": [
+          "Item.Equippable.Item.Craftable",
+          "Item.Equippable.Category.Tank"
+        ],
+        "itemTags": [
+          "Item.Equippable.Item.Craftable",
+          "Item.Equippable.Category.Tank"
+        ],
+        "overlays": [],
+        "from": null,
+        "upgrade": "DA_GargoyleStoneplate_Radiant",
+        "curve": "CT_GargoyleStoneplate",
+        "curveValues": {
+          "ArmorPerTargetingEnemy": [
+            [
+              1,
+              10
+            ]
+          ],
+          "MRPerTargetingEnemy": [
+            [
+              1,
+              10
+            ]
+          ],
+          "HealthMax": [
+            [
+              1,
+              100
+            ]
+          ],
+          "Armor": [
+            [
+              1,
+              25
+            ]
+          ],
+          "MagicResist": [
+            [
+              1,
+              25
+            ]
+          ]
+        },
+        "curveTable": {
+          "Armor": [
+            [
+              1,
+              25
+            ]
+          ],
+          "MagicResist": [
+            [
+              1,
+              25
+            ]
+          ],
+          "HealthMax": [
+            [
+              1,
+              100
+            ]
+          ],
+          "ArmorPerTargetingEnemy": [
+            [
+              1,
+              10
+            ]
+          ],
+          "MRPerTargetingEnemy": [
+            [
+              1,
+              10
+            ]
+          ]
+        },
+        "en_name": "Gargoyle Stoneplate"
+      },
+      "status": "仅词库文本核对，PBE数值不得自动作为正式服值"
+    },
+    {
+      "name": "红霸符",
+      "role": "攻击与技能施加灼烧、重伤；不能把灼烧可叠加推导为重伤可叠加。",
+      "jcc_record": {
+        "id": "2009",
+        "name": "红霸符",
+        "type": "成型装备",
+        "basicDesc": "+45%攻击速度 +3%伤害增幅",
+        "descText": "攻击和技能的伤害对敌人们造成持续5秒的1%灼烧效果和33%重伤效果。  灼烧：每秒造成目标一部分最大生命值的真实伤害 重伤：降低受到的治疗效果",
+        "effectType": 0,
+        "fetterId": null,
+        "icon": "https://img.dataj.cc/images/equip/2009",
+        "mapId": 17,
+        "picture": "https://img.dataj.cc/images/equip/2009.png",
+        "planId": "18",
+        "sort": 0,
+        "synthesis1": "1002",
+        "synthesis2": "1002",
+        "tftEquipId": "0",
+        "setId": "18",
+        "season": "S19",
+        "version": "18.18.1"
+      },
+      "tft_lookup_record": {
+        "id": null,
+        "apiName": "DA_RedBuff",
+        "name": "红霸符",
+        "desc": "攻击和技能的伤害对敌人们造成持续<TFTCurveTable row=\"Duration\"/>秒的<TFTCurveTable row=\"Burn\"/>%<Keyword>灼烧</>效果和<TFTCurveTable row=\"Wound\"/>%<Keyword>重伤</>效果。\r\n\r\n<rules>灼烧：每秒造成目标一部分最大生命值的真实伤害</>\r\n<rules>重伤：降低受到的治疗效果</>",
+        "statLine": "<TFTCurveTable row=\"Base_AttackSpeed\" icon=\"icon.AS\" format=\"percentMinusOne\" type=\"stat\"/> <TFTCurveTable row=\"Base_DamageAmp\" icon=\"icon.DamageAmp\" format=\"percent\" type=\"stat\"/>",
+        "icon": "T_RedBuff",
+        "unique": false,
+        "composition": [
+          "DA_Component_RecurveBow",
+          "DA_Component_RecurveBow"
+        ],
+        "associatedTraits": [],
+        "incompatibleTraits": [],
+        "effects": {},
+        "tags": [
+          "Item.Equippable.Item.Craftable",
+          "Item.Equippable.Category.Attack"
+        ],
+        "itemTags": [
+          "Item.Equippable.Item.Craftable",
+          "Item.Equippable.Category.Attack"
+        ],
+        "overlays": [],
+        "from": null,
+        "upgrade": "DA_RedBuffRadiant",
+        "curve": "CT_RedBuff",
+        "curveValues": {
+          "Burn": [
+            [
+              1,
+              1
+            ]
+          ],
+          "Wound": [
+            [
+              1,
+              33
+            ]
+          ],
+          "Duration": [
+            [
+              1,
+              5
+            ]
+          ],
+          "Base_AttackSpeed": [
+            [
+              1,
+              1.45
+            ]
+          ],
+          "Base_DamageAmp": [
+            [
+              1,
+              0.03
+            ]
+          ]
+        },
+        "curveTable": {
+          "Duration": [
+            [
+              1,
+              5
+            ]
+          ],
+          "Burn": [
+            [
+              1,
+              1
+            ]
+          ],
+          "Wound": [
+            [
+              1,
+              33
+            ]
+          ],
+          "Base_DamageAmp": [
+            [
+              1,
+              0.03
+            ]
+          ],
+          "Base_AttackSpeed": [
+            [
+              1,
+              1.45
+            ]
+          ]
+        },
+        "en_name": "Red Buff"
+      },
+      "status": "仅词库文本核对，PBE数值不得自动作为正式服值"
+    },
+    {
+      "name": "迅捷射手纹章",
+      "role": "增加迅射羁绊，普攻附带最大生命值真实伤害；同时占据装备栏，不能只按普通攻速装比较。",
+      "jcc_record": {
+        "id": "41815",
+        "name": "迅捷射手纹章",
+        "type": "转职纹章",
+        "basicDesc": "+20%攻击速度",
+        "descText": "携带者获得【迅捷射手】特质/职业。  攻击造成目标1%最大生命值的真实伤害。",
+        "effectType": 3,
+        "fetterId": null,
+        "icon": "https://img.dataj.cc/images/equip/41815",
+        "mapId": 85,
+        "picture": "https://img.dataj.cc/images/equip/41815.png",
+        "planId": "18",
+        "sort": 0,
+        "synthesis1": "1010",
+        "synthesis2": "1002",
+        "tftEquipId": "0",
+        "setId": "18",
+        "season": "S19",
+        "version": "18.18.3"
+      },
+      "tft_lookup_record": {
+        "id": null,
+        "apiName": "DA_18_EmblemRapidfire",
+        "name": "迅捷射手纹章",
+        "desc": "携带者获得【迅捷射手】羁绊。\r\n\r\n攻击造成目标<TFTCurveTable row=\"MaxHealthTrueDamageRatio\" format=\"percent\"/>最大生命值的真实伤害",
+        "statLine": "<TFTCurveTable row=\"AttackSpeed\" icon=\"icon.AS\" type=\"stat\" format=\"percentMinusOne\"/>",
+        "icon": "T_TraitItemIcon_18_Rapidfire",
+        "unique": false,
+        "composition": [
+          "DA_Component_FryingPan",
+          "DA_Component_RecurveBow"
+        ],
+        "associatedTraits": [
+          "DA_18_Rapidfire"
+        ],
+        "incompatibleTraits": [
+          "DA_18_Rapidfire"
+        ],
+        "effects": {},
+        "tags": [
+          "Emblem",
+          "Item.Equippable.Item.Emblem",
+          "Item.Equippable.Item.Craftable"
+        ],
+        "itemTags": [
+          "Item.Equippable.Item.Emblem",
+          "Item.Equippable.Item.Craftable"
+        ],
+        "overlays": [],
+        "from": null,
+        "upgrade": null,
+        "curve": "CT_18_EmblemRapidfire",
+        "curveValues": {
+          "MaxHealthTrueDamageRatio": [
+            [
+              1,
+              0.01
+            ]
+          ],
+          "AttackSpeed": [
+            [
+              1,
+              1.2
+            ]
+          ]
+        },
+        "curveTable": {
+          "AttackSpeed": [
+            [
+              1,
+              1.2
+            ]
+          ],
+          "MaxHealthTrueDamageRatio": [
+            [
+              1,
+              0.01
+            ]
+          ]
+        },
+        "en_name": "Rapidfire Emblem"
+      },
+      "status": "仅词库文本核对，PBE数值不得自动作为正式服值"
+    },
+    {
+      "name": "鬼索的狂暴之刃",
+      "role": "按时间叠加攻速；本词库不是旧版本的每次攻击叠攻速描述。",
+      "jcc_record": {
+        "id": "2010",
+        "name": "鬼索的狂暴之刃",
+        "type": "成型装备",
+        "basicDesc": "+10%攻击速度 +10法术加成",
+        "descText": "每秒获得7%可叠加的攻击速度。",
+        "effectType": 0,
+        "fetterId": null,
+        "icon": "https://img.dataj.cc/images/equip/2010",
+        "mapId": 18,
+        "picture": "https://img.dataj.cc/images/equip/2010.png",
+        "planId": "18",
+        "sort": 0,
+        "synthesis1": "1002",
+        "synthesis2": "1003",
+        "tftEquipId": "0",
+        "setId": "18",
+        "season": "S19",
+        "version": "18.18.1"
+      },
+      "tft_lookup_record": {
+        "id": null,
+        "apiName": "DA_GuinsoosRageblade",
+        "name": "鬼索的狂暴之刃",
+        "desc": "每秒获得<TFTCurveTable row=\"ASCounter\"/>%可叠加的攻击速度。",
+        "statLine": "<TFTCurveTable row=\"BaseAP\" icon=\"icon.AP\" type=\"stat\" format=\"percent\"/> <TFTCurveTable row=\"BaseAS\" icon=\"icon.AS\" type=\"stat\" format=\"percentMinusOne\"/>",
+        "icon": "T_GuinsoosRageblade",
+        "unique": false,
+        "composition": [
+          "DA_Component_RecurveBow",
+          "DA_Component_NeedlesslyLargeRod"
+        ],
+        "associatedTraits": [],
+        "incompatibleTraits": [],
+        "effects": {},
+        "tags": [
+          "Item.Equippable.Item.Craftable",
+          "Item.Equippable.Item.Stacking",
+          "Item.Equippable.Category.Attack"
+        ],
+        "itemTags": [
+          "Item.Equippable.Item.Craftable",
+          "Item.Equippable.Item.Stacking",
+          "Item.Equippable.Category.Attack"
+        ],
+        "overlays": [],
+        "from": null,
+        "upgrade": "DA_GuinsoosRagebladeRadiant",
+        "curve": "CT_GuinsoosRageblade",
+        "curveValues": {
+          "ASCounter": [
+            [
+              1,
+              7
+            ]
+          ],
+          "BaseAP": [
+            [
+              1,
+              0.1
+            ]
+          ],
+          "BaseAS": [
+            [
+              1,
+              1.1
+            ]
+          ]
+        },
+        "curveTable": {
+          "BaseAS": [
+            [
+              1,
+              1.1
+            ]
+          ],
+          "BaseAP": [
+            [
+              1,
+              0.1
+            ]
+          ],
+          "ASCounter": [
+            [
+              1,
+              7
+            ]
+          ]
+        },
+        "en_name": "Guinsoo's Rageblade"
+      },
+      "status": "仅词库文本核对，PBE数值不得自动作为正式服值"
+    }
+  ],
+  "jcc_online_catalog_recheck": {
+    "hero": {
+      "fields": [
+        "name",
+        "price",
+        "skillDesc",
+        "skillValueDesc",
+        "initMp",
+        "maxMp",
+        "raceId",
+        "jobId"
+      ],
+      "compared_records": 371,
+      "changed_ids": []
+    },
+    "trait": {
+      "fields": [
+        "name",
+        "num",
+        "prefix",
+        "desc2Text"
+      ],
+      "compared_records": 90,
+      "changed_ids": []
+    },
+    "equip": {
+      "fields": [
+        "name",
+        "basicDesc",
+        "descText"
+      ],
+      "compared_records": 157,
+      "changed_ids": []
+    }
+  },
+  "fully_verified_cross_platform_mechanics": false
+}

@@ -1,0 +1,3176 @@
+{
+  "rows": [
+    {
+      "id": "426007",
+      "augments": [
+        {
+          "id": "DA_18_RiftbeastTraitAugment",
+          "name": "欧米茄之怪",
+          "rarity": 2,
+          "rounds": [
+            "2-1",
+            "3-2",
+            "4-2"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Riftbeast Reroll",
+              "updated_at": "2026-10-14 20:48:09.049Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-riftbeast-reroll",
+              "guide_id": "set-18-riftbeast-reroll",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "8级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-riftbeast-reroll.html",
+              "source_sha256": "0d155b8a346da04bccf2eb413626dffaca6e102bc3f269513bd4325dfde6f241",
+              "source_board": [
+                "DA_18_GnarSmall",
+                "DA_18_Sentry",
+                "DA_Brambleback18",
+                "DA_Cinderling18",
+                "DA_Krug18",
+                "DA_Murkwolf18",
+                "DA_Scuttlecrab18",
+                "DA_Sentinel18"
+              ],
+              "match_levels": [
+                8
+              ],
+              "main_champion": "DA_18_Sentry"
+            }
+          ]
+        },
+        {
+          "id": "DA_JeweledLotus_I",
+          "name": "珠光莲花 I",
+          "rarity": 2,
+          "rounds": [
+            "3-2",
+            "4-2"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Riftbeast Reroll",
+              "updated_at": "2026-10-14 20:48:09.049Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-riftbeast-reroll",
+              "guide_id": "set-18-riftbeast-reroll",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "8级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-riftbeast-reroll.html",
+              "source_sha256": "0d155b8a346da04bccf2eb413626dffaca6e102bc3f269513bd4325dfde6f241",
+              "source_board": [
+                "DA_18_GnarSmall",
+                "DA_18_Sentry",
+                "DA_Brambleback18",
+                "DA_Cinderling18",
+                "DA_Krug18",
+                "DA_Murkwolf18",
+                "DA_Scuttlecrab18",
+                "DA_Sentinel18"
+              ],
+              "match_levels": [
+                8
+              ],
+              "main_champion": "DA_18_Sentry"
+            }
+          ]
+        },
+        {
+          "id": "DA_GlassCannon_Silver",
+          "name": "玻璃大炮 I",
+          "rarity": 1,
+          "rounds": [
+            "3-2",
+            "4-2"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Riftbeast Reroll",
+              "updated_at": "2026-10-14 20:48:09.049Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-riftbeast-reroll",
+              "guide_id": "set-18-riftbeast-reroll",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "8级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-riftbeast-reroll.html",
+              "source_sha256": "0d155b8a346da04bccf2eb413626dffaca6e102bc3f269513bd4325dfde6f241",
+              "source_board": [
+                "DA_18_GnarSmall",
+                "DA_18_Sentry",
+                "DA_Brambleback18",
+                "DA_Cinderling18",
+                "DA_Krug18",
+                "DA_Murkwolf18",
+                "DA_Scuttlecrab18",
+                "DA_Sentinel18"
+              ],
+              "match_levels": [
+                8
+              ],
+              "main_champion": "DA_18_Sentry"
+            }
+          ]
+        },
+        {
+          "id": "DA_WorththeWaitII",
+          "name": "值得等待 II",
+          "rarity": 3,
+          "rounds": [
+            "2-1"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Riftbeast Reroll",
+              "updated_at": "2026-10-14 20:48:09.049Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-riftbeast-reroll",
+              "guide_id": "set-18-riftbeast-reroll",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "8级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-riftbeast-reroll.html",
+              "source_sha256": "0d155b8a346da04bccf2eb413626dffaca6e102bc3f269513bd4325dfde6f241",
+              "source_board": [
+                "DA_18_GnarSmall",
+                "DA_18_Sentry",
+                "DA_Brambleback18",
+                "DA_Cinderling18",
+                "DA_Krug18",
+                "DA_Murkwolf18",
+                "DA_Scuttlecrab18",
+                "DA_Sentinel18"
+              ],
+              "match_levels": [
+                8
+              ],
+              "main_champion": "DA_18_Sentry"
+            }
+          ]
+        },
+        {
+          "id": "DA_18_CaretakersAlly",
+          "name": "游神的盟友",
+          "rarity": 1,
+          "rounds": [
+            "2-1"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Riftbeast Reroll",
+              "updated_at": "2026-10-14 20:48:09.049Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-riftbeast-reroll",
+              "guide_id": "set-18-riftbeast-reroll",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "8级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-riftbeast-reroll.html",
+              "source_sha256": "0d155b8a346da04bccf2eb413626dffaca6e102bc3f269513bd4325dfde6f241",
+              "source_board": [
+                "DA_18_GnarSmall",
+                "DA_18_Sentry",
+                "DA_Brambleback18",
+                "DA_Cinderling18",
+                "DA_Krug18",
+                "DA_Murkwolf18",
+                "DA_Scuttlecrab18",
+                "DA_Sentinel18"
+              ],
+              "match_levels": [
+                8
+              ],
+              "main_champion": "DA_18_Sentry"
+            }
+          ]
+        },
+        {
+          "id": "DA_LuckyGlovesPlus",
+          "name": "幸运手套+",
+          "rarity": 3,
+          "rounds": [
+            "3-2",
+            "4-2"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Riftbeast Reroll",
+              "updated_at": "2026-10-14 20:48:09.049Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-riftbeast-reroll",
+              "guide_id": "set-18-riftbeast-reroll",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "8级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-riftbeast-reroll.html",
+              "source_sha256": "0d155b8a346da04bccf2eb413626dffaca6e102bc3f269513bd4325dfde6f241",
+              "source_board": [
+                "DA_18_GnarSmall",
+                "DA_18_Sentry",
+                "DA_Brambleback18",
+                "DA_Cinderling18",
+                "DA_Krug18",
+                "DA_Murkwolf18",
+                "DA_Scuttlecrab18",
+                "DA_Sentinel18"
+              ],
+              "match_levels": [
+                8
+              ],
+              "main_champion": "DA_18_Sentry"
+            }
+          ]
+        },
+        {
+          "id": "DA_NestingDolls",
+          "name": "弈子套娃",
+          "rarity": 3,
+          "rounds": [
+            "2-1"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Riftbeast Reroll",
+              "updated_at": "2026-10-14 20:48:09.049Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-riftbeast-reroll",
+              "guide_id": "set-18-riftbeast-reroll",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "8级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-riftbeast-reroll.html",
+              "source_sha256": "0d155b8a346da04bccf2eb413626dffaca6e102bc3f269513bd4325dfde6f241",
+              "source_board": [
+                "DA_18_GnarSmall",
+                "DA_18_Sentry",
+                "DA_Brambleback18",
+                "DA_Cinderling18",
+                "DA_Krug18",
+                "DA_Murkwolf18",
+                "DA_Scuttlecrab18",
+                "DA_Sentinel18"
+              ],
+              "match_levels": [
+                8
+              ],
+              "main_champion": "DA_18_Sentry"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "author": "TFT Academy 编辑攻略",
+        "title": "Riftbeast Reroll",
+        "updated_at": "2026-10-14 20:48:09.049Z",
+        "url": "https://tftacademy.com/tierlist/comps/set-18-riftbeast-reroll",
+        "guide_id": "set-18-riftbeast-reroll",
+        "match": "exact",
+        "tier": null,
+        "recommendation_label": "本阵容明确推荐（未单独评级）",
+        "variant": "8级",
+        "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+        "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+        "source_file": "augment-external/academy-set-18-riftbeast-reroll.html",
+        "source_sha256": "0d155b8a346da04bccf2eb413626dffaca6e102bc3f269513bd4325dfde6f241",
+        "source_board": [
+          "DA_18_GnarSmall",
+          "DA_18_Sentry",
+          "DA_Brambleback18",
+          "DA_Cinderling18",
+          "DA_Krug18",
+          "DA_Murkwolf18",
+          "DA_Scuttlecrab18",
+          "DA_Sentinel18"
+        ],
+        "match_levels": [
+          8
+        ],
+        "main_champion": "DA_18_Sentry"
+      }
+    },
+    {
+      "id": "426002",
+      "augments": [
+        {
+          "id": "DA_BackupBows",
+          "name": "战时补给：反曲之弓",
+          "rarity": 1,
+          "rounds": [
+            "2-1"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Aphelios Elderwood",
+              "updated_at": "2026-10-14 20:48:09.360Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-aphelios-vanguards-copy",
+              "guide_id": "set-18-aphelios-vanguards-copy",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "9级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-aphelios-vanguards-copy.html",
+              "source_sha256": "ea6e5767acd60e494d67fa56fe94d7bc86602c2094f83e1933794127751167f6",
+              "source_board": [
+                "DA_18_Alistar",
+                "DA_18_Aphelios",
+                "DA_18_Diana",
+                "DA_18_Ezreal",
+                "DA_18_GnarSmall",
+                "DA_18_Hecarim",
+                "DA_18_Lillia",
+                "DA_18_Ornn",
+                "DA_18_Xayah"
+              ],
+              "match_levels": [
+                9
+              ],
+              "main_champion": "DA_18_Aphelios"
+            }
+          ]
+        },
+        {
+          "id": "DA_OneBuffTwoBuff",
+          "name": "1个霸符，2个霸符",
+          "rarity": 3,
+          "rounds": [
+            "3-2",
+            "4-2"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Aphelios Elderwood",
+              "updated_at": "2026-10-14 20:48:09.360Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-aphelios-vanguards-copy",
+              "guide_id": "set-18-aphelios-vanguards-copy",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "9级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-aphelios-vanguards-copy.html",
+              "source_sha256": "ea6e5767acd60e494d67fa56fe94d7bc86602c2094f83e1933794127751167f6",
+              "source_board": [
+                "DA_18_Alistar",
+                "DA_18_Aphelios",
+                "DA_18_Diana",
+                "DA_18_Ezreal",
+                "DA_18_GnarSmall",
+                "DA_18_Hecarim",
+                "DA_18_Lillia",
+                "DA_18_Ornn",
+                "DA_18_Xayah"
+              ],
+              "match_levels": [
+                9
+              ],
+              "main_champion": "DA_18_Aphelios"
+            }
+          ]
+        },
+        {
+          "id": "DA_Swordsmith",
+          "name": "剑之工匠",
+          "rarity": 2,
+          "rounds": [
+            "4-2"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Aphelios Elderwood",
+              "updated_at": "2026-10-14 20:48:09.360Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-aphelios-vanguards-copy",
+              "guide_id": "set-18-aphelios-vanguards-copy",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "9级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-aphelios-vanguards-copy.html",
+              "source_sha256": "ea6e5767acd60e494d67fa56fe94d7bc86602c2094f83e1933794127751167f6",
+              "source_board": [
+                "DA_18_Alistar",
+                "DA_18_Aphelios",
+                "DA_18_Diana",
+                "DA_18_Ezreal",
+                "DA_18_GnarSmall",
+                "DA_18_Hecarim",
+                "DA_18_Lillia",
+                "DA_18_Ornn",
+                "DA_18_Xayah"
+              ],
+              "match_levels": [
+                9
+              ],
+              "main_champion": "DA_18_Aphelios"
+            }
+          ]
+        },
+        {
+          "id": "DA_Replication",
+          "name": "反响",
+          "rarity": 2,
+          "rounds": [
+            "2-1",
+            "3-2"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Aphelios Elderwood",
+              "updated_at": "2026-10-14 20:48:09.360Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-aphelios-vanguards-copy",
+              "guide_id": "set-18-aphelios-vanguards-copy",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "9级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-aphelios-vanguards-copy.html",
+              "source_sha256": "ea6e5767acd60e494d67fa56fe94d7bc86602c2094f83e1933794127751167f6",
+              "source_board": [
+                "DA_18_Alistar",
+                "DA_18_Aphelios",
+                "DA_18_Diana",
+                "DA_18_Ezreal",
+                "DA_18_GnarSmall",
+                "DA_18_Hecarim",
+                "DA_18_Lillia",
+                "DA_18_Ornn",
+                "DA_18_Xayah"
+              ],
+              "match_levels": [
+                9
+              ],
+              "main_champion": "DA_18_Aphelios"
+            }
+          ]
+        },
+        {
+          "id": "DA_BlackthornTraitAugment",
+          "name": "装备提炼",
+          "rarity": 2,
+          "rounds": [
+            "2-1",
+            "3-2"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Aphelios Elderwood",
+              "updated_at": "2026-10-14 20:48:09.360Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-aphelios-vanguards-copy",
+              "guide_id": "set-18-aphelios-vanguards-copy",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "9级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。 装备提炼需要黑荆棘献祭过渡才能兑现；本终局没有黑荆棘，不代表成型后仍能触发。",
+              "source_file": "augment-external/academy-set-18-aphelios-vanguards-copy.html",
+              "source_sha256": "ea6e5767acd60e494d67fa56fe94d7bc86602c2094f83e1933794127751167f6",
+              "source_board": [
+                "DA_18_Alistar",
+                "DA_18_Aphelios",
+                "DA_18_Diana",
+                "DA_18_Ezreal",
+                "DA_18_GnarSmall",
+                "DA_18_Hecarim",
+                "DA_18_Lillia",
+                "DA_18_Ornn",
+                "DA_18_Xayah"
+              ],
+              "match_levels": [
+                9
+              ],
+              "main_champion": "DA_18_Aphelios"
+            }
+          ]
+        },
+        {
+          "id": "DA_CaretakersFavor",
+          "name": "游神的眷顾",
+          "rarity": 2,
+          "rounds": [
+            "2-1"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Aphelios Elderwood",
+              "updated_at": "2026-10-14 20:48:09.360Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-aphelios-vanguards-copy",
+              "guide_id": "set-18-aphelios-vanguards-copy",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "9级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-aphelios-vanguards-copy.html",
+              "source_sha256": "ea6e5767acd60e494d67fa56fe94d7bc86602c2094f83e1933794127751167f6",
+              "source_board": [
+                "DA_18_Alistar",
+                "DA_18_Aphelios",
+                "DA_18_Diana",
+                "DA_18_Ezreal",
+                "DA_18_GnarSmall",
+                "DA_18_Hecarim",
+                "DA_18_Lillia",
+                "DA_18_Ornn",
+                "DA_18_Xayah"
+              ],
+              "match_levels": [
+                9
+              ],
+              "main_champion": "DA_18_Aphelios"
+            }
+          ]
+        },
+        {
+          "id": "DA_SalvageBinPlus",
+          "name": "打捞桶+",
+          "rarity": 2,
+          "rounds": [
+            "3-2",
+            "4-2"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Aphelios Elderwood",
+              "updated_at": "2026-10-14 20:48:09.360Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-aphelios-vanguards-copy",
+              "guide_id": "set-18-aphelios-vanguards-copy",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "9级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-aphelios-vanguards-copy.html",
+              "source_sha256": "ea6e5767acd60e494d67fa56fe94d7bc86602c2094f83e1933794127751167f6",
+              "source_board": [
+                "DA_18_Alistar",
+                "DA_18_Aphelios",
+                "DA_18_Diana",
+                "DA_18_Ezreal",
+                "DA_18_GnarSmall",
+                "DA_18_Hecarim",
+                "DA_18_Lillia",
+                "DA_18_Ornn",
+                "DA_18_Xayah"
+              ],
+              "match_levels": [
+                9
+              ],
+              "main_champion": "DA_18_Aphelios"
+            }
+          ]
+        },
+        {
+          "id": "DA_ShoppingSpree",
+          "name": "大买特买",
+          "rarity": 3,
+          "rounds": [
+            "2-1"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Aphelios Elderwood",
+              "updated_at": "2026-10-14 20:48:09.360Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-aphelios-vanguards-copy",
+              "guide_id": "set-18-aphelios-vanguards-copy",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "9级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-aphelios-vanguards-copy.html",
+              "source_sha256": "ea6e5767acd60e494d67fa56fe94d7bc86602c2094f83e1933794127751167f6",
+              "source_board": [
+                "DA_18_Alistar",
+                "DA_18_Aphelios",
+                "DA_18_Diana",
+                "DA_18_Ezreal",
+                "DA_18_GnarSmall",
+                "DA_18_Hecarim",
+                "DA_18_Lillia",
+                "DA_18_Ornn",
+                "DA_18_Xayah"
+              ],
+              "match_levels": [
+                9
+              ],
+              "main_champion": "DA_18_Aphelios"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "author": "TFT Academy 编辑攻略",
+        "title": "Aphelios Elderwood",
+        "updated_at": "2026-10-14 20:48:09.360Z",
+        "url": "https://tftacademy.com/tierlist/comps/set-18-aphelios-vanguards-copy",
+        "guide_id": "set-18-aphelios-vanguards-copy",
+        "match": "exact",
+        "tier": null,
+        "recommendation_label": "本阵容明确推荐（未单独评级）",
+        "variant": "9级",
+        "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+        "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+        "source_file": "augment-external/academy-set-18-aphelios-vanguards-copy.html",
+        "source_sha256": "ea6e5767acd60e494d67fa56fe94d7bc86602c2094f83e1933794127751167f6",
+        "source_board": [
+          "DA_18_Alistar",
+          "DA_18_Aphelios",
+          "DA_18_Diana",
+          "DA_18_Ezreal",
+          "DA_18_GnarSmall",
+          "DA_18_Hecarim",
+          "DA_18_Lillia",
+          "DA_18_Ornn",
+          "DA_18_Xayah"
+        ],
+        "match_levels": [
+          9
+        ],
+        "main_champion": "DA_18_Aphelios"
+      }
+    },
+    {
+      "id": "426008",
+      "augments": [
+        {
+          "id": "DA_BirthdayReunion",
+          "name": "生日聚会",
+          "rarity": 2,
+          "rounds": [
+            "2-1"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "AP Fast 9",
+              "updated_at": "2026-10-14 20:48:09.523Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-ap-95",
+              "guide_id": "set-18-ap-95",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "9级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-ap-95.html",
+              "source_sha256": "e1cf8c8faa24626358f35caf757536f69d7d50edad5bfdd1bc3c17ce3376168e",
+              "source_board": [
+                "DA_18_Alune",
+                "DA_18_Diana",
+                "DA_18_Ivern",
+                "DA_18_Lillia",
+                "DA_18_Rakan",
+                "DA_Fiddlesticks18",
+                "DA_Lux18_Base",
+                "DA_Sentinel18",
+                "DA_Taric18"
+              ],
+              "match_levels": [
+                9
+              ],
+              "main_champion": "DA_18_Alune"
+            }
+          ]
+        },
+        {
+          "id": "DA_BirthdayPresent",
+          "name": "生日礼物",
+          "rarity": 3,
+          "rounds": [
+            "2-1"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "AP Fast 9",
+              "updated_at": "2026-10-14 20:48:09.523Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-ap-95",
+              "guide_id": "set-18-ap-95",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "9级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-ap-95.html",
+              "source_sha256": "e1cf8c8faa24626358f35caf757536f69d7d50edad5bfdd1bc3c17ce3376168e",
+              "source_board": [
+                "DA_18_Alune",
+                "DA_18_Diana",
+                "DA_18_Ivern",
+                "DA_18_Lillia",
+                "DA_18_Rakan",
+                "DA_Fiddlesticks18",
+                "DA_Lux18_Base",
+                "DA_Sentinel18",
+                "DA_Taric18"
+              ],
+              "match_levels": [
+                9
+              ],
+              "main_champion": "DA_18_Alune"
+            }
+          ]
+        },
+        {
+          "id": "DA_UpwardMobility",
+          "name": "上进心",
+          "rarity": 3,
+          "rounds": [
+            "2-1"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "AP Fast 9",
+              "updated_at": "2026-10-14 20:48:09.523Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-ap-95",
+              "guide_id": "set-18-ap-95",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "9级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-ap-95.html",
+              "source_sha256": "e1cf8c8faa24626358f35caf757536f69d7d50edad5bfdd1bc3c17ce3376168e",
+              "source_board": [
+                "DA_18_Alune",
+                "DA_18_Diana",
+                "DA_18_Ivern",
+                "DA_18_Lillia",
+                "DA_18_Rakan",
+                "DA_Fiddlesticks18",
+                "DA_Lux18_Base",
+                "DA_Sentinel18",
+                "DA_Taric18"
+              ],
+              "match_levels": [
+                9
+              ],
+              "main_champion": "DA_18_Alune"
+            }
+          ]
+        },
+        {
+          "id": "DA_LevelUp",
+          "name": "升级咯！",
+          "rarity": 3,
+          "rounds": [
+            "2-1"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "AP Fast 9",
+              "updated_at": "2026-10-14 20:48:09.523Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-ap-95",
+              "guide_id": "set-18-ap-95",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "9级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-ap-95.html",
+              "source_sha256": "e1cf8c8faa24626358f35caf757536f69d7d50edad5bfdd1bc3c17ce3376168e",
+              "source_board": [
+                "DA_18_Alune",
+                "DA_18_Diana",
+                "DA_18_Ivern",
+                "DA_18_Lillia",
+                "DA_18_Rakan",
+                "DA_Fiddlesticks18",
+                "DA_Lux18_Base",
+                "DA_Sentinel18",
+                "DA_Taric18"
+              ],
+              "match_levels": [
+                9
+              ],
+              "main_champion": "DA_18_Alune"
+            }
+          ]
+        },
+        {
+          "id": "DA_LuxurySubscription",
+          "name": "奢侈品订购",
+          "rarity": 3,
+          "rounds": [
+            "3-2"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "AP Fast 9",
+              "updated_at": "2026-10-14 20:48:09.523Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-ap-95",
+              "guide_id": "set-18-ap-95",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "9级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-ap-95.html",
+              "source_sha256": "e1cf8c8faa24626358f35caf757536f69d7d50edad5bfdd1bc3c17ce3376168e",
+              "source_board": [
+                "DA_18_Alune",
+                "DA_18_Diana",
+                "DA_18_Ivern",
+                "DA_18_Lillia",
+                "DA_18_Rakan",
+                "DA_Fiddlesticks18",
+                "DA_Lux18_Base",
+                "DA_Sentinel18",
+                "DA_Taric18"
+              ],
+              "match_levels": [
+                9
+              ],
+              "main_champion": "DA_18_Alune"
+            }
+          ]
+        },
+        {
+          "id": "DA_LateGameSpecialist",
+          "name": "后期专家",
+          "rarity": 1,
+          "rounds": [
+            "3-2"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "AP Fast 9",
+              "updated_at": "2026-10-14 20:48:09.523Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-ap-95",
+              "guide_id": "set-18-ap-95",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "9级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-ap-95.html",
+              "source_sha256": "e1cf8c8faa24626358f35caf757536f69d7d50edad5bfdd1bc3c17ce3376168e",
+              "source_board": [
+                "DA_18_Alune",
+                "DA_18_Diana",
+                "DA_18_Ivern",
+                "DA_18_Lillia",
+                "DA_18_Rakan",
+                "DA_Fiddlesticks18",
+                "DA_Lux18_Base",
+                "DA_Sentinel18",
+                "DA_Taric18"
+              ],
+              "match_levels": [
+                9
+              ],
+              "main_champion": "DA_18_Alune"
+            }
+          ]
+        },
+        {
+          "id": "DA_LateGameScaling",
+          "name": "后期收益",
+          "rarity": 2,
+          "rounds": [
+            "2-1"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "AP Fast 9",
+              "updated_at": "2026-10-14 20:48:09.523Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-ap-95",
+              "guide_id": "set-18-ap-95",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "9级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-ap-95.html",
+              "source_sha256": "e1cf8c8faa24626358f35caf757536f69d7d50edad5bfdd1bc3c17ce3376168e",
+              "source_board": [
+                "DA_18_Alune",
+                "DA_18_Diana",
+                "DA_18_Ivern",
+                "DA_18_Lillia",
+                "DA_18_Rakan",
+                "DA_Fiddlesticks18",
+                "DA_Lux18_Base",
+                "DA_Sentinel18",
+                "DA_Taric18"
+              ],
+              "match_levels": [
+                9
+              ],
+              "main_champion": "DA_18_Alune"
+            }
+          ]
+        },
+        {
+          "id": "DA_ExplosiveGrowthPlus",
+          "name": "爆炸式增长+",
+          "rarity": 2,
+          "rounds": [
+            "4-2"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "AP Fast 9",
+              "updated_at": "2026-10-14 20:48:09.523Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-ap-95",
+              "guide_id": "set-18-ap-95",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "9级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-ap-95.html",
+              "source_sha256": "e1cf8c8faa24626358f35caf757536f69d7d50edad5bfdd1bc3c17ce3376168e",
+              "source_board": [
+                "DA_18_Alune",
+                "DA_18_Diana",
+                "DA_18_Ivern",
+                "DA_18_Lillia",
+                "DA_18_Rakan",
+                "DA_Fiddlesticks18",
+                "DA_Lux18_Base",
+                "DA_Sentinel18",
+                "DA_Taric18"
+              ],
+              "match_levels": [
+                9
+              ],
+              "main_champion": "DA_18_Alune"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "author": "TFT Academy 编辑攻略",
+        "title": "AP Fast 9",
+        "updated_at": "2026-10-14 20:48:09.523Z",
+        "url": "https://tftacademy.com/tierlist/comps/set-18-ap-95",
+        "guide_id": "set-18-ap-95",
+        "match": "exact",
+        "tier": null,
+        "recommendation_label": "本阵容明确推荐（未单独评级）",
+        "variant": "9级",
+        "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+        "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+        "source_file": "augment-external/academy-set-18-ap-95.html",
+        "source_sha256": "e1cf8c8faa24626358f35caf757536f69d7d50edad5bfdd1bc3c17ce3376168e",
+        "source_board": [
+          "DA_18_Alune",
+          "DA_18_Diana",
+          "DA_18_Ivern",
+          "DA_18_Lillia",
+          "DA_18_Rakan",
+          "DA_Fiddlesticks18",
+          "DA_Lux18_Base",
+          "DA_Sentinel18",
+          "DA_Taric18"
+        ],
+        "match_levels": [
+          9
+        ],
+        "main_champion": "DA_18_Alune"
+      }
+    },
+    {
+      "id": "426006",
+      "augments": [
+        {
+          "id": "DA_WorththeWaitII",
+          "name": "值得等待 II",
+          "rarity": 3,
+          "rounds": [
+            "2-1"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Teemowood",
+              "updated_at": "2026-10-14 20:48:09.940Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-sprykin-teemo-copy",
+              "guide_id": "set-18-sprykin-teemo-copy",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "7级 / 8级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-sprykin-teemo-copy.html",
+              "source_sha256": "cbab9075b21baca13d37c6a87e8f7ffdd0b75297c56e9eacf4efb5efe3237b16",
+              "source_board": [
+                "DA_18_Alistar",
+                "DA_18_Hecarim",
+                "DA_18_Kobuko",
+                "DA_18_LeBlanc",
+                "DA_18_Teemo",
+                "DA_18_Veigar",
+                "DA_Sentinel18"
+              ],
+              "match_levels": [
+                7,
+                8
+              ],
+              "main_champion": "DA_18_Teemo"
+            }
+          ]
+        },
+        {
+          "id": "DA_18_CaretakersAlly",
+          "name": "游神的盟友",
+          "rarity": 1,
+          "rounds": [
+            "2-1"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Teemowood",
+              "updated_at": "2026-10-14 20:48:09.940Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-sprykin-teemo-copy",
+              "guide_id": "set-18-sprykin-teemo-copy",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "7级 / 8级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-sprykin-teemo-copy.html",
+              "source_sha256": "cbab9075b21baca13d37c6a87e8f7ffdd0b75297c56e9eacf4efb5efe3237b16",
+              "source_board": [
+                "DA_18_Alistar",
+                "DA_18_Hecarim",
+                "DA_18_Kobuko",
+                "DA_18_LeBlanc",
+                "DA_18_Teemo",
+                "DA_18_Veigar",
+                "DA_Sentinel18"
+              ],
+              "match_levels": [
+                7,
+                8
+              ],
+              "main_champion": "DA_18_Teemo"
+            }
+          ]
+        },
+        {
+          "id": "DA_DeadlierCaps",
+          "name": "更要命的帽子",
+          "rarity": 3,
+          "rounds": [
+            "2-1"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Teemowood",
+              "updated_at": "2026-10-14 20:48:09.940Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-sprykin-teemo-copy",
+              "guide_id": "set-18-sprykin-teemo-copy",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "7级 / 8级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-sprykin-teemo-copy.html",
+              "source_sha256": "cbab9075b21baca13d37c6a87e8f7ffdd0b75297c56e9eacf4efb5efe3237b16",
+              "source_board": [
+                "DA_18_Alistar",
+                "DA_18_Hecarim",
+                "DA_18_Kobuko",
+                "DA_18_LeBlanc",
+                "DA_18_Teemo",
+                "DA_18_Veigar",
+                "DA_Sentinel18"
+              ],
+              "match_levels": [
+                7,
+                8
+              ],
+              "main_champion": "DA_18_Teemo"
+            }
+          ]
+        },
+        {
+          "id": "DA_18_SprykinAugment",
+          "name": "毛茸茸小朋友",
+          "rarity": 2,
+          "rounds": [
+            "2-1",
+            "3-2",
+            "4-2"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Teemowood",
+              "updated_at": "2026-10-14 20:48:09.940Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-sprykin-teemo-copy",
+              "guide_id": "set-18-sprykin-teemo-copy",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "7级 / 8级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-sprykin-teemo-copy.html",
+              "source_sha256": "cbab9075b21baca13d37c6a87e8f7ffdd0b75297c56e9eacf4efb5efe3237b16",
+              "source_board": [
+                "DA_18_Alistar",
+                "DA_18_Hecarim",
+                "DA_18_Kobuko",
+                "DA_18_LeBlanc",
+                "DA_18_Teemo",
+                "DA_18_Veigar",
+                "DA_Sentinel18"
+              ],
+              "match_levels": [
+                7,
+                8
+              ],
+              "main_champion": "DA_18_Teemo"
+            }
+          ]
+        },
+        {
+          "id": "DA_SoloPlate",
+          "name": "单身板甲",
+          "rarity": 2,
+          "rounds": [
+            "2-1",
+            "3-2"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Teemowood",
+              "updated_at": "2026-10-14 20:48:09.940Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-sprykin-teemo-copy",
+              "guide_id": "set-18-sprykin-teemo-copy",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "7级 / 8级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-sprykin-teemo-copy.html",
+              "source_sha256": "cbab9075b21baca13d37c6a87e8f7ffdd0b75297c56e9eacf4efb5efe3237b16",
+              "source_board": [
+                "DA_18_Alistar",
+                "DA_18_Hecarim",
+                "DA_18_Kobuko",
+                "DA_18_LeBlanc",
+                "DA_18_Teemo",
+                "DA_18_Veigar",
+                "DA_Sentinel18"
+              ],
+              "match_levels": [
+                7,
+                8
+              ],
+              "main_champion": "DA_18_Teemo"
+            }
+          ]
+        },
+        {
+          "id": "DA_TradeSector",
+          "name": "DD街区",
+          "rarity": 2,
+          "rounds": [
+            "2-1"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Teemowood",
+              "updated_at": "2026-10-14 20:48:09.940Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-sprykin-teemo-copy",
+              "guide_id": "set-18-sprykin-teemo-copy",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "7级 / 8级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-sprykin-teemo-copy.html",
+              "source_sha256": "cbab9075b21baca13d37c6a87e8f7ffdd0b75297c56e9eacf4efb5efe3237b16",
+              "source_board": [
+                "DA_18_Alistar",
+                "DA_18_Hecarim",
+                "DA_18_Kobuko",
+                "DA_18_LeBlanc",
+                "DA_18_Teemo",
+                "DA_18_Veigar",
+                "DA_Sentinel18"
+              ],
+              "match_levels": [
+                7,
+                8
+              ],
+              "main_champion": "DA_18_Teemo"
+            }
+          ]
+        },
+        {
+          "id": "DA_PandorasBench",
+          "name": "潘朵拉的备战席",
+          "rarity": 1,
+          "rounds": [
+            "2-1",
+            "3-2"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Teemowood",
+              "updated_at": "2026-10-14 20:48:09.940Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-sprykin-teemo-copy",
+              "guide_id": "set-18-sprykin-teemo-copy",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "7级 / 8级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-sprykin-teemo-copy.html",
+              "source_sha256": "cbab9075b21baca13d37c6a87e8f7ffdd0b75297c56e9eacf4efb5efe3237b16",
+              "source_board": [
+                "DA_18_Alistar",
+                "DA_18_Hecarim",
+                "DA_18_Kobuko",
+                "DA_18_LeBlanc",
+                "DA_18_Teemo",
+                "DA_18_Veigar",
+                "DA_Sentinel18"
+              ],
+              "match_levels": [
+                7,
+                8
+              ],
+              "main_champion": "DA_18_Teemo"
+            }
+          ]
+        },
+        {
+          "id": "DA_NoScoutNoPivot",
+          "name": "不侦察，不变阵",
+          "rarity": 2,
+          "rounds": [
+            "2-1"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Teemowood",
+              "updated_at": "2026-10-14 20:48:09.940Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-sprykin-teemo-copy",
+              "guide_id": "set-18-sprykin-teemo-copy",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "7级 / 8级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-sprykin-teemo-copy.html",
+              "source_sha256": "cbab9075b21baca13d37c6a87e8f7ffdd0b75297c56e9eacf4efb5efe3237b16",
+              "source_board": [
+                "DA_18_Alistar",
+                "DA_18_Hecarim",
+                "DA_18_Kobuko",
+                "DA_18_LeBlanc",
+                "DA_18_Teemo",
+                "DA_18_Veigar",
+                "DA_Sentinel18"
+              ],
+              "match_levels": [
+                7,
+                8
+              ],
+              "main_champion": "DA_18_Teemo"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "author": "TFT Academy 编辑攻略",
+        "title": "Teemowood",
+        "updated_at": "2026-10-14 20:48:09.940Z",
+        "url": "https://tftacademy.com/tierlist/comps/set-18-sprykin-teemo-copy",
+        "guide_id": "set-18-sprykin-teemo-copy",
+        "match": "exact",
+        "tier": null,
+        "recommendation_label": "本阵容明确推荐（未单独评级）",
+        "variant": "7级 / 8级",
+        "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+        "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+        "source_file": "augment-external/academy-set-18-sprykin-teemo-copy.html",
+        "source_sha256": "cbab9075b21baca13d37c6a87e8f7ffdd0b75297c56e9eacf4efb5efe3237b16",
+        "source_board": [
+          "DA_18_Alistar",
+          "DA_18_Hecarim",
+          "DA_18_Kobuko",
+          "DA_18_LeBlanc",
+          "DA_18_Teemo",
+          "DA_18_Veigar",
+          "DA_Sentinel18"
+        ],
+        "match_levels": [
+          7,
+          8
+        ],
+        "main_champion": "DA_18_Teemo"
+      }
+    },
+    {
+      "id": "426012",
+      "augments": [
+        {
+          "id": "DA_ChampDelivery",
+          "name": "弈子配送",
+          "rarity": 1,
+          "rounds": [
+            "2-1"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Lunarwood Kha'zix",
+              "updated_at": "2026-10-14 20:48:09.160Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-lunarwood-khazix",
+              "guide_id": "set-18-lunarwood-khazix",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "8级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-lunarwood-khazix.html",
+              "source_sha256": "2271a192ddc7d9838748a595953b66ec738c06a11a3a8710573c03fc7c9dc162",
+              "source_board": [
+                "DA_18_Alune",
+                "DA_18_Diana",
+                "DA_18_Ezreal",
+                "DA_18_Hecarim",
+                "DA_18_KhaZix",
+                "DA_18_Ornn",
+                "DA_18_Soraka",
+                "DA_Fiddlesticks18"
+              ],
+              "match_levels": [
+                8
+              ],
+              "main_champion": "DA_18_KhaZix"
+            }
+          ]
+        },
+        {
+          "id": "DA_PandorasBench",
+          "name": "潘朵拉的备战席",
+          "rarity": 1,
+          "rounds": [
+            "2-1",
+            "3-2"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Lunarwood Kha'zix",
+              "updated_at": "2026-10-14 20:48:09.160Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-lunarwood-khazix",
+              "guide_id": "set-18-lunarwood-khazix",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "8级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-lunarwood-khazix.html",
+              "source_sha256": "2271a192ddc7d9838748a595953b66ec738c06a11a3a8710573c03fc7c9dc162",
+              "source_board": [
+                "DA_18_Alune",
+                "DA_18_Diana",
+                "DA_18_Ezreal",
+                "DA_18_Hecarim",
+                "DA_18_KhaZix",
+                "DA_18_Ornn",
+                "DA_18_Soraka",
+                "DA_Fiddlesticks18"
+              ],
+              "match_levels": [
+                8
+              ],
+              "main_champion": "DA_18_KhaZix"
+            }
+          ]
+        },
+        {
+          "id": "DA_FlowingTears",
+          "name": "战时补给：女神之泪",
+          "rarity": 1,
+          "rounds": [
+            "2-1"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Lunarwood Kha'zix",
+              "updated_at": "2026-10-14 20:48:09.160Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-lunarwood-khazix",
+              "guide_id": "set-18-lunarwood-khazix",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "8级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-lunarwood-khazix.html",
+              "source_sha256": "2271a192ddc7d9838748a595953b66ec738c06a11a3a8710573c03fc7c9dc162",
+              "source_board": [
+                "DA_18_Alune",
+                "DA_18_Diana",
+                "DA_18_Ezreal",
+                "DA_18_Hecarim",
+                "DA_18_KhaZix",
+                "DA_18_Ornn",
+                "DA_18_Soraka",
+                "DA_Fiddlesticks18"
+              ],
+              "match_levels": [
+                8
+              ],
+              "main_champion": "DA_18_KhaZix"
+            }
+          ]
+        },
+        {
+          "id": "DA_AdvancedLoanPlus",
+          "name": "高级贷款+",
+          "rarity": 2,
+          "rounds": [
+            "3-2"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Lunarwood Kha'zix",
+              "updated_at": "2026-10-14 20:48:09.160Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-lunarwood-khazix",
+              "guide_id": "set-18-lunarwood-khazix",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "8级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-lunarwood-khazix.html",
+              "source_sha256": "2271a192ddc7d9838748a595953b66ec738c06a11a3a8710573c03fc7c9dc162",
+              "source_board": [
+                "DA_18_Alune",
+                "DA_18_Diana",
+                "DA_18_Ezreal",
+                "DA_18_Hecarim",
+                "DA_18_KhaZix",
+                "DA_18_Ornn",
+                "DA_18_Soraka",
+                "DA_Fiddlesticks18"
+              ],
+              "match_levels": [
+                8
+              ],
+              "main_champion": "DA_18_KhaZix"
+            }
+          ]
+        },
+        {
+          "id": "DA_HeroicGrabBagPlusPlus",
+          "name": "英勇福袋++",
+          "rarity": 2,
+          "rounds": [
+            "4-2"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Lunarwood Kha'zix",
+              "updated_at": "2026-10-14 20:48:09.160Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-lunarwood-khazix",
+              "guide_id": "set-18-lunarwood-khazix",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "8级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-lunarwood-khazix.html",
+              "source_sha256": "2271a192ddc7d9838748a595953b66ec738c06a11a3a8710573c03fc7c9dc162",
+              "source_board": [
+                "DA_18_Alune",
+                "DA_18_Diana",
+                "DA_18_Ezreal",
+                "DA_18_Hecarim",
+                "DA_18_KhaZix",
+                "DA_18_Ornn",
+                "DA_18_Soraka",
+                "DA_Fiddlesticks18"
+              ],
+              "match_levels": [
+                8
+              ],
+              "main_champion": "DA_18_KhaZix"
+            }
+          ]
+        },
+        {
+          "id": "DA_LegionOfThrees",
+          "name": "三幻神",
+          "rarity": 2,
+          "rounds": [
+            "2-1"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Lunarwood Kha'zix",
+              "updated_at": "2026-10-14 20:48:09.160Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-lunarwood-khazix",
+              "guide_id": "set-18-lunarwood-khazix",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "8级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-lunarwood-khazix.html",
+              "source_sha256": "2271a192ddc7d9838748a595953b66ec738c06a11a3a8710573c03fc7c9dc162",
+              "source_board": [
+                "DA_18_Alune",
+                "DA_18_Diana",
+                "DA_18_Ezreal",
+                "DA_18_Hecarim",
+                "DA_18_KhaZix",
+                "DA_18_Ornn",
+                "DA_18_Soraka",
+                "DA_Fiddlesticks18"
+              ],
+              "match_levels": [
+                8
+              ],
+              "main_champion": "DA_18_KhaZix"
+            }
+          ]
+        },
+        {
+          "id": "DA_LuckyGlovesPlus",
+          "name": "幸运手套+",
+          "rarity": 3,
+          "rounds": [
+            "3-2",
+            "4-2"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Lunarwood Kha'zix",
+              "updated_at": "2026-10-14 20:48:09.160Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-lunarwood-khazix",
+              "guide_id": "set-18-lunarwood-khazix",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "8级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-lunarwood-khazix.html",
+              "source_sha256": "2271a192ddc7d9838748a595953b66ec738c06a11a3a8710573c03fc7c9dc162",
+              "source_board": [
+                "DA_18_Alune",
+                "DA_18_Diana",
+                "DA_18_Ezreal",
+                "DA_18_Hecarim",
+                "DA_18_KhaZix",
+                "DA_18_Ornn",
+                "DA_18_Soraka",
+                "DA_Fiddlesticks18"
+              ],
+              "match_levels": [
+                8
+              ],
+              "main_champion": "DA_18_KhaZix"
+            }
+          ]
+        },
+        {
+          "id": "DA_PrismaticTicket",
+          "name": "棱彩门票",
+          "rarity": 3,
+          "rounds": [
+            "2-1",
+            "3-2"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Lunarwood Kha'zix",
+              "updated_at": "2026-10-14 20:48:09.160Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-lunarwood-khazix",
+              "guide_id": "set-18-lunarwood-khazix",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "8级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-lunarwood-khazix.html",
+              "source_sha256": "2271a192ddc7d9838748a595953b66ec738c06a11a3a8710573c03fc7c9dc162",
+              "source_board": [
+                "DA_18_Alune",
+                "DA_18_Diana",
+                "DA_18_Ezreal",
+                "DA_18_Hecarim",
+                "DA_18_KhaZix",
+                "DA_18_Ornn",
+                "DA_18_Soraka",
+                "DA_Fiddlesticks18"
+              ],
+              "match_levels": [
+                8
+              ],
+              "main_champion": "DA_18_KhaZix"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "author": "TFT Academy 编辑攻略",
+        "title": "Lunarwood Kha'zix",
+        "updated_at": "2026-10-14 20:48:09.160Z",
+        "url": "https://tftacademy.com/tierlist/comps/set-18-lunarwood-khazix",
+        "guide_id": "set-18-lunarwood-khazix",
+        "match": "exact",
+        "tier": null,
+        "recommendation_label": "本阵容明确推荐（未单独评级）",
+        "variant": "8级",
+        "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+        "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+        "source_file": "augment-external/academy-set-18-lunarwood-khazix.html",
+        "source_sha256": "2271a192ddc7d9838748a595953b66ec738c06a11a3a8710573c03fc7c9dc162",
+        "source_board": [
+          "DA_18_Alune",
+          "DA_18_Diana",
+          "DA_18_Ezreal",
+          "DA_18_Hecarim",
+          "DA_18_KhaZix",
+          "DA_18_Ornn",
+          "DA_18_Soraka",
+          "DA_Fiddlesticks18"
+        ],
+        "match_levels": [
+          8
+        ],
+        "main_champion": "DA_18_KhaZix"
+      }
+    },
+    {
+      "id": "426009",
+      "augments": [
+        {
+          "id": "DA_18_CovenTraitAugment_LootToAP",
+          "name": "黑暗仪式",
+          "rarity": 2,
+          "rounds": [
+            "2-1",
+            "3-2"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Invoker Morgana",
+              "updated_at": "2026-10-14 20:48:09.951Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-cashout-morgana",
+              "guide_id": "set-18-cashout-morgana",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "9级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。 黑暗仪式改变魔女精粹兑换；仅在实际走魔女过渡且愿意换取法强时参考，不能当普通经济强化。",
+              "source_file": "augment-external/academy-set-18-cashout-morgana.html",
+              "source_sha256": "db059461305017a1ecf79e5f16ce329751de815f0c28cc22bd1d4ff4d5185ea9",
+              "source_board": [
+                "DA_18_Alune",
+                "DA_18_Diana",
+                "DA_18_Hecarim",
+                "DA_18_Morgana",
+                "DA_18_Sentry",
+                "DA_Brambleback18",
+                "DA_KogMaw18_AD",
+                "DA_Sentinel18",
+                "DA_Taric18"
+              ],
+              "match_levels": [
+                9
+              ],
+              "main_champion": "DA_18_Morgana"
+            }
+          ]
+        },
+        {
+          "id": "DA_18_CovenTraitAugment",
+          "name": "女巫使魔",
+          "rarity": 2,
+          "rounds": [
+            "2-1"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Invoker Morgana",
+              "updated_at": "2026-10-14 20:48:09.951Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-cashout-morgana",
+              "guide_id": "set-18-cashout-morgana",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "9级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。 女巫使魔用于魔女精粹过渡阶段；该终局不维持魔女羁绊。",
+              "source_file": "augment-external/academy-set-18-cashout-morgana.html",
+              "source_sha256": "db059461305017a1ecf79e5f16ce329751de815f0c28cc22bd1d4ff4d5185ea9",
+              "source_board": [
+                "DA_18_Alune",
+                "DA_18_Diana",
+                "DA_18_Hecarim",
+                "DA_18_Morgana",
+                "DA_18_Sentry",
+                "DA_Brambleback18",
+                "DA_KogMaw18_AD",
+                "DA_Sentinel18",
+                "DA_Taric18"
+              ],
+              "match_levels": [
+                9
+              ],
+              "main_champion": "DA_18_Morgana"
+            }
+          ]
+        },
+        {
+          "id": "DA_WandOverflow",
+          "name": "法杖溢流",
+          "rarity": 3,
+          "rounds": [
+            "3-2",
+            "4-2"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Invoker Morgana",
+              "updated_at": "2026-10-14 20:48:09.951Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-cashout-morgana",
+              "guide_id": "set-18-cashout-morgana",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "9级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-cashout-morgana.html",
+              "source_sha256": "db059461305017a1ecf79e5f16ce329751de815f0c28cc22bd1d4ff4d5185ea9",
+              "source_board": [
+                "DA_18_Alune",
+                "DA_18_Diana",
+                "DA_18_Hecarim",
+                "DA_18_Morgana",
+                "DA_18_Sentry",
+                "DA_Brambleback18",
+                "DA_KogMaw18_AD",
+                "DA_Sentinel18",
+                "DA_Taric18"
+              ],
+              "match_levels": [
+                9
+              ],
+              "main_champion": "DA_18_Morgana"
+            }
+          ]
+        },
+        {
+          "id": "DA_SeraphimsStaff",
+          "name": "炽天使之拥",
+          "rarity": 2,
+          "rounds": [
+            "2-1",
+            "3-2"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Invoker Morgana",
+              "updated_at": "2026-10-14 20:48:09.951Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-cashout-morgana",
+              "guide_id": "set-18-cashout-morgana",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "9级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-cashout-morgana.html",
+              "source_sha256": "db059461305017a1ecf79e5f16ce329751de815f0c28cc22bd1d4ff4d5185ea9",
+              "source_board": [
+                "DA_18_Alune",
+                "DA_18_Diana",
+                "DA_18_Hecarim",
+                "DA_18_Morgana",
+                "DA_18_Sentry",
+                "DA_Brambleback18",
+                "DA_KogMaw18_AD",
+                "DA_Sentinel18",
+                "DA_Taric18"
+              ],
+              "match_levels": [
+                9
+              ],
+              "main_champion": "DA_18_Morgana"
+            }
+          ]
+        },
+        {
+          "id": "DA_Staffsmith",
+          "name": "杖之工匠",
+          "rarity": 2,
+          "rounds": [
+            "4-2"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Invoker Morgana",
+              "updated_at": "2026-10-14 20:48:09.951Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-cashout-morgana",
+              "guide_id": "set-18-cashout-morgana",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "9级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-cashout-morgana.html",
+              "source_sha256": "db059461305017a1ecf79e5f16ce329751de815f0c28cc22bd1d4ff4d5185ea9",
+              "source_board": [
+                "DA_18_Alune",
+                "DA_18_Diana",
+                "DA_18_Hecarim",
+                "DA_18_Morgana",
+                "DA_18_Sentry",
+                "DA_Brambleback18",
+                "DA_KogMaw18_AD",
+                "DA_Sentinel18",
+                "DA_Taric18"
+              ],
+              "match_levels": [
+                9
+              ],
+              "main_champion": "DA_18_Morgana"
+            }
+          ]
+        },
+        {
+          "id": "DA_DeadlierCaps",
+          "name": "更要命的帽子",
+          "rarity": 3,
+          "rounds": [
+            "2-1"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Invoker Morgana",
+              "updated_at": "2026-10-14 20:48:09.951Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-cashout-morgana",
+              "guide_id": "set-18-cashout-morgana",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "9级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-cashout-morgana.html",
+              "source_sha256": "db059461305017a1ecf79e5f16ce329751de815f0c28cc22bd1d4ff4d5185ea9",
+              "source_board": [
+                "DA_18_Alune",
+                "DA_18_Diana",
+                "DA_18_Hecarim",
+                "DA_18_Morgana",
+                "DA_18_Sentry",
+                "DA_Brambleback18",
+                "DA_KogMaw18_AD",
+                "DA_Sentinel18",
+                "DA_Taric18"
+              ],
+              "match_levels": [
+                9
+              ],
+              "main_champion": "DA_18_Morgana"
+            }
+          ]
+        },
+        {
+          "id": "DA_BoosterPack",
+          "name": "扩展包",
+          "rarity": 2,
+          "rounds": [
+            "2-1"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Invoker Morgana",
+              "updated_at": "2026-10-14 20:48:09.951Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-cashout-morgana",
+              "guide_id": "set-18-cashout-morgana",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "9级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-cashout-morgana.html",
+              "source_sha256": "db059461305017a1ecf79e5f16ce329751de815f0c28cc22bd1d4ff4d5185ea9",
+              "source_board": [
+                "DA_18_Alune",
+                "DA_18_Diana",
+                "DA_18_Hecarim",
+                "DA_18_Morgana",
+                "DA_18_Sentry",
+                "DA_Brambleback18",
+                "DA_KogMaw18_AD",
+                "DA_Sentinel18",
+                "DA_Taric18"
+              ],
+              "match_levels": [
+                9
+              ],
+              "main_champion": "DA_18_Morgana"
+            }
+          ]
+        },
+        {
+          "id": "DA_18_OnesTwosThree",
+          "name": "一一二三",
+          "rarity": 1,
+          "rounds": [
+            "2-1"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Invoker Morgana",
+              "updated_at": "2026-10-14 20:48:09.951Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-cashout-morgana",
+              "guide_id": "set-18-cashout-morgana",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "9级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-cashout-morgana.html",
+              "source_sha256": "db059461305017a1ecf79e5f16ce329751de815f0c28cc22bd1d4ff4d5185ea9",
+              "source_board": [
+                "DA_18_Alune",
+                "DA_18_Diana",
+                "DA_18_Hecarim",
+                "DA_18_Morgana",
+                "DA_18_Sentry",
+                "DA_Brambleback18",
+                "DA_KogMaw18_AD",
+                "DA_Sentinel18",
+                "DA_Taric18"
+              ],
+              "match_levels": [
+                9
+              ],
+              "main_champion": "DA_18_Morgana"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "author": "TFT Academy 编辑攻略",
+        "title": "Invoker Morgana",
+        "updated_at": "2026-10-14 20:48:09.951Z",
+        "url": "https://tftacademy.com/tierlist/comps/set-18-cashout-morgana",
+        "guide_id": "set-18-cashout-morgana",
+        "match": "exact",
+        "tier": null,
+        "recommendation_label": "本阵容明确推荐（未单独评级）",
+        "variant": "9级",
+        "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+        "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+        "source_file": "augment-external/academy-set-18-cashout-morgana.html",
+        "source_sha256": "db059461305017a1ecf79e5f16ce329751de815f0c28cc22bd1d4ff4d5185ea9",
+        "source_board": [
+          "DA_18_Alune",
+          "DA_18_Diana",
+          "DA_18_Hecarim",
+          "DA_18_Morgana",
+          "DA_18_Sentry",
+          "DA_Brambleback18",
+          "DA_KogMaw18_AD",
+          "DA_Sentinel18",
+          "DA_Taric18"
+        ],
+        "match_levels": [
+          9
+        ],
+        "main_champion": "DA_18_Morgana"
+      }
+    },
+    {
+      "id": "426023",
+      "augments": [
+        {
+          "id": "DA_18_CaretakersAlly",
+          "name": "游神的盟友",
+          "rarity": 1,
+          "rounds": [
+            "2-1"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Warwick Reroll",
+              "updated_at": "2026-10-14 20:48:09.989Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-warwick-rr",
+              "guide_id": "set-18-warwick-rr",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "7级 / 8级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-warwick-rr.html",
+              "source_sha256": "e5c33c5e67f588a8a43afc3c8508e5ccc7ea2cc46af22dd52de4b26073062aad",
+              "source_board": [
+                "DA_18_Azir",
+                "DA_18_Malphite",
+                "DA_18_RekSai",
+                "DA_18_Warwick",
+                "DA_Brambleback18",
+                "DA_Krug18",
+                "DA_Murkwolf18"
+              ],
+              "match_levels": [
+                7,
+                8
+              ],
+              "main_champion": "DA_18_Warwick"
+            }
+          ]
+        },
+        {
+          "id": "DA_WorththeWaitII",
+          "name": "值得等待 II",
+          "rarity": 3,
+          "rounds": [
+            "2-1"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Warwick Reroll",
+              "updated_at": "2026-10-14 20:48:09.989Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-warwick-rr",
+              "guide_id": "set-18-warwick-rr",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "7级 / 8级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-warwick-rr.html",
+              "source_sha256": "e5c33c5e67f588a8a43afc3c8508e5ccc7ea2cc46af22dd52de4b26073062aad",
+              "source_board": [
+                "DA_18_Azir",
+                "DA_18_Malphite",
+                "DA_18_RekSai",
+                "DA_18_Warwick",
+                "DA_Brambleback18",
+                "DA_Krug18",
+                "DA_Murkwolf18"
+              ],
+              "match_levels": [
+                7,
+                8
+              ],
+              "main_champion": "DA_18_Warwick"
+            }
+          ]
+        },
+        {
+          "id": "DA_PortableForge",
+          "name": "便携锻炉",
+          "rarity": 2,
+          "rounds": [
+            "2-1",
+            "3-2",
+            "4-2"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Warwick Reroll",
+              "updated_at": "2026-10-14 20:48:09.989Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-warwick-rr",
+              "guide_id": "set-18-warwick-rr",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "7级 / 8级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-warwick-rr.html",
+              "source_sha256": "e5c33c5e67f588a8a43afc3c8508e5ccc7ea2cc46af22dd52de4b26073062aad",
+              "source_board": [
+                "DA_18_Azir",
+                "DA_18_Malphite",
+                "DA_18_RekSai",
+                "DA_18_Warwick",
+                "DA_Brambleback18",
+                "DA_Krug18",
+                "DA_Murkwolf18"
+              ],
+              "match_levels": [
+                7,
+                8
+              ],
+              "main_champion": "DA_18_Warwick"
+            }
+          ]
+        },
+        {
+          "id": "DA_LivingForge",
+          "name": "活体锻炉",
+          "rarity": 3,
+          "rounds": [
+            "2-1"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Warwick Reroll",
+              "updated_at": "2026-10-14 20:48:09.989Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-warwick-rr",
+              "guide_id": "set-18-warwick-rr",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "7级 / 8级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-warwick-rr.html",
+              "source_sha256": "e5c33c5e67f588a8a43afc3c8508e5ccc7ea2cc46af22dd52de4b26073062aad",
+              "source_board": [
+                "DA_18_Azir",
+                "DA_18_Malphite",
+                "DA_18_RekSai",
+                "DA_18_Warwick",
+                "DA_Brambleback18",
+                "DA_Krug18",
+                "DA_Murkwolf18"
+              ],
+              "match_levels": [
+                7,
+                8
+              ],
+              "main_champion": "DA_18_Warwick"
+            }
+          ]
+        },
+        {
+          "id": "DA_HeroicGrabBagPlus",
+          "name": "英勇福袋+",
+          "rarity": 2,
+          "rounds": [
+            "3-2"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Warwick Reroll",
+              "updated_at": "2026-10-14 20:48:09.989Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-warwick-rr",
+              "guide_id": "set-18-warwick-rr",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "7级 / 8级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-warwick-rr.html",
+              "source_sha256": "e5c33c5e67f588a8a43afc3c8508e5ccc7ea2cc46af22dd52de4b26073062aad",
+              "source_board": [
+                "DA_18_Azir",
+                "DA_18_Malphite",
+                "DA_18_RekSai",
+                "DA_18_Warwick",
+                "DA_Brambleback18",
+                "DA_Krug18",
+                "DA_Murkwolf18"
+              ],
+              "match_levels": [
+                7,
+                8
+              ],
+              "main_champion": "DA_18_Warwick"
+            }
+          ]
+        },
+        {
+          "id": "DA_NestingAnvils",
+          "name": "锻造器套娃",
+          "rarity": 3,
+          "rounds": [
+            "3-2"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Warwick Reroll",
+              "updated_at": "2026-10-14 20:48:09.989Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-warwick-rr",
+              "guide_id": "set-18-warwick-rr",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "7级 / 8级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-warwick-rr.html",
+              "source_sha256": "e5c33c5e67f588a8a43afc3c8508e5ccc7ea2cc46af22dd52de4b26073062aad",
+              "source_board": [
+                "DA_18_Azir",
+                "DA_18_Malphite",
+                "DA_18_RekSai",
+                "DA_18_Warwick",
+                "DA_Brambleback18",
+                "DA_Krug18",
+                "DA_Murkwolf18"
+              ],
+              "match_levels": [
+                7,
+                8
+              ],
+              "main_champion": "DA_18_Warwick"
+            }
+          ]
+        },
+        {
+          "id": "DA_URF",
+          "name": "厨神阿福",
+          "rarity": 2,
+          "rounds": [
+            "2-1",
+            "3-2",
+            "4-2"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Warwick Reroll",
+              "updated_at": "2026-10-14 20:48:09.989Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-warwick-rr",
+              "guide_id": "set-18-warwick-rr",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "7级 / 8级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-warwick-rr.html",
+              "source_sha256": "e5c33c5e67f588a8a43afc3c8508e5ccc7ea2cc46af22dd52de4b26073062aad",
+              "source_board": [
+                "DA_18_Azir",
+                "DA_18_Malphite",
+                "DA_18_RekSai",
+                "DA_18_Warwick",
+                "DA_Brambleback18",
+                "DA_Krug18",
+                "DA_Murkwolf18"
+              ],
+              "match_levels": [
+                7,
+                8
+              ],
+              "main_champion": "DA_18_Warwick"
+            }
+          ]
+        },
+        {
+          "id": "DA_UrfsGrabBag",
+          "name": "阿福的百宝袋",
+          "rarity": 3,
+          "rounds": [
+            "3-2",
+            "4-2"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "TFT Academy 编辑攻略",
+              "title": "Warwick Reroll",
+              "updated_at": "2026-10-14 20:48:09.989Z",
+              "url": "https://tftacademy.com/tierlist/comps/set-18-warwick-rr",
+              "guide_id": "set-18-warwick-rr",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐（未单独评级）",
+              "variant": "7级 / 8级",
+              "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+              "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+              "source_file": "augment-external/academy-set-18-warwick-rr.html",
+              "source_sha256": "e5c33c5e67f588a8a43afc3c8508e5ccc7ea2cc46af22dd52de4b26073062aad",
+              "source_board": [
+                "DA_18_Azir",
+                "DA_18_Malphite",
+                "DA_18_RekSai",
+                "DA_18_Warwick",
+                "DA_Brambleback18",
+                "DA_Krug18",
+                "DA_Murkwolf18"
+              ],
+              "match_levels": [
+                7,
+                8
+              ],
+              "main_champion": "DA_18_Warwick"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "author": "TFT Academy 编辑攻略",
+        "title": "Warwick Reroll",
+        "updated_at": "2026-10-14 20:48:09.989Z",
+        "url": "https://tftacademy.com/tierlist/comps/set-18-warwick-rr",
+        "guide_id": "set-18-warwick-rr",
+        "match": "exact",
+        "tier": null,
+        "recommendation_label": "本阵容明确推荐（未单独评级）",
+        "variant": "7级 / 8级",
+        "patch_note": "页面标注18.4b，攻略赛季18；保留来源更新时间，不赋予海克斯统计胜率。",
+        "note": "与MetaTFT已收录人口变体的可购买棋子集合完全一致；仅排除词库标为0费的森林召唤物。",
+        "source_file": "augment-external/academy-set-18-warwick-rr.html",
+        "source_sha256": "e5c33c5e67f588a8a43afc3c8508e5ccc7ea2cc46af22dd52de4b26073062aad",
+        "source_board": [
+          "DA_18_Azir",
+          "DA_18_Malphite",
+          "DA_18_RekSai",
+          "DA_18_Warwick",
+          "DA_Brambleback18",
+          "DA_Krug18",
+          "DA_Murkwolf18"
+        ],
+        "match_levels": [
+          7,
+          8
+        ],
+        "main_champion": "DA_18_Warwick"
+      }
+    },
+    {
+      "id": "426000",
+      "augments": [
+        {
+          "id": "DA_RollingForDays",
+          "name": "D个痛快！",
+          "rarity": 1,
+          "rounds": [
+            "3-2",
+            "4-2"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "PivotTFT 编辑团队",
+              "title": "<span class=\"cg-name\">Defender Rengar Reroll</span><span class=\"visually-hidden\">: </span> <span class=\"cg-claim\">TFT Set 18 comp guide</span>",
+              "updated_at": "2026-10-11",
+              "url": "https://www.pivottft.com/comps/defender-rengar-reroll/",
+              "guide_id": "defender-rengar-reroll",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐；站点全局评级S",
+              "variant": "代表棋盘",
+              "patch_note": "来源标注18.4b；编辑推荐，不是实测胜率。站点海克斯全局评级与本阵容推荐分别保留。",
+              "note": "棋子名单、主C和运营路线与本分支核对；不替换MetaTFT阵容评级或统计。 来源明确要求雷恩加尔携带护卫纹章；选择其他海克斯并不免除该条件。",
+              "source_file": "augment-external/defender-rengar-reroll.html",
+              "source_sha256": "594dfcdd58e2870b41be9c87ab2d21143657e2e7eb045abe13ca6a350ec24ce9",
+              "source_board": [
+                "DA_18_Cassiopeia",
+                "DA_18_Lillia",
+                "DA_18_Ornn",
+                "DA_18_Rammus",
+                "DA_18_Rengar",
+                "DA_18_Shen",
+                "DA_Fiddlesticks18"
+              ],
+              "global_augment_tier": "S"
+            }
+          ]
+        },
+        {
+          "id": "DA_PatienceIsAVirtue",
+          "name": "耐心是一种美德",
+          "rarity": 1,
+          "rounds": [
+            "2-1"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "PivotTFT 编辑团队",
+              "title": "<span class=\"cg-name\">Defender Rengar Reroll</span><span class=\"visually-hidden\">: </span> <span class=\"cg-claim\">TFT Set 18 comp guide</span>",
+              "updated_at": "2026-10-11",
+              "url": "https://www.pivottft.com/comps/defender-rengar-reroll/",
+              "guide_id": "defender-rengar-reroll",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐；站点全局评级A",
+              "variant": "代表棋盘",
+              "patch_note": "来源标注18.4b；编辑推荐，不是实测胜率。站点海克斯全局评级与本阵容推荐分别保留。",
+              "note": "棋子名单、主C和运营路线与本分支核对；不替换MetaTFT阵容评级或统计。 来源明确要求雷恩加尔携带护卫纹章；选择其他海克斯并不免除该条件。",
+              "source_file": "augment-external/defender-rengar-reroll.html",
+              "source_sha256": "594dfcdd58e2870b41be9c87ab2d21143657e2e7eb045abe13ca6a350ec24ce9",
+              "source_board": [
+                "DA_18_Cassiopeia",
+                "DA_18_Lillia",
+                "DA_18_Ornn",
+                "DA_18_Rammus",
+                "DA_18_Rengar",
+                "DA_18_Shen",
+                "DA_Fiddlesticks18"
+              ],
+              "global_augment_tier": "A"
+            }
+          ]
+        },
+        {
+          "id": "DA_Staffsmith",
+          "name": "杖之工匠",
+          "rarity": 2,
+          "rounds": [
+            "4-2"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "PivotTFT 编辑团队",
+              "title": "<span class=\"cg-name\">Defender Rengar Reroll</span><span class=\"visually-hidden\">: </span> <span class=\"cg-claim\">TFT Set 18 comp guide</span>",
+              "updated_at": "2026-10-11",
+              "url": "https://www.pivottft.com/comps/defender-rengar-reroll/",
+              "guide_id": "defender-rengar-reroll",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐；站点全局评级A",
+              "variant": "代表棋盘",
+              "patch_note": "来源标注18.4b；编辑推荐，不是实测胜率。站点海克斯全局评级与本阵容推荐分别保留。",
+              "note": "棋子名单、主C和运营路线与本分支核对；不替换MetaTFT阵容评级或统计。 来源明确要求雷恩加尔携带护卫纹章；选择其他海克斯并不免除该条件。",
+              "source_file": "augment-external/defender-rengar-reroll.html",
+              "source_sha256": "594dfcdd58e2870b41be9c87ab2d21143657e2e7eb045abe13ca6a350ec24ce9",
+              "source_board": [
+                "DA_18_Cassiopeia",
+                "DA_18_Lillia",
+                "DA_18_Ornn",
+                "DA_18_Rammus",
+                "DA_18_Rengar",
+                "DA_18_Shen",
+                "DA_Fiddlesticks18"
+              ],
+              "global_augment_tier": "A"
+            }
+          ]
+        },
+        {
+          "id": "DA_18_FloraFatalisAugment",
+          "name": "致命丽花",
+          "rarity": 2,
+          "rounds": [
+            "2-1",
+            "3-2"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "PivotTFT 编辑团队",
+              "title": "<span class=\"cg-name\">Defender Rengar Reroll</span><span class=\"visually-hidden\">: </span> <span class=\"cg-claim\">TFT Set 18 comp guide</span>",
+              "updated_at": "2026-10-11",
+              "url": "https://www.pivottft.com/comps/defender-rengar-reroll/",
+              "guide_id": "defender-rengar-reroll",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐；站点全局评级A",
+              "variant": "代表棋盘",
+              "patch_note": "来源标注18.4b；编辑推荐，不是实测胜率。站点海克斯全局评级与本阵容推荐分别保留。",
+              "note": "棋子名单、主C和运营路线与本分支核对；不替换MetaTFT阵容评级或统计。 来源明确要求雷恩加尔携带护卫纹章；选择其他海克斯并不免除该条件。",
+              "source_file": "augment-external/defender-rengar-reroll.html",
+              "source_sha256": "594dfcdd58e2870b41be9c87ab2d21143657e2e7eb045abe13ca6a350ec24ce9",
+              "source_board": [
+                "DA_18_Cassiopeia",
+                "DA_18_Lillia",
+                "DA_18_Ornn",
+                "DA_18_Rammus",
+                "DA_18_Rengar",
+                "DA_18_Shen",
+                "DA_Fiddlesticks18"
+              ],
+              "global_augment_tier": "A"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "author": "PivotTFT 编辑团队",
+        "title": "<span class=\"cg-name\">Defender Rengar Reroll</span><span class=\"visually-hidden\">: </span> <span class=\"cg-claim\">TFT Set 18 comp guide</span>",
+        "updated_at": "2026-10-11",
+        "url": "https://www.pivottft.com/comps/defender-rengar-reroll/",
+        "guide_id": "defender-rengar-reroll",
+        "match": "exact",
+        "tier": null,
+        "recommendation_label": "本阵容 Best augments 明确推荐",
+        "variant": "代表棋盘",
+        "patch_note": "来源标注18.4b；编辑推荐，不是实测胜率。站点海克斯全局评级与本阵容推荐分别保留。",
+        "note": "棋子名单、主C和运营路线与本分支核对；不替换MetaTFT阵容评级或统计。 来源明确要求雷恩加尔携带护卫纹章；选择其他海克斯并不免除该条件。",
+        "source_file": "augment-external/defender-rengar-reroll.html",
+        "source_sha256": "594dfcdd58e2870b41be9c87ab2d21143657e2e7eb045abe13ca6a350ec24ce9",
+        "source_board": [
+          "DA_18_Cassiopeia",
+          "DA_18_Lillia",
+          "DA_18_Ornn",
+          "DA_18_Rammus",
+          "DA_18_Rengar",
+          "DA_18_Shen",
+          "DA_Fiddlesticks18"
+        ]
+      }
+    },
+    {
+      "id": "426027",
+      "augments": [
+        {
+          "id": "DA_18_CovenTraitAugment",
+          "name": "女巫使魔",
+          "rarity": 2,
+          "rounds": [
+            "2-1"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "PivotTFT 编辑团队",
+              "title": "<span class=\"cg-name\">Coven Morgana</span><span class=\"visually-hidden\">: </span> <span class=\"cg-claim\">TFT Set 18 comp guide</span>",
+              "updated_at": "2026-10-11",
+              "url": "https://www.pivottft.com/comps/coven-morgana/",
+              "guide_id": "coven-morgana",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐；站点全局评级B",
+              "variant": "代表棋盘",
+              "patch_note": "来源标注18.4b；编辑推荐，不是实测胜率。站点海克斯全局评级与本阵容推荐分别保留。",
+              "note": "棋子名单、主C和运营路线与本分支核对；不替换MetaTFT阵容评级或统计。",
+              "source_file": "augment-external/coven-morgana.html",
+              "source_sha256": "40030d749478e7c33012212500f591f0c845656126060e49b4a4b44cf18ab211",
+              "source_board": [
+                "DA_18_Alune",
+                "DA_18_Cassiopeia",
+                "DA_18_Diana",
+                "DA_18_ElderDragon",
+                "DA_18_Elise",
+                "DA_18_Morgana",
+                "DA_Sentinel18",
+                "DA_Taric18"
+              ],
+              "global_augment_tier": "B"
+            }
+          ]
+        },
+        {
+          "id": "DA_Staffsmith",
+          "name": "杖之工匠",
+          "rarity": 2,
+          "rounds": [
+            "4-2"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "PivotTFT 编辑团队",
+              "title": "<span class=\"cg-name\">Coven Morgana</span><span class=\"visually-hidden\">: </span> <span class=\"cg-claim\">TFT Set 18 comp guide</span>",
+              "updated_at": "2026-10-11",
+              "url": "https://www.pivottft.com/comps/coven-morgana/",
+              "guide_id": "coven-morgana",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐；站点全局评级A",
+              "variant": "代表棋盘",
+              "patch_note": "来源标注18.4b；编辑推荐，不是实测胜率。站点海克斯全局评级与本阵容推荐分别保留。",
+              "note": "棋子名单、主C和运营路线与本分支核对；不替换MetaTFT阵容评级或统计。",
+              "source_file": "augment-external/coven-morgana.html",
+              "source_sha256": "40030d749478e7c33012212500f591f0c845656126060e49b4a4b44cf18ab211",
+              "source_board": [
+                "DA_18_Alune",
+                "DA_18_Cassiopeia",
+                "DA_18_Diana",
+                "DA_18_ElderDragon",
+                "DA_18_Elise",
+                "DA_18_Morgana",
+                "DA_Sentinel18",
+                "DA_Taric18"
+              ],
+              "global_augment_tier": "A"
+            }
+          ]
+        },
+        {
+          "id": "DA_LevelUp",
+          "name": "升级咯！",
+          "rarity": 3,
+          "rounds": [
+            "2-1"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "PivotTFT 编辑团队",
+              "title": "<span class=\"cg-name\">Coven Morgana</span><span class=\"visually-hidden\">: </span> <span class=\"cg-claim\">TFT Set 18 comp guide</span>",
+              "updated_at": "2026-10-11",
+              "url": "https://www.pivottft.com/comps/coven-morgana/",
+              "guide_id": "coven-morgana",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐；站点全局评级S",
+              "variant": "代表棋盘",
+              "patch_note": "来源标注18.4b；编辑推荐，不是实测胜率。站点海克斯全局评级与本阵容推荐分别保留。",
+              "note": "棋子名单、主C和运营路线与本分支核对；不替换MetaTFT阵容评级或统计。",
+              "source_file": "augment-external/coven-morgana.html",
+              "source_sha256": "40030d749478e7c33012212500f591f0c845656126060e49b4a4b44cf18ab211",
+              "source_board": [
+                "DA_18_Alune",
+                "DA_18_Cassiopeia",
+                "DA_18_Diana",
+                "DA_18_ElderDragon",
+                "DA_18_Elise",
+                "DA_18_Morgana",
+                "DA_Sentinel18",
+                "DA_Taric18"
+              ],
+              "global_augment_tier": "S"
+            }
+          ]
+        },
+        {
+          "id": "DA_LateGameSpecialist",
+          "name": "后期专家",
+          "rarity": 1,
+          "rounds": [
+            "3-2"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "PivotTFT 编辑团队",
+              "title": "<span class=\"cg-name\">Coven Morgana</span><span class=\"visually-hidden\">: </span> <span class=\"cg-claim\">TFT Set 18 comp guide</span>",
+              "updated_at": "2026-10-11",
+              "url": "https://www.pivottft.com/comps/coven-morgana/",
+              "guide_id": "coven-morgana",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐；站点全局评级A",
+              "variant": "代表棋盘",
+              "patch_note": "来源标注18.4b；编辑推荐，不是实测胜率。站点海克斯全局评级与本阵容推荐分别保留。",
+              "note": "棋子名单、主C和运营路线与本分支核对；不替换MetaTFT阵容评级或统计。",
+              "source_file": "augment-external/coven-morgana.html",
+              "source_sha256": "40030d749478e7c33012212500f591f0c845656126060e49b4a4b44cf18ab211",
+              "source_board": [
+                "DA_18_Alune",
+                "DA_18_Cassiopeia",
+                "DA_18_Diana",
+                "DA_18_ElderDragon",
+                "DA_18_Elise",
+                "DA_18_Morgana",
+                "DA_Sentinel18",
+                "DA_Taric18"
+              ],
+              "global_augment_tier": "A"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "author": "PivotTFT 编辑团队",
+        "title": "<span class=\"cg-name\">Coven Morgana</span><span class=\"visually-hidden\">: </span> <span class=\"cg-claim\">TFT Set 18 comp guide</span>",
+        "updated_at": "2026-10-11",
+        "url": "https://www.pivottft.com/comps/coven-morgana/",
+        "guide_id": "coven-morgana",
+        "match": "exact",
+        "tier": null,
+        "recommendation_label": "本阵容 Best augments 明确推荐",
+        "variant": "代表棋盘",
+        "patch_note": "来源标注18.4b；编辑推荐，不是实测胜率。站点海克斯全局评级与本阵容推荐分别保留。",
+        "note": "棋子名单、主C和运营路线与本分支核对；不替换MetaTFT阵容评级或统计。",
+        "source_file": "augment-external/coven-morgana.html",
+        "source_sha256": "40030d749478e7c33012212500f591f0c845656126060e49b4a4b44cf18ab211",
+        "source_board": [
+          "DA_18_Alune",
+          "DA_18_Cassiopeia",
+          "DA_18_Diana",
+          "DA_18_ElderDragon",
+          "DA_18_Elise",
+          "DA_18_Morgana",
+          "DA_Sentinel18",
+          "DA_Taric18"
+        ]
+      }
+    },
+    {
+      "id": "426013",
+      "augments": [
+        {
+          "id": "DA_RollingForDays",
+          "name": "D个痛快！",
+          "rarity": 1,
+          "rounds": [
+            "3-2",
+            "4-2"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "PivotTFT 编辑团队",
+              "title": "<span class=\"cg-name\">Invoker Teemo Reroll</span><span class=\"visually-hidden\">: </span> <span class=\"cg-claim\">TFT Set 18 comp guide</span>",
+              "updated_at": "2026-10-11",
+              "url": "https://www.pivottft.com/comps/invoker-teemo-reroll/",
+              "guide_id": "invoker-teemo-reroll",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐；站点全局评级S",
+              "variant": "代表棋盘",
+              "patch_note": "来源标注18.4b；编辑推荐，不是实测胜率。站点海克斯全局评级与本阵容推荐分别保留。",
+              "note": "棋子名单、主C和运营路线与本分支核对；不替换MetaTFT阵容评级或统计。",
+              "source_file": "augment-external/invoker-teemo-reroll.html",
+              "source_sha256": "152d5873fb9bea692d203da31110eeeb9de0316fe38476dcb17127cf304c86a3",
+              "source_board": [
+                "DA_18_Morgana",
+                "DA_18_Rammus",
+                "DA_18_Sentry",
+                "DA_18_Teemo",
+                "DA_18_Veigar",
+                "DA_Fiddlesticks18",
+                "DA_Krug18",
+                "DA_Sentinel18"
+              ],
+              "global_augment_tier": "S"
+            }
+          ]
+        },
+        {
+          "id": "DA_18_SprykinAugment",
+          "name": "毛茸茸小朋友",
+          "rarity": 2,
+          "rounds": [
+            "2-1",
+            "3-2",
+            "4-2"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "PivotTFT 编辑团队",
+              "title": "<span class=\"cg-name\">Invoker Teemo Reroll</span><span class=\"visually-hidden\">: </span> <span class=\"cg-claim\">TFT Set 18 comp guide</span>",
+              "updated_at": "2026-10-11",
+              "url": "https://www.pivottft.com/comps/invoker-teemo-reroll/",
+              "guide_id": "invoker-teemo-reroll",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐；站点全局评级C",
+              "variant": "代表棋盘",
+              "patch_note": "来源标注18.4b；编辑推荐，不是实测胜率。站点海克斯全局评级与本阵容推荐分别保留。",
+              "note": "棋子名单、主C和运营路线与本分支核对；不替换MetaTFT阵容评级或统计。",
+              "source_file": "augment-external/invoker-teemo-reroll.html",
+              "source_sha256": "152d5873fb9bea692d203da31110eeeb9de0316fe38476dcb17127cf304c86a3",
+              "source_board": [
+                "DA_18_Morgana",
+                "DA_18_Rammus",
+                "DA_18_Sentry",
+                "DA_18_Teemo",
+                "DA_18_Veigar",
+                "DA_Fiddlesticks18",
+                "DA_Krug18",
+                "DA_Sentinel18"
+              ],
+              "global_augment_tier": "C"
+            }
+          ]
+        },
+        {
+          "id": "DA_PatienceIsAVirtue",
+          "name": "耐心是一种美德",
+          "rarity": 1,
+          "rounds": [
+            "2-1"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "PivotTFT 编辑团队",
+              "title": "<span class=\"cg-name\">Invoker Teemo Reroll</span><span class=\"visually-hidden\">: </span> <span class=\"cg-claim\">TFT Set 18 comp guide</span>",
+              "updated_at": "2026-10-11",
+              "url": "https://www.pivottft.com/comps/invoker-teemo-reroll/",
+              "guide_id": "invoker-teemo-reroll",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐；站点全局评级A",
+              "variant": "代表棋盘",
+              "patch_note": "来源标注18.4b；编辑推荐，不是实测胜率。站点海克斯全局评级与本阵容推荐分别保留。",
+              "note": "棋子名单、主C和运营路线与本分支核对；不替换MetaTFT阵容评级或统计。",
+              "source_file": "augment-external/invoker-teemo-reroll.html",
+              "source_sha256": "152d5873fb9bea692d203da31110eeeb9de0316fe38476dcb17127cf304c86a3",
+              "source_board": [
+                "DA_18_Morgana",
+                "DA_18_Rammus",
+                "DA_18_Sentry",
+                "DA_18_Teemo",
+                "DA_18_Veigar",
+                "DA_Fiddlesticks18",
+                "DA_Krug18",
+                "DA_Sentinel18"
+              ],
+              "global_augment_tier": "A"
+            }
+          ]
+        },
+        {
+          "id": "DA_Staffsmith",
+          "name": "杖之工匠",
+          "rarity": 2,
+          "rounds": [
+            "4-2"
+          ],
+          "avg": null,
+          "count": null,
+          "evidence": "外部攻略明确推荐（非胜率统计）",
+          "sources": [
+            {
+              "author": "PivotTFT 编辑团队",
+              "title": "<span class=\"cg-name\">Invoker Teemo Reroll</span><span class=\"visually-hidden\">: </span> <span class=\"cg-claim\">TFT Set 18 comp guide</span>",
+              "updated_at": "2026-10-11",
+              "url": "https://www.pivottft.com/comps/invoker-teemo-reroll/",
+              "guide_id": "invoker-teemo-reroll",
+              "match": "exact",
+              "tier": null,
+              "recommendation_label": "本阵容明确推荐；站点全局评级A",
+              "variant": "代表棋盘",
+              "patch_note": "来源标注18.4b；编辑推荐，不是实测胜率。站点海克斯全局评级与本阵容推荐分别保留。",
+              "note": "棋子名单、主C和运营路线与本分支核对；不替换MetaTFT阵容评级或统计。",
+              "source_file": "augment-external/invoker-teemo-reroll.html",
+              "source_sha256": "152d5873fb9bea692d203da31110eeeb9de0316fe38476dcb17127cf304c86a3",
+              "source_board": [
+                "DA_18_Morgana",
+                "DA_18_Rammus",
+                "DA_18_Sentry",
+                "DA_18_Teemo",
+                "DA_18_Veigar",
+                "DA_Fiddlesticks18",
+                "DA_Krug18",
+                "DA_Sentinel18"
+              ],
+              "global_augment_tier": "A"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "author": "PivotTFT 编辑团队",
+        "title": "<span class=\"cg-name\">Invoker Teemo Reroll</span><span class=\"visually-hidden\">: </span> <span class=\"cg-claim\">TFT Set 18 comp guide</span>",
+        "updated_at": "2026-10-11",
+        "url": "https://www.pivottft.com/comps/invoker-teemo-reroll/",
+        "guide_id": "invoker-teemo-reroll",
+        "match": "exact",
+        "tier": null,
+        "recommendation_label": "本阵容 Best augments 明确推荐",
+        "variant": "代表棋盘",
+        "patch_note": "来源标注18.4b；编辑推荐，不是实测胜率。站点海克斯全局评级与本阵容推荐分别保留。",
+        "note": "棋子名单、主C和运营路线与本分支核对；不替换MetaTFT阵容评级或统计。",
+        "source_file": "augment-external/invoker-teemo-reroll.html",
+        "source_sha256": "152d5873fb9bea692d203da31110eeeb9de0316fe38476dcb17127cf304c86a3",
+        "source_board": [
+          "DA_18_Morgana",
+          "DA_18_Rammus",
+          "DA_18_Sentry",
+          "DA_18_Teemo",
+          "DA_18_Veigar",
+          "DA_Fiddlesticks18",
+          "DA_Krug18",
+          "DA_Sentinel18"
+        ]
+      }
+    }
+  ],
+  "unmapped": [
+    {
+      "comp": "426007",
+      "id": "DA_18_RiftbeastTraitAugmentStampede",
+      "source": "set-18-riftbeast-reroll"
+    }
+  ],
+  "remaining": [
+    {
+      "id": "426037",
+      "reason": "已核查MetaTFT、TFT Academy、PivotTFT及LUM.GG。LUM.GG同棋盘明确暂无海克斯建议；TFT Academy的狂战伊莉丝与TFT Flow的野怪树怪为不同核心/羁绊分支，未挪用推荐。",
+      "url": "https://lum.gg/tft/team/brambleback-ravager"
+    }
+  ],
+  "rules": "仅接入已核对棋盘、核心玩法、赛季和版本的明确推荐。TFT Academy没有单条评级；Pivot全局评级不是阵容内排名，Best augments中的B/C条目仍是明确推荐。"
+}

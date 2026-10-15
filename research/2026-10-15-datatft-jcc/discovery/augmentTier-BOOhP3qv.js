@@ -1,0 +1,1 @@
+import{g as i,p as s}from"./http-Dv4qT_m8.js";const n=(e,t,a=!1)=>i("".concat(a?"/admin":"","/augment-tier/config"),{platform:e,season:t},{},!1),o=e=>s("/admin/augment-tier/save",e);export{n as g,o as s};

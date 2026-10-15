@@ -1,0 +1,3098 @@
+{
+  "platform": "tft",
+  "set": "TFTSet18",
+  "patch": "18.4b",
+  "patch_status": "来源补丁标签已核实；原始current归档通过同日配置和后续双查询交叉支持，不是原始响应内嵌补丁字段",
+  "patch_evidence": {
+    "config_current_patch": {
+      "patch": "18.4",
+      "b_patch_version": "b",
+      "full_padded_patch": "0018.0004b",
+      "count": 30428773,
+      "start": "2026-10-08T03:41:31.344Z"
+    },
+    "config_updated": 1792032036233,
+    "current_check_updated": 1792032208613,
+    "explicit_check_updated": 1792032188591,
+    "check_results_identical": true
+  },
+  "capture_filters": {
+    "queue": 1100,
+    "patch": "current",
+    "days": 3,
+    "rank": "CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM",
+    "cluster_id": 426
+  },
+  "stats_updated_beijing": "2026-10-15T10:14:35.192000+08:00",
+  "comps_updated": 1792030417272,
+  "stats_updated": 1792030475192,
+  "grade_rule": {
+    "S": "avg < 4.25",
+    "A": "4.25 <= avg < 4.5",
+    "adjustments": "不使用装备、强化、城邦或指定变体的个性化均名修正"
+  },
+  "cohort": "所有60个返回分组；含默认隐藏的条件阵容；不加最低出场率过滤",
+  "excluded_stat_records": [
+    {
+      "cluster": "",
+      "places": [
+        7051232
+      ]
+    },
+    {
+      "cluster": "-1",
+      "places": [
+        117,
+        1160,
+        181,
+        91,
+        48,
+        61,
+        138,
+        967,
+        2763
+      ],
+      "count": 2763
+    }
+  ],
+  "counts": {
+    "all": 60,
+    "selected": 22,
+    "tiers": {
+      "S": 6,
+      "A": 16
+    },
+    "default": 14,
+    "situational": 8
+  },
+  "historical_id_difference": {
+    "added": [
+      "426029"
+    ],
+    "removed": [],
+    "caution": "仅分组ID集合差异；标签与棋盘可能漂移，不作补丁增强或同阵容强度变化结论"
+  },
+  "name_mapping": "当日中文词库apiName及assetNames别名；只取名称，不采用pbe技能数值",
+  "unmapped_names": [],
+  "all_comps": [
+    {
+      "id": "426003",
+      "name": "绝命花妖 / 阿兹尔",
+      "tier": "S",
+      "avg": 4.131724292331334,
+      "count": 460067,
+      "top4": 0.568078127750958,
+      "win": 0.1516626926078158,
+      "placements": [
+        69775,
+        72711,
+        61239,
+        57629,
+        54828,
+        52499,
+        48782,
+        42604
+      ],
+      "route_source": "lvl 7",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Sprykin, DA_18_Azir",
+      "units": [
+        "阿兹尔",
+        "拉莫斯",
+        "索拉卡",
+        "提莫",
+        "维迦",
+        "婕拉",
+        "费德提克"
+      ],
+      "detail_path": "raw/comps/426003.json"
+    },
+    {
+      "id": "426007",
+      "name": "峡谷野怪 / 苍蓝哨戒",
+      "tier": "S",
+      "avg": 4.135758455868436,
+      "count": 581194,
+      "top4": 0.5707784319865656,
+      "win": 0.14216423431762887,
+      "placements": [
+        82625,
+        84475,
+        84381,
+        80252,
+        75096,
+        67237,
+        57974,
+        49154
+      ],
+      "route_source": "lvl 5",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_Riftbeast18, DA_18_Sentry",
+      "units": [
+        "远古巨龙",
+        "纳尔",
+        "苍蓝哨戒",
+        "绯红印记树怪",
+        "远古石甲虫",
+        "暗影狼",
+        "苍蓝雕纹魔像",
+        "塔里克"
+      ],
+      "detail_path": "raw/comps/426007.json"
+    },
+    {
+      "id": "426000",
+      "name": "护卫 / 雷恩加尔",
+      "tier": "S",
+      "avg": 4.13595231477192,
+      "count": 32379,
+      "top4": 0.5697211155378487,
+      "win": 0.13694060965440563,
+      "placements": [
+        4434,
+        5338,
+        4529,
+        4146,
+        3968,
+        3771,
+        3373,
+        2820
+      ],
+      "route_source": "lvl 7",
+      "situational": true,
+      "emblems": [
+        {
+          "id": "DA_18_EmblemDefender",
+          "name": "护卫纹章",
+          "fraction": 0.97907
+        }
+      ],
+      "augment_named": false,
+      "source_name": "DA_18_Defender, DA_18_Rengar",
+      "units": [
+        "卡西奥佩娅",
+        "莉莉娅",
+        "奥恩",
+        "拉莫斯",
+        "雷恩加尔",
+        "慎",
+        "费德提克"
+      ],
+      "detail_path": "raw/comps/426000.json"
+    },
+    {
+      "id": "426027",
+      "name": "重装战士 / 莫甘娜",
+      "tier": "S",
+      "avg": 4.177654385982339,
+      "count": 100673,
+      "top4": 0.5446743416804903,
+      "win": 0.19909012346905328,
+      "placements": [
+        20043,
+        12245,
+        11318,
+        11228,
+        11389,
+        11675,
+        12017,
+        10758
+      ],
+      "route_source": "Fast 9",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Vanguard, DA_18_Ahri",
+      "units": [
+        "拉露恩",
+        "卡西奥佩娅",
+        "黛安娜",
+        "远古巨龙",
+        "伊莉丝",
+        "莫甘娜",
+        "苍蓝雕纹魔像",
+        "塔里克"
+      ],
+      "detail_path": "raw/comps/426027.json"
+    },
+    {
+      "id": "426002",
+      "name": "永恒之森 / 伊泽瑞尔 / 厄斐琉斯",
+      "tier": "S",
+      "avg": 4.192638992609378,
+      "count": 155332,
+      "top4": 0.5524425102361393,
+      "win": 0.14875234980557772,
+      "placements": [
+        23106,
+        22222,
+        20453,
+        20031,
+        19699,
+        18846,
+        17153,
+        13822
+      ],
+      "route_source": "Fast 8",
+      "situational": true,
+      "emblems": [
+        {
+          "id": "DA_18_EmblemElderwood",
+          "name": "永恒之森纹章",
+          "fraction": 0.73876
+        }
+      ],
+      "augment_named": false,
+      "source_name": "DA_18_Elderwood, DA_18_Aphelios",
+      "units": [
+        "阿利斯塔",
+        "厄斐琉斯",
+        "伊泽瑞尔",
+        "纳尔",
+        "赫卡里姆",
+        "乐芙兰",
+        "莉莉娅",
+        "奥恩",
+        "霞"
+      ],
+      "detail_path": "raw/comps/426002.json"
+    },
+    {
+      "id": "426004",
+      "name": "月蚀骑士 / 厄斐琉斯 / 奈德丽",
+      "tier": "S",
+      "avg": 4.219867471912998,
+      "count": 408819,
+      "top4": 0.5759468126481402,
+      "win": 0.08401272934966329,
+      "placements": [
+        34346,
+        63148,
+        71701,
+        66263,
+        56221,
+        47318,
+        39224,
+        30598
+      ],
+      "route_source": "Fast 8",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Lunar, DA_18_Aphelios, DA_Nidalee18_AP",
+      "units": [
+        "厄斐琉斯",
+        "黛安娜",
+        "韦鲁斯",
+        "阿木木",
+        "克格莫",
+        "奈德丽",
+        "苍蓝雕纹魔像",
+        "蔚"
+      ],
+      "detail_path": "raw/comps/426004.json"
+    },
+    {
+      "id": "426021",
+      "name": "迅捷射手 / 凯尔",
+      "tier": "A",
+      "avg": 4.277618448506256,
+      "count": 255934,
+      "top4": 0.5435190322505021,
+      "win": 0.14039166347573984,
+      "placements": [
+        35931,
+        36723,
+        33905,
+        32546,
+        30810,
+        29780,
+        29130,
+        27109
+      ],
+      "route_source": "lvl 6",
+      "situational": true,
+      "emblems": [
+        {
+          "id": "DA_18_EmblemLunar",
+          "name": "月蚀骑士纹章",
+          "fraction": 0.50363
+        }
+      ],
+      "augment_named": false,
+      "source_name": "DA_18_Rapidfire, DA_18_Kayle",
+      "units": [
+        "厄斐琉斯",
+        "黛安娜",
+        "凯尔",
+        "蕾欧娜",
+        "瑟庄妮",
+        "慎",
+        "韦鲁斯",
+        "阿木木"
+      ],
+      "detail_path": "raw/comps/426021.json"
+    },
+    {
+      "id": "426008",
+      "name": "重装战士 / 拉露恩",
+      "tier": "A",
+      "avg": 4.279060611609595,
+      "count": 109220,
+      "top4": 0.5247024354513825,
+      "win": 0.18765793810657388,
+      "placements": [
+        20496,
+        12785,
+        11841,
+        12186,
+        12781,
+        13105,
+        13717,
+        12309
+      ],
+      "route_source": "Fast 9",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Vanguard, DA_18_Morgana",
+      "units": [
+        "拉露恩",
+        "黛安娜",
+        "赫卡里姆",
+        "艾翁",
+        "莉莉娅",
+        "莫甘娜",
+        "费德提克",
+        "苍蓝雕纹魔像",
+        "塔里克"
+      ],
+      "detail_path": "raw/comps/426008.json"
+    },
+    {
+      "id": "426006",
+      "name": "神谕 / 提莫 / 阿利斯塔",
+      "tier": "A",
+      "avg": 4.2833483763984805,
+      "count": 47641,
+      "top4": 0.5614701622552003,
+      "win": 0.06721101572175227,
+      "placements": [
+        3202,
+        7587,
+        8252,
+        7708,
+        6886,
+        5819,
+        4741,
+        3446
+      ],
+      "route_source": "lvl 6",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Sprykin, DA_18_Teemo",
+      "units": [
+        "阿利斯塔",
+        "赫卡里姆",
+        "可酷伯",
+        "乐芙兰",
+        "莫甘娜",
+        "提莫",
+        "维迦",
+        "苍蓝雕纹魔像"
+      ],
+      "detail_path": "raw/comps/426006.json"
+    },
+    {
+      "id": "426001",
+      "name": "迅捷射手 / 厄斐琉斯",
+      "tier": "A",
+      "avg": 4.300336518385694,
+      "count": 40711,
+      "top4": 0.5544447446636044,
+      "win": 0.09194075311340916,
+      "placements": [
+        3743,
+        5948,
+        6532,
+        6349,
+        5493,
+        4953,
+        4287,
+        3406
+      ],
+      "route_source": "Fast 8",
+      "situational": true,
+      "emblems": [
+        {
+          "id": "DA_18_EmblemRapidfire",
+          "name": "迅捷射手纹章",
+          "fraction": 0.85386
+        }
+      ],
+      "augment_named": false,
+      "source_name": "DA_18_Rapidfire, DA_18_Aphelios",
+      "units": [
+        "厄斐琉斯",
+        "洛",
+        "韦鲁斯",
+        "霞",
+        "阿木木",
+        "绯红印记树怪",
+        "深红锋喙鸟",
+        "苍蓝雕纹魔像"
+      ],
+      "detail_path": "raw/comps/426001.json"
+    },
+    {
+      "id": "426005",
+      "name": "裁决使 / 瑟提",
+      "tier": "A",
+      "avg": 4.35746984555872,
+      "count": 102887,
+      "top4": 0.5383673350374683,
+      "win": 0.09369502463868128,
+      "placements": [
+        9640,
+        14263,
+        15916,
+        15572,
+        14321,
+        12868,
+        11144,
+        9163
+      ],
+      "route_source": "Fast 8",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Executioner, DA_18_Sett",
+      "units": [
+        "阿狸",
+        "阿利斯塔",
+        "伊泽瑞尔",
+        "奥恩",
+        "瑟提",
+        "索拉卡",
+        "芸阿娜",
+        "费德提克"
+      ],
+      "detail_path": "raw/comps/426005.json"
+    },
+    {
+      "id": "426012",
+      "name": "裁决使 / 卡兹克",
+      "tier": "A",
+      "avg": 4.361785198891555,
+      "count": 225902,
+      "top4": 0.5275384901417429,
+      "win": 0.1320882506573647,
+      "placements": [
+        29839,
+        33918,
+        29340,
+        26075,
+        26287,
+        26251,
+        27136,
+        27056
+      ],
+      "route_source": "lvl 7",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Elderwood, DA_18_KhaZix",
+      "units": [
+        "黛安娜",
+        "伊泽瑞尔",
+        "赫卡里姆",
+        "卡兹克",
+        "奥恩",
+        "索拉卡",
+        "费德提克"
+      ],
+      "detail_path": "raw/comps/426012.json"
+    },
+    {
+      "id": "426013",
+      "name": "神谕 / 提莫",
+      "tier": "A",
+      "avg": 4.364985163204747,
+      "count": 23927,
+      "top4": 0.5390562962343796,
+      "win": 0.07330630668282694,
+      "placements": [
+        1754,
+        3546,
+        3915,
+        3683,
+        3579,
+        2973,
+        2431,
+        2046
+      ],
+      "route_source": "lvl 6",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Invoker, DA_18_Teemo",
+      "units": [
+        "莫甘娜",
+        "拉莫斯",
+        "苍蓝哨戒",
+        "提莫",
+        "维迦",
+        "费德提克",
+        "远古石甲虫",
+        "苍蓝雕纹魔像"
+      ],
+      "detail_path": "raw/comps/426013.json"
+    },
+    {
+      "id": "426014",
+      "name": "法师 / 维迦",
+      "tier": "A",
+      "avg": 4.375625163489281,
+      "count": 256133,
+      "top4": 0.5248835565897405,
+      "win": 0.13418419336828913,
+      "placements": [
+        34369,
+        35204,
+        32899,
+        31968,
+        31335,
+        30074,
+        29995,
+        30289
+      ],
+      "route_source": "lvl 5",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Spellweaver, DA_18_Veigar",
+      "units": [
+        "阿利斯塔",
+        "卡西奥佩娅",
+        "乐芙兰",
+        "奥恩",
+        "雷克塞",
+        "维迦",
+        "费德提克"
+      ],
+      "detail_path": "raw/comps/426014.json"
+    },
+    {
+      "id": "426010",
+      "name": "神谕 / 阿狸",
+      "tier": "A",
+      "avg": 4.378218632958801,
+      "count": 290496,
+      "top4": 0.529005562899317,
+      "win": 0.11474168319012998,
+      "placements": [
+        33332,
+        37273,
+        42125,
+        40944,
+        39039,
+        35456,
+        32721,
+        29606
+      ],
+      "route_source": "Fast 8",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Invoker, DA_18_Ahri",
+      "units": [
+        "阿狸",
+        "莫甘娜",
+        "苍蓝哨戒",
+        "瑟提",
+        "卡尔玛",
+        "远古石甲虫",
+        "苍蓝雕纹魔像",
+        "塔里克"
+      ],
+      "detail_path": "raw/comps/426010.json"
+    },
+    {
+      "id": "426009",
+      "name": "神谕 / 莫甘娜",
+      "tier": "A",
+      "avg": 4.383114360790586,
+      "count": 43765,
+      "top4": 0.5239346509768079,
+      "win": 0.12414029475608362,
+      "placements": [
+        5433,
+        5357,
+        6004,
+        6136,
+        5732,
+        5559,
+        5242,
+        4302
+      ],
+      "route_source": "Fast 8",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Invoker, DA_18_Morgana",
+      "units": [
+        "拉露恩",
+        "黛安娜",
+        "赫卡里姆",
+        "莫甘娜",
+        "苍蓝哨戒",
+        "绯红印记树怪",
+        "克格莫",
+        "苍蓝雕纹魔像",
+        "塔里克"
+      ],
+      "detail_path": "raw/comps/426009.json"
+    },
+    {
+      "id": "426037",
+      "name": "狂战士 / 绯红印记树怪",
+      "tier": "A",
+      "avg": 4.392641439664736,
+      "count": 16226,
+      "top4": 0.5395661284358437,
+      "win": 0.07068901762603229,
+      "placements": [
+        1147,
+        2222,
+        2739,
+        2647,
+        2363,
+        2038,
+        1724,
+        1346
+      ],
+      "route_source": "Standard",
+      "situational": true,
+      "emblems": [
+        {
+          "id": "DA_18_EmblemSlayer",
+          "name": "狂战士纹章",
+          "fraction": 0.72014
+        }
+      ],
+      "augment_named": false,
+      "source_name": "DA_18_Slayer, DA_Brambleback18",
+      "units": [
+        "卡蜜尔",
+        "黛安娜",
+        "伊莉丝",
+        "赫卡里姆",
+        "沃里克",
+        "绯红印记树怪",
+        "暗影狼",
+        "苍蓝雕纹魔像"
+      ],
+      "detail_path": "raw/comps/426037.json"
+    },
+    {
+      "id": "426022",
+      "name": "魔战士 / 易 / 雷恩加尔",
+      "tier": "A",
+      "avg": 4.405302176119067,
+      "count": 70952,
+      "top4": 0.5222403878678543,
+      "win": 0.11125831548088849,
+      "placements": [
+        7894,
+        10615,
+        9483,
+        9062,
+        8875,
+        8589,
+        8637,
+        7797
+      ],
+      "route_source": "lvl 7",
+      "situational": true,
+      "emblems": [
+        {
+          "id": "DA_18_EmblemBrawler",
+          "name": "斗士纹章",
+          "fraction": 0.53882
+        }
+      ],
+      "augment_named": false,
+      "source_name": "DA_18_Blossom, DA_18_Rengar",
+      "units": [
+        "易",
+        "雷恩加尔",
+        "瑟提",
+        "约里克",
+        "远古石甲虫",
+        "奈德丽",
+        "蔚"
+      ],
+      "detail_path": "raw/comps/426022.json"
+    },
+    {
+      "id": "426011",
+      "name": "永恒之森 / 德莱文",
+      "tier": "A",
+      "avg": 4.410719315692958,
+      "count": 347914,
+      "top4": 0.4959329029587772,
+      "win": 0.18525555165931812,
+      "placements": [
+        64453,
+        37965,
+        34360,
+        35764,
+        39328,
+        44523,
+        47914,
+        43607
+      ],
+      "route_source": "Fast 9",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Elderwood, DA_18_Ezreal, DA_Draven18",
+      "units": [
+        "阿利斯塔",
+        "伊泽瑞尔",
+        "纳尔",
+        "艾翁",
+        "凯南",
+        "茂凯",
+        "阿木木",
+        "德莱文",
+        "塔里克"
+      ],
+      "detail_path": "raw/comps/426011.json"
+    },
+    {
+      "id": "426023",
+      "name": "狂战士 / 沃里克",
+      "tier": "A",
+      "avg": 4.435967456401371,
+      "count": 53098,
+      "top4": 0.5277599909601115,
+      "win": 0.06923047949075295,
+      "placements": [
+        3676,
+        7587,
+        8497,
+        8263,
+        7641,
+        6830,
+        5869,
+        4735
+      ],
+      "route_source": "lvl 6",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Slayer, DA_18_Warwick",
+      "units": [
+        "阿兹尔",
+        "黛安娜",
+        "墨菲特",
+        "雷克塞",
+        "沃里克",
+        "绯红印记树怪",
+        "远古石甲虫",
+        "暗影狼"
+      ],
+      "detail_path": "raw/comps/426023.json"
+    },
+    {
+      "id": "426016",
+      "name": "猎人 / 希维尔",
+      "tier": "A",
+      "avg": 4.489597585513079,
+      "count": 49700,
+      "top4": 0.5156740442655936,
+      "win": 0.08396378269617706,
+      "placements": [
+        4173,
+        6362,
+        7565,
+        7529,
+        6904,
+        6346,
+        5739,
+        5082
+      ],
+      "route_source": "Fast 8",
+      "situational": true,
+      "emblems": [
+        {
+          "id": "DA_18_EmblemHunter",
+          "name": "猎人纹章",
+          "fraction": 0.52494
+        }
+      ],
+      "augment_named": false,
+      "source_name": "DA_18_Hunter, DA_18_Malphite",
+      "units": [
+        "墨菲特",
+        "雷克塞",
+        "希维尔",
+        "绯红树怪",
+        "克格莫",
+        "远古石甲虫",
+        "奈德丽",
+        "苍蓝雕纹魔像"
+      ],
+      "detail_path": "raw/comps/426016.json"
+    },
+    {
+      "id": "426029",
+      "name": "魔战士 / 易",
+      "tier": "A",
+      "avg": 4.4924477196749715,
+      "count": 40981,
+      "top4": 0.5114565286352212,
+      "win": 0.06893438422683683,
+      "placements": [
+        2825,
+        5860,
+        6198,
+        6077,
+        5881,
+        5523,
+        4821,
+        3796
+      ],
+      "route_source": "lvl 7",
+      "situational": true,
+      "emblems": [
+        {
+          "id": "DA_18_EmblemBrawler",
+          "name": "斗士纹章",
+          "fraction": 0.69219
+        }
+      ],
+      "augment_named": false,
+      "source_name": "DA_18_Adaptor, DA_18_MasterYi_AD",
+      "units": [
+        "易",
+        "瑟提",
+        "约里克",
+        "克格莫",
+        "远古石甲虫",
+        "奈德丽",
+        "蔚"
+      ],
+      "detail_path": "raw/comps/426029.json"
+    },
+    {
+      "id": "426030",
+      "name": "地狱火 / 远古巨龙",
+      "tier": "B",
+      "avg": 4.5057580838731095,
+      "count": 704922,
+      "top4": 0.4890399221474149,
+      "win": 0.18837687006505685,
+      "placements": [
+        132791,
+        83335,
+        64487,
+        64122,
+        69239,
+        78703,
+        89575,
+        122670
+      ],
+      "route_source": "Fast 9",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_Juggernaut18, DA_Amumu18",
+      "units": [
+        "远古巨龙",
+        "艾翁",
+        "凯南",
+        "茂凯",
+        "阿木木",
+        "德莱文",
+        "苍蓝雕纹魔像",
+        "塔里克"
+      ],
+      "detail_path": "raw/comps/426030.json"
+    },
+    {
+      "id": "426017",
+      "name": "重装战士 / 厄斐琉斯",
+      "tier": "B",
+      "avg": 4.531796326814931,
+      "count": 58859,
+      "top4": 0.5013336957814438,
+      "win": 0.08070133709373248,
+      "placements": [
+        4750,
+        7114,
+        8778,
+        8866,
+        8566,
+        7994,
+        7161,
+        5630
+      ],
+      "route_source": "Fast 8",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Vanguard, DA_18_Aphelios",
+      "units": [
+        "厄斐琉斯",
+        "黛安娜",
+        "赫卡里姆",
+        "婕拉",
+        "绯红印记树怪",
+        "深红锋喙鸟",
+        "苍蓝雕纹魔像",
+        "塔里克"
+      ],
+      "detail_path": "raw/comps/426017.json"
+    },
+    {
+      "id": "426036",
+      "name": "永恒之森 / 伊泽瑞尔",
+      "tier": "B",
+      "avg": 4.53320718237726,
+      "count": 194476,
+      "top4": 0.48540693967379006,
+      "win": 0.13133240091322324,
+      "placements": [
+        25541,
+        22837,
+        22416,
+        23606,
+        25025,
+        25635,
+        25550,
+        23866
+      ],
+      "route_source": "Fast 8",
+      "situational": true,
+      "emblems": [
+        {
+          "id": "DA_18_EmblemElderwood",
+          "name": "永恒之森纹章",
+          "fraction": 0.66178
+        }
+      ],
+      "augment_named": false,
+      "source_name": "DA_18_Elderwood, DA_18_Ezreal, DA_18_Alistar",
+      "units": [
+        "阿利斯塔",
+        "伊泽瑞尔",
+        "纳尔",
+        "赫卡里姆",
+        "凯南",
+        "乐芙兰",
+        "奥恩",
+        "索拉卡",
+        "费德提克"
+      ],
+      "detail_path": "raw/comps/426036.json"
+    },
+    {
+      "id": "426018",
+      "name": "护卫 / 卡西奥佩娅",
+      "tier": "B",
+      "avg": 4.550944817628225,
+      "count": 127432,
+      "top4": 0.4959193923033461,
+      "win": 0.07610333354259527,
+      "placements": [
+        9698,
+        16543,
+        18136,
+        18819,
+        18618,
+        17619,
+        15328,
+        12671
+      ],
+      "route_source": "lvl 7",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Defender, DA_18_Cassiopeia",
+      "units": [
+        "卡西奥佩娅",
+        "蕾欧娜",
+        "莉莉娅",
+        "奥恩",
+        "拉莫斯",
+        "慎",
+        "费德提克"
+      ],
+      "detail_path": "raw/comps/426018.json"
+    },
+    {
+      "id": "426020",
+      "name": "灵魂莲华 / 阿狸 / 瑟提",
+      "tier": "B",
+      "avg": 4.562042948345908,
+      "count": 43075,
+      "top4": 0.4941845618107951,
+      "win": 0.09518282066163668,
+      "placements": [
+        4100,
+        5024,
+        5974,
+        6189,
+        5866,
+        5803,
+        5416,
+        4703
+      ],
+      "route_source": "Fast 8",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Blossom, DA_18_Zyra",
+      "units": [
+        "阿狸",
+        "瑟提",
+        "慎",
+        "约里克",
+        "婕拉",
+        "阿木木",
+        "费德提克",
+        "远古石甲虫"
+      ],
+      "detail_path": "raw/comps/426020.json"
+    },
+    {
+      "id": "426028",
+      "name": "裁决使 / 墨菲特",
+      "tier": "B",
+      "avg": 4.571352598082004,
+      "count": 172993,
+      "top4": 0.4930777545912262,
+      "win": 0.08936199730624939,
+      "placements": [
+        15459,
+        20536,
+        24257,
+        25047,
+        24084,
+        23142,
+        21694,
+        18774
+      ],
+      "route_source": "Fast 8",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Executioner, DA_18_Malphite",
+      "units": [
+        "阿兹尔",
+        "凯南",
+        "墨菲特",
+        "索拉卡",
+        "约里克",
+        "婕拉",
+        "阿木木",
+        "费德提克"
+      ],
+      "detail_path": "raw/comps/426028.json"
+    },
+    {
+      "id": "426019",
+      "name": "黑荆棘 / 芸阿娜",
+      "tier": "B",
+      "avg": 4.579863765899771,
+      "count": 28774,
+      "top4": 0.49683742267324665,
+      "win": 0.0970320428164315,
+      "placements": [
+        2792,
+        4146,
+        3835,
+        3523,
+        3331,
+        3504,
+        3723,
+        3920
+      ],
+      "route_source": "lvl 6",
+      "situational": true,
+      "emblems": [
+        {
+          "id": "DA_18_EmblemBlackthorn",
+          "name": "黑荆棘纹章",
+          "fraction": 0.96801
+        }
+      ],
+      "augment_named": false,
+      "source_name": "DA_18_Blackthorn, DA_18_Yunara",
+      "units": [
+        "阿利斯塔",
+        "阿兹尔",
+        "伊泽瑞尔",
+        "雷克塞",
+        "沃里克",
+        "芸阿娜",
+        "暗影狼"
+      ],
+      "detail_path": "raw/comps/426019.json"
+    },
+    {
+      "id": "426015",
+      "name": "主宰 / 婕拉",
+      "tier": "B",
+      "avg": 4.604299569524402,
+      "count": 77124,
+      "top4": 0.47900783154400706,
+      "win": 0.09426378299880711,
+      "placements": [
+        7270,
+        8403,
+        10363,
+        10907,
+        11168,
+        10917,
+        9801,
+        8295
+      ],
+      "route_source": "Fast 8",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_Juggernaut18, DA_18_Zyra, DA_Nidalee18_AP",
+      "units": [
+        "洛",
+        "瑟庄妮",
+        "约里克",
+        "婕拉",
+        "阿木木",
+        "奈德丽",
+        "峡谷迅捷蟹",
+        "蔚"
+      ],
+      "detail_path": "raw/comps/426015.json"
+    },
+    {
+      "id": "426034",
+      "name": "裁决使 / 阿兹尔",
+      "tier": "B",
+      "avg": 4.625514403292181,
+      "count": 35964,
+      "top4": 0.4832054276498721,
+      "win": 0.08872761650539428,
+      "placements": [
+        3191,
+        4632,
+        4793,
+        4762,
+        4853,
+        4520,
+        4619,
+        4594
+      ],
+      "route_source": "lvl 7",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Executioner, DA_18_Azir",
+      "units": [
+        "阿兹尔",
+        "卡兹克",
+        "雷克塞",
+        "瑟提",
+        "约里克",
+        "芸阿娜",
+        "婕拉",
+        "蔚"
+      ],
+      "detail_path": "raw/comps/426034.json"
+    },
+    {
+      "id": "426025",
+      "name": "地狱火 / 阿卡丽",
+      "tier": "B",
+      "avg": 4.644296864470121,
+      "count": 81613,
+      "top4": 0.48579270459363094,
+      "win": 0.08787815666621739,
+      "placements": [
+        7172,
+        10489,
+        11341,
+        10645,
+        10432,
+        10003,
+        10144,
+        11387
+      ],
+      "route_source": "lvl 5",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Inferno, DA_18_Akali_AD",
+      "units": [
+        "阿卡丽",
+        "卡蜜尔",
+        "凯尔",
+        "蕾欧娜",
+        "奥恩",
+        "瑟庄妮",
+        "韦鲁斯"
+      ],
+      "detail_path": "raw/comps/426025.json"
+    },
+    {
+      "id": "426040",
+      "name": "主宰 / 希维尔",
+      "tier": "B",
+      "avg": 4.652618356650929,
+      "count": 184696,
+      "top4": 0.4596796898687573,
+      "win": 0.12760427946463376,
+      "placements": [
+        23568,
+        19455,
+        20195,
+        21683,
+        23747,
+        25409,
+        26776,
+        23863
+      ],
+      "route_source": "Fast 9",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_Juggernaut18, DA_18_Sivir",
+      "units": [
+        "艾希",
+        "艾翁",
+        "凯南",
+        "茂凯",
+        "洛",
+        "希维尔",
+        "阿木木",
+        "塔里克",
+        "蔚"
+      ],
+      "detail_path": "raw/comps/426040.json"
+    },
+    {
+      "id": "426053",
+      "name": "月蚀骑士 / 厄斐琉斯",
+      "tier": "B",
+      "avg": 4.655451803362855,
+      "count": 62328,
+      "top4": 0.4707354639969195,
+      "win": 0.1113303812090874,
+      "placements": [
+        6939,
+        7469,
+        7452,
+        7480,
+        7777,
+        8046,
+        8469,
+        8696
+      ],
+      "route_source": "Fast 9",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Lunar, DA_18_Aphelios, DA_18_Vanguard",
+      "units": [
+        "拉露恩",
+        "厄斐琉斯",
+        "黛安娜",
+        "凯尔",
+        "蕾欧娜",
+        "茂凯",
+        "瑟庄妮",
+        "费德提克",
+        "塔里克"
+      ],
+      "detail_path": "raw/comps/426053.json"
+    },
+    {
+      "id": "426032",
+      "name": "主宰 / 婕拉 / 阿木木",
+      "tier": "B",
+      "avg": 4.666776091294695,
+      "count": 115757,
+      "top4": 0.46381644306607805,
+      "win": 0.10625707300638407,
+      "placements": [
+        12300,
+        12305,
+        14177,
+        14908,
+        15853,
+        16051,
+        15736,
+        14427
+      ],
+      "route_source": "Fast 8",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_Juggernaut18, DA_18_Zyra, DA_18_Sejuani",
+      "units": [
+        "艾希",
+        "茂凯",
+        "瑟庄妮",
+        "希维尔",
+        "约里克",
+        "婕拉",
+        "阿木木",
+        "峡谷迅捷蟹",
+        "蔚"
+      ],
+      "detail_path": "raw/comps/426032.json"
+    },
+    {
+      "id": "426026",
+      "name": "月蚀骑士 / 莉莉娅",
+      "tier": "B",
+      "avg": 4.675525461983354,
+      "count": 35445,
+      "top4": 0.4668923684581746,
+      "win": 0.10170686979827902,
+      "placements": [
+        3605,
+        3980,
+        4416,
+        4548,
+        4682,
+        4823,
+        4757,
+        4634
+      ],
+      "route_source": "Fast 8",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Elderwood, DA_18_Lillia",
+      "units": [
+        "阿利斯塔",
+        "拉露恩",
+        "厄斐琉斯",
+        "黛安娜",
+        "纳尔",
+        "赫卡里姆",
+        "莉莉娅",
+        "奥恩",
+        "霞"
+      ],
+      "detail_path": "raw/comps/426026.json"
+    },
+    {
+      "id": "426024",
+      "name": "宿敌 / 卡兹克",
+      "tier": "B",
+      "avg": 4.677662763396879,
+      "count": 67721,
+      "top4": 0.4691011650743492,
+      "win": 0.09750299020983151,
+      "placements": [
+        6603,
+        8333,
+        8521,
+        8311,
+        8610,
+        8880,
+        9334,
+        9129
+      ],
+      "route_source": "lvl 7",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Elderwood, DA_18_Rengar",
+      "units": [
+        "厄斐琉斯",
+        "黛安娜",
+        "伊泽瑞尔",
+        "赫卡里姆",
+        "卡兹克",
+        "乐芙兰",
+        "雷恩加尔"
+      ],
+      "detail_path": "raw/comps/426024.json"
+    },
+    {
+      "id": "426038",
+      "name": "灵魂莲华 / 阿狸",
+      "tier": "B",
+      "avg": 4.694431783393993,
+      "count": 146995,
+      "top4": 0.45545086567570325,
+      "win": 0.10888805741691894,
+      "placements": [
+        16006,
+        14615,
+        16902,
+        19426,
+        20459,
+        20987,
+        20605,
+        17995
+      ],
+      "route_source": "Fast 9",
+      "situational": true,
+      "emblems": [
+        {
+          "id": "DA_18_EmblemBlossom",
+          "name": "灵魂莲华纹章",
+          "fraction": 0.70083
+        }
+      ],
+      "augment_named": false,
+      "source_name": "DA_18_Blossom, DA_18_Ahri",
+      "units": [
+        "阿狸",
+        "艾希",
+        "纳尔",
+        "瑟提",
+        "希维尔",
+        "约里克",
+        "婕拉",
+        "卡尔玛",
+        "蔚"
+      ],
+      "detail_path": "raw/comps/426038.json"
+    },
+    {
+      "id": "426031",
+      "name": "迅捷射手 / 凯尔 / 霞",
+      "tier": "B",
+      "avg": 4.73501098462153,
+      "count": 150210,
+      "top4": 0.4586179348911524,
+      "win": 0.1158977431595766,
+      "placements": [
+        17409,
+        17248,
+        17105,
+        17127,
+        17592,
+        18716,
+        20842,
+        24171
+      ],
+      "route_source": "lvl 6",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Elderwood, DA_18_Kayle",
+      "units": [
+        "赫卡里姆",
+        "凯尔",
+        "蕾欧娜",
+        "奥恩",
+        "洛",
+        "瑟庄妮",
+        "霞"
+      ],
+      "detail_path": "raw/comps/426031.json"
+    },
+    {
+      "id": "426046",
+      "name": "灵魂莲华 / 瑟提",
+      "tier": "C",
+      "avg": 4.7550359712230215,
+      "count": 33360,
+      "top4": 0.45152877697841726,
+      "win": 0.0940347721822542,
+      "placements": [
+        3137,
+        3777,
+        4006,
+        4143,
+        4306,
+        4668,
+        4775,
+        4548
+      ],
+      "route_source": "Fast 9",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Blossom, DA_18_Sett",
+      "units": [
+        "艾希",
+        "远古巨龙",
+        "纳尔",
+        "凯南",
+        "瑟提",
+        "约里克",
+        "阿木木",
+        "绯红树怪"
+      ],
+      "detail_path": "raw/comps/426046.json"
+    },
+    {
+      "id": "426041",
+      "name": "神谕 / 奈德丽",
+      "tier": "C",
+      "avg": 4.769178459246786,
+      "count": 30881,
+      "top4": 0.4554904310093585,
+      "win": 0.06907159742236327,
+      "placements": [
+        2133,
+        3243,
+        4170,
+        4520,
+        4502,
+        4414,
+        4118,
+        3781
+      ],
+      "route_source": "Fast 8",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Invoker, DA_Nidalee18_AP",
+      "units": [
+        "莫甘娜",
+        "苍蓝哨戒",
+        "克格莫",
+        "奈德丽",
+        "峡谷迅捷蟹",
+        "苍蓝雕纹魔像",
+        "塔里克",
+        "蔚"
+      ],
+      "detail_path": "raw/comps/426041.json"
+    },
+    {
+      "id": "426033",
+      "name": "重装战士 / 深红锋喙鸟",
+      "tier": "C",
+      "avg": 4.788388827905842,
+      "count": 16398,
+      "top4": 0.4464568849859739,
+      "win": 0.09952433223563849,
+      "placements": [
+        1632,
+        1928,
+        1886,
+        1875,
+        2035,
+        2115,
+        2407,
+        2520
+      ],
+      "route_source": "lvl 7",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Vanguard, DA_18_Hecarim",
+      "units": [
+        "厄斐琉斯",
+        "黛安娜",
+        "赫卡里姆",
+        "雷恩加尔",
+        "绯红印记树怪",
+        "深红锋喙鸟",
+        "苍蓝雕纹魔像",
+        "塔里克"
+      ],
+      "detail_path": "raw/comps/426033.json"
+    },
+    {
+      "id": "426048",
+      "name": "花仙子 / 崔丝塔娜 / 希维尔",
+      "tier": "C",
+      "avg": 4.835059358423845,
+      "count": 63344,
+      "top4": 0.4365054306643092,
+      "win": 0.084696261682243,
+      "placements": [
+        5365,
+        6446,
+        7552,
+        8287,
+        8675,
+        9043,
+        9230,
+        8746
+      ],
+      "route_source": "lvl 7",
+      "situational": true,
+      "emblems": [
+        {
+          "id": "DA_18_EmblemFae",
+          "name": "花仙子纹章",
+          "fraction": 0.53588
+        }
+      ],
+      "augment_named": false,
+      "source_name": "DA_18_Fae, DA_18_Tristana",
+      "units": [
+        "可酷伯",
+        "莉莉娅",
+        "洛",
+        "拉莫斯",
+        "希维尔",
+        "崔丝塔娜",
+        "霞",
+        "蔚"
+      ],
+      "detail_path": "raw/comps/426048.json"
+    },
+    {
+      "id": "426035",
+      "name": "灵魂莲华 / 芸阿娜",
+      "tier": "C",
+      "avg": 4.847520113673458,
+      "count": 52079,
+      "top4": 0.4470323930951055,
+      "win": 0.09765932525586128,
+      "placements": [
+        5086,
+        6461,
+        5820,
+        5914,
+        5828,
+        6165,
+        7240,
+        9565
+      ],
+      "route_source": "lvl 6",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Blossom, DA_18_Yunara",
+      "units": [
+        "凯尔",
+        "乐芙兰",
+        "蕾欧娜",
+        "瑟庄妮",
+        "约里克",
+        "芸阿娜",
+        "卡尔玛"
+      ],
+      "detail_path": "raw/comps/426035.json"
+    },
+    {
+      "id": "426051",
+      "name": "峡谷野怪 / 魔沼蛙",
+      "tier": "C",
+      "avg": 4.9004299527246555,
+      "count": 51401,
+      "top4": 0.4343106165249703,
+      "win": 0.06126339954475594,
+      "placements": [
+        3149,
+        5271,
+        6745,
+        7159,
+        7295,
+        7184,
+        7038,
+        7560
+      ],
+      "route_source": "lvl 6",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_Riftbeast18, DA_Gromp18_AP",
+      "units": [
+        "苍蓝哨戒",
+        "绯红印记树怪",
+        "魔沼蛙",
+        "克格莫",
+        "远古石甲虫",
+        "暗影狼",
+        "峡谷迅捷蟹",
+        "苍蓝雕纹魔像"
+      ],
+      "detail_path": "raw/comps/426051.json"
+    },
+    {
+      "id": "426044",
+      "name": "约德尔人和朋友 / 维迦",
+      "tier": "C",
+      "avg": 4.918773698797844,
+      "count": 58811,
+      "top4": 0.4269099318154767,
+      "win": 0.04919147778476816,
+      "placements": [
+        2893,
+        5953,
+        7745,
+        8516,
+        9014,
+        8721,
+        7968,
+        8001
+      ],
+      "route_source": "lvl 5",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Sprykin, DA_18_Veigar",
+      "units": [
+        "纳尔",
+        "可酷伯",
+        "拉莫斯",
+        "雷克塞",
+        "瑟提",
+        "提莫",
+        "维迦",
+        "费德提克"
+      ],
+      "detail_path": "raw/comps/426044.json"
+    },
+    {
+      "id": "426045",
+      "name": "野兽之灵 / 奈德丽",
+      "tier": "C",
+      "avg": 4.935027072053311,
+      "count": 28812,
+      "top4": 0.4166666666666667,
+      "win": 0.06306400111064835,
+      "placements": [
+        1817,
+        2674,
+        3588,
+        3926,
+        4273,
+        4376,
+        4330,
+        3828
+      ],
+      "route_source": "Fast 8",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_Juggernaut18, DA_Nidalee18_AP",
+      "units": [
+        "艾希",
+        "莉莉娅",
+        "茂凯",
+        "慎",
+        "希维尔",
+        "阿木木",
+        "克格莫",
+        "奈德丽"
+      ],
+      "detail_path": "raw/comps/426045.json"
+    },
+    {
+      "id": "426043",
+      "name": "主宰 / 婕拉 / 阿兹尔",
+      "tier": "C",
+      "avg": 4.96372571298716,
+      "count": 35204,
+      "top4": 0.41597545733439384,
+      "win": 0.06482217929780706,
+      "placements": [
+        2282,
+        3316,
+        4235,
+        4811,
+        5048,
+        5160,
+        5136,
+        5216
+      ],
+      "route_source": "Fast 8",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_Juggernaut18, DA_18_Azir",
+      "units": [
+        "阿兹尔",
+        "洛",
+        "瑟庄妮",
+        "约里克",
+        "婕拉",
+        "阿木木",
+        "峡谷迅捷蟹",
+        "蔚"
+      ],
+      "detail_path": "raw/comps/426043.json"
+    },
+    {
+      "id": "426052",
+      "name": "法师 / 阿狸",
+      "tier": "C",
+      "avg": 4.974373425275163,
+      "count": 30164,
+      "top4": 0.4080360694868055,
+      "win": 0.07329929717544093,
+      "placements": [
+        2211,
+        2935,
+        3346,
+        3816,
+        4275,
+        4449,
+        4461,
+        4671
+      ],
+      "route_source": "Fast 8",
+      "situational": true,
+      "emblems": [
+        {
+          "id": "DA_18_EmblemSpellweaver",
+          "name": "法师纹章",
+          "fraction": 0.69615
+        }
+      ],
+      "augment_named": false,
+      "source_name": "DA_18_Spellweaver, DA_18_Ahri",
+      "units": [
+        "阿狸",
+        "拉露恩",
+        "卡西奥佩娅",
+        "纳尔",
+        "莉莉娅",
+        "瑟提",
+        "费德提克",
+        "卡尔玛"
+      ],
+      "detail_path": "raw/comps/426052.json"
+    },
+    {
+      "id": "426049",
+      "name": "黑荆棘 / 维迦",
+      "tier": "C",
+      "avg": 4.9748406988694756,
+      "count": 24325,
+      "top4": 0.41463514902363824,
+      "win": 0.07704008221993834,
+      "placements": [
+        1874,
+        2434,
+        2727,
+        3051,
+        3363,
+        3249,
+        3439,
+        4188
+      ],
+      "route_source": "lvl 5",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Blackthorn, DA_18_Veigar",
+      "units": [
+        "阿兹尔",
+        "可酷伯",
+        "墨菲特",
+        "拉莫斯",
+        "雷克塞",
+        "索拉卡",
+        "维迦",
+        "费德提克"
+      ],
+      "detail_path": "raw/comps/426049.json"
+    },
+    {
+      "id": "426039",
+      "name": "主宰 / 凯特琳",
+      "tier": "C",
+      "avg": 4.985466953115127,
+      "count": 47478,
+      "top4": 0.4136231517755592,
+      "win": 0.05581532499262817,
+      "placements": [
+        2650,
+        4672,
+        5781,
+        6535,
+        6893,
+        6940,
+        6938,
+        7069
+      ],
+      "route_source": "lvl 6",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_Juggernaut18, DA_18_Caitlyn",
+      "units": [
+        "凯特琳",
+        "洛",
+        "瑟庄妮",
+        "希维尔",
+        "约里克",
+        "阿木木",
+        "峡谷迅捷蟹",
+        "蔚"
+      ],
+      "detail_path": "raw/comps/426039.json"
+    },
+    {
+      "id": "426047",
+      "name": "约德尔人和朋友 / 拉莫斯",
+      "tier": "D",
+      "avg": 5.039600507292327,
+      "count": 31540,
+      "top4": 0.398858592263792,
+      "win": 0.039822447685478754,
+      "placements": [
+        1256,
+        2871,
+        3875,
+        4578,
+        5021,
+        4919,
+        4765,
+        4255
+      ],
+      "route_source": "lvl 7",
+      "situational": true,
+      "emblems": [
+        {
+          "id": "DA_18_EmblemSprykin",
+          "name": "约德尔人和朋友纹章",
+          "fraction": 0.64347
+        }
+      ],
+      "augment_named": false,
+      "source_name": "DA_18_Sprykin, DA_18_Tristana",
+      "units": [
+        "纳尔",
+        "可酷伯",
+        "莉莉娅",
+        "拉莫斯",
+        "希维尔",
+        "提莫",
+        "崔丝塔娜",
+        "维迦"
+      ],
+      "detail_path": "raw/comps/426047.json"
+    },
+    {
+      "id": "426050",
+      "name": "绝命花妖 / 索拉卡",
+      "tier": "D",
+      "avg": 5.045626549519377,
+      "count": 22991,
+      "top4": 0.3937192814579618,
+      "win": 0.06941846809621156,
+      "placements": [
+        1596,
+        2139,
+        2481,
+        2836,
+        3163,
+        3442,
+        3796,
+        3538
+      ],
+      "route_source": "Fast 8",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Executioner, DA_18_Soraka",
+      "units": [
+        "拉露恩",
+        "黛安娜",
+        "艾翁",
+        "凯南",
+        "茂凯",
+        "索拉卡",
+        "阿木木",
+        "费德提克",
+        "塔里克"
+      ],
+      "detail_path": "raw/comps/426050.json"
+    },
+    {
+      "id": "426042",
+      "name": "花仙子 / 崔丝塔娜",
+      "tier": "D",
+      "avg": 5.061969670732009,
+      "count": 40423,
+      "top4": 0.39410731514236946,
+      "win": 0.115577765133711,
+      "placements": [
+        4672,
+        3875,
+        3458,
+        3926,
+        4247,
+        5166,
+        6743,
+        8336
+      ],
+      "route_source": "lvl 7",
+      "situational": true,
+      "emblems": [
+        {
+          "id": "DA_18_EmblemFae",
+          "name": "花仙子纹章",
+          "fraction": 0.69375
+        }
+      ],
+      "augment_named": false,
+      "source_name": "DA_18_Fae, DA_18_Rengar",
+      "units": [
+        "莉莉娅",
+        "洛",
+        "拉莫斯",
+        "雷恩加尔",
+        "希维尔",
+        "崔丝塔娜",
+        "蔚"
+      ],
+      "detail_path": "raw/comps/426042.json"
+    },
+    {
+      "id": "426055",
+      "name": "地狱火 / 阿木木",
+      "tier": "D",
+      "avg": 5.207579325731284,
+      "count": 32272,
+      "top4": 0.3701351016360932,
+      "win": 0.06860436291522062,
+      "placements": [
+        2214,
+        2720,
+        3265,
+        3746,
+        4268,
+        4548,
+        5090,
+        6421
+      ],
+      "route_source": "Fast 9",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Inferno, DA_Amumu18",
+      "units": [
+        "拉露恩",
+        "厄斐琉斯",
+        "黛安娜",
+        "凯尔",
+        "蕾欧娜",
+        "瑟庄妮",
+        "慎",
+        "阿木木",
+        "塔里克"
+      ],
+      "detail_path": "raw/comps/426055.json"
+    },
+    {
+      "id": "426056",
+      "name": "黑荆棘 / 阿兹尔",
+      "tier": "D",
+      "avg": 5.231996715478308,
+      "count": 36535,
+      "top4": 0.3640892295059532,
+      "win": 0.06415765704119337,
+      "placements": [
+        2344,
+        3066,
+        3704,
+        4188,
+        4798,
+        5294,
+        6071,
+        7070
+      ],
+      "route_source": "lvl 7",
+      "situational": true,
+      "emblems": [
+        {
+          "id": "DA_18_EmblemBlackthorn",
+          "name": "黑荆棘纹章",
+          "fraction": 0.70911
+        }
+      ],
+      "augment_named": false,
+      "source_name": "DA_18_Blackthorn, DA_18_Azir",
+      "units": [
+        "阿利斯塔",
+        "阿兹尔",
+        "伊泽瑞尔",
+        "乐芙兰",
+        "墨菲特",
+        "雷克塞",
+        "索拉卡",
+        "维迦"
+      ],
+      "detail_path": "raw/comps/426056.json"
+    },
+    {
+      "id": "426054",
+      "name": "重装战士 / 伊莉丝 / 卡西奥佩娅",
+      "tier": "D",
+      "avg": 5.287882810471436,
+      "count": 342761,
+      "top4": 0.3432916813756524,
+      "win": 0.10850125889468172,
+      "placements": [
+        37190,
+        23262,
+        25809,
+        31406,
+        38368,
+        48993,
+        61947,
+        75786
+      ],
+      "route_source": "lvl 6",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Coven, DA_18_Elise",
+      "units": [
+        "卡西奥佩娅",
+        "黛安娜",
+        "伊莉丝",
+        "赫卡里姆",
+        "莫甘娜",
+        "洛",
+        "苍蓝雕纹魔像",
+        "塔里克"
+      ],
+      "detail_path": "raw/comps/426054.json"
+    },
+    {
+      "id": "426057",
+      "name": "宿敌 / 卡兹克 / 费德提克",
+      "tier": "D",
+      "avg": 5.6601649082365455,
+      "count": 11279,
+      "top4": 0.2924904690132104,
+      "win": 0.049383810621509,
+      "placements": [
+        557,
+        739,
+        921,
+        1082,
+        1306,
+        1591,
+        2025,
+        3058
+      ],
+      "route_source": "lvl 7",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Executioner, DA_18_KhaZix",
+      "units": [
+        "阿卡丽",
+        "黛安娜",
+        "凯南",
+        "卡兹克",
+        "莉莉娅",
+        "洛",
+        "维迦",
+        "费德提克",
+        "奈德丽"
+      ],
+      "detail_path": "raw/comps/426057.json"
+    },
+    {
+      "id": "426058",
+      "name": "花仙子 / 霞",
+      "tier": "D",
+      "avg": 5.868781542898342,
+      "count": 23579,
+      "top4": 0.2633699478349379,
+      "win": 0.03749098774333093,
+      "placements": [
+        884,
+        1256,
+        1777,
+        2293,
+        2649,
+        3236,
+        4052,
+        7432
+      ],
+      "route_source": "lvl 5",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Fae, DA_18_Xayah",
+      "units": [
+        "赫卡里姆",
+        "莉莉娅",
+        "奥恩",
+        "洛",
+        "崔丝塔娜",
+        "韦鲁斯",
+        "霞",
+        "阿木木"
+      ],
+      "detail_path": "raw/comps/426058.json"
+    },
+    {
+      "id": "426059",
+      "name": "重装战士 / 伊莉丝",
+      "tier": "D",
+      "avg": 6.074160691756162,
+      "count": 32497,
+      "top4": 0.21457365295258024,
+      "win": 0.02815644521032711,
+      "placements": [
+        915,
+        1388,
+        1992,
+        2678,
+        3671,
+        4885,
+        6396,
+        10572
+      ],
+      "route_source": "lvl 6",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Vanguard, DA_18_Elise",
+      "units": [
+        "卡西奥佩娅",
+        "黛安娜",
+        "伊莉丝",
+        "赫卡里姆",
+        "洛",
+        "苍蓝雕纹魔像",
+        "塔里克"
+      ],
+      "detail_path": "raw/comps/426059.json"
+    }
+  ],
+  "selected": [
+    {
+      "id": "426003",
+      "name": "绝命花妖 / 阿兹尔",
+      "tier": "S",
+      "avg": 4.131724292331334,
+      "count": 460067,
+      "top4": 0.568078127750958,
+      "win": 0.1516626926078158,
+      "placements": [
+        69775,
+        72711,
+        61239,
+        57629,
+        54828,
+        52499,
+        48782,
+        42604
+      ],
+      "route_source": "lvl 7",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Sprykin, DA_18_Azir",
+      "units": [
+        "阿兹尔",
+        "拉莫斯",
+        "索拉卡",
+        "提莫",
+        "维迦",
+        "婕拉",
+        "费德提克"
+      ],
+      "detail_path": "raw/comps/426003.json"
+    },
+    {
+      "id": "426007",
+      "name": "峡谷野怪 / 苍蓝哨戒",
+      "tier": "S",
+      "avg": 4.135758455868436,
+      "count": 581194,
+      "top4": 0.5707784319865656,
+      "win": 0.14216423431762887,
+      "placements": [
+        82625,
+        84475,
+        84381,
+        80252,
+        75096,
+        67237,
+        57974,
+        49154
+      ],
+      "route_source": "lvl 5",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_Riftbeast18, DA_18_Sentry",
+      "units": [
+        "远古巨龙",
+        "纳尔",
+        "苍蓝哨戒",
+        "绯红印记树怪",
+        "远古石甲虫",
+        "暗影狼",
+        "苍蓝雕纹魔像",
+        "塔里克"
+      ],
+      "detail_path": "raw/comps/426007.json"
+    },
+    {
+      "id": "426000",
+      "name": "护卫 / 雷恩加尔",
+      "tier": "S",
+      "avg": 4.13595231477192,
+      "count": 32379,
+      "top4": 0.5697211155378487,
+      "win": 0.13694060965440563,
+      "placements": [
+        4434,
+        5338,
+        4529,
+        4146,
+        3968,
+        3771,
+        3373,
+        2820
+      ],
+      "route_source": "lvl 7",
+      "situational": true,
+      "emblems": [
+        {
+          "id": "DA_18_EmblemDefender",
+          "name": "护卫纹章",
+          "fraction": 0.97907
+        }
+      ],
+      "augment_named": false,
+      "source_name": "DA_18_Defender, DA_18_Rengar",
+      "units": [
+        "卡西奥佩娅",
+        "莉莉娅",
+        "奥恩",
+        "拉莫斯",
+        "雷恩加尔",
+        "慎",
+        "费德提克"
+      ],
+      "detail_path": "raw/comps/426000.json"
+    },
+    {
+      "id": "426027",
+      "name": "重装战士 / 莫甘娜",
+      "tier": "S",
+      "avg": 4.177654385982339,
+      "count": 100673,
+      "top4": 0.5446743416804903,
+      "win": 0.19909012346905328,
+      "placements": [
+        20043,
+        12245,
+        11318,
+        11228,
+        11389,
+        11675,
+        12017,
+        10758
+      ],
+      "route_source": "Fast 9",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Vanguard, DA_18_Ahri",
+      "units": [
+        "拉露恩",
+        "卡西奥佩娅",
+        "黛安娜",
+        "远古巨龙",
+        "伊莉丝",
+        "莫甘娜",
+        "苍蓝雕纹魔像",
+        "塔里克"
+      ],
+      "detail_path": "raw/comps/426027.json"
+    },
+    {
+      "id": "426002",
+      "name": "永恒之森 / 伊泽瑞尔 / 厄斐琉斯",
+      "tier": "S",
+      "avg": 4.192638992609378,
+      "count": 155332,
+      "top4": 0.5524425102361393,
+      "win": 0.14875234980557772,
+      "placements": [
+        23106,
+        22222,
+        20453,
+        20031,
+        19699,
+        18846,
+        17153,
+        13822
+      ],
+      "route_source": "Fast 8",
+      "situational": true,
+      "emblems": [
+        {
+          "id": "DA_18_EmblemElderwood",
+          "name": "永恒之森纹章",
+          "fraction": 0.73876
+        }
+      ],
+      "augment_named": false,
+      "source_name": "DA_18_Elderwood, DA_18_Aphelios",
+      "units": [
+        "阿利斯塔",
+        "厄斐琉斯",
+        "伊泽瑞尔",
+        "纳尔",
+        "赫卡里姆",
+        "乐芙兰",
+        "莉莉娅",
+        "奥恩",
+        "霞"
+      ],
+      "detail_path": "raw/comps/426002.json"
+    },
+    {
+      "id": "426004",
+      "name": "月蚀骑士 / 厄斐琉斯 / 奈德丽",
+      "tier": "S",
+      "avg": 4.219867471912998,
+      "count": 408819,
+      "top4": 0.5759468126481402,
+      "win": 0.08401272934966329,
+      "placements": [
+        34346,
+        63148,
+        71701,
+        66263,
+        56221,
+        47318,
+        39224,
+        30598
+      ],
+      "route_source": "Fast 8",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Lunar, DA_18_Aphelios, DA_Nidalee18_AP",
+      "units": [
+        "厄斐琉斯",
+        "黛安娜",
+        "韦鲁斯",
+        "阿木木",
+        "克格莫",
+        "奈德丽",
+        "苍蓝雕纹魔像",
+        "蔚"
+      ],
+      "detail_path": "raw/comps/426004.json"
+    },
+    {
+      "id": "426021",
+      "name": "迅捷射手 / 凯尔",
+      "tier": "A",
+      "avg": 4.277618448506256,
+      "count": 255934,
+      "top4": 0.5435190322505021,
+      "win": 0.14039166347573984,
+      "placements": [
+        35931,
+        36723,
+        33905,
+        32546,
+        30810,
+        29780,
+        29130,
+        27109
+      ],
+      "route_source": "lvl 6",
+      "situational": true,
+      "emblems": [
+        {
+          "id": "DA_18_EmblemLunar",
+          "name": "月蚀骑士纹章",
+          "fraction": 0.50363
+        }
+      ],
+      "augment_named": false,
+      "source_name": "DA_18_Rapidfire, DA_18_Kayle",
+      "units": [
+        "厄斐琉斯",
+        "黛安娜",
+        "凯尔",
+        "蕾欧娜",
+        "瑟庄妮",
+        "慎",
+        "韦鲁斯",
+        "阿木木"
+      ],
+      "detail_path": "raw/comps/426021.json"
+    },
+    {
+      "id": "426008",
+      "name": "重装战士 / 拉露恩",
+      "tier": "A",
+      "avg": 4.279060611609595,
+      "count": 109220,
+      "top4": 0.5247024354513825,
+      "win": 0.18765793810657388,
+      "placements": [
+        20496,
+        12785,
+        11841,
+        12186,
+        12781,
+        13105,
+        13717,
+        12309
+      ],
+      "route_source": "Fast 9",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Vanguard, DA_18_Morgana",
+      "units": [
+        "拉露恩",
+        "黛安娜",
+        "赫卡里姆",
+        "艾翁",
+        "莉莉娅",
+        "莫甘娜",
+        "费德提克",
+        "苍蓝雕纹魔像",
+        "塔里克"
+      ],
+      "detail_path": "raw/comps/426008.json"
+    },
+    {
+      "id": "426006",
+      "name": "神谕 / 提莫 / 阿利斯塔",
+      "tier": "A",
+      "avg": 4.2833483763984805,
+      "count": 47641,
+      "top4": 0.5614701622552003,
+      "win": 0.06721101572175227,
+      "placements": [
+        3202,
+        7587,
+        8252,
+        7708,
+        6886,
+        5819,
+        4741,
+        3446
+      ],
+      "route_source": "lvl 6",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Sprykin, DA_18_Teemo",
+      "units": [
+        "阿利斯塔",
+        "赫卡里姆",
+        "可酷伯",
+        "乐芙兰",
+        "莫甘娜",
+        "提莫",
+        "维迦",
+        "苍蓝雕纹魔像"
+      ],
+      "detail_path": "raw/comps/426006.json"
+    },
+    {
+      "id": "426001",
+      "name": "迅捷射手 / 厄斐琉斯",
+      "tier": "A",
+      "avg": 4.300336518385694,
+      "count": 40711,
+      "top4": 0.5544447446636044,
+      "win": 0.09194075311340916,
+      "placements": [
+        3743,
+        5948,
+        6532,
+        6349,
+        5493,
+        4953,
+        4287,
+        3406
+      ],
+      "route_source": "Fast 8",
+      "situational": true,
+      "emblems": [
+        {
+          "id": "DA_18_EmblemRapidfire",
+          "name": "迅捷射手纹章",
+          "fraction": 0.85386
+        }
+      ],
+      "augment_named": false,
+      "source_name": "DA_18_Rapidfire, DA_18_Aphelios",
+      "units": [
+        "厄斐琉斯",
+        "洛",
+        "韦鲁斯",
+        "霞",
+        "阿木木",
+        "绯红印记树怪",
+        "深红锋喙鸟",
+        "苍蓝雕纹魔像"
+      ],
+      "detail_path": "raw/comps/426001.json"
+    },
+    {
+      "id": "426005",
+      "name": "裁决使 / 瑟提",
+      "tier": "A",
+      "avg": 4.35746984555872,
+      "count": 102887,
+      "top4": 0.5383673350374683,
+      "win": 0.09369502463868128,
+      "placements": [
+        9640,
+        14263,
+        15916,
+        15572,
+        14321,
+        12868,
+        11144,
+        9163
+      ],
+      "route_source": "Fast 8",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Executioner, DA_18_Sett",
+      "units": [
+        "阿狸",
+        "阿利斯塔",
+        "伊泽瑞尔",
+        "奥恩",
+        "瑟提",
+        "索拉卡",
+        "芸阿娜",
+        "费德提克"
+      ],
+      "detail_path": "raw/comps/426005.json"
+    },
+    {
+      "id": "426012",
+      "name": "裁决使 / 卡兹克",
+      "tier": "A",
+      "avg": 4.361785198891555,
+      "count": 225902,
+      "top4": 0.5275384901417429,
+      "win": 0.1320882506573647,
+      "placements": [
+        29839,
+        33918,
+        29340,
+        26075,
+        26287,
+        26251,
+        27136,
+        27056
+      ],
+      "route_source": "lvl 7",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Elderwood, DA_18_KhaZix",
+      "units": [
+        "黛安娜",
+        "伊泽瑞尔",
+        "赫卡里姆",
+        "卡兹克",
+        "奥恩",
+        "索拉卡",
+        "费德提克"
+      ],
+      "detail_path": "raw/comps/426012.json"
+    },
+    {
+      "id": "426013",
+      "name": "神谕 / 提莫",
+      "tier": "A",
+      "avg": 4.364985163204747,
+      "count": 23927,
+      "top4": 0.5390562962343796,
+      "win": 0.07330630668282694,
+      "placements": [
+        1754,
+        3546,
+        3915,
+        3683,
+        3579,
+        2973,
+        2431,
+        2046
+      ],
+      "route_source": "lvl 6",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Invoker, DA_18_Teemo",
+      "units": [
+        "莫甘娜",
+        "拉莫斯",
+        "苍蓝哨戒",
+        "提莫",
+        "维迦",
+        "费德提克",
+        "远古石甲虫",
+        "苍蓝雕纹魔像"
+      ],
+      "detail_path": "raw/comps/426013.json"
+    },
+    {
+      "id": "426014",
+      "name": "法师 / 维迦",
+      "tier": "A",
+      "avg": 4.375625163489281,
+      "count": 256133,
+      "top4": 0.5248835565897405,
+      "win": 0.13418419336828913,
+      "placements": [
+        34369,
+        35204,
+        32899,
+        31968,
+        31335,
+        30074,
+        29995,
+        30289
+      ],
+      "route_source": "lvl 5",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Spellweaver, DA_18_Veigar",
+      "units": [
+        "阿利斯塔",
+        "卡西奥佩娅",
+        "乐芙兰",
+        "奥恩",
+        "雷克塞",
+        "维迦",
+        "费德提克"
+      ],
+      "detail_path": "raw/comps/426014.json"
+    },
+    {
+      "id": "426010",
+      "name": "神谕 / 阿狸",
+      "tier": "A",
+      "avg": 4.378218632958801,
+      "count": 290496,
+      "top4": 0.529005562899317,
+      "win": 0.11474168319012998,
+      "placements": [
+        33332,
+        37273,
+        42125,
+        40944,
+        39039,
+        35456,
+        32721,
+        29606
+      ],
+      "route_source": "Fast 8",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Invoker, DA_18_Ahri",
+      "units": [
+        "阿狸",
+        "莫甘娜",
+        "苍蓝哨戒",
+        "瑟提",
+        "卡尔玛",
+        "远古石甲虫",
+        "苍蓝雕纹魔像",
+        "塔里克"
+      ],
+      "detail_path": "raw/comps/426010.json"
+    },
+    {
+      "id": "426009",
+      "name": "神谕 / 莫甘娜",
+      "tier": "A",
+      "avg": 4.383114360790586,
+      "count": 43765,
+      "top4": 0.5239346509768079,
+      "win": 0.12414029475608362,
+      "placements": [
+        5433,
+        5357,
+        6004,
+        6136,
+        5732,
+        5559,
+        5242,
+        4302
+      ],
+      "route_source": "Fast 8",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Invoker, DA_18_Morgana",
+      "units": [
+        "拉露恩",
+        "黛安娜",
+        "赫卡里姆",
+        "莫甘娜",
+        "苍蓝哨戒",
+        "绯红印记树怪",
+        "克格莫",
+        "苍蓝雕纹魔像",
+        "塔里克"
+      ],
+      "detail_path": "raw/comps/426009.json"
+    },
+    {
+      "id": "426037",
+      "name": "狂战士 / 绯红印记树怪",
+      "tier": "A",
+      "avg": 4.392641439664736,
+      "count": 16226,
+      "top4": 0.5395661284358437,
+      "win": 0.07068901762603229,
+      "placements": [
+        1147,
+        2222,
+        2739,
+        2647,
+        2363,
+        2038,
+        1724,
+        1346
+      ],
+      "route_source": "Standard",
+      "situational": true,
+      "emblems": [
+        {
+          "id": "DA_18_EmblemSlayer",
+          "name": "狂战士纹章",
+          "fraction": 0.72014
+        }
+      ],
+      "augment_named": false,
+      "source_name": "DA_18_Slayer, DA_Brambleback18",
+      "units": [
+        "卡蜜尔",
+        "黛安娜",
+        "伊莉丝",
+        "赫卡里姆",
+        "沃里克",
+        "绯红印记树怪",
+        "暗影狼",
+        "苍蓝雕纹魔像"
+      ],
+      "detail_path": "raw/comps/426037.json"
+    },
+    {
+      "id": "426022",
+      "name": "魔战士 / 易 / 雷恩加尔",
+      "tier": "A",
+      "avg": 4.405302176119067,
+      "count": 70952,
+      "top4": 0.5222403878678543,
+      "win": 0.11125831548088849,
+      "placements": [
+        7894,
+        10615,
+        9483,
+        9062,
+        8875,
+        8589,
+        8637,
+        7797
+      ],
+      "route_source": "lvl 7",
+      "situational": true,
+      "emblems": [
+        {
+          "id": "DA_18_EmblemBrawler",
+          "name": "斗士纹章",
+          "fraction": 0.53882
+        }
+      ],
+      "augment_named": false,
+      "source_name": "DA_18_Blossom, DA_18_Rengar",
+      "units": [
+        "易",
+        "雷恩加尔",
+        "瑟提",
+        "约里克",
+        "远古石甲虫",
+        "奈德丽",
+        "蔚"
+      ],
+      "detail_path": "raw/comps/426022.json"
+    },
+    {
+      "id": "426011",
+      "name": "永恒之森 / 德莱文",
+      "tier": "A",
+      "avg": 4.410719315692958,
+      "count": 347914,
+      "top4": 0.4959329029587772,
+      "win": 0.18525555165931812,
+      "placements": [
+        64453,
+        37965,
+        34360,
+        35764,
+        39328,
+        44523,
+        47914,
+        43607
+      ],
+      "route_source": "Fast 9",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Elderwood, DA_18_Ezreal, DA_Draven18",
+      "units": [
+        "阿利斯塔",
+        "伊泽瑞尔",
+        "纳尔",
+        "艾翁",
+        "凯南",
+        "茂凯",
+        "阿木木",
+        "德莱文",
+        "塔里克"
+      ],
+      "detail_path": "raw/comps/426011.json"
+    },
+    {
+      "id": "426023",
+      "name": "狂战士 / 沃里克",
+      "tier": "A",
+      "avg": 4.435967456401371,
+      "count": 53098,
+      "top4": 0.5277599909601115,
+      "win": 0.06923047949075295,
+      "placements": [
+        3676,
+        7587,
+        8497,
+        8263,
+        7641,
+        6830,
+        5869,
+        4735
+      ],
+      "route_source": "lvl 6",
+      "situational": false,
+      "emblems": [],
+      "augment_named": false,
+      "source_name": "DA_18_Slayer, DA_18_Warwick",
+      "units": [
+        "阿兹尔",
+        "黛安娜",
+        "墨菲特",
+        "雷克塞",
+        "沃里克",
+        "绯红印记树怪",
+        "远古石甲虫",
+        "暗影狼"
+      ],
+      "detail_path": "raw/comps/426023.json"
+    },
+    {
+      "id": "426016",
+      "name": "猎人 / 希维尔",
+      "tier": "A",
+      "avg": 4.489597585513079,
+      "count": 49700,
+      "top4": 0.5156740442655936,
+      "win": 0.08396378269617706,
+      "placements": [
+        4173,
+        6362,
+        7565,
+        7529,
+        6904,
+        6346,
+        5739,
+        5082
+      ],
+      "route_source": "Fast 8",
+      "situational": true,
+      "emblems": [
+        {
+          "id": "DA_18_EmblemHunter",
+          "name": "猎人纹章",
+          "fraction": 0.52494
+        }
+      ],
+      "augment_named": false,
+      "source_name": "DA_18_Hunter, DA_18_Malphite",
+      "units": [
+        "墨菲特",
+        "雷克塞",
+        "希维尔",
+        "绯红树怪",
+        "克格莫",
+        "远古石甲虫",
+        "奈德丽",
+        "苍蓝雕纹魔像"
+      ],
+      "detail_path": "raw/comps/426016.json"
+    },
+    {
+      "id": "426029",
+      "name": "魔战士 / 易",
+      "tier": "A",
+      "avg": 4.4924477196749715,
+      "count": 40981,
+      "top4": 0.5114565286352212,
+      "win": 0.06893438422683683,
+      "placements": [
+        2825,
+        5860,
+        6198,
+        6077,
+        5881,
+        5523,
+        4821,
+        3796
+      ],
+      "route_source": "lvl 7",
+      "situational": true,
+      "emblems": [
+        {
+          "id": "DA_18_EmblemBrawler",
+          "name": "斗士纹章",
+          "fraction": 0.69219
+        }
+      ],
+      "augment_named": false,
+      "source_name": "DA_18_Adaptor, DA_18_MasterYi_AD",
+      "units": [
+        "易",
+        "瑟提",
+        "约里克",
+        "克格莫",
+        "远古石甲虫",
+        "奈德丽",
+        "蔚"
+      ],
+      "detail_path": "raw/comps/426029.json"
+    }
+  ],
+  "limits": [
+    "条件分类使用comps_data默认人群中的top_itemNames比例，不是指定段位3天统计",
+    "条件分类不保证穷尽入场门槛；未标条件不等于无条件适配",
+    "来源updated与实际统计窗口起止不是同一字段；未提供精确窗口起止",
+    "TFT评级和出装不覆盖金铲铲结论"
+  ]
+}

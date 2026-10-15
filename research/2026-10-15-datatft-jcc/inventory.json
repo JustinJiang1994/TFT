@@ -1,0 +1,84 @@
+{
+  "status": "collected_and_audited",
+  "source": "https://jcc.datatft.com/",
+  "set": "18",
+  "version_requested": "jcc_18.3",
+  "filters": {
+    "tier": "grandmaster",
+    "time": 5,
+    "time_label": "最近5天（前端默认）"
+  },
+  "rank_count": 31,
+  "tier_counts": {
+    "S": 4,
+    "A": 9,
+    "B": 7,
+    "C": 6,
+    "D": 5
+  },
+  "source_count_raw": "683992",
+  "catalog_counts": {
+    "regions18": 1,
+    "quantitys18": 5,
+    "equips18": 151,
+    "exps18": 8,
+    "roles18": 12,
+    "hps18": 8,
+    "charms18": 181,
+    "races18": 24,
+    "jobs18": 12,
+    "golds18": 8,
+    "hexs18": 3,
+    "rates18": 45,
+    "heros18": 65,
+    "damages18": 8,
+    "h5TraitIcons": 36
+  },
+  "database_update_time_raw": 1791815844696,
+  "successful_requests": 2,
+  "failed_requests": 38,
+  "strategy_details_available": 0,
+  "integrity_verified": true,
+  "available_fields": [
+    "title",
+    "tier",
+    "difficulty",
+    "tags",
+    "heros",
+    "recommended_equips",
+    "jccCode",
+    "tftCode",
+    "playRate",
+    "won",
+    "top4",
+    "place"
+  ],
+  "limitations": [
+    "仅覆盖当前S18默认查询；未采集所有历史版本、段位和筛选组合",
+    "详情及多个统计接口返回42000，未确认具体原因",
+    "基础资料是网站共享静态词库，未逐项验证国服差异",
+    "装备评级嵌于公开脚本，已归档原脚本，未解码为结构化评级"
+  ],
+  "failed_endpoints": [
+    "https://api.datatft.com/augment-tier/config?platform=jcc&season=18",
+    "https://api.datatft.com/data/explore/list",
+    "https://api.datatft.com/team/comps",
+    "https://api.datatft.com/team/home",
+    "https://api.datatft.com/team/rank",
+    "https://api.datatft.com/team/strategy"
+  ],
+  "augment_records": 256,
+  "latest_retry": "retry/coverage-report.json",
+  "full_collection_complete": true,
+  "latest_coverage_report": "resumed/coverage-report.json",
+  "completed_counts": {
+    "comps": 31,
+    "strategies": 31,
+    "hero_stats": 65,
+    "equipment_stats": 133,
+    "trait_tier_stats": 90,
+    "rating_records": 336,
+    "unmapped_rating_codes": 1
+  },
+  "latest_data": "resumed/data"
+}

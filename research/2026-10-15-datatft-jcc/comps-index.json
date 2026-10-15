@@ -1,0 +1,2377 @@
+[
+  {
+    "id": 16294,
+    "title": "黑暗仪式伊莉丝",
+    "titleApi": [
+      "DA_18_Elise",
+      "DA_18_CovenTraitAugment_LootToAP"
+    ],
+    "difficulty": 2,
+    "tags": [
+      "6/7级追三星"
+    ],
+    "heros": [
+      {
+        "id": "918044",
+        "key": "DA_Taric18"
+      },
+      {
+        "id": "918120",
+        "key": "DA_18_Hecarim",
+        "tftEquips": [
+          "DA_WarmogsArmor"
+        ]
+      },
+      {
+        "id": "918131",
+        "key": "DA_18_Diana"
+      },
+      {
+        "id": "918060",
+        "stars": 3,
+        "key": "DA_18_Elise",
+        "tftEquips": [
+          "DA_GargoyleStoneplate",
+          "DA_GuinsoosRageblade",
+          "DA_TitansResolve"
+        ]
+      },
+      {
+        "id": "918497",
+        "key": "DA_18_Rakan"
+      },
+      {
+        "id": "918025",
+        "key": "DA_18_Morgana",
+        "tftEquips": [
+          "DA_JeweledGauntlet",
+          "DA_Morellonomicon",
+          "DA_VoidStaff"
+        ]
+      },
+      {
+        "id": "918997",
+        "key": "DA_Sentinel18",
+        "tftEquips": [
+          "DA_ProtectorsVow"
+        ]
+      },
+      {
+        "id": "918069",
+        "stars": 3,
+        "key": "DA_18_Cassiopeia",
+        "tftEquips": [
+          "DA_Morellonomicon",
+          "DA_SpearOfShojin",
+          "DA_VoidStaff"
+        ]
+      }
+    ],
+    "heroId": "918060",
+    "ext": "",
+    "jccCode": "【阵容码】#黑暗仪式伊莉丝#MjIwMDAyMDU0MTU1NzUwMDAxNzkwMDQ4NTgxMTQ4",
+    "tftCode": "024304033fa3fd4204184283f6000000TFTSet18",
+    "tier": "S",
+    "strategyId": 16294,
+    "score": 500.0,
+    "playRate": 0.23,
+    "won": 27.1,
+    "top4": 63.4,
+    "place": 3.7285
+  },
+  {
+    "id": 16265,
+    "title": "峡谷野怪苍蓝哨戒",
+    "titleApi": [
+      "DA_Riftbeast18",
+      "DA_18_Sentry"
+    ],
+    "difficulty": 1,
+    "tags": [
+      "6/7级追三星"
+    ],
+    "heros": [
+      {
+        "id": "918993",
+        "stars": 3,
+        "key": "DA_Krug18",
+        "tftEquips": [
+          "DA_GargoyleStoneplate",
+          "DA_SpiritVisage",
+          "DA_WarmogsArmor"
+        ]
+      },
+      {
+        "id": "918044",
+        "key": "DA_Taric18"
+      },
+      {
+        "id": "918997",
+        "key": "DA_Sentinel18",
+        "tftEquips": [
+          "DA_ProtectorsVow"
+        ]
+      },
+      {
+        "id": "918150",
+        "key": "DA_18_GnarSmall"
+      },
+      {
+        "id": "918994",
+        "key": "DA_Scuttlecrab18"
+      },
+      {
+        "id": "918998",
+        "key": "DA_18_ElderDragon",
+        "tftEquips": [
+          "DA_Deathblade",
+          "DA_InfinityEdge",
+          "DA_LastWhisper"
+        ]
+      },
+      {
+        "id": "918989",
+        "stars": 3,
+        "key": "DA_18_Sentry",
+        "tftEquips": [
+          "DA_ArchangelsStaff",
+          "DA_ArchangelsStaff",
+          "DA_ArchangelsStaff"
+        ]
+      },
+      {
+        "id": "918990",
+        "key": "DA_Cinderling18"
+      }
+    ],
+    "heroId": "918989",
+    "ext": "",
+    "jccCode": "【阵容码】##MjIwMDQ2MDExMzg1MDcxMjUxNzg4MDIzNDY5ODg4",
+    "tftCode": "0240f4304284014263fc4293f7000000TFTSet18",
+    "tier": "S",
+    "strategyId": 16265,
+    "score": 499.0,
+    "playRate": 1.22,
+    "won": 13.8,
+    "top4": 55.4,
+    "place": 4.163
+  },
+  {
+    "id": 16288,
+    "title": "主宰婕拉",
+    "titleApi": [
+      "DA_18_Zyra",
+      "DA_Juggernaut18"
+    ],
+    "difficulty": 2,
+    "tags": [
+      "速升8级"
+    ],
+    "heros": [
+      {
+        "id": "918083",
+        "key": "DA_18_Yorick"
+      },
+      {
+        "id": "918254",
+        "key": "DA_Vi18"
+      },
+      {
+        "id": "918497",
+        "key": "DA_18_Rakan"
+      },
+      {
+        "id": "918113",
+        "key": "DA_18_Sejuani"
+      },
+      {
+        "id": "918057",
+        "key": "DA_18_Maokai"
+      },
+      {
+        "id": "918032",
+        "key": "DA_Amumu18",
+        "tftEquips": [
+          "DA_GargoyleStoneplate",
+          "DA_GargoyleStoneplate",
+          "DA_WarmogsArmor"
+        ]
+      },
+      {
+        "id": "918085",
+        "key": "DA_18_Kennen"
+      },
+      {
+        "id": "918076",
+        "key": "DA_Nidalee18_AP",
+        "tftEquips": [
+          "DA_ArchangelsStaff",
+          "DA_GuinsoosRageblade",
+          "DA_JeweledGauntlet"
+        ]
+      },
+      {
+        "id": "918143",
+        "key": "DA_18_Zyra",
+        "tftEquips": [
+          "DA_ArchangelsStaff",
+          "DA_SpearOfShojin",
+          "DA_VoidStaff"
+        ]
+      }
+    ],
+    "heroId": "918143",
+    "ext": "",
+    "jccCode": "【阵容码】#主宰婕拉#MjIwMDU3MDIyODcwMzc4MjQxNzg5NjU3MzkxMTIy",
+    "tftCode": "0243a4374204274153ed40b41b43c000TFTSet18",
+    "tier": "S",
+    "strategyId": 16288,
+    "score": 498.0,
+    "playRate": 0.88,
+    "won": 10.1,
+    "top4": 47.5,
+    "place": 4.6243
+  },
+  {
+    "id": 16242,
+    "title": "远古巨龙拉露恩95",
+    "titleApi": [
+      "DA_18_ElderDragon",
+      "DA_18_Alune"
+    ],
+    "difficulty": 3,
+    "tags": [
+      "速升8级"
+    ],
+    "heros": [
+      {
+        "id": "918997",
+        "key": "DA_Sentinel18",
+        "tftEquips": [
+          "DA_GargoyleStoneplate",
+          "DA_ProtectorsVow",
+          "DA_WarmogsArmor"
+        ]
+      },
+      {
+        "id": "918044",
+        "key": "DA_Taric18"
+      },
+      {
+        "id": "918120",
+        "key": "DA_18_Hecarim"
+      },
+      {
+        "id": "918131",
+        "key": "DA_18_Diana"
+      },
+      {
+        "id": "918012",
+        "key": "DA_18_Alistar"
+      },
+      {
+        "id": "918150",
+        "key": "DA_18_GnarSmall"
+      },
+      {
+        "id": "918955",
+        "key": "DA_18_Alune",
+        "tftEquips": [
+          "DA_ArchangelsStaff",
+          "DA_JeweledGauntlet",
+          "DA_SpearOfShojin"
+        ]
+      },
+      {
+        "id": "918998",
+        "key": "DA_18_ElderDragon",
+        "tftEquips": [
+          "DA_Deathblade",
+          "DA_InfinityEdge",
+          "DA_LastWhisper"
+        ]
+      }
+    ],
+    "heroId": "918998",
+    "ext": "",
+    "jccCode": "【阵容码】#重装95#MjIwMDU3MDIyODcwMzc4MjQxNzg5MDQwMTc4Nzc1",
+    "tftCode": "024284304033fa3eb4013ec3fc000000TFTSet18",
+    "tier": "S",
+    "strategyId": 16242,
+    "score": 497.0,
+    "playRate": 0.15,
+    "won": 20.4,
+    "top4": 56.8,
+    "place": 4.1097
+  },
+  {
+    "id": 16312,
+    "title": "四狂战狼人",
+    "titleApi": [
+      "DA_18_Slayer",
+      "DA_18_Warwick"
+    ],
+    "difficulty": 1,
+    "tags": [
+      "6级追三星"
+    ],
+    "heros": [
+      {
+        "id": "918019",
+        "stars": 3,
+        "key": "DA_18_Warwick",
+        "tftEquips": [
+          "DA_HandOfJustice",
+          "DA_InfinityEdge",
+          "DA_Quicksilver"
+        ]
+      },
+      {
+        "id": "918060",
+        "stars": 3,
+        "key": "DA_18_Elise",
+        "tftEquips": [
+          "DA_18_EmblemSlayer",
+          "DA_GuinsoosRageblade",
+          "DA_TitansResolve"
+        ]
+      },
+      {
+        "id": "918121",
+        "key": "DA_18_KhaZix",
+        "tftEquips": [
+          "DA_EdgeOfNight",
+          "DA_HandOfJustice",
+          "DA_RabadonsDeathcap"
+        ]
+      },
+      {
+        "id": "918131",
+        "key": "DA_18_Diana"
+      },
+      {
+        "id": "918992",
+        "stars": 3,
+        "key": "DA_Murkwolf18"
+      },
+      {
+        "id": "918268",
+        "key": "DA_18_Azir"
+      },
+      {
+        "id": "918016",
+        "key": "DA_18_Soraka"
+      }
+    ],
+    "heroId": "918019",
+    "ext": "",
+    "jccCode": "【阵容码】#献祭流3狼#MTEwMTYwODY4MzkxMDI4NTExNzkwNjc5ODA3Mzcz",
+    "tftCode": "024383fd40c3fa4193f142e000000000TFTSet18",
+    "tier": "A",
+    "strategyId": 16312,
+    "score": 396.0,
+    "playRate": 0.2,
+    "won": 11.5,
+    "top4": 68.2,
+    "place": 3.6747
+  },
+  {
+    "id": 16314,
+    "title": "峡谷野怪峰喙鸟",
+    "titleApi": [
+      "DA_Riftbeast18",
+      "DA_CrimsonRaptor18"
+    ],
+    "difficulty": 1,
+    "tags": [
+      "6/7级追三星"
+    ],
+    "heros": [
+      {
+        "id": "918993",
+        "stars": 3,
+        "key": "DA_Krug18",
+        "tftEquips": [
+          "DA_GargoyleStoneplate",
+          "DA_SpiritVisage",
+          "DA_WarmogsArmor"
+        ]
+      },
+      {
+        "id": "918994",
+        "key": "DA_Scuttlecrab18"
+      },
+      {
+        "id": "918150",
+        "key": "DA_18_GnarSmall"
+      },
+      {
+        "id": "918044",
+        "key": "DA_Taric18"
+      },
+      {
+        "id": "918997",
+        "key": "DA_Sentinel18",
+        "tftEquips": [
+          "DA_ProtectorsVow"
+        ]
+      },
+      {
+        "id": "918989",
+        "stars": 3,
+        "key": "DA_18_Sentry",
+        "tftEquips": [
+          "DA_ArchangelsStaff"
+        ]
+      },
+      {
+        "id": "918991",
+        "key": "DA_Gromp18_AP"
+      },
+      {
+        "id": "918990",
+        "key": "DA_Cinderling18"
+      },
+      {
+        "id": "918995",
+        "stars": 3,
+        "key": "DA_CrimsonRaptor18",
+        "tftEquips": [
+          "DA_GuinsoosRageblade",
+          "DA_InfinityEdge",
+          "DA_KrakensFury"
+        ]
+      }
+    ],
+    "heroId": "918995",
+    "ext": "",
+    "jccCode": "【阵容码】#7峡谷野怪#MjIwMDIzMzI2NTczMjQ3MjQxNzkxMTc4NDM2MDMx",
+    "tftCode": "0240f4264014304284294023f7422000TFTSet18",
+    "tier": "A",
+    "strategyId": 16314,
+    "score": 395.0,
+    "playRate": 0.97,
+    "won": 14.7,
+    "top4": 59.1,
+    "place": 3.985
+  },
+  {
+    "id": 16270,
+    "title": "野兽之灵希维尔",
+    "titleApi": [
+      "DA_Nidalee18_AP",
+      "DA_Primal18"
+    ],
+    "difficulty": 2,
+    "tags": [
+      "速升8级"
+    ],
+    "heros": [
+      {
+        "id": "918054",
+        "key": "DA_18_Malphite",
+        "tftEquips": [
+          "DA_GargoyleStoneplate",
+          "DA_GargoyleStoneplate",
+          "DA_WarmogsArmor"
+        ]
+      },
+      {
+        "id": "918993",
+        "key": "DA_Krug18"
+      },
+      {
+        "id": "918044",
+        "key": "DA_Taric18"
+      },
+      {
+        "id": "918997",
+        "key": "DA_Sentinel18",
+        "tftEquips": [
+          "DA_ProtectorsVow"
+        ]
+      },
+      {
+        "id": "918421",
+        "key": "DA_18_RekSai"
+      },
+      {
+        "id": "918076",
+        "key": "DA_Nidalee18_AP",
+        "tftEquips": [
+          "DA_GuinsoosRageblade",
+          "DA_JeweledGauntlet",
+          "DA_RabadonsDeathcap"
+        ]
+      },
+      {
+        "id": "918015",
+        "key": "DA_18_Sivir",
+        "tftEquips": [
+          "DA_InfinityEdge",
+          "DA_RedBuff",
+          "DA_SpearOfShojin"
+        ]
+      },
+      {
+        "id": "918096",
+        "key": "DA_KogMaw18_AD"
+      },
+      {
+        "id": "918990",
+        "key": "DA_Cinderling18"
+      }
+    ],
+    "heroId": "918015",
+    "ext": "",
+    "jccCode": "【阵容码】##MjIwMDQ2MDExMzg1MDcxMjUxNzg4NDE4MTY1ODY2",
+    "tftCode": "0241440f43042842341b42c40e3f7000TFTSet18",
+    "tier": "A",
+    "strategyId": 16270,
+    "score": 394.0,
+    "playRate": 0.01,
+    "won": 4.4,
+    "top4": 28.3,
+    "place": 5.5691
+  },
+  {
+    "id": 16234,
+    "title": "召唤师婕拉",
+    "titleApi": [
+      "DA_18_Zyra",
+      "DA_18_Summoner"
+    ],
+    "difficulty": 2,
+    "tags": [
+      "速升8级"
+    ],
+    "heros": [
+      {
+        "id": "918054",
+        "key": "DA_18_Malphite",
+        "tftEquips": [
+          "DA_GargoyleStoneplate",
+          "DA_GargoyleStoneplate",
+          "DA_WarmogsArmor"
+        ]
+      },
+      {
+        "id": "918085",
+        "key": "DA_18_Kennen"
+      },
+      {
+        "id": "918032",
+        "key": "DA_Amumu18"
+      },
+      {
+        "id": "918083",
+        "key": "DA_18_Yorick"
+      },
+      {
+        "id": "918009",
+        "key": "DA_Fiddlesticks18"
+      },
+      {
+        "id": "918016",
+        "key": "DA_18_Soraka"
+      },
+      {
+        "id": "918081",
+        "key": "DA_18_Ezreal"
+      },
+      {
+        "id": "918268",
+        "key": "DA_18_Azir",
+        "tftEquips": [
+          "DA_GuinsoosRageblade",
+          "DA_HextechGunblade",
+          "DA_RabadonsDeathcap"
+        ]
+      },
+      {
+        "id": "918143",
+        "key": "DA_18_Zyra",
+        "tftEquips": [
+          "DA_18_EmblemExecutioner",
+          "DA_SpearOfShojin",
+          "DA_VoidStaff"
+        ]
+      }
+    ],
+    "heroId": "918143",
+    "ext": "",
+    "jccCode": "【阵容码】##MjIwMDQ2MDExMzg1MDcxMjUxNzg3MjA5Nzk0ODE1",
+    "tftCode": "0241440b3ed43a40042e3ff3f143c000TFTSet18",
+    "tier": "A",
+    "strategyId": 16234,
+    "score": 393.0,
+    "playRate": 0.18,
+    "won": 10.2,
+    "top4": 42.8,
+    "place": 4.8832
+  },
+  {
+    "id": 16236,
+    "title": "重装战士厄斐琉斯",
+    "titleApi": [
+      "DA_18_Aphelios",
+      "DA_18_EmblemVanguard"
+    ],
+    "difficulty": 2,
+    "tags": [
+      "速升8级"
+    ],
+    "heros": [
+      {
+        "id": "918120",
+        "key": "DA_18_Hecarim",
+        "tftEquips": [
+          "DA_SunfireCape"
+        ]
+      },
+      {
+        "id": "918131",
+        "key": "DA_18_Diana"
+      },
+      {
+        "id": "918997",
+        "key": "DA_Sentinel18",
+        "tftEquips": [
+          "DA_GargoyleStoneplate",
+          "DA_ProtectorsVow",
+          "DA_WarmogsArmor"
+        ]
+      },
+      {
+        "id": "918044",
+        "key": "DA_Taric18"
+      },
+      {
+        "id": "918996",
+        "key": "DA_Brambleback18"
+      },
+      {
+        "id": "918995",
+        "key": "DA_CrimsonRaptor18",
+        "tftEquips": [
+          "DA_LastWhisper"
+        ]
+      },
+      {
+        "id": "918523",
+        "key": "DA_18_Aphelios",
+        "tftEquips": [
+          "DA_GuinsoosRageblade",
+          "DA_InfinityEdge",
+          "DA_KrakensFury"
+        ]
+      },
+      {
+        "id": "918143",
+        "key": "DA_18_Zyra"
+      }
+    ],
+    "heroId": "918523",
+    "ext": "",
+    "jccCode": "【阵容码】##MjIwMDQ2MDExMzg1MDcxMjUxNzg3MjIwNTUzNzk3",
+    "tftCode": "024033fa4284303f34223ef43c000000TFTSet18",
+    "tier": "A",
+    "strategyId": 16236,
+    "score": 392.0,
+    "playRate": 0.37,
+    "won": 9.5,
+    "top4": 48.3,
+    "place": 4.6213
+  },
+  {
+    "id": 16282,
+    "title": "远古巨龙艾希95",
+    "titleApi": [
+      "DA_18_ElderDragon",
+      "DA_18_Ashe"
+    ],
+    "difficulty": 3,
+    "tags": [
+      "速升8级"
+    ],
+    "heros": [
+      {
+        "id": "918044",
+        "key": "DA_Taric18"
+      },
+      {
+        "id": "918085",
+        "key": "DA_18_Kennen"
+      },
+      {
+        "id": "918997",
+        "key": "DA_Sentinel18",
+        "tftEquips": [
+          "DA_ProtectorsVow"
+        ]
+      },
+      {
+        "id": "918032",
+        "key": "DA_Amumu18",
+        "tftEquips": [
+          "DA_Crownguard",
+          "DA_GargoyleStoneplate",
+          "DA_WarmogsArmor"
+        ]
+      },
+      {
+        "id": "918254",
+        "key": "DA_Vi18"
+      },
+      {
+        "id": "918998",
+        "key": "DA_18_ElderDragon",
+        "tftEquips": [
+          "DA_18_EmblemHunter",
+          "DA_InfinityEdge",
+          "DA_LastWhisper"
+        ]
+      },
+      {
+        "id": "918015",
+        "key": "DA_18_Sivir"
+      },
+      {
+        "id": "918022",
+        "key": "DA_18_Ashe",
+        "tftEquips": [
+          "DA_18_EmblemInferno",
+          "DA_RedBuff",
+          "DA_SpearOfShojin"
+        ]
+      }
+    ],
+    "heroId": "918998",
+    "ext": "",
+    "jccCode": "【阵容码】#远古巨龙艾希 95#MjE5OTQ3MDM3OTM1MTI2OTMxNzg5MTkwMzAzNDk1",
+    "tftCode": "0243040b4283ed4373fc42c3f0000000TFTSet18",
+    "tier": "A",
+    "strategyId": 16282,
+    "score": 391.0,
+    "playRate": 0.11,
+    "won": 22.0,
+    "top4": 59.3,
+    "place": 3.9468
+  },
+  {
+    "id": 16278,
+    "title": "主宰凯特琳",
+    "titleApi": [
+      "DA_18_Caitlyn",
+      "DA_Juggernaut18"
+    ],
+    "difficulty": 1,
+    "tags": [
+      "6级追三星"
+    ],
+    "heros": [
+      {
+        "id": "918994",
+        "stars": 3,
+        "key": "DA_Scuttlecrab18",
+        "tftEquips": [
+          "DA_GargoyleStoneplate",
+          "DA_SpiritVisage",
+          "DA_WarmogsArmor"
+        ]
+      },
+      {
+        "id": "918254",
+        "key": "DA_Vi18",
+        "tftEquips": [
+          "DA_18_EmblemHunter"
+        ]
+      },
+      {
+        "id": "918113",
+        "stars": 3,
+        "key": "DA_18_Sejuani",
+        "tftEquips": [
+          "DA_GargoyleStoneplate",
+          "DA_SpiritVisage",
+          "DA_WarmogsArmor"
+        ]
+      },
+      {
+        "id": "918997",
+        "key": "DA_Sentinel18"
+      },
+      {
+        "id": "918497",
+        "key": "DA_18_Rakan"
+      },
+      {
+        "id": "918990",
+        "key": "DA_Cinderling18"
+      },
+      {
+        "id": "918022",
+        "key": "DA_18_Ashe"
+      },
+      {
+        "id": "918015",
+        "key": "DA_18_Sivir",
+        "tftEquips": [
+          "DA_InfinityEdge",
+          "DA_LastWhisper",
+          "DA_SpearOfShojin"
+        ]
+      },
+      {
+        "id": "918051",
+        "stars": 3,
+        "key": "DA_18_Caitlyn",
+        "tftEquips": [
+          "DA_Deathblade",
+          "DA_Deathblade",
+          "DA_GuinsoosRageblade"
+        ]
+      }
+    ],
+    "heroId": "918051",
+    "ext": "",
+    "jccCode": "【阵容码】#主宰女警#MjE5OTQ3MDM3OTM1MTI2OTMxNzg5MTkwNjcwMjMz",
+    "tftCode": "024264374274284203f73f042c3f4000TFTSet18",
+    "tier": "A",
+    "strategyId": 16278,
+    "score": 390.0,
+    "playRate": 0.14,
+    "won": 12.6,
+    "top4": 65.1,
+    "place": 3.8169
+  },
+  {
+    "id": 16291,
+    "title": "裁决卡兹克",
+    "titleApi": [
+      "DA_18_KhaZix",
+      "DA_18_EmblemExecutioner"
+    ],
+    "difficulty": 2,
+    "tags": [
+      "7/8级追三星"
+    ],
+    "heros": [
+      {
+        "id": "918516",
+        "key": "DA_18_Ornn"
+      },
+      {
+        "id": "918009",
+        "stars": 3,
+        "key": "DA_Fiddlesticks18"
+      },
+      {
+        "id": "918120",
+        "stars": 3,
+        "key": "DA_18_Hecarim",
+        "tftEquips": [
+          "DA_GargoyleStoneplate",
+          "DA_SpiritVisage",
+          "DA_WarmogsArmor"
+        ]
+      },
+      {
+        "id": "918131",
+        "key": "DA_18_Diana",
+        "tftEquips": [
+          "DA_18_EmblemExecutioner"
+        ]
+      },
+      {
+        "id": "918121",
+        "stars": 3,
+        "key": "DA_18_KhaZix",
+        "tftEquips": [
+          "DA_EdgeOfNight",
+          "DA_HandOfJustice",
+          "DA_RabadonsDeathcap"
+        ]
+      },
+      {
+        "id": "918081",
+        "key": "DA_18_Ezreal"
+      },
+      {
+        "id": "918523",
+        "key": "DA_18_Aphelios"
+      },
+      {
+        "id": "918268",
+        "key": "DA_18_Azir"
+      }
+    ],
+    "heroId": "918121",
+    "ext": "",
+    "jccCode": "【阵容码】#裁决螳螂#MjIwMDU3MDIyODcwMzc4MjQxNzg5NjU3Njk3MDUy",
+    "tftCode": "0241f4004033fa40c3ff3ef3f1000000TFTSet18",
+    "tier": "A",
+    "strategyId": 16291,
+    "score": 389.0,
+    "playRate": 0.24,
+    "won": 13.5,
+    "top4": 57.7,
+    "place": 4.1179
+  },
+  {
+    "id": 16241,
+    "title": "远古巨龙德莱文95",
+    "titleApi": [
+      "DA_18_ElderDragon",
+      "DA_Draven18"
+    ],
+    "difficulty": 3,
+    "tags": [
+      "速升8级"
+    ],
+    "heros": [
+      {
+        "id": "918057",
+        "key": "DA_18_Maokai"
+      },
+      {
+        "id": "918085",
+        "key": "DA_18_Kennen"
+      },
+      {
+        "id": "918997",
+        "key": "DA_Sentinel18",
+        "tftEquips": [
+          "DA_ProtectorsVow"
+        ]
+      },
+      {
+        "id": "918032",
+        "key": "DA_Amumu18"
+      },
+      {
+        "id": "918044",
+        "key": "DA_Taric18"
+      },
+      {
+        "id": "918998",
+        "key": "DA_18_ElderDragon",
+        "tftEquips": [
+          "DA_InfinityEdge",
+          "DA_LastWhisper",
+          "DA_SteraksGage"
+        ]
+      },
+      {
+        "id": "918427",
+        "key": "DA_18_Ivern",
+        "tftEquips": [
+          "DA_SpearOfShojin"
+        ]
+      },
+      {
+        "id": "918119",
+        "key": "DA_Draven18",
+        "tftEquips": [
+          "DA_GuinsoosRageblade",
+          "DA_InfinityEdge",
+          "DA_KrakensFury"
+        ]
+      }
+    ],
+    "heroId": "918998",
+    "ext": "",
+    "jccCode": "【阵容码】##MjIwMDQ2MDExMzg1MDcxMjUxNzg3MjA5ODcxNzQw",
+    "tftCode": "0241540b4283ed4303fc4043fb000000TFTSet18",
+    "tier": "A",
+    "strategyId": 16241,
+    "score": 388.0,
+    "playRate": 0.16,
+    "won": 26.2,
+    "top4": 56.5,
+    "place": 4.0184
+  },
+  {
+    "id": 16277,
+    "title": "魔岩巨兽厄斐琉斯",
+    "titleApi": [
+      "DA_18_Malphite",
+      "DA_18_Aphelios"
+    ],
+    "difficulty": 2,
+    "tags": [
+      "速升8级"
+    ],
+    "heros": [
+      {
+        "id": "918054",
+        "key": "DA_18_Malphite",
+        "tftEquips": [
+          "DA_Crownguard",
+          "DA_GargoyleStoneplate",
+          "DA_WarmogsArmor"
+        ]
+      },
+      {
+        "id": "918997",
+        "key": "DA_Sentinel18",
+        "tftEquips": [
+          "DA_ProtectorsVow"
+        ]
+      },
+      {
+        "id": "918131",
+        "key": "DA_18_Diana"
+      },
+      {
+        "id": "918421",
+        "key": "DA_18_RekSai"
+      },
+      {
+        "id": "918993",
+        "key": "DA_Krug18"
+      },
+      {
+        "id": "918099",
+        "key": "DA_Lux18_Base"
+      },
+      {
+        "id": "918995",
+        "key": "DA_CrimsonRaptor18",
+        "tftEquips": [
+          "DA_LastWhisper"
+        ]
+      },
+      {
+        "id": "918523",
+        "key": "DA_18_Aphelios",
+        "tftEquips": [
+          "DA_GuinsoosRageblade",
+          "DA_InfinityEdge",
+          "DA_KrakensFury"
+        ]
+      },
+      {
+        "id": "918143",
+        "key": "DA_18_Zyra"
+      }
+    ],
+    "heroId": "918523",
+    "ext": "",
+    "jccCode": "【阵容码】#魔岩巨兽月男#MjE5OTQ3MDM3OTM1MTI2OTMxNzg5MTkwNzgzMzcw",
+    "tftCode": "024144283fa42340f4054223ef43c000TFTSet18",
+    "tier": "B",
+    "strategyId": 16277,
+    "score": 287.0,
+    "playRate": 0.59,
+    "won": 7.5,
+    "top4": 45.2,
+    "place": 4.7921
+  },
+  {
+    "id": 16244,
+    "title": "地狱火希维尔",
+    "titleApi": [
+      "DA_18_Sivir",
+      "DA_18_EmblemInferno"
+    ],
+    "difficulty": 3,
+    "tags": [
+      "速升8级"
+    ],
+    "heros": [
+      {
+        "id": "918032",
+        "key": "DA_Amumu18",
+        "tftEquips": [
+          "DA_Crownguard",
+          "DA_GargoyleStoneplate",
+          "DA_WarmogsArmor"
+        ]
+      },
+      {
+        "id": "918997",
+        "key": "DA_Sentinel18"
+      },
+      {
+        "id": "918254",
+        "key": "DA_Vi18"
+      },
+      {
+        "id": "918044",
+        "key": "DA_Taric18"
+      },
+      {
+        "id": "918085",
+        "key": "DA_18_Kennen"
+      },
+      {
+        "id": "918022",
+        "key": "DA_18_Ashe",
+        "tftEquips": [
+          "DA_18_EmblemInferno",
+          "DA_RedBuff",
+          "DA_SpearOfShojin"
+        ]
+      },
+      {
+        "id": "918015",
+        "key": "DA_18_Sivir",
+        "tftEquips": [
+          "DA_18_EmblemInferno",
+          "DA_InfinityEdge",
+          "DA_SpearOfShojin"
+        ]
+      },
+      {
+        "id": "918110",
+        "key": "DA_18_Varus"
+      },
+      {
+        "id": "918099",
+        "key": "DA_Lux18_Base"
+      }
+    ],
+    "heroId": "918015",
+    "ext": "",
+    "jccCode": "【阵容码】#地狱火艾希#MjE5OTQ3MDM3OTM1MTI2OTMxNzg5MTkwMTY1NzI1",
+    "tftCode": "023ed42843743040b3f042c435405000TFTSet18",
+    "tier": "B",
+    "strategyId": 16244,
+    "score": 286.0,
+    "playRate": 0.15,
+    "won": 15.5,
+    "top4": 48.1,
+    "place": 4.5345
+  },
+  {
+    "id": 16266,
+    "title": "神谕阿狸",
+    "titleApi": [
+      "DA_18_Invoker",
+      "DA_18_Ahri"
+    ],
+    "difficulty": 2,
+    "tags": [
+      "速升8级"
+    ],
+    "heros": [
+      {
+        "id": "918993",
+        "key": "DA_Krug18"
+      },
+      {
+        "id": "918044",
+        "key": "DA_Taric18"
+      },
+      {
+        "id": "918997",
+        "key": "DA_Sentinel18",
+        "tftEquips": [
+          "DA_ProtectorsVow"
+        ]
+      },
+      {
+        "id": "918875",
+        "key": "DA_18_Sett",
+        "tftEquips": [
+          "DA_GargoyleStoneplate",
+          "DA_GargoyleStoneplate",
+          "DA_WarmogsArmor"
+        ]
+      },
+      {
+        "id": "918025",
+        "key": "DA_18_Morgana",
+        "tftEquips": [
+          "DA_JeweledGauntlet",
+          "DA_Morellonomicon",
+          "DA_VoidStaff"
+        ]
+      },
+      {
+        "id": "918043",
+        "key": "DA_Karma18"
+      },
+      {
+        "id": "918989",
+        "key": "DA_18_Sentry"
+      },
+      {
+        "id": "918096",
+        "key": "DA_KogMaw18_AD"
+      },
+      {
+        "id": "918103",
+        "key": "DA_18_Ahri",
+        "tftEquips": [
+          "DA_18_EmblemInvoker",
+          "DA_JeweledGauntlet",
+          "DA_RabadonsDeathcap"
+        ]
+      }
+    ],
+    "heroId": "918103",
+    "ext": "",
+    "jccCode": "【阵容码】##MjIwMDQ2MDExMzg1MDcxMjUxNzg4MDY3NjQ1OTAz",
+    "tftCode": "0240f43042842a41840742940e3e9000TFTSet18",
+    "tier": "B",
+    "strategyId": 16266,
+    "score": 285.0,
+    "playRate": 0.06,
+    "won": 12.0,
+    "top4": 42.4,
+    "place": 4.8216
+  },
+  {
+    "id": 16222,
+    "title": "森林莲华凯尔",
+    "titleApi": [
+      "DA_18_Kayle",
+      "DA_18_Solar"
+    ],
+    "difficulty": 1,
+    "tags": [
+      "4/5级追三星"
+    ],
+    "heros": [
+      {
+        "id": "918113",
+        "stars": 3,
+        "key": "DA_18_Sejuani",
+        "tftEquips": [
+          "DA_GargoyleStoneplate",
+          "DA_SpiritVisage",
+          "DA_WarmogsArmor"
+        ]
+      },
+      {
+        "id": "918516",
+        "stars": 3,
+        "key": "DA_18_Ornn",
+        "tftEquips": [
+          "DA_GargoyleStoneplate",
+          "DA_SpiritVisage",
+          "DA_WarmogsArmor"
+        ]
+      },
+      {
+        "id": "918497",
+        "stars": 3,
+        "key": "DA_18_Rakan"
+      },
+      {
+        "id": "918089",
+        "stars": 3,
+        "key": "DA_18_Leona",
+        "tftEquips": [
+          "DA_SunfireCape"
+        ]
+      },
+      {
+        "id": "918010",
+        "stars": 3,
+        "key": "DA_18_Kayle",
+        "tftEquips": [
+          "DA_GiantSlayer",
+          "DA_GuinsoosRageblade",
+          "DA_JeweledGauntlet"
+        ]
+      },
+      {
+        "id": "918498",
+        "stars": 3,
+        "key": "DA_18_Xayah"
+      },
+      {
+        "id": "918007",
+        "stars": 3,
+        "key": "DA_18_LeBlanc",
+        "tftEquips": [
+          "DA_JeweledGauntlet",
+          "DA_NashorsTooth",
+          "DA_SpearOfShojin"
+        ]
+      }
+    ],
+    "heroId": "918010",
+    "ext": "",
+    "jccCode": "【阵容码】##MjIwMDQ2MDExMzg1MDcxMjUxNzg3MjEzMTg0OTg0",
+    "tftCode": "0242741f42041140a439410000000000TFTSet18",
+    "tier": "B",
+    "strategyId": 16222,
+    "score": 284.0,
+    "playRate": 0.37,
+    "won": 11.7,
+    "top4": 45.7,
+    "place": 4.7678
+  },
+  {
+    "id": 16276,
+    "title": "重装战士卡兹克",
+    "titleApi": [
+      "DA_18_Vanguard",
+      "DA_18_KhaZix"
+    ],
+    "difficulty": 2,
+    "tags": [
+      "7/8级追三星"
+    ],
+    "heros": [
+      {
+        "id": "918044",
+        "key": "DA_Taric18"
+      },
+      {
+        "id": "918997",
+        "key": "DA_Sentinel18",
+        "tftEquips": [
+          "DA_ProtectorsVow"
+        ]
+      },
+      {
+        "id": "918120",
+        "stars": 3,
+        "key": "DA_18_Hecarim",
+        "tftEquips": [
+          "DA_GargoyleStoneplate",
+          "DA_GargoyleStoneplate",
+          "DA_WarmogsArmor"
+        ]
+      },
+      {
+        "id": "918131",
+        "stars": 3,
+        "key": "DA_18_Diana",
+        "tftEquips": [
+          "DA_JeweledGauntlet",
+          "DA_NashorsTooth",
+          "DA_Quicksilver"
+        ]
+      },
+      {
+        "id": "918121",
+        "stars": 3,
+        "key": "DA_18_KhaZix",
+        "tftEquips": [
+          "DA_EdgeOfNight",
+          "DA_HandOfJustice",
+          "DA_JeweledGauntlet"
+        ]
+      },
+      {
+        "id": "918955",
+        "key": "DA_18_Alune"
+      },
+      {
+        "id": "918096",
+        "key": "DA_KogMaw18_AD"
+      },
+      {
+        "id": "918523",
+        "key": "DA_18_Aphelios"
+      }
+    ],
+    "heroId": "918121",
+    "ext": "",
+    "jccCode": "【阵容码】#重装皎月#MjE5OTQ3MDM3OTM1MTI2OTMxNzg5MTkxMjQzMTMy",
+    "tftCode": "024304284033fa40c3ec40e3ef000000TFTSet18",
+    "tier": "B",
+    "strategyId": 16276,
+    "score": 283.0,
+    "playRate": 0.02,
+    "won": 13.0,
+    "top4": 56.4,
+    "place": 4.2214
+  },
+  {
+    "id": 16261,
+    "title": "重装战士凯特琳",
+    "titleApi": [
+      "DA_18_Caitlyn",
+      "DA_18_Vanguard"
+    ],
+    "difficulty": 1,
+    "tags": [
+      "6级追三星"
+    ],
+    "heros": [
+      {
+        "id": "918044",
+        "key": "DA_Taric18"
+      },
+      {
+        "id": "918997",
+        "key": "DA_Sentinel18",
+        "tftEquips": [
+          "DA_ProtectorsVow"
+        ]
+      },
+      {
+        "id": "918497",
+        "key": "DA_18_Rakan"
+      },
+      {
+        "id": "918254",
+        "key": "DA_Vi18",
+        "tftEquips": [
+          "DA_18_EmblemVanguard"
+        ]
+      },
+      {
+        "id": "918060",
+        "stars": 3,
+        "key": "DA_18_Elise",
+        "tftEquips": [
+          "DA_GargoyleStoneplate",
+          "DA_GuinsoosRageblade",
+          "DA_TitansResolve"
+        ]
+      },
+      {
+        "id": "918022",
+        "key": "DA_18_Ashe"
+      },
+      {
+        "id": "918018",
+        "key": "DA_18_Tristana"
+      },
+      {
+        "id": "918015",
+        "key": "DA_18_Sivir",
+        "tftEquips": [
+          "DA_InfinityEdge",
+          "DA_LastWhisper",
+          "DA_SpearOfShojin"
+        ]
+      },
+      {
+        "id": "918051",
+        "stars": 3,
+        "key": "DA_18_Caitlyn",
+        "tftEquips": [
+          "DA_Deathblade",
+          "DA_Deathblade",
+          "DA_GuinsoosRageblade"
+        ]
+      }
+    ],
+    "heroId": "918051",
+    "ext": "",
+    "jccCode": "【阵容码】##MjIwMDQ2MDExMzg1MDcxMjUxNzg3NDY0ODkwNTM5",
+    "tftCode": "024304284204373fd3f043342c3f4000TFTSet18",
+    "tier": "B",
+    "strategyId": 16261,
+    "score": 282.0,
+    "playRate": 0.07,
+    "won": 8.5,
+    "top4": 50.6,
+    "place": 4.5657
+  },
+  {
+    "id": 16313,
+    "title": "沙皇龙龟",
+    "titleApi": [
+      "DA_18_Azir",
+      "DA_18_Rammus"
+    ],
+    "difficulty": 2,
+    "tags": [
+      "7/8级追三星"
+    ],
+    "heros": [
+      {
+        "id": "918033",
+        "stars": 3,
+        "key": "DA_18_Rammus",
+        "tftEquips": [
+          "DA_GargoyleStoneplate",
+          "DA_GargoyleStoneplate",
+          "DA_WarmogsArmor"
+        ]
+      },
+      {
+        "id": "918017",
+        "key": "DA_18_Teemo"
+      },
+      {
+        "id": "918009",
+        "stars": 3,
+        "key": "DA_Fiddlesticks18",
+        "tftEquips": [
+          "DA_SunfireCape"
+        ]
+      },
+      {
+        "id": "918045",
+        "key": "DA_18_Veigar"
+      },
+      {
+        "id": "918143",
+        "key": "DA_18_Zyra",
+        "tftEquips": [
+          "DA_Morellonomicon",
+          "DA_SpearOfShojin",
+          "DA_VoidStaff"
+        ]
+      },
+      {
+        "id": "918016",
+        "key": "DA_18_Soraka"
+      },
+      {
+        "id": "918268",
+        "stars": 3,
+        "key": "DA_18_Azir",
+        "tftEquips": [
+          "DA_GuinsoosRageblade",
+          "DA_HextechGunblade",
+          "DA_RabadonsDeathcap"
+        ]
+      }
+    ],
+    "heroId": "918268",
+    "ext": "",
+    "jccCode": "【阵容码】#沙皇龙龟#MTEwMTYwODY4MzkxMDI4NTExNzkwNjgwOTkzOTcw",
+    "tftCode": "0242143140043643c42e3f1000000000TFTSet18",
+    "tier": "B",
+    "strategyId": 16313,
+    "score": 281.0,
+    "playRate": 0.17,
+    "won": 14.6,
+    "top4": 62.9,
+    "place": 3.8408
+  },
+  {
+    "id": 16292,
+    "title": "神谕克格莫",
+    "titleApi": [
+      "DA_KogMaw18_AD",
+      "DA_18_Invoker"
+    ],
+    "difficulty": 2,
+    "tags": [
+      "7/8级追三星"
+    ],
+    "heros": [
+      {
+        "id": "918997",
+        "key": "DA_Sentinel18",
+        "tftEquips": [
+          "DA_ProtectorsVow"
+        ]
+      },
+      {
+        "id": "918993",
+        "key": "DA_Krug18"
+      },
+      {
+        "id": "918875",
+        "key": "DA_18_Sett",
+        "tftEquips": [
+          "DA_GargoyleStoneplate",
+          "DA_GargoyleStoneplate",
+          "DA_WarmogsArmor"
+        ]
+      },
+      {
+        "id": "918120",
+        "key": "DA_18_Hecarim"
+      },
+      {
+        "id": "918025",
+        "key": "DA_18_Morgana",
+        "tftEquips": [
+          "DA_JeweledGauntlet",
+          "DA_Morellonomicon",
+          "DA_VoidStaff"
+        ]
+      },
+      {
+        "id": "918096",
+        "key": "DA_KogMaw18_AD"
+      },
+      {
+        "id": "918017",
+        "key": "DA_18_Teemo"
+      },
+      {
+        "id": "918989",
+        "stars": 3,
+        "key": "DA_18_Sentry"
+      }
+    ],
+    "heroId": "918096",
+    "ext": "",
+    "jccCode": "【阵容码】#神谕克格莫#MjIwMDAyMDU0MTU1NzUwMDAxNzg5ODg0NDQxOTMy",
+    "tftCode": "0242840f42a40341840e431429000000TFTSet18",
+    "tier": "C",
+    "strategyId": 16292,
+    "score": 180.0,
+    "playRate": 0.07,
+    "won": 12.3,
+    "top4": 48.0,
+    "place": 4.5732
+  },
+  {
+    "id": 16279,
+    "title": "永恒之森厄斐琉斯",
+    "titleApi": [
+      "DA_18_Aphelios",
+      "DA_18_Elderwood"
+    ],
+    "difficulty": 2,
+    "tags": [
+      "速升8级"
+    ],
+    "heros": [
+      {
+        "id": "918516",
+        "key": "DA_18_Ornn"
+      },
+      {
+        "id": "918012",
+        "key": "DA_18_Alistar"
+      },
+      {
+        "id": "918876",
+        "key": "DA_18_Lillia",
+        "tftEquips": [
+          "DA_18_EmblemElderwood",
+          "DA_Evenshroud",
+          "DA_ProtectorsVow"
+        ]
+      },
+      {
+        "id": "918150",
+        "key": "DA_18_GnarSmall"
+      },
+      {
+        "id": "918498",
+        "key": "DA_18_Xayah"
+      },
+      {
+        "id": "918081",
+        "key": "DA_18_Ezreal",
+        "tftEquips": [
+          "DA_InfinityEdge",
+          "DA_LastWhisper",
+          "DA_SpearOfShojin"
+        ]
+      },
+      {
+        "id": "918523",
+        "key": "DA_18_Aphelios",
+        "tftEquips": [
+          "DA_GuinsoosRageblade",
+          "DA_InfinityEdge",
+          "DA_KrakensFury"
+        ]
+      },
+      {
+        "id": "918955",
+        "key": "DA_18_Alune"
+      }
+    ],
+    "heroId": "918523",
+    "ext": "",
+    "jccCode": "【阵容码】#永森月男#MjE5OTQ3MDM3OTM1MTI2OTMxNzg5MTkwNTEyMDQ5",
+    "tftCode": "0241f3eb4124014393ff3ef3ec000000TFTSet18",
+    "tier": "C",
+    "strategyId": 16279,
+    "score": 179.0,
+    "playRate": 0.19,
+    "won": 14.2,
+    "top4": 50.8,
+    "place": 4.4284
+  },
+  {
+    "id": 16264,
+    "title": "法师卡兹克",
+    "titleApi": [
+      null
+    ],
+    "difficulty": 2,
+    "tags": [
+      "7/8级追三星"
+    ],
+    "heros": [
+      {
+        "id": "918033",
+        "key": "DA_18_Rammus",
+        "tftEquips": [
+          "DA_GargoyleStoneplate",
+          "DA_SpiritVisage",
+          "DA_WarmogsArmor"
+        ]
+      },
+      {
+        "id": "918103",
+        "key": "DA_18_Ahri"
+      },
+      {
+        "id": "918009",
+        "stars": 3,
+        "key": "DA_Fiddlesticks18"
+      },
+      {
+        "id": "918098",
+        "key": "DA_18_Shen"
+      },
+      {
+        "id": "918016",
+        "key": "DA_18_Soraka",
+        "tftEquips": [
+          "DA_18_EmblemSpellweaver"
+        ]
+      },
+      {
+        "id": "918876",
+        "key": "DA_18_Lillia"
+      },
+      {
+        "id": "918121",
+        "stars": 3,
+        "key": "DA_18_KhaZix",
+        "tftEquips": [
+          "DA_EdgeOfNight",
+          "DA_HandOfJustice",
+          "DA_RabadonsDeathcap"
+        ]
+      },
+      {
+        "id": "918069",
+        "stars": 3,
+        "key": "DA_18_Cassiopeia",
+        "tftEquips": [
+          "DA_Morellonomicon",
+          "DA_SpearOfShojin",
+          "DA_VoidStaff"
+        ]
+      }
+    ],
+    "heroId": "918121",
+    "ext": "",
+    "jccCode": "【阵容码】#法师蛇女#MjE5OTQ3MDM3OTM1MTI2OTMxNzg5MTkwOTExOTMy",
+    "tftCode": "024213e940042b42e41240c3f6000000TFTSet18",
+    "tier": "C",
+    "strategyId": 16264,
+    "score": 178.0,
+    "playRate": 0.01,
+    "won": 6.7,
+    "top4": 44.0,
+    "place": 4.8673
+  },
+  {
+    "id": 16271,
+    "title": "迅捷射手厄斐琉斯",
+    "titleApi": [
+      "DA_18_Aphelios",
+      "DA_18_EmblemRapidfire"
+    ],
+    "difficulty": 2,
+    "tags": [
+      "速升8级"
+    ],
+    "heros": [
+      {
+        "id": "918032",
+        "key": "DA_Amumu18",
+        "tftEquips": [
+          "DA_Crownguard",
+          "DA_GargoyleStoneplate",
+          "DA_WarmogsArmor"
+        ]
+      },
+      {
+        "id": "918497",
+        "key": "DA_18_Rakan"
+      },
+      {
+        "id": "918997",
+        "key": "DA_Sentinel18",
+        "tftEquips": [
+          "DA_GargoyleStoneplate",
+          "DA_ProtectorsVow",
+          "DA_WarmogsArmor"
+        ]
+      },
+      {
+        "id": "918996",
+        "key": "DA_Brambleback18",
+        "tftEquips": [
+          "DA_18_EmblemRapidfire",
+          "DA_EdgeOfNight",
+          "DA_InfinityEdge"
+        ]
+      },
+      {
+        "id": "918110",
+        "key": "DA_18_Varus"
+      },
+      {
+        "id": "918498",
+        "key": "DA_18_Xayah"
+      },
+      {
+        "id": "918995",
+        "key": "DA_CrimsonRaptor18",
+        "tftEquips": [
+          "DA_LastWhisper"
+        ]
+      },
+      {
+        "id": "918523",
+        "key": "DA_18_Aphelios",
+        "tftEquips": [
+          "DA_Deathblade",
+          "DA_InfinityEdge",
+          "DA_KrakensFury"
+        ]
+      }
+    ],
+    "heroId": "918523",
+    "ext": "",
+    "jccCode": "【阵容码】#5训射efls#MjIwMDU3MDIyODcwMzc4MjQxNzg5MDM5NzM3Mjg3",
+    "tftCode": "023ed4204283f34354394223ef000000TFTSet18",
+    "tier": "C",
+    "strategyId": 16271,
+    "score": 177.0,
+    "playRate": 0.03,
+    "won": 8.6,
+    "top4": 53.9,
+    "place": 4.4218
+  },
+  {
+    "id": 16235,
+    "title": "灵魂莲华阿狸",
+    "titleApi": [
+      "DA_18_Ahri",
+      "DA_18_Blossom"
+    ],
+    "difficulty": 2,
+    "tags": [
+      "速升8级"
+    ],
+    "heros": [
+      {
+        "id": "918875",
+        "key": "DA_18_Sett",
+        "tftEquips": [
+          "DA_GargoyleStoneplate",
+          "DA_GargoyleStoneplate",
+          "DA_WarmogsArmor"
+        ]
+      },
+      {
+        "id": "918254",
+        "key": "DA_Vi18"
+      },
+      {
+        "id": "918150",
+        "key": "DA_18_GnarSmall",
+        "tftEquips": [
+          "DA_18_EmblemBlossom"
+        ]
+      },
+      {
+        "id": "918083",
+        "key": "DA_18_Yorick"
+      },
+      {
+        "id": "918043",
+        "key": "DA_Karma18"
+      },
+      {
+        "id": "918022",
+        "key": "DA_18_Ashe"
+      },
+      {
+        "id": "918103",
+        "key": "DA_18_Ahri",
+        "tftEquips": [
+          "DA_JeweledGauntlet",
+          "DA_NashorsTooth",
+          "DA_SpearOfShojin"
+        ]
+      },
+      {
+        "id": "918015",
+        "key": "DA_18_Sivir",
+        "tftEquips": [
+          "DA_18_EmblemBlossom",
+          "DA_InfinityEdge",
+          "DA_SpearOfShojin"
+        ]
+      },
+      {
+        "id": "918099",
+        "key": "DA_Lux18_Base"
+      }
+    ],
+    "heroId": "918103",
+    "ext": "",
+    "jccCode": "【阵容码】##MjIwMDQ2MDExMzg1MDcxMjUxNzg3MjIyMzQ2NjYz",
+    "tftCode": "0242a43740143a4073f03e942c405000TFTSet18",
+    "tier": "C",
+    "strategyId": 16235,
+    "score": 176.0,
+    "playRate": 0.15,
+    "won": 17.1,
+    "top4": 42.7,
+    "place": 4.7598
+  },
+  {
+    "id": 16258,
+    "title": "婕拉阿狸",
+    "titleApi": [
+      "DA_18_Ahri",
+      "DA_18_Zyra"
+    ],
+    "difficulty": 2,
+    "tags": [
+      "速升8级"
+    ],
+    "heros": [
+      {
+        "id": "918054",
+        "key": "DA_18_Malphite",
+        "tftEquips": [
+          "DA_GargoyleStoneplate",
+          "DA_GargoyleStoneplate",
+          "DA_WarmogsArmor"
+        ]
+      },
+      {
+        "id": "918032",
+        "key": "DA_Amumu18"
+      },
+      {
+        "id": "918083",
+        "key": "DA_18_Yorick"
+      },
+      {
+        "id": "918085",
+        "key": "DA_18_Kennen"
+      },
+      {
+        "id": "918103",
+        "key": "DA_18_Ahri",
+        "tftEquips": [
+          "DA_JeweledGauntlet",
+          "DA_NashorsTooth",
+          "DA_SpearOfShojin"
+        ]
+      },
+      {
+        "id": "918016",
+        "key": "DA_18_Soraka"
+      },
+      {
+        "id": "918268",
+        "key": "DA_18_Azir",
+        "tftEquips": [
+          "DA_GuinsoosRageblade",
+          "DA_HextechGunblade",
+          "DA_RabadonsDeathcap"
+        ]
+      },
+      {
+        "id": "918143",
+        "key": "DA_18_Zyra",
+        "tftEquips": [
+          "DA_18_EmblemBlackthorn",
+          "DA_JeweledGauntlet",
+          "DA_VoidStaff"
+        ]
+      }
+    ],
+    "heroId": "918143",
+    "ext": "",
+    "jccCode": "【阵容码】#婕拉阿狸#MjE5OTQ3MDM3OTM1MTI2OTMxNzg5MTkxMTE4Nzk2",
+    "tftCode": "024143ed43a40b3e942e3f143c000000TFTSet18",
+    "tier": "C",
+    "strategyId": 16258,
+    "score": 175.0,
+    "playRate": 0.03,
+    "won": 11.1,
+    "top4": 42.2,
+    "place": 4.8699
+  },
+  {
+    "id": 16253,
+    "title": "魔战士易",
+    "titleApi": [
+      "DA_18_Adaptor",
+      "DA_18_MasterYi_AD"
+    ],
+    "difficulty": 2,
+    "tags": [
+      "7/8级追三星"
+    ],
+    "heros": [
+      {
+        "id": "918083",
+        "key": "DA_18_Yorick"
+      },
+      {
+        "id": "918875",
+        "key": "DA_18_Sett",
+        "tftEquips": [
+          "DA_GargoyleStoneplate",
+          "DA_SpiritVisage",
+          "DA_WarmogsArmor"
+        ]
+      },
+      {
+        "id": "918254",
+        "key": "DA_Vi18"
+      },
+      {
+        "id": "918993",
+        "key": "DA_Krug18",
+        "tftEquips": [
+          "DA_GargoyleStoneplate",
+          "DA_SpiritVisage",
+          "DA_WarmogsArmor"
+        ]
+      },
+      {
+        "id": "918011",
+        "stars": 3,
+        "key": "DA_18_MasterYi_AD",
+        "tftEquips": [
+          "DA_18_EmblemBrawler",
+          "DA_GuinsoosRageblade",
+          "DA_TitansResolve"
+        ]
+      },
+      {
+        "id": "918150",
+        "key": "DA_18_GnarSmall"
+      },
+      {
+        "id": "918076",
+        "key": "DA_Nidalee18_AP"
+      },
+      {
+        "id": "918096",
+        "stars": 3,
+        "key": "DA_KogMaw18_AD",
+        "tftEquips": [
+          "DA_Deathblade",
+          "DA_InfinityEdge",
+          "DA_SpearOfShojin"
+        ]
+      }
+    ],
+    "heroId": "918011",
+    "ext": "",
+    "jccCode": "【阵容码】##MjIwMDQ2MDExMzg1MDcxMjUxNzg3NTgzOTM3MDEz",
+    "tftCode": "0243a42a43740f41640141b40e000000TFTSet18",
+    "tier": "D",
+    "strategyId": 16253,
+    "score": 74.0,
+    "playRate": 0.01,
+    "won": 6.1,
+    "top4": 39.4,
+    "place": 5.1251
+  },
+  {
+    "id": 16260,
+    "title": "世纪和解卡兹克",
+    "titleApi": [
+      "DA_18_RivalsAugment",
+      "DA_18_KhaZix",
+      "DA_18_Rengar"
+    ],
+    "difficulty": 2,
+    "tags": [
+      "7/8级追三星"
+    ],
+    "heros": [
+      {
+        "id": "918120",
+        "stars": 3,
+        "key": "DA_18_Hecarim",
+        "tftEquips": [
+          "DA_GargoyleStoneplate",
+          "DA_SunfireCape",
+          "DA_WarmogsArmor"
+        ]
+      },
+      {
+        "id": "918107",
+        "stars": 3,
+        "key": "DA_18_Rengar",
+        "tftEquips": [
+          "DA_EdgeOfNight",
+          "DA_GuinsoosRageblade",
+          "DA_TitansResolve"
+        ]
+      },
+      {
+        "id": "918121",
+        "stars": 3,
+        "key": "DA_18_KhaZix",
+        "tftEquips": [
+          "DA_EdgeOfNight",
+          "DA_HandOfJustice",
+          "DA_RabadonsDeathcap"
+        ]
+      },
+      {
+        "id": "918523",
+        "key": "DA_18_Aphelios"
+      },
+      {
+        "id": "918044",
+        "key": "DA_Taric18"
+      },
+      {
+        "id": "918997",
+        "key": "DA_Sentinel18"
+      },
+      {
+        "id": "918131",
+        "key": "DA_18_Diana"
+      }
+    ],
+    "heroId": "918121",
+    "ext": "",
+    "jccCode": "【阵容码】##MjIwMDQ2MDExMzg1MDcxMjUxNzg3NTQ2MzM4Mzg0",
+    "tftCode": "0240342440c3ef4304283fa000000000TFTSet18",
+    "tier": "D",
+    "strategyId": 16260,
+    "score": 73.0,
+    "playRate": 0.03,
+    "won": 7.5,
+    "top4": 41.9,
+    "place": 4.9076
+  },
+  {
+    "id": 16218,
+    "title": "黑荆棘维迦",
+    "titleApi": [
+      "DA_18_Veigar",
+      "DA_18_EmblemFloraFatalis"
+    ],
+    "difficulty": 2,
+    "tags": [
+      "4/5级追三星"
+    ],
+    "heros": [
+      {
+        "id": "918421",
+        "stars": 3,
+        "key": "DA_18_RekSai",
+        "tftEquips": [
+          "DA_18_EmblemSprykin"
+        ]
+      },
+      {
+        "id": "918954",
+        "stars": 3,
+        "key": "DA_18_Kobuko"
+      },
+      {
+        "id": "918033",
+        "stars": 3,
+        "key": "DA_18_Rammus",
+        "tftEquips": [
+          "DA_GargoyleStoneplate",
+          "DA_GargoyleStoneplate",
+          "DA_WarmogsArmor"
+        ]
+      },
+      {
+        "id": "918150",
+        "key": "DA_18_GnarSmall"
+      },
+      {
+        "id": "918009",
+        "key": "DA_Fiddlesticks18"
+      },
+      {
+        "id": "918993",
+        "key": "DA_Krug18"
+      },
+      {
+        "id": "918045",
+        "stars": 3,
+        "key": "DA_18_Veigar",
+        "tftEquips": [
+          "DA_BlueBuff",
+          "DA_JeweledGauntlet",
+          "DA_NashorsTooth"
+        ]
+      },
+      {
+        "id": "918017",
+        "key": "DA_18_Teemo"
+      }
+    ],
+    "heroId": "918045",
+    "ext": "",
+    "jccCode": "【阵容码】##MjIwMDQ2MDExMzg1MDcxMjUxNzg3MjIwNzE2Mzc0",
+    "tftCode": "0242343d42140140040f436431000000TFTSet18",
+    "tier": "D",
+    "strategyId": 16218,
+    "score": 72.0,
+    "playRate": 0.01,
+    "won": 1.8,
+    "top4": 22.8,
+    "place": 5.8816
+  },
+  {
+    "id": 16223,
+    "title": "日蚀骑士韦鲁斯",
+    "titleApi": [
+      "DA_18_Solar",
+      "DA_18_Varus"
+    ],
+    "difficulty": 1,
+    "tags": [
+      "4/5级追三星"
+    ],
+    "heros": [
+      {
+        "id": "918113",
+        "stars": 3,
+        "key": "DA_18_Sejuani"
+      },
+      {
+        "id": "918131",
+        "key": "DA_18_Diana"
+      },
+      {
+        "id": "918098",
+        "key": "DA_18_Shen"
+      },
+      {
+        "id": "918089",
+        "stars": 3,
+        "key": "DA_18_Leona",
+        "tftEquips": [
+          "DA_Evenshroud"
+        ]
+      },
+      {
+        "id": "918497",
+        "key": "DA_18_Rakan"
+      },
+      {
+        "id": "918110",
+        "stars": 3,
+        "key": "DA_18_Varus",
+        "tftEquips": [
+          "DA_Deathblade",
+          "DA_InfinityEdge",
+          "DA_SpearOfShojin"
+        ]
+      },
+      {
+        "id": "918523",
+        "key": "DA_18_Aphelios"
+      },
+      {
+        "id": "918010",
+        "stars": 3,
+        "key": "DA_18_Kayle",
+        "tftEquips": [
+          "DA_GuinsoosRageblade"
+        ]
+      }
+    ],
+    "heroId": "918110",
+    "ext": "",
+    "jccCode": "【阵容码】##MjIwMDQ2MDExMzg1MDcxMjUxNzg3MjI1NDM5MTkw",
+    "tftCode": "024273fa42b4114204353ef40a000000TFTSet18",
+    "tier": "D",
+    "strategyId": 16223,
+    "score": 71.0,
+    "playRate": 0.05,
+    "won": 11.6,
+    "top4": 53.3,
+    "place": 4.4066
+  },
+  {
+    "id": 16230,
+    "title": "花仙子小炮",
+    "titleApi": [
+      "DA_18_Tristana",
+      null
+    ],
+    "difficulty": 2,
+    "tags": [
+      "7/8级追三星"
+    ],
+    "heros": [
+      {
+        "id": "918033",
+        "stars": 3,
+        "key": "DA_18_Rammus",
+        "tftEquips": [
+          "DA_GargoyleStoneplate",
+          "DA_SpiritVisage",
+          "DA_WarmogsArmor"
+        ]
+      },
+      {
+        "id": "918876",
+        "key": "DA_18_Lillia",
+        "tftEquips": [
+          "DA_18_EmblemSprykin"
+        ]
+      },
+      {
+        "id": "918497",
+        "key": "DA_18_Rakan"
+      },
+      {
+        "id": "918012",
+        "key": "DA_18_Alistar"
+      },
+      {
+        "id": "918254",
+        "key": "DA_Vi18"
+      },
+      {
+        "id": "918150",
+        "key": "DA_18_GnarSmall"
+      },
+      {
+        "id": "918018",
+        "stars": 3,
+        "key": "DA_18_Tristana",
+        "tftEquips": [
+          "DA_GuinsoosRageblade",
+          "DA_HextechGunblade",
+          "DA_InfinityEdge"
+        ]
+      },
+      {
+        "id": "918015",
+        "key": "DA_18_Sivir",
+        "tftEquips": [
+          "DA_LastWhisper"
+        ]
+      },
+      {
+        "id": "918498",
+        "key": "DA_18_Xayah"
+      }
+    ],
+    "heroId": "918018",
+    "ext": "",
+    "jccCode": "【阵容码】##MjIwMDQ2MDExMzg1MDcxMjUxNzg3MjIwNzg3NzYy",
+    "tftCode": "024214124203eb43740143342c439000TFTSet18",
+    "tier": "D",
+    "strategyId": 16230,
+    "score": 70.0,
+    "playRate": 0.02,
+    "won": 6.0,
+    "top4": 31.9,
+    "place": 5.4334
+  }
+]

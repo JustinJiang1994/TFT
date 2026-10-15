@@ -1,0 +1,72 @@
+{
+  "checked_at": "2026-10-15T02:29:55.532069+00:00",
+  "status": "blocked_partial",
+  "scope": "当前S18、jcc_18.3默认口径；全量详情及统计补全",
+  "diagnosis": [
+    "已对照公开前端核对接口地址、参数、平台头、签名算法",
+    "复测使用与公开前端相同格式的匿名设备标识",
+    "阵容详情、棋子统计、强化评级配置复测均HTTP200但业务码42000",
+    "无法仅凭系统异常确定是来源服务、接口支持或请求环境问题",
+    "浏览器详情页加载工具两次超时，未获得页面可用性的独立验证",
+    "公开入口静态语言数据地址返回404；未作为数据保存"
+  ],
+  "probes": [
+    {
+      "module": "strategy",
+      "file": "retry/strategy.json",
+      "http_status": 200,
+      "api_code": 42000,
+      "success": false,
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a"
+    },
+    {
+      "module": "hero",
+      "file": "retry/hero.json",
+      "http_status": 200,
+      "api_code": 42000,
+      "success": false,
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a"
+    },
+    {
+      "module": "augments",
+      "file": "retry/augments.json",
+      "http_status": 200,
+      "api_code": 42000,
+      "success": false,
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a"
+    }
+  ],
+  "modules": [
+    {
+      "module": "默认阵容榜",
+      "status": "complete_for_response",
+      "count": 31
+    },
+    {
+      "module": "S18基础资料",
+      "status": "complete_for_response",
+      "heroes": 65,
+      "equipment": 151,
+      "traits": 36,
+      "augments": 256
+    },
+    {
+      "module": "31套阵容攻略详情",
+      "status": "blocked",
+      "valid_count": 0
+    },
+    {
+      "module": "棋子/装备/羁绊统计",
+      "status": "blocked"
+    },
+    {
+      "module": "强化评级配置与独立阵容排行",
+      "status": "blocked"
+    },
+    {
+      "module": "脚本内装备评级",
+      "status": "source_archived_not_normalized"
+    }
+  ],
+  "completion_claim": false
+}

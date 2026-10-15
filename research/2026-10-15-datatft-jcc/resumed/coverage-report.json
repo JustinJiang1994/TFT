@@ -1,0 +1,42 @@
+{
+  "status": "collected_and_audited",
+  "scope": {
+    "season": "18",
+    "version": "jcc_18.3",
+    "tier": "grandmaster",
+    "time": 5
+  },
+  "full_collection_complete": true,
+  "scope_definition": "当前赛季默认口径：三份阵容列表及全部关联攻略、首页、棋子/装备/羁绊统计、强化评级配置、公开脚本装备评级及已存基础词库。非全站历史及任意筛选组合。",
+  "counts": {
+    "comps": 31,
+    "strategies": 31,
+    "hero_stats": 65,
+    "equipment_stats": 133,
+    "trait_tier_stats": 90,
+    "rating_records": 336,
+    "unmapped_rating_codes": 1
+  },
+  "unmapped_rating_codes": [
+    "HI"
+  ],
+  "checks": {
+    "api_success_and_hashes": true,
+    "three_list_ids_match": true,
+    "all_strategy_ids_match": true,
+    "no_pagination_markers_in_lists": true,
+    "rating_syntax_decoded": true
+  },
+  "source_versions": {
+    "request": "jcc_18.3",
+    "rank_response": "18.3b",
+    "augment_response": "18.3"
+  },
+  "limits": [
+    "评级为作者建议，不是强化或装备胜率",
+    "来源排行版本18.3b与查询18.3不同，保留原字段，不强行统一",
+    "完整保存公开接口返回记录，不代表穷尽游戏组合",
+    "统计响应含空matches/hexs等字段，来源未返回的内容不补造",
+    "名称未映射编码保留原始记录和评级，不静默丢弃"
+  ]
+}

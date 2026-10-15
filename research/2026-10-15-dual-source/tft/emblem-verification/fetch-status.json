@@ -1,0 +1,5 @@
+{
+  "direct_http": "sandbox denied, then escalated public GET returned HTTP 403",
+  "evidence_channel": "web tool page reads saved as JSON strings",
+  "verified_at": "2026-10-15"
+}

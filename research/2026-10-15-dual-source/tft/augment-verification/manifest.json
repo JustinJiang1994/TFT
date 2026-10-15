@@ -1,0 +1,148 @@
+{
+  "requests": [
+    {
+      "file": "426003.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426003&cluster_id=426",
+      "sha256": "33961019a74844e60564b5b5e9699f5f0a0fd3fb0f574e850ea33ddd5484f0c2",
+      "retrieved_at": "2026-10-15T05:47:29.583206+00:00"
+    },
+    {
+      "file": "426007.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426007&cluster_id=426",
+      "sha256": "629101c7ade1d42cfd7c7ab59945e1979741bab23104eda74b4de73787010752",
+      "retrieved_at": "2026-10-15T05:47:29.597246+00:00"
+    },
+    {
+      "file": "426000.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426000&cluster_id=426",
+      "sha256": "6647ae0e7cda89dac3e77a2041acf51101aad4fded9ef7b33bf6abee3cf75edc",
+      "retrieved_at": "2026-10-15T05:47:29.685321+00:00"
+    },
+    {
+      "file": "426027.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426027&cluster_id=426",
+      "sha256": "5f05941975ebe261fcae84e1bb08a3b06985b69fb3f56e076844826e42abd627",
+      "retrieved_at": "2026-10-15T05:47:29.686724+00:00"
+    },
+    {
+      "file": "426002.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426002&cluster_id=426",
+      "sha256": "48d5145267ac4c6efdfc22111b0e26572fc6d3047bfefd884298fb2f5848d190",
+      "retrieved_at": "2026-10-15T05:47:33.026805+00:00"
+    },
+    {
+      "file": "426004.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426004&cluster_id=426",
+      "sha256": "28fb687716225f56bcf0eafa8213aae53c032aec7569fa58287101669e7d6ff1",
+      "retrieved_at": "2026-10-15T05:47:32.792177+00:00"
+    },
+    {
+      "file": "426021.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426021&cluster_id=426",
+      "sha256": "0154ab96c2d1d9eb5350fdb9ea266396e0c427a392ae6a32c50cfea561018863",
+      "retrieved_at": "2026-10-15T05:47:33.024932+00:00"
+    },
+    {
+      "file": "426008.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426008&cluster_id=426",
+      "sha256": "808be78361b20c826419418c9c62154d2c0611049ce8781a4955b80b8bc3add4",
+      "retrieved_at": "2026-10-15T05:47:31.529377+00:00"
+    },
+    {
+      "file": "426006.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426006&cluster_id=426",
+      "sha256": "073e438704732669cec46b23e523bb5002f08e518e142ad7cb3561f4947ed9da",
+      "retrieved_at": "2026-10-15T05:47:33.304799+00:00"
+    },
+    {
+      "file": "426001.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426001&cluster_id=426",
+      "sha256": "f47497b162d0a20a868641211ab25bbbf7d423edc43f281d2135a8243fb361a0",
+      "retrieved_at": "2026-10-15T05:47:34.641692+00:00"
+    },
+    {
+      "file": "426005.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426005&cluster_id=426",
+      "sha256": "f4b1820a4b6cae663837c69a564b7b2454c3e0744245ad7b4ac9ead01cb1755d",
+      "retrieved_at": "2026-10-15T05:47:35.570346+00:00"
+    },
+    {
+      "file": "426012.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426012&cluster_id=426",
+      "sha256": "1e7119e73cf0ac43d808f7da1abe3f447d71b51c7346494513ce67cebca8102e",
+      "retrieved_at": "2026-10-15T05:47:36.174198+00:00"
+    },
+    {
+      "file": "426013.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426013&cluster_id=426",
+      "sha256": "308bf642a797fd868a0f63579c15fd1127430164722c785ae2d2274d4b61689b",
+      "retrieved_at": "2026-10-15T05:47:35.378362+00:00"
+    },
+    {
+      "file": "426014.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426014&cluster_id=426",
+      "sha256": "8ad202b83d0f718d8644029a3fa6e9a3e138483c26458f556934fcebd70cf679",
+      "retrieved_at": "2026-10-15T05:47:36.448263+00:00"
+    },
+    {
+      "file": "426010.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426010&cluster_id=426",
+      "sha256": "386e3b3e56b697169320148c811eb1d5b88204ec359732137162245569bff1d7",
+      "retrieved_at": "2026-10-15T05:47:38.183632+00:00"
+    },
+    {
+      "file": "426009.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426009&cluster_id=426",
+      "sha256": "693b1ee69e80f8400b28baf1037085d504f4b0311431b9bb496f32bf97e94297",
+      "retrieved_at": "2026-10-15T05:47:42.307018+00:00"
+    },
+    {
+      "file": "426037.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426037&cluster_id=426",
+      "sha256": "a75e5d9e10d6a956297af730adb6212fd6c870f6aa4e4a986440a18a93ffa0ba",
+      "retrieved_at": "2026-10-15T05:47:37.932315+00:00"
+    },
+    {
+      "file": "426022.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426022&cluster_id=426",
+      "sha256": "888779d8d5451b73b012e83785025263d573a09c3a1524d93538ad25976b3d5e",
+      "retrieved_at": "2026-10-15T05:47:38.545033+00:00"
+    },
+    {
+      "file": "426011.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426011&cluster_id=426",
+      "sha256": "01621db8ac100f61d4c5a1430e7e0bfcb022b83b639d6c8290c9a02b8f9be433",
+      "retrieved_at": "2026-10-15T05:47:40.616897+00:00"
+    },
+    {
+      "file": "426023.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426023&cluster_id=426",
+      "sha256": "b495397723407ebdc3c3467347a7f55b0645ab5f42cde6bfde3ad68df3628b79",
+      "retrieved_at": "2026-10-15T05:47:39.969475+00:00"
+    },
+    {
+      "file": "426016.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426016&cluster_id=426",
+      "sha256": "aa44281c2d84eded5809540f302139dc18d24b17505fa4518544f85ab87ddd30",
+      "retrieved_at": "2026-10-15T05:47:40.447857+00:00"
+    },
+    {
+      "file": "426029.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comp_details?comp=426029&cluster_id=426",
+      "sha256": "5d987a80c499b1e4f0cd30d27f52fc88410251f2ca86554bec96e14e3441cf19",
+      "retrieved_at": "2026-10-15T05:47:41.741027+00:00"
+    },
+    {
+      "file": "pro-comps-directory.json",
+      "url": "https://api-hc.metatft.com/tft-stat-api/pro-comps?tft_set=TFTSet18",
+      "sha256": "48676b3dee4194492466e74691e169fe28ce9534a5f79a77f9f4bd3341cdd4f0",
+      "retrieved_at": "2026-10-15T05:53:37.574086+00:00"
+    },
+    {
+      "file": "ProComps-Bdd3SFUW.js",
+      "url": "https://www.metatft.com/assets/ProComps-Bdd3SFUW.js",
+      "sha256": "8465b96b16d383181c54ead192c2b2543f132ec5fcdc9e8c45d2654822e1147a",
+      "retrieved_at": "2026-10-15T05:53:37.574550+00:00"
+    }
+  ]
+}

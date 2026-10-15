@@ -1,0 +1,36 @@
+{
+  "platform": "jcc",
+  "source": "https://www.dataj.cc",
+  "official": false,
+  "set": 18,
+  "patch": "18.3",
+  "retrieved_at": "2026-10-15T02:01:49.797487+00:00",
+  "rank_count": 38,
+  "tier_counts": {
+    "S": 11,
+    "A": 4,
+    "B": 3,
+    "C": 3,
+    "D": 17
+  },
+  "detailed_comp_count": 15,
+  "board_records": 287,
+  "catalog_raw_counts": {
+    "hero": 371,
+    "trait": 90,
+    "equip": 157,
+    "hex": 263,
+    "heroUnlock": 0,
+    "adventure": 170,
+    "searchAlias": 263
+  },
+  "successful_requests": 233,
+  "integrity_verified": true,
+  "notes": [
+    "基础词库数量为原始记录数，可能含星级、形态及特殊单位，不等于独立可购买棋子数",
+    "全榜已保存；详情仅采集当期S/A的15套阵容",
+    "来源版本18.3不代表已经核对国服客户端最新版本",
+    "统计段位及时间窗未提供；棋盘、配装与强化推荐存在来源返回上限",
+    "本次仅采集数据，未更新产品页面或发布指针"
+  ]
+}

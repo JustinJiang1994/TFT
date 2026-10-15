@@ -1,0 +1,375 @@
+{
+  "date": "2026-10-15",
+  "game": "TFT",
+  "patch": "18.4b",
+  "archive": "research/2026-10-15-dual-source/tft/augment-verification/pro-comps-directory.json",
+  "boundary": "MetaTFT作者归档未显式标注18.4b，沿用已匹配棋盘；PivotTFT页面标注18.4b。作者输出核心不等于全部变体通用；坦克装备仅作候选。",
+  "rows": [
+    {
+      "comp": "426003",
+      "unit": "DA_18_Azir",
+      "role": "主C",
+      "note": "作者明确标注阿兹尔主C。",
+      "source": "https://www.metatft.com/pro-comps?comp=b74173f3-4018-4370-85c9-800504fcfc2f",
+      "branch": null,
+      "confirmed": true
+    },
+    {
+      "comp": "426003",
+      "unit": "DA_18_Rammus",
+      "role": "主坦",
+      "note": "追拉莫斯三星；未三星时费德提克三星可替代主坦。",
+      "source": "https://www.metatft.com/pro-comps?comp=b74173f3-4018-4370-85c9-800504fcfc2f",
+      "branch": null,
+      "confirmed": true
+    },
+    {
+      "comp": "426021",
+      "unit": "DA_18_Varus",
+      "role": "双C",
+      "note": "韦鲁斯分支：先在4/5级追韦鲁斯三星，6级再追凯尔三星；主副不固定。",
+      "source": "https://www.metatft.com/pro-comps?comp=a483ad08-cc76-45f6-b0f8-62ba33030899",
+      "branch": null,
+      "confirmed": true
+    },
+    {
+      "comp": "426021",
+      "unit": "DA_18_Kayle",
+      "role": "双C",
+      "note": "与韦鲁斯共同输出；6级追三星。",
+      "source": "https://www.metatft.com/pro-comps?comp=a483ad08-cc76-45f6-b0f8-62ba33030899",
+      "branch": null,
+      "confirmed": true
+    },
+    {
+      "comp": "426021",
+      "unit": "DA_18_Sejuani",
+      "role": "主坦",
+      "note": "瑟庄妮三星后接蕾欧娜的装备；未达三星不要据此直接换装。",
+      "source": "https://www.metatft.com/pro-comps?comp=a483ad08-cc76-45f6-b0f8-62ba33030899",
+      "branch": null,
+      "confirmed": true
+    },
+    {
+      "comp": "426004",
+      "unit": "DA_Nidalee18_AP",
+      "role": "双C",
+      "note": "作者承装顺序：二星奈德丽优先二星厄斐琉斯，后者优先一星奈德丽。",
+      "source": "https://www.metatft.com/pro-comps?comp=034d3180-d2d7-41af-837a-74aa2a6803e2",
+      "branch": null,
+      "confirmed": true
+    },
+    {
+      "comp": "426004",
+      "unit": "DA_18_Aphelios",
+      "role": "双C",
+      "note": "主副承装随奈德丽与厄斐琉斯星级变化。",
+      "source": "https://www.metatft.com/pro-comps?comp=034d3180-d2d7-41af-837a-74aa2a6803e2",
+      "branch": null,
+      "confirmed": true
+    },
+    {
+      "comp": "426014",
+      "unit": "DA_18_Veigar",
+      "role": "主C",
+      "note": "作者以维迦为输出目标，明确其神器及输出装备选择。",
+      "source": "https://www.metatft.com/pro-comps?comp=b135d4a2-7436-4c88-b28e-f2e866e70021",
+      "branch": null,
+      "confirmed": true
+    },
+    {
+      "comp": "426011",
+      "unit": "DA_Draven18",
+      "role": "主C",
+      "note": "德莱文九级攻略，强调尽早获得德莱文与茂凯以成长。",
+      "source": "https://www.metatft.com/pro-comps?comp=0f4c0cbf-b303-48ad-8611-ed023e779639",
+      "branch": null,
+      "confirmed": true
+    },
+    {
+      "comp": "426016",
+      "unit": "DA_18_Sivir",
+      "role": "双C",
+      "note": "承装顺序：二星奈德丽优先二星希维尔，后者优先一星奈德丽。",
+      "source": "https://www.metatft.com/pro-comps?comp=1a6f5d18-c41f-47cb-ada6-572ae7449fce",
+      "branch": null,
+      "confirmed": true
+    },
+    {
+      "comp": "426016",
+      "unit": "DA_Nidalee18_AP",
+      "role": "双C",
+      "note": "与希维尔共同承装，优先级取决于星级。",
+      "source": "https://www.metatft.com/pro-comps?comp=1a6f5d18-c41f-47cb-ada6-572ae7449fce",
+      "branch": null,
+      "confirmed": true
+    },
+    {
+      "comp": "426029",
+      "unit": "DA_18_MasterYi_AD",
+      "role": "主C",
+      "note": "易七级追三星攻略；有无斗士转职均以易承输出装。",
+      "source": "https://www.metatft.com/pro-comps?comp=8c51379e-a96a-4767-bf58-8b90bc75925b",
+      "branch": null,
+      "confirmed": true
+    },
+    {
+      "comp": "426005",
+      "unit": "DA_18_Ezreal",
+      "role": "主C（对应攻略）",
+      "note": "对应伊泽瑞尔裁决攻略；不据聚类标题把瑟提直接认定为主C。",
+      "source": "https://www.metatft.com/pro-comps?comp=adb0fae7-b799-4ff7-a1be-0143be7b5756",
+      "branch": null,
+      "confirmed": true
+    },
+    {
+      "comp": "426012",
+      "unit": "DA_18_Hecarim",
+      "role": "主坦",
+      "note": "作者说明：没有赫卡里姆三星时，尝试费德提克三星作主坦。仅本卡兹克路线。",
+      "source": "https://www.metatft.com/pro-comps?comp=e181dd75-a1d9-48c5-baa5-3311b7158374",
+      "branch": null,
+      "confirmed": true
+    },
+    {
+      "comp": "426000",
+      "unit": "DA_18_Rengar",
+      "role": "主C",
+      "note": "问答明确雷恩加尔是主C；需要护卫转职。",
+      "source": "https://www.pivottft.com/comps/defender-rengar-reroll/",
+      "branch": null,
+      "confirmed": true
+    },
+    {
+      "comp": "426000",
+      "unit": "DA_18_Cassiopeia",
+      "role": "输出核心",
+      "note": "作者明确卡西奥佩娅共同输出。",
+      "source": "https://www.pivottft.com/comps/defender-rengar-reroll/",
+      "branch": null,
+      "confirmed": true
+    },
+    {
+      "comp": "426000",
+      "unit": "DA_18_Rammus",
+      "role": "主坦候选",
+      "note": "作者把整套防装给拉莫斯，未显式标注主坦；仅作承装候选。",
+      "source": "https://www.pivottft.com/comps/defender-rengar-reroll/",
+      "branch": null,
+      "confirmed": false
+    },
+    {
+      "comp": "426027",
+      "unit": "DA_18_Morgana",
+      "role": "主C",
+      "note": "问答明确莫甘娜主C。",
+      "source": "https://www.pivottft.com/comps/coven-morgana/",
+      "branch": null,
+      "confirmed": true
+    },
+    {
+      "comp": "426027",
+      "unit": "DA_18_Alune",
+      "role": "输出核心",
+      "note": "作者明确拉露恩共同输出。",
+      "source": "https://www.pivottft.com/comps/coven-morgana/",
+      "branch": null,
+      "confirmed": true
+    },
+    {
+      "comp": "426027",
+      "unit": "DA_Sentinel18",
+      "role": "主坦候选",
+      "note": "作者将整套防装给苍蓝雕纹魔像，主坦称谓为候选。",
+      "source": "https://www.pivottft.com/comps/coven-morgana/",
+      "branch": null,
+      "confirmed": false
+    },
+    {
+      "comp": "426013",
+      "unit": "DA_18_Teemo",
+      "role": "主C",
+      "note": "问答明确提莫主C，6级追提莫与拉莫斯三星。",
+      "source": "https://www.pivottft.com/comps/invoker-teemo-reroll/",
+      "branch": null,
+      "confirmed": true
+    },
+    {
+      "comp": "426013",
+      "unit": "DA_18_Rammus",
+      "role": "主坦候选",
+      "note": "来源明确其防装与追三星目标，未直接称主坦。",
+      "source": "https://www.pivottft.com/comps/invoker-teemo-reroll/",
+      "branch": null,
+      "confirmed": false
+    },
+    {
+      "comp": "426022",
+      "unit": "DA_18_Rengar",
+      "role": "双C",
+      "note": "作者明确雷恩加尔与易共同输出、均追三星。",
+      "source": "https://www.pivottft.com/comps/rengar-master-yi-reroll/",
+      "branch": null,
+      "confirmed": true
+    },
+    {
+      "comp": "426022",
+      "unit": "DA_18_MasterYi_AD",
+      "role": "双C",
+      "note": "作者明确易与雷恩加尔共同输出、均追三星。",
+      "source": "https://www.pivottft.com/comps/rengar-master-yi-reroll/",
+      "branch": null,
+      "confirmed": true
+    },
+    {
+      "comp": "426022",
+      "unit": "DA_Vi18",
+      "role": "主坦候选",
+      "note": "作者给蔚整套防装并追三星；主坦称谓仍为候选。",
+      "source": "https://www.pivottft.com/comps/rengar-master-yi-reroll/",
+      "branch": null,
+      "confirmed": false
+    },
+    {
+      "comp": "426002",
+      "unit": "DA_18_Aphelios",
+      "role": "双C",
+      "note": "作者说明厄斐琉斯与伊泽瑞尔共同输出。",
+      "source": "https://www.pivottft.com/comps/elderwood-aphelios/",
+      "branch": null,
+      "confirmed": true
+    },
+    {
+      "comp": "426002",
+      "unit": "DA_18_Ezreal",
+      "role": "双C",
+      "note": "与厄斐琉斯共同输出。",
+      "source": "https://www.pivottft.com/comps/elderwood-aphelios/",
+      "branch": null,
+      "confirmed": true
+    },
+    {
+      "comp": "426002",
+      "unit": "DA_18_Hecarim",
+      "role": "主坦候选",
+      "note": "来源给赫卡里姆防装；未明确主坦排序。",
+      "source": "https://www.pivottft.com/comps/elderwood-aphelios/",
+      "branch": null,
+      "confirmed": false
+    },
+    {
+      "comp": "426001",
+      "unit": "DA_18_Aphelios",
+      "role": "主C",
+      "note": "迅捷5厄斐琉斯输出，绯红印记树怪携带迅捷转职。",
+      "source": "https://www.pivottft.com/comps/rapidfire-aphelios/",
+      "branch": null,
+      "confirmed": true
+    },
+    {
+      "comp": "426021",
+      "unit": "DA_18_Sejuani",
+      "role": "主坦候选",
+      "note": "当前独立棋盘的三件承装坦克；配装与词库角色支持候选，不等于作者明确主坦。",
+      "source": "https://www.metatft.com/pro-comps?comp=a483ad08-cc76-45f6-b0f8-62ba33030899",
+      "branch": "without_emblem",
+      "confirmed": false
+    },
+    {
+      "comp": "426001",
+      "unit": "DA_Amumu18",
+      "role": "主坦候选",
+      "note": "当前独立棋盘的三件承装坦克；配装与词库角色支持候选，不等于作者明确主坦。",
+      "source": "https://www.metatft.com/pro-comps?comp=034d3180-d2d7-41af-837a-74aa2a6803e2",
+      "branch": "with_emblem",
+      "confirmed": false
+    },
+    {
+      "comp": "426001",
+      "unit": "DA_Sentinel18",
+      "role": "主坦候选",
+      "note": "当前独立棋盘的三件承装坦克；配装与词库角色支持候选，不等于作者明确主坦。",
+      "source": "https://www.metatft.com/pro-comps?comp=034d3180-d2d7-41af-837a-74aa2a6803e2",
+      "branch": "without_emblem",
+      "confirmed": false
+    },
+    {
+      "comp": "426016",
+      "unit": "DA_18_Malphite",
+      "role": "主坦候选",
+      "note": "当前独立棋盘的三件承装坦克；配装与词库角色支持候选，不等于作者明确主坦。",
+      "source": "https://www.metatft.com/pro-comps?comp=1a6f5d18-c41f-47cb-ada6-572ae7449fce",
+      "branch": "without_emblem",
+      "confirmed": false
+    },
+    {
+      "comp": "426029",
+      "unit": "DA_Krug18",
+      "role": "主坦候选",
+      "note": "当前独立棋盘的三件承装坦克；配装与词库角色支持候选，不等于作者明确主坦。",
+      "source": "https://www.metatft.com/pro-comps?comp=8c51379e-a96a-4767-bf58-8b90bc75925b",
+      "branch": "with_emblem",
+      "confirmed": false
+    },
+    {
+      "comp": "426029",
+      "unit": "DA_Vi18",
+      "role": "主坦候选",
+      "note": "当前独立棋盘的三件承装坦克；配装与词库角色支持候选，不等于作者明确主坦。",
+      "source": "https://www.metatft.com/pro-comps?comp=8c51379e-a96a-4767-bf58-8b90bc75925b",
+      "branch": "without_emblem",
+      "confirmed": false
+    },
+    {
+      "comp": "426001",
+      "unit": "DA_Nidalee18_AP",
+      "role": "双C",
+      "note": "奈德丽二星优先厄斐琉斯二星，后者优先奈德丽一星。",
+      "source": "https://www.metatft.com/pro-comps?comp=034d3180-d2d7-41af-837a-74aa2a6803e2",
+      "branch": "without_emblem",
+      "confirmed": true
+    },
+    {
+      "comp": "426001",
+      "unit": "DA_18_Aphelios",
+      "role": "双C",
+      "note": "本无转职棋盘的双输出之一；承装先后随星级变化。",
+      "source": "https://www.metatft.com/pro-comps?comp=034d3180-d2d7-41af-837a-74aa2a6803e2",
+      "branch": "without_emblem",
+      "confirmed": true
+    },
+    {
+      "comp": "426000",
+      "unit": "DA_18_Cassiopeia",
+      "role": "主C（替代路线）",
+      "note": "来源明确无转职时转卡西奥佩娅路线，蕾欧娜换下雷恩加尔。",
+      "source": "https://www.pivottft.com/comps/defender-rengar-reroll/",
+      "branch": "without_emblem",
+      "confirmed": true
+    },
+    {
+      "comp": "426010",
+      "unit": "DA_18_Ahri",
+      "role": "主C候选（需神谕转职）",
+      "note": "对应18.4b作者明确阿狸主C，但要求神谕纹章；当前未建立该条件棋盘，暂不计确认核心。",
+      "source": "https://www.pivottft.com/comps/invoker-ahri-morgana/",
+      "branch": null,
+      "confirmed": false
+    },
+    {
+      "comp": "426010",
+      "unit": "DA_18_Sett",
+      "role": "主坦候选（神谕转职路线）",
+      "note": "同一攻略把防装交给瑟提；此为有神谕转职的阿狸路线，不直接套用无转职棋盘。",
+      "source": "https://www.pivottft.com/comps/invoker-ahri-morgana/",
+      "branch": null,
+      "confirmed": false
+    }
+  ],
+  "archive_sha256": "48676b3dee4194492466e74691e169fe28ce9534a5f79a77f9f4bd3341cdd4f0",
+  "unresolved": {
+    "426010": "找到神谕转职阿狸攻略，但尚未独立核实无转职棋盘。仅条件候选，不计确认核心。",
+    "426037": "检索得到沃里克、伊莉丝及通用绯红印记树怪资料，未找到足以对应本聚类及其转职条件的主C/主坦作者结论。",
+    "tank_policy": "只有防装/站位证据的坦克保持候选；未发现明确职责的不从费用推断。"
+  }
+}

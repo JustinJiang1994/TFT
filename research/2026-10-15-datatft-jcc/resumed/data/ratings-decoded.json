@@ -1,0 +1,2445 @@
+{
+  "source": "jcc.datatft.com",
+  "kind": "author_ratings_not_win_rate",
+  "author": "当前评级由JOC冠军TLG糕手雕妹提供。",
+  "version": "18.3",
+  "augments": [
+    {
+      "author": "TLG糕手雕妹",
+      "ratings": {
+        "silver": {
+          "S": [
+            {
+              "code": "Gd",
+              "top": [],
+              "bottom": [],
+              "name": "资本利得 I",
+              "key": "DA_CapitalGainsI"
+            },
+            {
+              "code": "Fe",
+              "top": [],
+              "bottom": [],
+              "name": "弈子配送++",
+              "key": "DA_ChampDeliveryPlusPlus"
+            }
+          ],
+          "A": [
+            {
+              "code": "Et",
+              "top": [],
+              "bottom": [],
+              "name": "仙灵报恩",
+              "key": "DA_18_WispRebatePlus"
+            },
+            {
+              "code": "FN",
+              "top": [],
+              "bottom": [],
+              "name": "阵容构筑",
+              "key": "DA_TeamBuilding"
+            },
+            {
+              "code": "FU",
+              "top": [],
+              "bottom": [],
+              "name": "小小福袋",
+              "key": "DA_SmallGrabBag"
+            },
+            {
+              "code": "Ff",
+              "top": [],
+              "bottom": [],
+              "name": "弑君突刺",
+              "key": "DA_Kingslayer"
+            },
+            {
+              "code": "Fm",
+              "top": [],
+              "bottom": [],
+              "name": "战时补给：暴风大剑",
+              "key": "DA_CarveAPath"
+            },
+            {
+              "code": "GD",
+              "top": [],
+              "bottom": [],
+              "name": "游神的盟友",
+              "key": "DA_18_CaretakersAlly"
+            },
+            {
+              "code": "Fn",
+              "top": [],
+              "bottom": [],
+              "name": "手气不错",
+              "key": "DA_FeelingLucky"
+            },
+            {
+              "code": "GJ",
+              "top": [],
+              "bottom": [],
+              "name": "玻璃大炮 I",
+              "key": "DA_GlassCannon_Silver"
+            },
+            {
+              "code": "GL",
+              "top": [],
+              "bottom": [],
+              "name": "白银命运",
+              "key": "DA_SilverDestiny"
+            },
+            {
+              "code": "GN",
+              "top": [],
+              "bottom": [],
+              "name": "白银命运++",
+              "key": "DA_SilverDestinyPlusPlus"
+            },
+            {
+              "code": "GP",
+              "top": [],
+              "bottom": [],
+              "name": "窃贼帮派",
+              "key": "DA_BandOfThieves"
+            },
+            {
+              "code": "Ge",
+              "top": [],
+              "bottom": [],
+              "name": "轻量魔法投掷",
+              "key": "DA_SlightlyMagicRoll"
+            },
+            {
+              "code": "Gi",
+              "top": [],
+              "bottom": [],
+              "name": "连败连胜才能连鸡",
+              "key": "DA_QuickStreaks"
+            },
+            {
+              "code": "Gk",
+              "top": [],
+              "bottom": [],
+              "name": "部分飞升",
+              "key": "DA_PartialAscension"
+            },
+            {
+              "code": "Gq",
+              "top": [],
+              "bottom": [],
+              "name": "高塔",
+              "key": "DA_TheTower"
+            },
+            {
+              "code": "Gm",
+              "top": [],
+              "bottom": [],
+              "name": "银汤匙",
+              "key": "DA_SilverSpoon"
+            },
+            {
+              "code": "Ex",
+              "top": [],
+              "bottom": [],
+              "name": "休眠锻炉",
+              "key": "DA_LatentForge"
+            },
+            {
+              "code": "FO",
+              "top": [],
+              "bottom": [],
+              "name": "基础装备自助餐",
+              "key": "DA_ComponentBuffet"
+            },
+            {
+              "code": "Fi",
+              "top": [],
+              "bottom": [],
+              "name": "战时补给：反曲之弓",
+              "key": "DA_BackupBows"
+            },
+            {
+              "code": "Fd",
+              "top": [],
+              "bottom": [],
+              "name": "弈子配送+",
+              "key": "DA_ChampDeliveryPlus"
+            },
+            {
+              "code": "Cd",
+              "top": [],
+              "bottom": [],
+              "name": "D个痛快！",
+              "key": "DA_RollingForDays"
+            },
+            {
+              "code": "JV",
+              "top": [],
+              "bottom": [],
+              "name": "潘朵拉的备战席",
+              "key": "DA_PandorasBench"
+            },
+            {
+              "code": "GW",
+              "top": [],
+              "bottom": [],
+              "name": "节外生枝+",
+              "key": "DA_18_BranchingOutPlus"
+            },
+            {
+              "code": "GR",
+              "top": [],
+              "bottom": [],
+              "name": "纵深 I",
+              "key": "DA_VerticalityI"
+            },
+            {
+              "code": "GU",
+              "top": [],
+              "bottom": [],
+              "name": "腐蚀",
+              "key": "DA_Corrosion"
+            },
+            {
+              "code": "FI",
+              "top": [],
+              "bottom": [],
+              "name": "双子守护神",
+              "key": "DA_TwinGuardians"
+            },
+            {
+              "code": "Fc",
+              "top": [],
+              "bottom": [],
+              "name": "弈子配送",
+              "key": "DA_ChampDelivery"
+            },
+            {
+              "code": "Fq",
+              "top": [],
+              "bottom": [],
+              "name": "拳击课程",
+              "key": "DA_BoxingLessons"
+            },
+            {
+              "code": "FZ",
+              "top": [],
+              "bottom": [],
+              "name": "应急护甲 I",
+              "key": "DA_MakeshiftArmorI"
+            },
+            {
+              "code": "Fp",
+              "top": [],
+              "bottom": [],
+              "name": "拥抱 I",
+              "key": "DA_GroupHugI"
+            }
+          ],
+          "B": [
+            {
+              "code": "Gs",
+              "top": [],
+              "bottom": [],
+              "name": "黑铁资产",
+              "key": "DA_IronAssets"
+            },
+            {
+              "code": "Fv",
+              "top": [],
+              "bottom": [],
+              "name": "星界恩典I",
+              "key": "DA_CelestialBlessingI"
+            },
+            {
+              "code": "Fk",
+              "top": [],
+              "bottom": [],
+              "name": "战时补给：巨人腰带",
+              "key": "DA_ExtraBuckles"
+            },
+            {
+              "code": "FD",
+              "top": [],
+              "bottom": [],
+              "name": "别再错过",
+              "key": "DA_MissedConnections"
+            },
+            {
+              "code": "Cr",
+              "top": [],
+              "bottom": [],
+              "name": "人生切片",
+              "key": "DA_SliceOfLife"
+            },
+            {
+              "code": "Ch",
+              "top": [],
+              "bottom": [],
+              "name": "一，二，五！",
+              "key": "DA_18_OneTwoFive"
+            },
+            {
+              "code": "Ez",
+              "top": [],
+              "bottom": [],
+              "name": "假人化",
+              "key": "DA_Dummify"
+            },
+            {
+              "code": "FH",
+              "top": [],
+              "bottom": [],
+              "name": "博弈开启",
+              "key": "DA_KickStart"
+            },
+            {
+              "code": "FL",
+              "top": [],
+              "bottom": [],
+              "name": "后期专家",
+              "key": "DA_LateGameSpecialist"
+            },
+            {
+              "code": "Fy",
+              "top": [],
+              "bottom": [],
+              "name": "残留魔力",
+              "key": "DA_18_ResidualMagic"
+            },
+            {
+              "code": "Fg",
+              "top": [],
+              "bottom": [],
+              "name": "强化之能量",
+              "key": "DA_AugmentedPower"
+            },
+            {
+              "code": "GB",
+              "top": [],
+              "bottom": [],
+              "name": "治疗法球 I",
+              "key": "DA_HealingOrbsI"
+            },
+            {
+              "code": "GG",
+              "top": [],
+              "bottom": [],
+              "name": "灌铅骰子",
+              "key": "DA_LoadedDice"
+            },
+            {
+              "code": "GQ",
+              "top": [],
+              "bottom": [],
+              "name": "精心打造",
+              "key": "DA_CraftedCrafting"
+            },
+            {
+              "code": "FJ",
+              "top": [],
+              "bottom": [],
+              "name": "变形重组器",
+              "key": "DA_Recombobulator"
+            },
+            {
+              "code": "GV",
+              "top": [],
+              "bottom": [],
+              "name": "节外生枝",
+              "key": "DA_18_BranchingOut"
+            },
+            {
+              "code": "Ga",
+              "top": [],
+              "bottom": [],
+              "name": "装备百宝袋 I",
+              "key": "DA_ItemGrabBag"
+            },
+            {
+              "code": "Fz",
+              "top": [],
+              "bottom": [],
+              "name": "残留魔力+",
+              "key": "DA_18_ResidualMagicPlus"
+            },
+            {
+              "code": "GA",
+              "top": [],
+              "bottom": [],
+              "name": "残留魔力++",
+              "key": "DA_18_ResidualMagicPlusPlus"
+            },
+            {
+              "code": "Gn",
+              "top": [],
+              "bottom": [],
+              "name": "集中火力",
+              "key": "DA_FocusedFire"
+            },
+            {
+              "code": "GM",
+              "top": [],
+              "bottom": [],
+              "name": "白银命运+",
+              "key": "DA_SilverDestinyPlus"
+            },
+            {
+              "code": "Ci",
+              "top": [],
+              "bottom": [],
+              "name": "不拘一格",
+              "key": "DA_YoungAndWildAndFree"
+            },
+            {
+              "code": "Eu",
+              "top": [],
+              "bottom": [],
+              "name": "仙灵报恩+",
+              "key": "DA_18_WispRebatePlusPlus"
+            },
+            {
+              "code": "GS",
+              "top": [],
+              "bottom": [],
+              "name": "耐心是一种美德",
+              "key": "DA_PatienceIsAVirtue"
+            },
+            {
+              "code": "Gr",
+              "top": [],
+              "bottom": [],
+              "name": "高瞻远瞩",
+              "key": "DA_FutureFocused"
+            },
+            {
+              "code": "GF",
+              "top": [],
+              "bottom": [],
+              "name": "潘朵拉的装备 I",
+              "key": "DA_PandorasItemsI"
+            }
+          ],
+          "C": [
+            {
+              "code": "Cc",
+              "top": [],
+              "bottom": [],
+              "name": "C位的觉悟",
+              "key": "DA_FindYourCenter"
+            },
+            {
+              "code": "Cf",
+              "top": [],
+              "bottom": [],
+              "name": "一一二三",
+              "key": "DA_18_OnesTwosThree"
+            },
+            {
+              "code": "Fj",
+              "top": [],
+              "bottom": [],
+              "name": "战时补给：女神之泪",
+              "key": "DA_FlowingTears"
+            },
+            {
+              "code": "Fx",
+              "top": [],
+              "bottom": [],
+              "name": "有用之材 I",
+              "key": "DA_18_GoodForSomethingI"
+            },
+            {
+              "code": "MX",
+              "top": [],
+              "bottom": [],
+              "name": "锻造挚友",
+              "key": "DA_ForgeAFriend"
+            },
+            {
+              "code": "GT",
+              "top": [],
+              "bottom": [],
+              "name": "联合作战",
+              "key": "DA_StandUnited"
+            },
+            {
+              "code": "Gb",
+              "top": [],
+              "bottom": [],
+              "name": "认知税",
+              "key": "DA_CognitiveTax"
+            },
+            {
+              "code": "Gc",
+              "top": [],
+              "bottom": [],
+              "name": "认知税+",
+              "key": "DA_CognitiveTaxPlus"
+            },
+            {
+              "code": "Gg",
+              "top": [],
+              "bottom": [],
+              "name": "进攻宣告",
+              "key": "DA_CalledShot"
+            },
+            {
+              "code": "Gh",
+              "top": [],
+              "bottom": [],
+              "name": "远征",
+              "key": "DA_Expedition"
+            }
+          ],
+          "D": [
+            {
+              "code": "Cb",
+              "top": [],
+              "bottom": [],
+              "name": "烧起来",
+              "key": "DA_18_InfernoTraitAugment"
+            },
+            {
+              "code": "GK",
+              "top": [],
+              "bottom": [],
+              "name": "电火花 I",
+              "key": "DA_ElectrochargeI"
+            }
+          ]
+        },
+        "gold": {
+          "S": [
+            {
+              "code": "HD",
+              "top": [],
+              "bottom": [],
+              "name": "欧米茄之怪",
+              "key": "DA_18_RiftbeastTraitAugment"
+            },
+            {
+              "code": "IB",
+              "top": [],
+              "bottom": [],
+              "name": "后期收益",
+              "key": "DA_LateGameScaling"
+            },
+            {
+              "code": "Jo",
+              "top": [],
+              "bottom": [],
+              "name": "生日聚会",
+              "key": "DA_BirthdayReunion"
+            },
+            {
+              "code": "Je",
+              "top": [],
+              "bottom": [],
+              "name": "爆炸式增长+",
+              "key": "DA_ExplosiveGrowthPlus"
+            },
+            {
+              "code": "HL",
+              "top": [],
+              "bottom": [],
+              "name": "黑暗仪式",
+              "key": "DA_18_CovenTraitAugment_LootToAP"
+            }
+          ],
+          "A": [
+            {
+              "code": "HG",
+              "top": [],
+              "bottom": [],
+              "name": "自然庇护所",
+              "key": "DA_18_ElderwoodTraitAugment"
+            },
+            {
+              "code": "IT",
+              "top": [],
+              "bottom": [],
+              "name": "宝宝学院",
+              "key": "DA_EarlyLearnings"
+            },
+            {
+              "code": "HJ",
+              "top": [],
+              "bottom": [],
+              "name": "装备提炼",
+              "key": "DA_BlackthornTraitAugment"
+            },
+            {
+              "code": "HM",
+              "top": [],
+              "bottom": [],
+              "name": "8级D干的传说",
+              "key": "DA_EpicRolldown"
+            },
+            {
+              "code": "HQ",
+              "top": [],
+              "bottom": [],
+              "name": "一波带走俩",
+              "key": "DA_SpeedyDoubleKill"
+            },
+            {
+              "code": "Ho",
+              "top": [],
+              "bottom": [],
+              "name": "剑之工匠",
+              "key": "DA_Swordsmith"
+            },
+            {
+              "code": "Ht",
+              "top": [],
+              "bottom": [],
+              "name": "双城赢家",
+              "key": "DA_ArcaneViktory"
+            },
+            {
+              "code": "Hu",
+              "top": [],
+              "bottom": [],
+              "name": "双排",
+              "key": "DA_18_DuoQueue"
+            },
+            {
+              "code": "IM",
+              "top": [],
+              "bottom": [],
+              "name": "大百宝袋",
+              "key": "DA_18_BigGrabBag"
+            },
+            {
+              "code": "IZ",
+              "top": [],
+              "bottom": [],
+              "name": "征战之路",
+              "key": "DA_Warpath"
+            },
+            {
+              "code": "Ih",
+              "top": [],
+              "bottom": [],
+              "name": "打捞桶",
+              "key": "DA_SalvageBin"
+            },
+            {
+              "code": "Ii",
+              "top": [],
+              "bottom": [],
+              "name": "打捞桶+",
+              "key": "DA_SalvageBinPlus"
+            },
+            {
+              "code": "Iz",
+              "top": [],
+              "bottom": [],
+              "name": "时间跳跃",
+              "key": "DA_TimeSkip"
+            },
+            {
+              "code": "JK",
+              "top": [],
+              "bottom": [],
+              "name": "杖之工匠",
+              "key": "DA_Staffsmith"
+            },
+            {
+              "code": "JS",
+              "top": [],
+              "bottom": [],
+              "name": "游神的眷顾",
+              "key": "DA_CaretakersFavor"
+            },
+            {
+              "code": "Jb",
+              "top": [],
+              "bottom": [],
+              "name": "炽天使之拥",
+              "key": "DA_SeraphimsStaff"
+            },
+            {
+              "code": "Ji",
+              "top": [],
+              "bottom": [],
+              "name": "独自升级",
+              "key": "DA_SoloLeveling"
+            },
+            {
+              "code": "Js",
+              "top": [],
+              "bottom": [],
+              "name": "砍价高手",
+              "key": "DA_HardBargain"
+            },
+            {
+              "code": "Jy",
+              "top": [],
+              "bottom": [],
+              "name": "纵深 II",
+              "key": "DA_VerticalityII"
+            },
+            {
+              "code": "Jz",
+              "top": [],
+              "bottom": [],
+              "name": "纷乱头脑",
+              "key": "DA_ClutteredMind"
+            },
+            {
+              "code": "KC",
+              "top": [],
+              "bottom": [],
+              "name": "花到上头",
+              "key": "DA_Hustler"
+            },
+            {
+              "code": "KF",
+              "top": [],
+              "bottom": [],
+              "name": "英勇福袋++",
+              "key": "DA_HeroicGrabBagPlusPlus"
+            },
+            {
+              "code": "KI",
+              "top": [],
+              "bottom": [],
+              "name": "蔓延之根+",
+              "key": "DA_SpreadingRootsPlus"
+            },
+            {
+              "code": "KO",
+              "top": [],
+              "bottom": [],
+              "name": "资本利得 II",
+              "key": "DA_CapitalGainsII"
+            },
+            {
+              "code": "KR",
+              "top": [],
+              "bottom": [],
+              "name": "金色炊具",
+              "key": "DA_CookingPot"
+            },
+            {
+              "code": "Ka",
+              "top": [],
+              "bottom": [],
+              "name": "飞升",
+              "key": "DA_Ascension"
+            },
+            {
+              "code": "Ke",
+              "top": [],
+              "bottom": [],
+              "name": "高级贷款+",
+              "key": "DA_AdvancedLoanPlus"
+            },
+            {
+              "code": "Hr",
+              "top": [],
+              "bottom": [],
+              "name": "单身板甲",
+              "key": "DA_SoloPlate"
+            },
+            {
+              "code": "Hn",
+              "top": [],
+              "bottom": [],
+              "name": "前线地基",
+              "key": "DA_FrontlineFoundation"
+            }
+          ],
+          "B": [
+            {
+              "code": "Kh",
+              "top": [],
+              "bottom": [],
+              "name": "魔法投掷",
+              "key": "DA_MagicRoll"
+            },
+            {
+              "code": "HX",
+              "top": [],
+              "bottom": [],
+              "name": "专属定制",
+              "key": "DA_ExclusiveCustomization"
+            },
+            {
+              "code": "HN",
+              "top": [],
+              "bottom": [],
+              "name": "DD街区",
+              "key": "DA_TradeSector"
+            },
+            {
+              "code": "Gt",
+              "top": [],
+              "bottom": [],
+              "name": "世纪和解",
+              "key": "DA_18_RivalsAugment"
+            },
+            {
+              "code": "Hl",
+              "top": [],
+              "bottom": [],
+              "name": "利落保镖",
+              "key": "DA_BodyguardTraining"
+            },
+            {
+              "code": "HO",
+              "top": [],
+              "bottom": [],
+              "name": "DD街区+",
+              "key": "DA_TradeSectorPlus"
+            },
+            {
+              "code": "HS",
+              "top": [],
+              "bottom": [],
+              "name": "三幻神",
+              "key": "DA_LegionOfThrees"
+            },
+            {
+              "code": "Hd",
+              "top": [],
+              "bottom": [],
+              "name": "便携锻炉",
+              "key": "DA_PortableForge"
+            },
+            {
+              "code": "Hv",
+              "top": [],
+              "bottom": [],
+              "name": "反响",
+              "key": "DA_Replication"
+            },
+            {
+              "code": "IG",
+              "top": [],
+              "bottom": [],
+              "name": "四之力",
+              "key": "DA_18_FOURcing"
+            },
+            {
+              "code": "Ib",
+              "top": [],
+              "bottom": [],
+              "name": "恶意货币化",
+              "key": "DA_MaliciousMonetization"
+            },
+            {
+              "code": "Ir",
+              "top": [],
+              "bottom": [],
+              "name": "挖角",
+              "key": "DA_Pilfer"
+            },
+            {
+              "code": "JC",
+              "top": [],
+              "bottom": [],
+              "name": "是我，宝贝！",
+              "key": "DA_ItsMeBaby"
+            },
+            {
+              "code": "JN",
+              "top": [],
+              "bottom": [],
+              "name": "治疗法球 II",
+              "key": "DA_HealingOrbsII"
+            },
+            {
+              "code": "JT",
+              "top": [],
+              "bottom": [],
+              "name": "源计划上行链路",
+              "key": "DA_CyberneticUplink_Gold"
+            },
+            {
+              "code": "JU",
+              "top": [],
+              "bottom": [],
+              "name": "源计划植入",
+              "key": "DA_CyberneticImplants_Gold"
+            },
+            {
+              "code": "JW",
+              "top": [],
+              "bottom": [],
+              "name": "潘朵拉的装备 II",
+              "key": "DA_PandorasItemsII"
+            },
+            {
+              "code": "Jd",
+              "top": [],
+              "bottom": [],
+              "name": "爆炸式增长",
+              "key": "DA_ExplosiveGrowth"
+            },
+            {
+              "code": "Jg",
+              "top": [],
+              "bottom": [],
+              "name": "物尽其用+",
+              "key": "DA_SlamminPlus"
+            },
+            {
+              "code": "KA",
+              "top": [],
+              "bottom": [],
+              "name": "终身黄铜 I",
+              "key": "DA_BronzeForLifeI"
+            },
+            {
+              "code": "KB",
+              "top": [],
+              "bottom": [],
+              "name": "耐心学习",
+              "key": "DA_PatientStudy"
+            },
+            {
+              "code": "KE",
+              "top": [],
+              "bottom": [],
+              "name": "英勇福袋+",
+              "key": "DA_HeroicGrabBagPlus"
+            },
+            {
+              "code": "KG",
+              "top": [],
+              "bottom": [],
+              "name": "获得21金币",
+              "key": "DA_GainGold"
+            },
+            {
+              "code": "KH",
+              "top": [],
+              "bottom": [],
+              "name": "蔓延之根",
+              "key": "DA_SpreadingRoots"
+            },
+            {
+              "code": "KN",
+              "top": [],
+              "bottom": [],
+              "name": "贪财+",
+              "key": "DA_MoneyHungryPlus"
+            },
+            {
+              "code": "KT",
+              "top": [],
+              "bottom": [],
+              "name": "金霖龙",
+              "key": "DA_TheGoldenDragon"
+            },
+            {
+              "code": "KU",
+              "top": [],
+              "bottom": [],
+              "name": "镀金钢铁",
+              "key": "DA_GildedSteel"
+            },
+            {
+              "code": "Kk",
+              "top": [],
+              "bottom": [],
+              "name": "黄金命运+",
+              "key": "DA_GoldDestinyPlus"
+            },
+            {
+              "code": "ME",
+              "top": [],
+              "bottom": [],
+              "name": "纺织魔法",
+              "key": "DA_WovenMagic"
+            },
+            {
+              "code": "HF",
+              "top": [],
+              "bottom": [],
+              "name": "绽灵花的约定",
+              "key": "DA_18_BlossomTraitAugment"
+            },
+            {
+              "code": "Hs",
+              "top": [],
+              "bottom": [],
+              "name": "厨神阿福",
+              "key": "DA_URF"
+            },
+            {
+              "code": "HV",
+              "top": [],
+              "bottom": [],
+              "name": "不侦察，不变阵",
+              "key": "DA_NoScoutNoPivot"
+            },
+            {
+              "code": "Ip",
+              "top": [],
+              "bottom": [],
+              "name": "拥抱 II",
+              "key": "DA_GroupHugII"
+            }
+          ],
+          "C": [
+            {
+              "code": "He",
+              "top": [],
+              "bottom": [],
+              "name": "值得等待",
+              "key": "DA_WorththeWait"
+            },
+            {
+              "code": "Gu",
+              "top": [],
+              "bottom": [],
+              "name": "兽性本能",
+              "key": "DA_18_PrimalAugment_Nidalee"
+            },
+            {
+              "code": "Gv",
+              "top": [],
+              "bottom": [],
+              "name": "兽性本能",
+              "key": "DA_18_PrimalAugment_Sivir"
+            },
+            {
+              "code": "Gw",
+              "top": [],
+              "bottom": [],
+              "name": "兽性本能+",
+              "key": "DA_18_PrimalAugmentPlus_Nidalee"
+            },
+            {
+              "code": "Gx",
+              "top": [],
+              "bottom": [],
+              "name": "兽性本能+",
+              "key": "DA_18_PrimalAugmentPlus_Sivir"
+            },
+            {
+              "code": "Hw",
+              "top": [],
+              "bottom": [],
+              "name": "发条增速器",
+              "key": "DA_ClockworkAccelerator"
+            },
+            {
+              "code": "IA",
+              "top": [],
+              "bottom": [],
+              "name": "后排蓝图",
+              "key": "DA_BacklineBlueprint"
+            },
+            {
+              "code": "IW",
+              "top": [],
+              "bottom": [],
+              "name": "应急护甲 II",
+              "key": "DA_MakeshiftArmorII"
+            },
+            {
+              "code": "IX",
+              "top": [],
+              "bottom": [],
+              "name": "应急护盾",
+              "key": "DA_PlotArmor"
+            },
+            {
+              "code": "Ia",
+              "top": [],
+              "bottom": [],
+              "name": "心之钢",
+              "key": "DA_HeartOfSteel"
+            },
+            {
+              "code": "Ie",
+              "top": [],
+              "bottom": [],
+              "name": "成吨的属性",
+              "key": "DA_TonsOfStatsI"
+            },
+            {
+              "code": "In",
+              "top": [],
+              "bottom": [],
+              "name": "承诺之护",
+              "key": "DA_PromisedProtection"
+            },
+            {
+              "code": "Io",
+              "top": [],
+              "bottom": [],
+              "name": "投资策略 I",
+              "key": "DA_InvestmentStrategyI"
+            },
+            {
+              "code": "Iq",
+              "top": [],
+              "bottom": [],
+              "name": "挑战者的优雅",
+              "key": "DA_ChallengersGrace"
+            },
+            {
+              "code": "Iu",
+              "top": [],
+              "bottom": [],
+              "name": "救赎盔甲",
+              "key": "DA_SpiritOfRedemption"
+            },
+            {
+              "code": "Iv",
+              "top": [],
+              "bottom": [],
+              "name": "新纪元",
+              "key": "DA_Epoch"
+            },
+            {
+              "code": "Iw",
+              "top": [],
+              "bottom": [],
+              "name": "新纪元+",
+              "key": "DA_EpochPlus"
+            },
+            {
+              "code": "JA",
+              "top": [],
+              "bottom": [],
+              "name": "星界赐福 II",
+              "key": "DA_CelestialBlessingII"
+            },
+            {
+              "code": "JO",
+              "top": [],
+              "bottom": [],
+              "name": "泪流成河",
+              "key": "DA_CryMeARiver"
+            },
+            {
+              "code": "JR",
+              "top": [],
+              "bottom": [],
+              "name": "清晰头脑",
+              "key": "DA_ClearMind"
+            },
+            {
+              "code": "Jf",
+              "top": [],
+              "bottom": [],
+              "name": "物尽其用",
+              "key": "DA_Slammin"
+            },
+            {
+              "code": "Jm",
+              "top": [],
+              "bottom": [],
+              "name": "玻璃大炮 II",
+              "key": "DA_GlassCannon_Gold"
+            },
+            {
+              "code": "Jn",
+              "top": [],
+              "bottom": [],
+              "name": "珠光莲花 I",
+              "key": "DA_JeweledLotus_I"
+            },
+            {
+              "code": "Jx",
+              "top": [],
+              "bottom": [],
+              "name": "等待得值",
+              "key": "DA_18_WeightTheWorth"
+            },
+            {
+              "code": "KD",
+              "top": [],
+              "bottom": [],
+              "name": "英勇福袋",
+              "key": "DA_HeroicGrabBag"
+            },
+            {
+              "code": "KL",
+              "top": [],
+              "bottom": [],
+              "name": "认知过载",
+              "key": "DA_CognitiveOverload"
+            },
+            {
+              "code": "KM",
+              "top": [],
+              "bottom": [],
+              "name": "贪财",
+              "key": "DA_MoneyHungry_NotBroken"
+            },
+            {
+              "code": "KY",
+              "top": [],
+              "bottom": [],
+              "name": "顶尖构筑",
+              "key": "DA_MaxBuild"
+            },
+            {
+              "code": "Kd",
+              "top": [],
+              "bottom": [],
+              "name": "高级贷款",
+              "key": "DA_AdvancedLoan"
+            },
+            {
+              "code": "Kj",
+              "top": [],
+              "bottom": [],
+              "name": "黄金命运",
+              "key": "DA_GoldDestiny"
+            },
+            {
+              "code": "Gy",
+              "top": [],
+              "bottom": [],
+              "name": "太阳的抉择",
+              "key": "DA_18_SolarTraitAugment"
+            },
+            {
+              "code": "Gz",
+              "top": [],
+              "bottom": [],
+              "name": "女巫使魔",
+              "key": "DA_18_CovenTraitAugment"
+            }
+          ],
+          "D": [
+            {
+              "code": "HA",
+              "top": [],
+              "bottom": [],
+              "name": "巨化术",
+              "key": "DA_18_FaeTraitAugment"
+            },
+            {
+              "code": "HB",
+              "top": [],
+              "bottom": [],
+              "name": "日月同辉",
+              "key": "DA_18_LunarTraitAugment"
+            },
+            {
+              "code": "HC",
+              "top": [],
+              "bottom": [],
+              "name": "日月同辉+",
+              "key": "DA_18_LunarTraitAugmentPlus"
+            },
+            {
+              "code": "HE",
+              "top": [],
+              "bottom": [],
+              "name": "毛茸茸小朋友",
+              "key": "DA_18_SprykinAugment"
+            },
+            {
+              "code": "HH",
+              "top": [],
+              "bottom": [],
+              "name": "致命丽花",
+              "key": "DA_18_FloraFatalisAugment"
+            },
+            {
+              "code": "HI",
+              "top": [],
+              "bottom": [],
+              "name": null,
+              "key": null
+            },
+            {
+              "code": "HT",
+              "top": [],
+              "bottom": [],
+              "name": "三相庇护",
+              "key": "DA_InfinityProtection"
+            },
+            {
+              "code": "Jq",
+              "top": [],
+              "bottom": [],
+              "name": "电火花 II",
+              "key": "DA_ElectrochargeII"
+            }
+          ]
+        },
+        "prismatic": {
+          "S": [
+            {
+              "code": "MT",
+              "top": [],
+              "bottom": [],
+              "name": "金鳞精萃",
+              "key": "DA_ShimmerscaleEssence"
+            },
+            {
+              "code": "LB",
+              "top": [],
+              "bottom": [],
+              "name": "基础装备大冒险",
+              "key": "DA_ComponentQuest"
+            },
+            {
+              "code": "JD",
+              "top": [
+                "BD"
+              ],
+              "bottom": [],
+              "name": "更要命的帽子",
+              "key": "DA_DeadlierCaps"
+            },
+            {
+              "code": "JE",
+              "top": [],
+              "bottom": [],
+              "name": "更要命的战刃",
+              "key": "DA_DeadlierBlades"
+            },
+            {
+              "code": "Lf",
+              "top": [],
+              "bottom": [],
+              "name": "正义报复",
+              "key": "DA_Retribution"
+            },
+            {
+              "code": "MK",
+              "top": [],
+              "bottom": [],
+              "name": "羁绊树+",
+              "key": "DA_TheTraitTreePlus"
+            },
+            {
+              "code": "Lr",
+              "top": [],
+              "bottom": [],
+              "name": "珍藏财宝 III",
+              "key": "DA_BuriedTreasuresIII"
+            },
+            {
+              "code": "MO",
+              "top": [
+                "MT"
+              ],
+              "bottom": [],
+              "name": "诅咒冠冕",
+              "key": "DA_CursedCrown"
+            }
+          ],
+          "A": [
+            {
+              "code": "JY",
+              "top": [],
+              "bottom": [],
+              "name": "灵活",
+              "key": "DA_Flexible"
+            },
+            {
+              "code": "MU",
+              "top": [],
+              "bottom": [],
+              "name": "锅铲厨房",
+              "key": "DA_TacticiansKitchen"
+            },
+            {
+              "code": "Km",
+              "top": [],
+              "bottom": [],
+              "name": "1个霸符，2个霸符",
+              "key": "DA_OneBuffTwoBuff"
+            },
+            {
+              "code": "Kt",
+              "top": [],
+              "bottom": [],
+              "name": "光明圣物",
+              "key": "DA_RadiantRelic"
+            },
+            {
+              "code": "Kx",
+              "top": [],
+              "bottom": [],
+              "name": "加冕礼",
+              "key": "DA_Coronation"
+            },
+            {
+              "code": "LD",
+              "top": [],
+              "bottom": [],
+              "name": "大剑溢流",
+              "key": "DA_SwordOverflow"
+            },
+            {
+              "code": "MM",
+              "top": [],
+              "bottom": [],
+              "name": "腰带溢流",
+              "key": "DA_BeltOverflow"
+            },
+            {
+              "code": "LS",
+              "top": [
+                "AR"
+              ],
+              "bottom": [],
+              "name": "投资策略 II",
+              "key": "DA_InvestmentStrategy"
+            },
+            {
+              "code": "Lc",
+              "top": [],
+              "bottom": [],
+              "name": "棱彩命运",
+              "key": "DA_PrismaticDestiny"
+            },
+            {
+              "code": "Ld",
+              "top": [],
+              "bottom": [],
+              "name": "棱彩命运+",
+              "key": "DA_PrismaticDestinyPlus"
+            },
+            {
+              "code": "MJ",
+              "top": [],
+              "bottom": [],
+              "name": "羁绊树",
+              "key": "DA_TheTraitTree"
+            },
+            {
+              "code": "Lk",
+              "top": [],
+              "bottom": [],
+              "name": "混沌召唤",
+              "key": "DA_CallToChaos"
+            },
+            {
+              "code": "Lv",
+              "top": [],
+              "bottom": [],
+              "name": "男爵幻域",
+              "key": "DA_BaronsLair"
+            },
+            {
+              "code": "MP",
+              "top": [],
+              "bottom": [],
+              "name": "贸易中心",
+              "key": "DA_CommerceCore"
+            },
+            {
+              "code": "MS",
+              "top": [],
+              "bottom": [],
+              "name": "金蛋",
+              "key": "DA_GoldenEgg"
+            },
+            {
+              "code": "Ma",
+              "top": [],
+              "bottom": [],
+              "name": "黄金赌约+",
+              "key": "DA_GoldenGamblePlus"
+            },
+            {
+              "code": "Mb",
+              "top": [],
+              "bottom": [],
+              "name": "黄金赌约++",
+              "key": "DA_GoldenGamblePlusPlus"
+            },
+            {
+              "code": "MY",
+              "top": [],
+              "bottom": [],
+              "name": "阿福的百宝袋",
+              "key": "DA_UrfsGrabBag"
+            },
+            {
+              "code": "MI",
+              "top": [],
+              "bottom": [],
+              "name": "羁绊天梯",
+              "key": "DA_TraitLadder"
+            },
+            {
+              "code": "MG",
+              "top": [],
+              "bottom": [],
+              "name": "终身黄铜 II",
+              "key": "DA_BronzeForLifeII"
+            }
+          ],
+          "B": [
+            {
+              "code": "If",
+              "top": [],
+              "bottom": [],
+              "name": "成吨的属性！",
+              "key": "DA_TonsOfStatsII"
+            },
+            {
+              "code": "Kl",
+              "top": [],
+              "bottom": [],
+              "name": "创世神",
+              "key": "DA_18_LuxAugmentII"
+            },
+            {
+              "code": "Ky",
+              "top": [],
+              "bottom": [],
+              "name": "升级咯！",
+              "key": "DA_LevelUp"
+            },
+            {
+              "code": "Ks",
+              "top": [],
+              "bottom": [],
+              "name": "值得等待 II",
+              "key": "DA_WorththeWaitII"
+            },
+            {
+              "code": "Kz",
+              "top": [],
+              "bottom": [],
+              "name": "可大可小",
+              "key": "DA_Min_Max"
+            },
+            {
+              "code": "Li",
+              "top": [],
+              "bottom": [],
+              "name": "法杖溢流",
+              "key": "DA_WandOverflow"
+            },
+            {
+              "code": "LE",
+              "top": [],
+              "bottom": [],
+              "name": "大而有力",
+              "key": "DA_GiantAndMighty"
+            },
+            {
+              "code": "LQ",
+              "top": [],
+              "bottom": [],
+              "name": "投资+",
+              "key": "DA_InvestedPlus"
+            },
+            {
+              "code": "LR",
+              "top": [],
+              "bottom": [],
+              "name": "投资++",
+              "key": "DA_InvestedPlusPlus"
+            },
+            {
+              "code": "LU",
+              "top": [],
+              "bottom": [],
+              "name": "摇钱树",
+              "key": "DA_MoneyMonsoon"
+            },
+            {
+              "code": "Lo",
+              "top": [],
+              "bottom": [],
+              "name": "灵魂唤醒",
+              "key": "DA_SoulAwakening"
+            },
+            {
+              "code": "Ls",
+              "top": [],
+              "bottom": [],
+              "name": "珠光莲花 II",
+              "key": "DA_JeweledLotus_II"
+            },
+            {
+              "code": "Lt",
+              "top": [],
+              "bottom": [],
+              "name": "甜点",
+              "key": "DA_SweetTreats"
+            },
+            {
+              "code": "MD",
+              "top": [],
+              "bottom": [],
+              "name": "纵深 III",
+              "key": "DA_VerticalityIII"
+            },
+            {
+              "code": "MV",
+              "top": [],
+              "bottom": [],
+              "name": "锻造器套娃",
+              "key": "DA_NestingAnvils"
+            },
+            {
+              "code": "MW",
+              "top": [],
+              "bottom": [],
+              "name": "锻造器套娃+",
+              "key": "DA_NestingAnvilsPlus"
+            },
+            {
+              "code": "Lj",
+              "top": [],
+              "bottom": [],
+              "name": "活体锻炉",
+              "key": "DA_LivingForge"
+            },
+            {
+              "code": "LF",
+              "top": [],
+              "bottom": [],
+              "name": "奢侈品订购",
+              "key": "DA_LuxurySubscription"
+            },
+            {
+              "code": "Ln",
+              "top": [],
+              "bottom": [],
+              "name": "潘朵拉的装备 III",
+              "key": "DA_PandorasItemsIII"
+            },
+            {
+              "code": "Ko",
+              "top": [],
+              "bottom": [],
+              "name": "上进心",
+              "key": "DA_UpwardMobility"
+            }
+          ],
+          "C": [
+            {
+              "code": "Ku",
+              "top": [],
+              "bottom": [],
+              "name": "光明无赖",
+              "key": "DA_RadiantRascal"
+            },
+            {
+              "code": "LA",
+              "top": [],
+              "bottom": [],
+              "name": "坚守防线",
+              "key": "DA_HoldTheLine"
+            },
+            {
+              "code": "LG",
+              "top": [],
+              "bottom": [],
+              "name": "对冲基金",
+              "key": "DA_HedgeFund"
+            },
+            {
+              "code": "LL",
+              "top": [],
+              "bottom": [],
+              "name": "幸运手套+",
+              "key": "DA_LuckyGlovesPlus"
+            },
+            {
+              "code": "Ce",
+              "top": [],
+              "bottom": [],
+              "name": "来个好伙计",
+              "key": "DA_BuildABud"
+            },
+            {
+              "code": "Le",
+              "top": [],
+              "bottom": [],
+              "name": "棱彩门票",
+              "key": "DA_PrismaticTicket"
+            },
+            {
+              "code": "Lu",
+              "top": [],
+              "bottom": [],
+              "name": "生日礼物",
+              "key": "DA_BirthdayPresent"
+            },
+            {
+              "code": "Lz",
+              "top": [],
+              "bottom": [],
+              "name": "神力天铸",
+              "key": "DA_ForgedInStrength"
+            },
+            {
+              "code": "MB",
+              "top": [],
+              "bottom": [],
+              "name": "窃贼帮派 II+",
+              "key": "DA_BandOfThievesIIPlus"
+            },
+            {
+              "code": "MC",
+              "top": [],
+              "bottom": [],
+              "name": "窃贼帮派 II++",
+              "key": "DA_BandOfThievesIIPlusPlus"
+            },
+            {
+              "code": "MH",
+              "top": [],
+              "bottom": [],
+              "name": "绝境反击",
+              "key": "DA_ComebackStory"
+            },
+            {
+              "code": "MZ",
+              "top": [],
+              "bottom": [],
+              "name": "黄金赌约",
+              "key": "DA_GoldenGamble"
+            },
+            {
+              "code": "LC",
+              "top": [],
+              "bottom": [],
+              "name": "大买特买",
+              "key": "DA_ShoppingSpree"
+            }
+          ],
+          "D": [
+            {
+              "code": "LM",
+              "top": [],
+              "bottom": [],
+              "name": "弈子套娃",
+              "key": "DA_NestingDollsPlus"
+            },
+            {
+              "code": "Cg",
+              "top": [],
+              "bottom": [],
+              "name": "弈子套娃",
+              "key": "DA_NestingDollsPlusPlus"
+            },
+            {
+              "code": "LK",
+              "top": [],
+              "bottom": [],
+              "name": "幸运手套",
+              "key": "DA_LuckyGloves"
+            },
+            {
+              "code": "LZ",
+              "top": [],
+              "bottom": [],
+              "name": "星界赐福 III",
+              "key": "DA_CelestialBlessingIII"
+            },
+            {
+              "code": "Lg",
+              "top": [],
+              "bottom": [],
+              "name": "水乳交融",
+              "key": "DA_WeStickTogether"
+            },
+            {
+              "code": "Ly",
+              "top": [],
+              "bottom": [],
+              "name": "硬性承诺",
+              "key": "DA_HardCommit"
+            },
+            {
+              "code": "MA",
+              "top": [],
+              "bottom": [],
+              "name": "窃贼帮派 II",
+              "key": "DA_BandOfThievesII"
+            },
+            {
+              "code": "MQ",
+              "top": [],
+              "bottom": [],
+              "name": "遥遥领先",
+              "key": "DA_GoingLong"
+            },
+            {
+              "code": "Ob",
+              "top": [],
+              "bottom": [],
+              "name": "交给运气",
+              "key": "TFT9_Augment_RollTheDice"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "equipment": {
+    "radiant": {
+      "S": [
+        {
+          "code": "Dc",
+          "top": [],
+          "bottom": [],
+          "name": "光明版鬼索的狂暴之刃",
+          "key": "DA_GuinsoosRagebladeRadiant"
+        },
+        {
+          "code": "Df",
+          "top": [],
+          "bottom": [],
+          "name": "光明版海妖之怒",
+          "key": "DA_KrakensFury_Radiant"
+        },
+        {
+          "code": "Ds",
+          "top": [],
+          "bottom": [],
+          "name": "光明版正义之手",
+          "key": "DA_HandOfJusticeRadiant"
+        }
+      ],
+      "A": [
+        {
+          "code": "DU",
+          "top": [],
+          "bottom": [],
+          "name": "光明版巨人杀手",
+          "key": "DA_GiantSlayer_Radiant"
+        },
+        {
+          "code": "DT",
+          "top": [],
+          "bottom": [],
+          "name": "光明版死亡之刃",
+          "key": "DA_DeathbladeRadiant"
+        },
+        {
+          "code": "Da",
+          "top": [],
+          "bottom": [],
+          "name": "光明版无尽之刃",
+          "key": "DA_InfinityEdgeRadiant"
+        },
+        {
+          "code": "Di",
+          "top": [],
+          "bottom": [],
+          "name": "光明版灭世者的死亡之帽",
+          "key": "DA_RabadonsDeathcap_Radiant"
+        },
+        {
+          "code": "Dj",
+          "top": [],
+          "bottom": [],
+          "name": "光明版大天使之杖",
+          "key": "DA_ArchangelsStaffRadiant"
+        },
+        {
+          "code": "Db",
+          "top": [],
+          "bottom": [],
+          "name": "光明版红霸符",
+          "key": "DA_RedBuffRadiant"
+        },
+        {
+          "code": "DZ",
+          "top": [],
+          "bottom": [],
+          "name": "光明版斯特拉克的挑战护手",
+          "key": "DA_SteraksGageRadiant"
+        }
+      ],
+      "B": [
+        {
+          "code": "Dh",
+          "top": [],
+          "bottom": [],
+          "name": "光明版最后的轻语",
+          "key": "DA_LastWhisperRadiant"
+        },
+        {
+          "code": "EB",
+          "top": [],
+          "bottom": [],
+          "name": "光明版强袭者的链枷",
+          "key": "DA_StrikersFlailRadiant"
+        },
+        {
+          "code": "Dz",
+          "top": [],
+          "bottom": [],
+          "name": "光明版水银",
+          "key": "DA_QuicksilverRadiant"
+        },
+        {
+          "code": "Dq",
+          "top": [],
+          "bottom": [],
+          "name": "光明版适应性头盔",
+          "key": "DA_AdaptiveHelm_Radiant"
+        },
+        {
+          "code": "DX",
+          "top": [],
+          "bottom": [],
+          "name": "光明版夜之锋刃",
+          "key": "DA_EdgeOfNightRadiant"
+        },
+        {
+          "code": "Du",
+          "top": [],
+          "bottom": [],
+          "name": "光明版石像鬼石板甲",
+          "key": "DA_GargoyleStoneplate_Radiant"
+        },
+        {
+          "code": "EA",
+          "top": [],
+          "bottom": [],
+          "name": "光明版狂徒铠甲",
+          "key": "DA_WarmogsArmorRadiant"
+        },
+        {
+          "code": "De",
+          "top": [],
+          "bottom": [],
+          "name": "光明版泰坦的坚决",
+          "key": "DA_TitansResolve_Radiant"
+        },
+        {
+          "code": "Dn",
+          "top": [],
+          "bottom": [],
+          "name": "光明版珠光护手",
+          "key": "DA_JeweledGauntletRadiant"
+        },
+        {
+          "code": "EC",
+          "top": [],
+          "bottom": [],
+          "name": "光明版窃贼手套",
+          "key": "DA_ThiefsGlovesRadiant"
+        }
+      ],
+      "C": [
+        {
+          "code": "DW",
+          "top": [],
+          "bottom": [],
+          "name": "光明版朔极之矛",
+          "key": "DA_SpearOfShojinRadiant"
+        },
+        {
+          "code": "Do",
+          "top": [],
+          "bottom": [],
+          "name": "光明版蓝霸符",
+          "key": "DA_BlueBuffRadiant"
+        },
+        {
+          "code": "DV",
+          "top": [],
+          "bottom": [],
+          "name": "光明版海克斯科技枪刃",
+          "key": "DA_HextechGunbladeRadiant"
+        },
+        {
+          "code": "Dv",
+          "top": [],
+          "bottom": [],
+          "name": "光明版日炎斗篷",
+          "key": "DA_SunfireCape_Radiant"
+        },
+        {
+          "code": "Dl",
+          "top": [],
+          "bottom": [],
+          "name": "光明版离子火花",
+          "key": "DA_IonicSparkRadiant"
+        },
+        {
+          "code": "Dt",
+          "top": [],
+          "bottom": [],
+          "name": "光明版棘刺背心",
+          "key": "DA_BrambleVestRadiant"
+        },
+        {
+          "code": "Dw",
+          "top": [],
+          "bottom": [],
+          "name": "光明版坚定之心",
+          "key": "DA_SteadfastHeartRadiant"
+        },
+        {
+          "code": "Dg",
+          "top": [],
+          "bottom": [],
+          "name": "光明版纳什之牙",
+          "key": "DA_NashorsToothRadiant"
+        },
+        {
+          "code": "Dd",
+          "top": [],
+          "bottom": [],
+          "name": "光明版虚空之杖",
+          "key": "DA_VoidStaffRadiant"
+        },
+        {
+          "code": "Dm",
+          "top": [],
+          "bottom": [],
+          "name": "光明版莫雷洛秘典",
+          "key": "DA_MorellonomiconRadiant"
+        }
+      ],
+      "D": [
+        {
+          "code": "DY",
+          "top": [],
+          "bottom": [],
+          "name": "光明版饮血剑",
+          "key": "DA_BloodthirsterRadiant"
+        },
+        {
+          "code": "Dy",
+          "top": [],
+          "bottom": [],
+          "name": "光明版薄暮法袍",
+          "key": "DA_EvenshroudRadiant"
+        },
+        {
+          "code": "Dx",
+          "top": [],
+          "bottom": [],
+          "name": "光明版巨龙之爪",
+          "key": "DA_DragonsClawRadiant"
+        },
+        {
+          "code": "Dr",
+          "top": [],
+          "bottom": [],
+          "name": "光明版振奋盔甲",
+          "key": "DA_SpiritVisage_Radiant"
+        },
+        {
+          "code": "Dp",
+          "top": [],
+          "bottom": [],
+          "name": "光明版圣盾使的誓约",
+          "key": "DA_ProtectorsVowRadiant"
+        },
+        {
+          "code": "Dk",
+          "top": [],
+          "bottom": [],
+          "name": "光明版冕卫",
+          "key": "DA_CrownguardRadiant"
+        }
+      ]
+    },
+    "artifact": {
+      "S": [
+        {
+          "code": "DF",
+          "top": [],
+          "bottom": [],
+          "name": "投机者之刃",
+          "key": "DA_Artifact_GamblersBlade"
+        },
+        {
+          "code": "Qm",
+          "top": [],
+          "bottom": [],
+          "name": "暗行者之爪",
+          "key": "TFT_Item_Artifact_ProwlersClaw"
+        }
+      ],
+      "A": [
+        {
+          "code": "Ct",
+          "top": [],
+          "bottom": [],
+          "name": "黎明核心",
+          "key": "DA_Artifact_Dawncore"
+        },
+        {
+          "code": "Cu",
+          "top": [],
+          "bottom": [],
+          "name": "纳沃利烁刃",
+          "key": "DA_Artifact_NavoriFlickerblade"
+        },
+        {
+          "code": "DC",
+          "top": [],
+          "bottom": [],
+          "name": "碎舰者",
+          "key": "DA_Artifact_Hullcrusher"
+        },
+        {
+          "code": "DP",
+          "top": [],
+          "bottom": [],
+          "name": "巫妖之祸",
+          "key": "DA_Artifact_LichBane"
+        },
+        {
+          "code": "Cm",
+          "top": [],
+          "bottom": [],
+          "name": "魔蕴",
+          "key": "DA_Artifact_Manazane"
+        },
+        {
+          "code": "DQ",
+          "top": [],
+          "bottom": [],
+          "name": "光盾徽章",
+          "key": "DA_Artifact_LightshieldCrest"
+        },
+        {
+          "code": "DA",
+          "top": [],
+          "bottom": [],
+          "name": "金币收集者",
+          "key": "DA_Artifact_GoldCollector"
+        }
+      ],
+      "B": [
+        {
+          "code": "DE",
+          "top": [],
+          "bottom": [],
+          "name": "大亨之铠",
+          "key": "DA_Artifact_MogulsMail"
+        },
+        {
+          "code": "DO",
+          "top": [],
+          "bottom": [],
+          "name": "智慧末刃",
+          "key": "DA_Artifact_WitsEnd"
+        },
+        {
+          "code": "Cs",
+          "top": [],
+          "bottom": [],
+          "name": "永恒契约",
+          "key": "DA_Artifact_EternalPact"
+        },
+        {
+          "code": "DS",
+          "top": [],
+          "bottom": [],
+          "name": "卢登的激荡",
+          "key": "DA_Artifact_LudensTempest"
+        },
+        {
+          "code": "DR",
+          "top": [],
+          "bottom": [],
+          "name": "探索者的护臂",
+          "key": "DA_Artifact_SeekersArmguard"
+        },
+        {
+          "code": "Cv",
+          "top": [],
+          "bottom": [],
+          "name": "斯塔缇克电刃",
+          "key": "DA_Artifact_StatikkShiv"
+        },
+        {
+          "code": "Cx",
+          "top": [],
+          "bottom": [],
+          "name": "顽强不屈",
+          "key": "DA_Artifact_TheIndomitable"
+        },
+        {
+          "code": "Cy",
+          "top": [],
+          "bottom": [],
+          "name": "死亡蔑视",
+          "key": "DA_Artifact_DeathsDefiance"
+        }
+      ],
+      "C": [
+        {
+          "code": "Cp",
+          "top": [],
+          "bottom": [],
+          "name": "恶火小斧",
+          "key": "DA_Artifact_HellfireHatchet"
+        },
+        {
+          "code": "DG",
+          "top": [],
+          "bottom": [],
+          "name": "飞升护符",
+          "key": "DA_Item_Artifact_TalismanOfAscension"
+        },
+        {
+          "code": "Co",
+          "top": [],
+          "bottom": [],
+          "name": "黎明圣盾",
+          "key": "DA_Artifact_AegisOfDawn"
+        },
+        {
+          "code": "Cq",
+          "top": [],
+          "bottom": [],
+          "name": "黄昏圣盾",
+          "key": "DA_Artifact_AegisOfDusk"
+        },
+        {
+          "code": "DI",
+          "top": [],
+          "bottom": [],
+          "name": "视界专注",
+          "key": "DA_Artifact_HorizonFocus"
+        },
+        {
+          "code": "Cz",
+          "top": [],
+          "bottom": [],
+          "name": "三相之力",
+          "key": "DA_Artifact_InfinityForce"
+        },
+        {
+          "code": "DB",
+          "top": [],
+          "bottom": [],
+          "name": "中娅悖论",
+          "key": "DA_Artifact_ZhonyasParadox"
+        },
+        {
+          "code": "DJ",
+          "top": [],
+          "bottom": [],
+          "name": "连指手套",
+          "key": "DA_Artifact_Mittens"
+        },
+        {
+          "code": "Cw",
+          "top": [],
+          "bottom": [],
+          "name": "巨型九头蛇",
+          "key": "DA_Artifact_TitanicHydra"
+        }
+      ],
+      "D": [
+        {
+          "code": "FM",
+          "top": [],
+          "bottom": [],
+          "name": "禁忌雕像",
+          "key": "DA_Artifact_ForbiddenIdol"
+        },
+        {
+          "code": "DH",
+          "top": [],
+          "bottom": [],
+          "name": "鱼骨头",
+          "key": "DA_Artifact_Fishbones"
+        },
+        {
+          "code": "DK",
+          "top": [],
+          "bottom": [],
+          "name": "疾射火炮",
+          "key": "DA_Artifact_RapidFireCannon"
+        },
+        {
+          "code": "DL",
+          "top": [],
+          "bottom": [],
+          "name": "密银黎明",
+          "key": "DA_Artifact_SilvermereDawn"
+        },
+        {
+          "code": "DN",
+          "top": [],
+          "bottom": [],
+          "name": "枯萎珠宝",
+          "key": "DA_Artifact_BlightingJewel"
+        },
+        {
+          "code": "Cn",
+          "top": [],
+          "bottom": [],
+          "name": "虚空护手",
+          "key": "DA_Artifact_VoidGauntlet"
+        }
+      ]
+    },
+    "emblem": {
+      "S": [
+        {
+          "code": "Cl",
+          "top": [],
+          "bottom": [],
+          "name": "主宰纹章",
+          "key": "DA_18_EmblemJuggernaut"
+        }
+      ],
+      "A": [
+        {
+          "code": "CV",
+          "top": [],
+          "bottom": [],
+          "name": "迅捷射手纹章",
+          "key": "DA_18_EmblemRapidfire"
+        },
+        {
+          "code": "CX",
+          "top": [],
+          "bottom": [],
+          "name": "重装战士纹章",
+          "key": "DA_18_EmblemVanguard"
+        },
+        {
+          "code": "CT",
+          "top": [],
+          "bottom": [],
+          "name": "斗士纹章",
+          "key": "DA_18_EmblemBrawler"
+        },
+        {
+          "code": "CL",
+          "top": [],
+          "bottom": [],
+          "name": "月蚀骑士纹章",
+          "key": "DA_18_EmblemLunar"
+        },
+        {
+          "code": "CP",
+          "top": [],
+          "bottom": [],
+          "name": "永恒之森纹章",
+          "key": "DA_18_EmblemElderwood"
+        },
+        {
+          "code": "CY",
+          "top": [],
+          "bottom": [],
+          "name": "猎人纹章",
+          "key": "DA_18_EmblemHunter"
+        }
+      ],
+      "B": [
+        {
+          "code": "CO",
+          "top": [],
+          "bottom": [],
+          "name": "地狱火纹章",
+          "key": "DA_18_EmblemInferno"
+        },
+        {
+          "code": "CS",
+          "top": [],
+          "bottom": [],
+          "name": "裁决使纹章",
+          "key": "DA_18_EmblemExecutioner"
+        },
+        {
+          "code": "CZ",
+          "top": [],
+          "bottom": [],
+          "name": "狂战士纹章",
+          "key": "DA_18_EmblemSlayer"
+        },
+        {
+          "code": "Ck",
+          "top": [],
+          "bottom": [],
+          "name": "护卫纹章",
+          "key": "DA_18_EmblemDefender"
+        }
+      ],
+      "C": [
+        {
+          "code": "CW",
+          "top": [],
+          "bottom": [],
+          "name": "法师纹章",
+          "key": "DA_18_EmblemSpellweaver"
+        },
+        {
+          "code": "QA",
+          "top": [],
+          "bottom": [],
+          "name": "绝命花妖纹章",
+          "key": "DA_18_EmblemFloraFatalisAugment"
+        },
+        {
+          "code": "Cj",
+          "top": [],
+          "bottom": [],
+          "name": "绝命花妖纹章",
+          "key": "DA_18_EmblemFloraFatalis"
+        },
+        {
+          "code": "CR",
+          "top": [],
+          "bottom": [],
+          "name": "野兽之灵纹章",
+          "key": "DA_18_EmblemPrimal"
+        },
+        {
+          "code": "CU",
+          "top": [],
+          "bottom": [],
+          "name": "神谕纹章",
+          "key": "DA_18_EmblemInvoker"
+        },
+        {
+          "code": "CN",
+          "top": [],
+          "bottom": [],
+          "name": "花仙子纹章",
+          "key": "DA_18_EmblemFae"
+        },
+        {
+          "code": "CK",
+          "top": [],
+          "bottom": [],
+          "name": "灵魂莲华纹章",
+          "key": "DA_18_EmblemBlossom"
+        },
+        {
+          "code": "CQ",
+          "top": [],
+          "bottom": [],
+          "name": "黑荆棘纹章",
+          "key": "DA_18_EmblemBlackthorn"
+        }
+      ],
+      "D": [
+        {
+          "code": "Ca",
+          "top": [],
+          "bottom": [],
+          "name": "魔女纹章",
+          "key": "DA_18_EmblemCoven"
+        },
+        {
+          "code": "CM",
+          "top": [],
+          "bottom": [],
+          "name": "约德尔人和朋友纹章",
+          "key": "DA_18_EmblemSprykin"
+        }
+      ]
+    }
+  }
+}

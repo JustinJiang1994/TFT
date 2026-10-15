@@ -1,0 +1,380 @@
+{
+  "evidence_sha256": "c0d3520fd779c88b539341e142e1e437e1893d6741091a7831adedb6f7b47679",
+  "rows": [
+    {
+      "comp": "426003",
+      "name": "绝命花妖 / 阿兹尔",
+      "branch": "default",
+      "confirmed": [
+        "tft-s18-18.4b-20261015:DA_18_Azir",
+        "tft-s18-18.4b-20261015:DA_18_Rammus"
+      ],
+      "tank_confirmed": true,
+      "candidates": []
+    },
+    {
+      "comp": "426007",
+      "name": "峡谷野怪 / 苍蓝哨戒",
+      "branch": "default",
+      "confirmed": [
+        "tft-s18-18.4b-20261015:DA_18_Sentry"
+      ],
+      "tank_confirmed": false,
+      "candidates": []
+    },
+    {
+      "comp": "426000",
+      "name": "护卫 / 雷恩加尔",
+      "branch": "default",
+      "confirmed": [
+        "tft-s18-18.4b-20261015:DA_18_Cassiopeia",
+        "tft-s18-18.4b-20261015:DA_18_Rengar"
+      ],
+      "tank_confirmed": false,
+      "candidates": [
+        "tft-s18-18.4b-20261015:DA_18_Rammus"
+      ]
+    },
+    {
+      "comp": "426000",
+      "name": "护卫 / 雷恩加尔",
+      "branch": "with_emblem",
+      "confirmed": [
+        "tft-s18-18.4b-20261015:DA_18_Cassiopeia",
+        "tft-s18-18.4b-20261015:DA_18_Rengar"
+      ],
+      "tank_confirmed": false,
+      "candidates": [
+        "tft-s18-18.4b-20261015:DA_18_Rammus"
+      ]
+    },
+    {
+      "comp": "426000",
+      "name": "护卫 / 雷恩加尔",
+      "branch": "without_emblem",
+      "confirmed": [
+        "tft-s18-18.4b-20261015:DA_18_Cassiopeia"
+      ],
+      "tank_confirmed": false,
+      "candidates": []
+    },
+    {
+      "comp": "426027",
+      "name": "重装战士 / 莫甘娜",
+      "branch": "default",
+      "confirmed": [
+        "tft-s18-18.4b-20261015:DA_18_Alune",
+        "tft-s18-18.4b-20261015:DA_18_Morgana"
+      ],
+      "tank_confirmed": false,
+      "candidates": [
+        "tft-s18-18.4b-20261015:DA_Sentinel18"
+      ]
+    },
+    {
+      "comp": "426002",
+      "name": "永恒之森 / 伊泽瑞尔 / 厄斐琉斯",
+      "branch": "default",
+      "confirmed": [
+        "tft-s18-18.4b-20261015:DA_18_Aphelios",
+        "tft-s18-18.4b-20261015:DA_18_Ezreal"
+      ],
+      "tank_confirmed": false,
+      "candidates": [
+        "tft-s18-18.4b-20261015:DA_18_Hecarim"
+      ]
+    },
+    {
+      "comp": "426002",
+      "name": "永恒之森 / 伊泽瑞尔 / 厄斐琉斯",
+      "branch": "with_emblem",
+      "confirmed": [
+        "tft-s18-18.4b-20261015:DA_18_Ezreal",
+        "tft-s18-18.4b-20261015:DA_18_Aphelios"
+      ],
+      "tank_confirmed": false,
+      "candidates": [
+        "tft-s18-18.4b-20261015:DA_18_Hecarim"
+      ]
+    },
+    {
+      "comp": "426002",
+      "name": "永恒之森 / 伊泽瑞尔 / 厄斐琉斯",
+      "branch": "without_emblem",
+      "confirmed": [
+        "tft-s18-18.4b-20261015:DA_18_Ezreal",
+        "tft-s18-18.4b-20261015:DA_18_Aphelios"
+      ],
+      "tank_confirmed": false,
+      "candidates": [
+        "tft-s18-18.4b-20261015:DA_18_Hecarim"
+      ]
+    },
+    {
+      "comp": "426004",
+      "name": "月蚀骑士 / 厄斐琉斯 / 奈德丽",
+      "branch": "default",
+      "confirmed": [
+        "tft-s18-18.4b-20261015:DA_18_Aphelios",
+        "tft-s18-18.4b-20261015:DA_Nidalee18_AP"
+      ],
+      "tank_confirmed": false,
+      "candidates": []
+    },
+    {
+      "comp": "426021",
+      "name": "迅捷射手 / 凯尔",
+      "branch": "default",
+      "confirmed": [
+        "tft-s18-18.4b-20261015:DA_18_Kayle",
+        "tft-s18-18.4b-20261015:DA_18_Sejuani",
+        "tft-s18-18.4b-20261015:DA_18_Varus"
+      ],
+      "tank_confirmed": true,
+      "candidates": []
+    },
+    {
+      "comp": "426021",
+      "name": "迅捷射手 / 凯尔",
+      "branch": "without_emblem",
+      "confirmed": [
+        "tft-s18-18.4b-20261015:DA_18_Sejuani",
+        "tft-s18-18.4b-20261015:DA_18_Varus",
+        "tft-s18-18.4b-20261015:DA_18_Kayle"
+      ],
+      "tank_confirmed": true,
+      "candidates": []
+    },
+    {
+      "comp": "426008",
+      "name": "重装战士 / 拉露恩",
+      "branch": "default",
+      "confirmed": [
+        "tft-s18-18.4b-20261015:DA_18_Alune"
+      ],
+      "tank_confirmed": false,
+      "candidates": []
+    },
+    {
+      "comp": "426006",
+      "name": "神谕 / 提莫 / 阿利斯塔",
+      "branch": "default",
+      "confirmed": [
+        "tft-s18-18.4b-20261015:DA_18_Teemo"
+      ],
+      "tank_confirmed": false,
+      "candidates": []
+    },
+    {
+      "comp": "426001",
+      "name": "迅捷射手 / 厄斐琉斯",
+      "branch": "default",
+      "confirmed": [
+        "tft-s18-18.4b-20261015:DA_18_Aphelios"
+      ],
+      "tank_confirmed": false,
+      "candidates": []
+    },
+    {
+      "comp": "426001",
+      "name": "迅捷射手 / 厄斐琉斯",
+      "branch": "with_emblem",
+      "confirmed": [
+        "tft-s18-18.4b-20261015:DA_18_Aphelios"
+      ],
+      "tank_confirmed": false,
+      "candidates": [
+        "tft-s18-18.4b-20261015:DA_Amumu18"
+      ]
+    },
+    {
+      "comp": "426001",
+      "name": "迅捷射手 / 厄斐琉斯",
+      "branch": "without_emblem",
+      "confirmed": [
+        "tft-s18-18.4b-20261015:DA_Nidalee18_AP",
+        "tft-s18-18.4b-20261015:DA_18_Aphelios"
+      ],
+      "tank_confirmed": false,
+      "candidates": [
+        "tft-s18-18.4b-20261015:DA_Sentinel18"
+      ]
+    },
+    {
+      "comp": "426005",
+      "name": "裁决使 / 瑟提",
+      "branch": "default",
+      "confirmed": [
+        "tft-s18-18.4b-20261015:DA_18_Ezreal"
+      ],
+      "tank_confirmed": false,
+      "candidates": []
+    },
+    {
+      "comp": "426012",
+      "name": "裁决使 / 卡兹克",
+      "branch": "default",
+      "confirmed": [
+        "tft-s18-18.4b-20261015:DA_18_Hecarim",
+        "tft-s18-18.4b-20261015:DA_18_KhaZix"
+      ],
+      "tank_confirmed": true,
+      "candidates": []
+    },
+    {
+      "comp": "426013",
+      "name": "神谕 / 提莫",
+      "branch": "default",
+      "confirmed": [
+        "tft-s18-18.4b-20261015:DA_18_Teemo"
+      ],
+      "tank_confirmed": false,
+      "candidates": [
+        "tft-s18-18.4b-20261015:DA_18_Rammus"
+      ]
+    },
+    {
+      "comp": "426014",
+      "name": "法师 / 维迦",
+      "branch": "default",
+      "confirmed": [
+        "tft-s18-18.4b-20261015:DA_18_Veigar"
+      ],
+      "tank_confirmed": false,
+      "candidates": []
+    },
+    {
+      "comp": "426010",
+      "name": "神谕 / 阿狸",
+      "branch": "default",
+      "confirmed": [],
+      "tank_confirmed": false,
+      "candidates": [
+        "tft-s18-18.4b-20261015:DA_18_Ahri",
+        "tft-s18-18.4b-20261015:DA_18_Sett"
+      ]
+    },
+    {
+      "comp": "426009",
+      "name": "神谕 / 莫甘娜",
+      "branch": "default",
+      "confirmed": [
+        "tft-s18-18.4b-20261015:DA_18_Morgana"
+      ],
+      "tank_confirmed": false,
+      "candidates": []
+    },
+    {
+      "comp": "426037",
+      "name": "狂战士 / 绯红印记树怪",
+      "branch": "default",
+      "confirmed": [],
+      "tank_confirmed": false,
+      "candidates": []
+    },
+    {
+      "comp": "426022",
+      "name": "魔战士 / 易 / 雷恩加尔",
+      "branch": "default",
+      "confirmed": [
+        "tft-s18-18.4b-20261015:DA_18_MasterYi_AD",
+        "tft-s18-18.4b-20261015:DA_18_Rengar"
+      ],
+      "tank_confirmed": false,
+      "candidates": [
+        "tft-s18-18.4b-20261015:DA_Vi18"
+      ]
+    },
+    {
+      "comp": "426022",
+      "name": "魔战士 / 易 / 雷恩加尔",
+      "branch": "without_emblem",
+      "confirmed": [
+        "tft-s18-18.4b-20261015:DA_18_MasterYi_AD",
+        "tft-s18-18.4b-20261015:DA_18_Rengar"
+      ],
+      "tank_confirmed": false,
+      "candidates": [
+        "tft-s18-18.4b-20261015:DA_Vi18"
+      ]
+    },
+    {
+      "comp": "426011",
+      "name": "永恒之森 / 德莱文",
+      "branch": "default",
+      "confirmed": [
+        "tft-s18-18.4b-20261015:DA_Draven18"
+      ],
+      "tank_confirmed": false,
+      "candidates": []
+    },
+    {
+      "comp": "426023",
+      "name": "狂战士 / 沃里克",
+      "branch": "default",
+      "confirmed": [
+        "tft-s18-18.4b-20261015:DA_18_Warwick"
+      ],
+      "tank_confirmed": false,
+      "candidates": []
+    },
+    {
+      "comp": "426016",
+      "name": "猎人 / 希维尔",
+      "branch": "default",
+      "confirmed": [
+        "tft-s18-18.4b-20261015:DA_18_Sivir",
+        "tft-s18-18.4b-20261015:DA_Nidalee18_AP"
+      ],
+      "tank_confirmed": false,
+      "candidates": []
+    },
+    {
+      "comp": "426016",
+      "name": "猎人 / 希维尔",
+      "branch": "without_emblem",
+      "confirmed": [
+        "tft-s18-18.4b-20261015:DA_Nidalee18_AP",
+        "tft-s18-18.4b-20261015:DA_18_Sivir"
+      ],
+      "tank_confirmed": false,
+      "candidates": [
+        "tft-s18-18.4b-20261015:DA_18_Malphite"
+      ]
+    },
+    {
+      "comp": "426029",
+      "name": "魔战士 / 易",
+      "branch": "default",
+      "confirmed": [
+        "tft-s18-18.4b-20261015:DA_18_MasterYi_AD"
+      ],
+      "tank_confirmed": false,
+      "candidates": []
+    },
+    {
+      "comp": "426029",
+      "name": "魔战士 / 易",
+      "branch": "with_emblem",
+      "confirmed": [
+        "tft-s18-18.4b-20261015:DA_18_MasterYi_AD"
+      ],
+      "tank_confirmed": false,
+      "candidates": [
+        "tft-s18-18.4b-20261015:DA_Krug18"
+      ]
+    },
+    {
+      "comp": "426029",
+      "name": "魔战士 / 易",
+      "branch": "without_emblem",
+      "confirmed": [
+        "tft-s18-18.4b-20261015:DA_18_MasterYi_AD"
+      ],
+      "tank_confirmed": false,
+      "candidates": [
+        "tft-s18-18.4b-20261015:DA_Vi18"
+      ]
+    }
+  ]
+}

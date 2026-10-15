@@ -1,0 +1,76 @@
+{
+  "collected_date_local": "2026-10-15",
+  "jcc": {
+    "data_path": "/Users/justin/Desktop/金铲铲/TFT/games/jcc/set18/18.3/snapshots/20261015T020123Z/data",
+    "rank_count": 38,
+    "detail_count": 15,
+    "board_records": 287,
+    "patch": "18.3",
+    "successful_requests": 233
+  },
+  "tft": {
+    "source": "https://www.metatft.com/comps",
+    "set": "TFTSet18",
+    "patch": "current alias; exact patch not yet verified",
+    "rank_count": 60,
+    "detail_count": 60,
+    "successful_requests": 64,
+    "catalog_raw_counts": {
+      "units": 82,
+      "traits": 37,
+      "items": 149,
+      "augments": 260
+    },
+    "coverage": {
+      "cluster": 60,
+      "placements": 60,
+      "counters": 60,
+      "players": 60,
+      "final_levels": 60,
+      "unit_stats": 60,
+      "builds": 60,
+      "overall": 60,
+      "itemNames": 60,
+      "options": 60,
+      "trends": 60,
+      "traits": 60,
+      "augments": 60,
+      "ranks": 60,
+      "levels": 60,
+      "rerolls": 60,
+      "positioning": 60,
+      "relative_positioning": 60,
+      "early_options": 60,
+      "portals": 60,
+      "proComps": 50,
+      "identified_augment_stats": 0,
+      "early_board_records": 2400,
+      "final_board_records": 14413
+    },
+    "lookup_metadata": {
+      "set": "TFTSet18",
+      "setName": "Enchanted Wilds",
+      "patch": "pbe",
+      "generated": "2026-10-06T21:13:15.212Z",
+      "coreHash": "69ca9bf869348e7a3365b1fe58a2a15944f4a6c1",
+      "release": "rls-18.4.0.5637330.Set18FullPC.Shipping.pbe",
+      "manifest": "F9A0F56B2A0F292A",
+      "tooltips": "curvetable"
+    },
+    "stats_filters": {
+      "queue": 1100,
+      "patch": "current",
+      "days": 3,
+      "rank": "CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM",
+      "cluster_id": 426
+    },
+    "integrity_verified": true
+  },
+  "design_notes": [
+    "两端可共用产品结构，保留独立平台、版本、统计口径和评级字段",
+    "未核验阵容对应关系，不能从双端抓取成功推断强度一致",
+    "MetaTFT current是动态补丁别名；词库标记pbe，具体正式服补丁及技能数值仍需核对",
+    "金铲铲全榜38套，详情仅S/A 15套；MetaTFT详情覆盖返回的60个分组",
+    "原始详情保留完整返回字段；未提取高手攻略推荐，不把空强化ID当成有效统计"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "recorded_at": "2026-10-15T02:43:53.944484+00:00",
+  "purpose": "补充验证；不覆写10月15日02:14 UTC原始统计",
+  "requests": [
+    {
+      "file": "comps-page.html",
+      "url": "https://www.metatft.com/comps",
+      "sha256": "7aa610d7d2f3a297195f1599c9111786cffc749c96c621f3b71569b3f274b05c"
+    },
+    {
+      "file": "main-Cukhk3-v.js",
+      "url": "https://www.metatft.com/assets/main-Cukhk3-v.js",
+      "sha256": "0608cb910fd2e872756daaef214c4a0a5276863bafe92a5aa7eb43c71d96c2cc"
+    },
+    {
+      "file": "games.json",
+      "url": "https://api-hc.metatft.com/tft-stat-api/games?days=7",
+      "sha256": "4d66fb9e3c1f3a0f1c57119622c206bd6391e640c9f5117879cbe61c3e7cfb39"
+    },
+    {
+      "file": "stats-explicit-18.4b.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comps_stats?queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER%2CDIAMOND%2CEMERALD%2CGRANDMASTER%2CMASTER%2CPLATINUM&cluster_id=426",
+      "sha256": "874d4a375191e86e6b5407c5f6855b4a96bc3260bb0bd9152274347c3f416730"
+    },
+    {
+      "file": "stats-current-check.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/comps_stats?queue=1100&patch=current&days=3&rank=CHALLENGER%2CDIAMOND%2CEMERALD%2CGRANDMASTER%2CMASTER%2CPLATINUM&cluster_id=426",
+      "sha256": "eed4fe7a9abeaa31b44559a92b7d189ba67326be3b5341ab5d48fc14c9532dd3"
+    }
+  ],
+  "unsuccessful_checks": [
+    {
+      "url": "https://api.metatft.com/updated",
+      "status": 404
+    }
+  ]
+}

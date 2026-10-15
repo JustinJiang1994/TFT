@@ -1,0 +1,82 @@
+{
+  "requests": [
+    {
+      "file": "academy-set-18-riftbeast-reroll.html",
+      "url": "https://tftacademy.com/tierlist/comps/set-18-riftbeast-reroll",
+      "sha256": "0d155b8a346da04bccf2eb413626dffaca6e102bc3f269513bd4325dfde6f241",
+      "retrieved_at": "2026-10-15T05:59:35.352626+00:00"
+    },
+    {
+      "file": "academy-set-18-aphelios-vanguards-copy.html",
+      "url": "https://tftacademy.com/tierlist/comps/set-18-aphelios-vanguards-copy",
+      "sha256": "ea6e5767acd60e494d67fa56fe94d7bc86602c2094f83e1933794127751167f6",
+      "retrieved_at": "2026-10-15T05:59:34.114665+00:00"
+    },
+    {
+      "file": "academy-set-18-ap-95.html",
+      "url": "https://tftacademy.com/tierlist/comps/set-18-ap-95",
+      "sha256": "e1cf8c8faa24626358f35caf757536f69d7d50edad5bfdd1bc3c17ce3376168e",
+      "retrieved_at": "2026-10-15T05:59:35.357640+00:00"
+    },
+    {
+      "file": "academy-set-18-sprykin-teemo-copy.html",
+      "url": "https://tftacademy.com/tierlist/comps/set-18-sprykin-teemo-copy",
+      "sha256": "cbab9075b21baca13d37c6a87e8f7ffdd0b75297c56e9eacf4efb5efe3237b16",
+      "retrieved_at": "2026-10-15T05:59:35.355583+00:00"
+    },
+    {
+      "file": "academy-set-18-lunarwood-khazix.html",
+      "url": "https://tftacademy.com/tierlist/comps/set-18-lunarwood-khazix",
+      "sha256": "2271a192ddc7d9838748a595953b66ec738c06a11a3a8710573c03fc7c9dc162",
+      "retrieved_at": "2026-10-15T05:59:35.865421+00:00"
+    },
+    {
+      "file": "academy-set-18-cashout-morgana.html",
+      "url": "https://tftacademy.com/tierlist/comps/set-18-cashout-morgana",
+      "sha256": "db059461305017a1ecf79e5f16ce329751de815f0c28cc22bd1d4ff4d5185ea9",
+      "retrieved_at": "2026-10-15T05:59:36.206214+00:00"
+    },
+    {
+      "file": "academy-set-18-warwick-rr.html",
+      "url": "https://tftacademy.com/tierlist/comps/set-18-warwick-rr",
+      "sha256": "e5c33c5e67f588a8a43afc3c8508e5ccc7ea2cc46af22dd52de4b26073062aad",
+      "retrieved_at": "2026-10-15T05:59:37.118642+00:00"
+    },
+    {
+      "file": "defender-rengar-reroll.html",
+      "url": "https://www.pivottft.com/comps/defender-rengar-reroll/",
+      "sha256": "594dfcdd58e2870b41be9c87ab2d21143657e2e7eb045abe13ca6a350ec24ce9",
+      "retrieved_at": "2026-10-15T05:59:36.956761+00:00"
+    },
+    {
+      "file": "coven-morgana.html",
+      "url": "https://www.pivottft.com/comps/coven-morgana/",
+      "sha256": "40030d749478e7c33012212500f591f0c845656126060e49b4a4b44cf18ab211",
+      "retrieved_at": "2026-10-15T05:59:37.424794+00:00"
+    },
+    {
+      "file": "invoker-teemo-reroll.html",
+      "url": "https://www.pivottft.com/comps/invoker-teemo-reroll/",
+      "sha256": "152d5873fb9bea692d203da31110eeeb9de0316fe38476dcb17127cf304c86a3",
+      "retrieved_at": "2026-10-15T05:59:37.682031+00:00"
+    },
+    {
+      "file": "brambleback-ravager.html",
+      "url": "https://lum.gg/tft/team/brambleback-ravager",
+      "sha256": "ebbc15c904e141131d067c3ab8ea31bd765f88a20dc2e618f80af36d06c808c6",
+      "retrieved_at": "2026-10-15T05:59:39.522851+00:00"
+    },
+    {
+      "file": "riftbeast-brambleback.html",
+      "url": "https://tftflow.com/composition/set18/riftbeast-brambleback",
+      "sha256": "243a445ba9436c049fcdd640ef89b31e61e8cf56a7da59d87516ba0f2b739523",
+      "retrieved_at": "2026-10-15T05:59:39.040412+00:00"
+    },
+    {
+      "file": "pivot-about.html",
+      "url": "https://www.pivottft.com/about/",
+      "sha256": "f6d856a30395696e32ba6b837b56c35201a2c4ccbd66f09624a51e6ca1f8d38d",
+      "retrieved_at": "2026-10-15T05:59:38.738402+00:00"
+    }
+  ]
+}

@@ -1,0 +1,543 @@
+{
+  "source": "https://jcc.datatft.com",
+  "platform": "jcc",
+  "requests": [
+    {
+      "file": "raw/catalog-s18.json",
+      "url": "https://jcc.datatft.com/assets/h5-data-cn-18-C8KhxreH.json",
+      "body": null,
+      "retrieved_at": "2026-10-15T02:21:03.062247+00:00",
+      "ok": true,
+      "sha256": "f876b8b7699fe932412ca08ddf1e664a4f0d0570114a74c7e0bcfb2dc6f912c7",
+      "bytes": 343750
+    },
+    {
+      "file": "raw/team-list.json",
+      "url": "https://api.datatft.com/team/list",
+      "body": {
+        "version": "jcc_18.3",
+        "season": "18",
+        "tier": "grandmaster",
+        "time": 5
+      },
+      "retrieved_at": "2026-10-15T02:21:03.457849+00:00",
+      "ok": true,
+      "sha256": "4f159a02e3e9437d65a636841607f679e2c29e0370abb82f43263e7afe5e4bbd",
+      "bytes": 29684
+    },
+    {
+      "file": "raw/team-comps.json",
+      "url": "https://api.datatft.com/team/comps",
+      "body": {
+        "season": "18"
+      },
+      "retrieved_at": "2026-10-15T02:21:03.713845+00:00",
+      "ok": false,
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "response_code": 42000,
+      "error": "来源返回系统异常"
+    },
+    {
+      "file": "raw/home.json",
+      "url": "https://api.datatft.com/team/home",
+      "body": {
+        "version": "jcc_18.3",
+        "season": "18",
+        "tier": "grandmaster",
+        "time": 5,
+        "gamePlatform": 2
+      },
+      "retrieved_at": "2026-10-15T02:21:03.899682+00:00",
+      "ok": false,
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "response_code": 42000,
+      "error": "来源返回系统异常"
+    },
+    {
+      "file": "raw/stats-hero.json",
+      "url": "https://api.datatft.com/data/explore/list",
+      "body": {
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "filterTargetType": "hero"
+      },
+      "retrieved_at": "2026-10-15T02:21:04.085923+00:00",
+      "ok": false,
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "response_code": 42000,
+      "error": "来源返回系统异常"
+    },
+    {
+      "file": "raw/stats-equip.json",
+      "url": "https://api.datatft.com/data/explore/list",
+      "body": {
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "filterTargetType": "equip"
+      },
+      "retrieved_at": "2026-10-15T02:21:04.261298+00:00",
+      "ok": false,
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "response_code": 42000,
+      "error": "来源返回系统异常"
+    },
+    {
+      "file": "raw/stats-trait.json",
+      "url": "https://api.datatft.com/data/explore/list",
+      "body": {
+        "version": "jcc_18.3",
+        "tier": "grandmaster",
+        "filterTargetType": "trait"
+      },
+      "retrieved_at": "2026-10-15T02:21:04.427096+00:00",
+      "ok": false,
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "response_code": 42000,
+      "error": "来源返回系统异常"
+    },
+    {
+      "file": "raw/rank.json",
+      "url": "https://api.datatft.com/team/rank",
+      "body": {
+        "season": "18"
+      },
+      "retrieved_at": "2026-10-15T02:22:06.846284+00:00",
+      "ok": false,
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "response_code": 42000,
+      "error": "来源返回系统异常"
+    },
+    {
+      "file": "raw/strategies/16218.json",
+      "url": "https://api.datatft.com/team/strategy",
+      "body": {
+        "id": 16218
+      },
+      "retrieved_at": "2026-10-15T02:22:07.028255+00:00",
+      "ok": false,
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "response_code": 42000,
+      "error": "来源返回系统异常"
+    },
+    {
+      "file": "raw/strategies/16222.json",
+      "url": "https://api.datatft.com/team/strategy",
+      "body": {
+        "id": 16222
+      },
+      "retrieved_at": "2026-10-15T02:22:07.348687+00:00",
+      "ok": false,
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "response_code": 42000,
+      "error": "来源返回系统异常"
+    },
+    {
+      "file": "raw/strategies/16223.json",
+      "url": "https://api.datatft.com/team/strategy",
+      "body": {
+        "id": 16223
+      },
+      "retrieved_at": "2026-10-15T02:22:07.755780+00:00",
+      "ok": false,
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "response_code": 42000,
+      "error": "来源返回系统异常"
+    },
+    {
+      "file": "raw/strategies/16230.json",
+      "url": "https://api.datatft.com/team/strategy",
+      "body": {
+        "id": 16230
+      },
+      "retrieved_at": "2026-10-15T02:22:08.109081+00:00",
+      "ok": false,
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "response_code": 42000,
+      "error": "来源返回系统异常"
+    },
+    {
+      "file": "raw/strategies/16234.json",
+      "url": "https://api.datatft.com/team/strategy",
+      "body": {
+        "id": 16234
+      },
+      "retrieved_at": "2026-10-15T02:22:08.431042+00:00",
+      "ok": false,
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "response_code": 42000,
+      "error": "来源返回系统异常"
+    },
+    {
+      "file": "raw/strategies/16235.json",
+      "url": "https://api.datatft.com/team/strategy",
+      "body": {
+        "id": 16235
+      },
+      "retrieved_at": "2026-10-15T02:22:08.848434+00:00",
+      "ok": false,
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "response_code": 42000,
+      "error": "来源返回系统异常"
+    },
+    {
+      "file": "raw/strategies/16236.json",
+      "url": "https://api.datatft.com/team/strategy",
+      "body": {
+        "id": 16236
+      },
+      "retrieved_at": "2026-10-15T02:22:09.201300+00:00",
+      "ok": false,
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "response_code": 42000,
+      "error": "来源返回系统异常"
+    },
+    {
+      "file": "raw/strategies/16241.json",
+      "url": "https://api.datatft.com/team/strategy",
+      "body": {
+        "id": 16241
+      },
+      "retrieved_at": "2026-10-15T02:22:09.524518+00:00",
+      "ok": false,
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "response_code": 42000,
+      "error": "来源返回系统异常"
+    },
+    {
+      "file": "raw/strategies/16242.json",
+      "url": "https://api.datatft.com/team/strategy",
+      "body": {
+        "id": 16242
+      },
+      "retrieved_at": "2026-10-15T02:22:09.899646+00:00",
+      "ok": false,
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "response_code": 42000,
+      "error": "来源返回系统异常"
+    },
+    {
+      "file": "raw/strategies/16244.json",
+      "url": "https://api.datatft.com/team/strategy",
+      "body": {
+        "id": 16244
+      },
+      "retrieved_at": "2026-10-15T02:22:10.251705+00:00",
+      "ok": false,
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "response_code": 42000,
+      "error": "来源返回系统异常"
+    },
+    {
+      "file": "raw/strategies/16253.json",
+      "url": "https://api.datatft.com/team/strategy",
+      "body": {
+        "id": 16253
+      },
+      "retrieved_at": "2026-10-15T02:22:10.650397+00:00",
+      "ok": false,
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "response_code": 42000,
+      "error": "来源返回系统异常"
+    },
+    {
+      "file": "raw/strategies/16258.json",
+      "url": "https://api.datatft.com/team/strategy",
+      "body": {
+        "id": 16258
+      },
+      "retrieved_at": "2026-10-15T02:22:10.991925+00:00",
+      "ok": false,
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "response_code": 42000,
+      "error": "来源返回系统异常"
+    },
+    {
+      "file": "raw/strategies/16260.json",
+      "url": "https://api.datatft.com/team/strategy",
+      "body": {
+        "id": 16260
+      },
+      "retrieved_at": "2026-10-15T02:22:11.448258+00:00",
+      "ok": false,
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "response_code": 42000,
+      "error": "来源返回系统异常"
+    },
+    {
+      "file": "raw/strategies/16261.json",
+      "url": "https://api.datatft.com/team/strategy",
+      "body": {
+        "id": 16261
+      },
+      "retrieved_at": "2026-10-15T02:22:11.855845+00:00",
+      "ok": false,
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "response_code": 42000,
+      "error": "来源返回系统异常"
+    },
+    {
+      "file": "raw/strategies/16264.json",
+      "url": "https://api.datatft.com/team/strategy",
+      "body": {
+        "id": 16264
+      },
+      "retrieved_at": "2026-10-15T02:22:12.198349+00:00",
+      "ok": false,
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "response_code": 42000,
+      "error": "来源返回系统异常"
+    },
+    {
+      "file": "raw/strategies/16265.json",
+      "url": "https://api.datatft.com/team/strategy",
+      "body": {
+        "id": 16265
+      },
+      "retrieved_at": "2026-10-15T02:22:12.524441+00:00",
+      "ok": false,
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "response_code": 42000,
+      "error": "来源返回系统异常"
+    },
+    {
+      "file": "raw/strategies/16266.json",
+      "url": "https://api.datatft.com/team/strategy",
+      "body": {
+        "id": 16266
+      },
+      "retrieved_at": "2026-10-15T02:22:12.907119+00:00",
+      "ok": false,
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "response_code": 42000,
+      "error": "来源返回系统异常"
+    },
+    {
+      "file": "raw/strategies/16270.json",
+      "url": "https://api.datatft.com/team/strategy",
+      "body": {
+        "id": 16270
+      },
+      "retrieved_at": "2026-10-15T02:22:13.235091+00:00",
+      "ok": false,
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "response_code": 42000,
+      "error": "来源返回系统异常"
+    },
+    {
+      "file": "raw/strategies/16271.json",
+      "url": "https://api.datatft.com/team/strategy",
+      "body": {
+        "id": 16271
+      },
+      "retrieved_at": "2026-10-15T02:22:13.574242+00:00",
+      "ok": false,
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "response_code": 42000,
+      "error": "来源返回系统异常"
+    },
+    {
+      "file": "raw/strategies/16276.json",
+      "url": "https://api.datatft.com/team/strategy",
+      "body": {
+        "id": 16276
+      },
+      "retrieved_at": "2026-10-15T02:22:14.001538+00:00",
+      "ok": false,
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "response_code": 42000,
+      "error": "来源返回系统异常"
+    },
+    {
+      "file": "raw/strategies/16277.json",
+      "url": "https://api.datatft.com/team/strategy",
+      "body": {
+        "id": 16277
+      },
+      "retrieved_at": "2026-10-15T02:22:14.356776+00:00",
+      "ok": false,
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "response_code": 42000,
+      "error": "来源返回系统异常"
+    },
+    {
+      "file": "raw/strategies/16278.json",
+      "url": "https://api.datatft.com/team/strategy",
+      "body": {
+        "id": 16278
+      },
+      "retrieved_at": "2026-10-15T02:22:14.714818+00:00",
+      "ok": false,
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "response_code": 42000,
+      "error": "来源返回系统异常"
+    },
+    {
+      "file": "raw/strategies/16279.json",
+      "url": "https://api.datatft.com/team/strategy",
+      "body": {
+        "id": 16279
+      },
+      "retrieved_at": "2026-10-15T02:22:15.434592+00:00",
+      "ok": false,
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "response_code": 42000,
+      "error": "来源返回系统异常"
+    },
+    {
+      "file": "raw/strategies/16282.json",
+      "url": "https://api.datatft.com/team/strategy",
+      "body": {
+        "id": 16282
+      },
+      "retrieved_at": "2026-10-15T02:22:15.747756+00:00",
+      "ok": false,
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "response_code": 42000,
+      "error": "来源返回系统异常"
+    },
+    {
+      "file": "raw/strategies/16288.json",
+      "url": "https://api.datatft.com/team/strategy",
+      "body": {
+        "id": 16288
+      },
+      "retrieved_at": "2026-10-15T02:22:16.429424+00:00",
+      "ok": false,
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "response_code": 42000,
+      "error": "来源返回系统异常"
+    },
+    {
+      "file": "raw/strategies/16291.json",
+      "url": "https://api.datatft.com/team/strategy",
+      "body": {
+        "id": 16291
+      },
+      "retrieved_at": "2026-10-15T02:22:16.807770+00:00",
+      "ok": false,
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "response_code": 42000,
+      "error": "来源返回系统异常"
+    },
+    {
+      "file": "raw/strategies/16292.json",
+      "url": "https://api.datatft.com/team/strategy",
+      "body": {
+        "id": 16292
+      },
+      "retrieved_at": "2026-10-15T02:22:17.322268+00:00",
+      "ok": false,
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "response_code": 42000,
+      "error": "来源返回系统异常"
+    },
+    {
+      "file": "raw/strategies/16294.json",
+      "url": "https://api.datatft.com/team/strategy",
+      "body": {
+        "id": 16294
+      },
+      "retrieved_at": "2026-10-15T02:22:17.821727+00:00",
+      "ok": false,
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "response_code": 42000,
+      "error": "来源返回系统异常"
+    },
+    {
+      "file": "raw/strategies/16312.json",
+      "url": "https://api.datatft.com/team/strategy",
+      "body": {
+        "id": 16312
+      },
+      "retrieved_at": "2026-10-15T02:22:18.278973+00:00",
+      "ok": false,
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "response_code": 42000,
+      "error": "来源返回系统异常"
+    },
+    {
+      "file": "raw/strategies/16313.json",
+      "url": "https://api.datatft.com/team/strategy",
+      "body": {
+        "id": 16313
+      },
+      "retrieved_at": "2026-10-15T02:22:18.653807+00:00",
+      "ok": false,
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "response_code": 42000,
+      "error": "来源返回系统异常"
+    },
+    {
+      "file": "raw/strategies/16314.json",
+      "url": "https://api.datatft.com/team/strategy",
+      "body": {
+        "id": 16314
+      },
+      "retrieved_at": "2026-10-15T02:22:18.992609+00:00",
+      "ok": false,
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "response_code": 42000,
+      "error": "来源返回系统异常"
+    },
+    {
+      "file": "raw/augment-tier-config.json",
+      "url": "https://api.datatft.com/augment-tier/config?platform=jcc&season=18",
+      "body": null,
+      "retrieved_at": "2026-10-15T02:22:19.314657+00:00",
+      "ok": false,
+      "sha256": "ffdba27322dd208d7474378ea109247ab99a4fed2633d16d6fb5d794cc4a7e0a",
+      "bytes": 103,
+      "response_code": 42000,
+      "error": "来源返回系统异常"
+    }
+  ],
+  "status": "partial",
+  "set": "18",
+  "version_requested": "jcc_18.3",
+  "tier_requested": "grandmaster",
+  "time_requested": 5,
+  "source_version_basis": "公开前端当前金铲铲版本选项首项",
+  "notes": [
+    "仅覆盖当前S18默认查询；未采集所有历史版本、段位和筛选组合",
+    "详情及多个统计接口返回42000，未确认具体原因",
+    "基础资料是网站共享静态词库，未逐项验证国服差异",
+    "装备评级嵌于公开脚本，已归档原脚本，未解码为结构化评级"
+  ]
+}

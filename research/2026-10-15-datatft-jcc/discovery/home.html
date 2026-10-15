@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <script id="h5-data-preload">(function () {
+  if (!/^\/h5(?:\/|$)/.test(window.location.pathname) || window.__DATA_TFT_H5_DATA__) return;
+  if (/[?&]lang=en(?:&|$)/i.test(window.location.search || '')) return;
+  var urls = {"11":"/assets/h5-data-cn-11-DJc4LprS.json","16":"/assets/h5-data-cn-16-CZWBLvq1.json","17":"/assets/h5-data-cn-17-lsoFoVdQ.json","18":"/assets/h5-data-cn-18-C8KhxreH.json","16.5":"/assets/h5-data-cn-16.5-DZ92RYci.json"};
+  var match = (window.location.search || '').match(/[?&]season=([^&]*)/);
+  var season = '18';
+  try { if (match) season = decodeURIComponent(match[1]); } catch (error) {}
+  var selectedUrl = typeof urls === 'string' ? urls : (urls[season] || urls['18']);
+  var state = window.__DATA_TFT_H5_DATA__ = { url: selectedUrl, done: false, text: '', error: '', listeners: [] };
+  function finish(text, error) {
+    if (state.done) return;
+    state.text = text;
+    state.error = error;
+    state.done = true;
+    var listeners = state.listeners;
+    state.listeners = [];
+    for (var i = 0; i < listeners.length; i++) listeners[i]();
+  }
+  try {
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', state.url, true);
+    xhr.onload = function () {
+      finish(xhr.status >= 200 && xhr.status < 300 ? xhr.responseText : '', xhr.status >= 200 && xhr.status < 300 ? '' : 'H5 game data request failed: ' + xhr.status);
+    };
+    xhr.onerror = xhr.onabort = function () { finish('', 'H5 game data network error'); };
+    xhr.send();
+  } catch (error) { finish('', String(error)); }
+})();</script>
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <script>
+    (function () {
+      if (window.location.hostname === 'datatft.com' || (window.location.protocol === 'http:' && /^(www|jcc)\.datatft\.com$/.test(window.location.hostname))) {
+        window.location.replace('https://' + (window.location.hostname === 'datatft.com' ? 'www.datatft.com' : window.location.hostname) + window.location.pathname + window.location.search + window.location.hash);
+      }
+    })();
+  </script>
+  <link rel="icon" href="/assets/favicon-JvcPL-z8.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>金铲铲大数据 - 金铲铲之战阵容、装备与强化符文</title>
+  <meta name="description" content="金铲铲大数据提供金铲铲之战热门阵容、英雄出装、装备搭配、强化符文排行、阵容模拟器和对局数据查询。" />
+  <meta name="keywords" content="金铲铲之战,金铲铲大数据,金铲铲阵容,金铲铲出装,金铲铲强化符文,金铲铲模拟器" />
+  <link rel="canonical" href="https://jcc.datatft.com/" />
+  <!-- 静态Open Graph标签 -->
+  <meta property="og:title" content="金铲铲大数据 - 金铲铲之战阵容、装备与强化符文" />
+  <meta property="og:description" content="金铲铲大数据提供金铲铲之战热门阵容、英雄出装、装备搭配、强化符文排行、阵容模拟器和对局数据查询。" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://jcc.datatft.com/" />
+  <meta property="og:image" content="https://static.datatft.com/images/web/index/logo2.png" />
+  <meta property="og:site_name" content="金铲铲大数据" />
+  <meta property="og:locale" content="zh_CN" />
+
+  <!-- Twitter Card标签 -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="金铲铲大数据 - 金铲铲之战阵容、装备与强化符文" />
+  <meta name="twitter:description" content="金铲铲大数据提供金铲铲之战热门阵容、英雄出装、装备搭配、强化符文排行、阵容模拟器和对局数据查询。" />
+  <meta name="twitter:image" content="https://static.datatft.com/images/web/index/logo2.png" />
+
+  <meta name="theme-color" content="#5865F2" />
+  <!-- 语言检测和初始SEO设置脚本 -->
+  <script>
+    (function () {
+      var buildPlatform = 'jcc';
+      var isJccPlatform = buildPlatform === 'jcc' || window.location.hostname === 'jcc.datatft.com';
+      // 检测URL参数中的语言
+      var langMatch = /(?:^|[?&])lang=([^&]*)/.exec(window.location.search);
+      var langParam = '';
+      try { langParam = langMatch ? decodeURIComponent(langMatch[1]) : ''; } catch (error) {}
+      // 检测缓存中的语言
+      var savedLanguage = null;
+      try { savedLanguage = localStorage.getItem('language'); } catch (error) {}
+      // 检测浏览器语言
+      var browserLang = navigator.language.toLowerCase();
+
+      var detectedLang = 'en'; // 默认英文
+      // 优先级：URL参数 > 缓存 > 浏览器语言
+      if (langParam) {
+        if (langParam === 'zh' || langParam === 'cn') detectedLang = 'zh';
+        else if (langParam === 'vn') detectedLang = 'vn';
+        else detectedLang = 'en';
+      } else if (savedLanguage) {
+        if (['CN', 'TW', 'MY'].indexOf(savedLanguage) !== -1) detectedLang = 'zh';
+        else if (savedLanguage === 'VN') detectedLang = 'vn';
+        else detectedLang = 'en';
+      } else {
+        // 浏览器语言检测
+        if (browserLang.indexOf('zh') === 0) detectedLang = 'zh';
+        else if (browserLang.indexOf('vi') === 0) detectedLang = 'vn';
+        else detectedLang = 'en';
+      }
+
+      // 根据检测到的语言设置标题和meta信息
+      var seoData = {
+        jcc: {
+          title: '金铲铲大数据 - 金铲铲之战阵容、装备与强化符文',
+          description: '金铲铲大数据提供金铲铲之战热门阵容、英雄出装、装备搭配、强化符文排行、阵容模拟器和对局数据查询。',
+          keywords: '金铲铲之战,金铲铲大数据,金铲铲阵容,金铲铲出装,金铲铲强化符文,金铲铲模拟器',
+          lang: 'zh-CN'
+        },
+        zh: {
+          title: '云顶大数据',
+          description: '云顶之弈大数据,轻松查询各类数据模型,检索最强出装和强化符文,构建专属阵容,为你的云顶之旅提供全方位数据支持!',
+          keywords: '金铲铲之战,云顶之弈,云顶之弈大数据,云顶之弈检索器,云顶之弈模拟器,金铲铲模拟器,云顶之弈英雄资料,云顶之弈阵容分析,游戏数据查询',
+          lang: 'zh-CN'
+        },
+        en: {
+          title: 'DataTFT',
+          description: 'DataTFT—— Browsing various stats, finding the best builds, and crafting your personalized comps. Get comprehensive data support for your TFT journey starting from today!',
+          keywords: 'TFT, Teamfight Tactics, TFT data, TFT searcher, TFT simulator, TFT hero information, TFT lineup analysis, game data query',
+          lang: 'en'
+        },
+        vn: {
+          title: 'DataTFT',
+          description: 'Data TFT, dễ dàng truy vấn các mô hình dữ liệu, tìm kiếm trang bị mạnh nhất và rune nâng cao, xây dựng đội hình riêng, cung cấp hỗ trợ dữ liệu toàn diện cho hành trình TFT S12 của bạn!',
+          keywords: 'Đấu Trường Chân Lý, TFT, Dữ liệu lớn TFT, Công cụ tìm kiếm TFT, Trình mô phỏng TFT, Thông tin tướng TFT, Phân tích đội hình TFT, Tra cứu dữ liệu trò chơi',
+          lang: 'vi'
+        }
+      };
+
+      var currentSeo = isJccPlatform ? seoData.jcc : seoData[detectedLang];
+
+      // 设置HTML lang属性
+      document.documentElement.lang = currentSeo.lang;
+
+      // 设置标题
+      document.title = currentSeo.title;
+
+      // 创建并设置meta标签
+      function setMeta(name, content) {
+        var meta = document.querySelector('meta[name="' + name + '"]');
+        if (!meta) {
+          meta = document.createElement('meta');
+          meta.name = name;
+          document.head.appendChild(meta);
+        }
+        meta.content = content;
+      }
+
+      function setProperty(property, content) {
+        var meta = document.querySelector('meta[property="' + property + '"]');
+        if (!meta) {
+          meta = document.createElement('meta');
+          meta.setAttribute('property', property);
+          document.head.appendChild(meta);
+        }
+        meta.content = content;
+      }
+
+      // 设置基本meta标签
+      setMeta('description', currentSeo.description);
+      setMeta('keywords', currentSeo.keywords);
+
+      // // 设置Open Graph标签
+      // setProperty('og:title', currentSeo.title);
+      // setProperty('og:description', currentSeo.description);
+      // setProperty('og:type', 'website');
+      // setProperty('og:url', window.location.href);
+      // setProperty('og:image', 'https://static.datatft.com/images/web/index/logo2.png');
+      // setProperty('og:site_name', 'DataTFT');
+      // setProperty('og:locale', currentSeo.lang === 'zh' ? 'zh_CN' : (currentSeo.lang === 'vn' ? 'vi_VN' : 'en_US'));
+      // setMeta('theme-color', '#5865F2'); 
+
+      // // 设置Twitter Card标签
+      // setMeta('twitter:card', 'summary_large_image');
+      // setMeta('twitter:title', currentSeo.title);
+      // setMeta('twitter:description', currentSeo.description);
+      // setMeta('twitter:image', 'https://datatft.com/src/assets/img/logo.png');
+    })();
+  </script>
+
+  <!-- SITE_ALTERNATES_START -->
+  <link rel="alternate" hreflang="zh-CN" href="https://jcc.datatft.com/" />
+  <link rel="alternate" hreflang="x-default" href="https://jcc.datatft.com/" />
+  <!-- SITE_ALTERNATES_END -->
+
+  <script>
+    var _hmt = _hmt || [];
+    (function () {
+      if (navigator.webdriver) return;
+      var isJcc = 'jcc' === 'jcc' || window.location.hostname === 'jcc.datatft.com';
+      var siteIds = [isJcc
+        ? "391142a16f273b7c64517b258d2c1990"
+        : "2034374bfaeb94e22b40baab755eaaaa"];
+      if (/^\/h5(?:\/|$)/.test(window.location.pathname)) {
+        siteIds = ["edef60a749c7888a2bac5d6d3680a96d"];
+      }
+
+      siteIds.forEach(function (siteId) {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?" + siteId;
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      });
+    })();
+  </script>
+  <!-- Google tag (gtag.js) -->
+  <script>
+    var isH5 = /^\/h5(?:\/|$)/.test(window.location.pathname);
+    var h5GaId = 'G-V5LWQTTXBW';
+    if (!navigator.webdriver) {
+      var isJcc = 'jcc' === 'jcc' || window.location.hostname === 'jcc.datatft.com';
+      var gaId = isH5 ? h5GaId : (isJcc ? 'G-9V3KKXGMDD' : 'G-L2KCGDTJFZ');
+      if (/^G-[A-Z0-9]+$/.test(gaId)) {
+        if (isH5) window.__DATATFT_H5_GA_ID__ = gaId;
+        var gaScript = document.createElement('script');
+        gaScript.async = true;
+        gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=' + gaId;
+        document.head.appendChild(gaScript);
+
+        window.dataLayer = window.dataLayer || [];
+        window.gtag = function () { window.dataLayer.push(arguments); };
+        window.gtag('js', new Date());
+
+        window.gtag('config', gaId);
+      }
+    }
+  </script>
+  <script type="text/javascript">
+    // Embedded H5 pages must not download or initialize Clarity.
+    if (!navigator.webdriver && !/^\/h5(?:\/|$)/.test(window.location.pathname)) {
+      (function (c, l, a, r, i, t, y) { c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) }; t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i; y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y); })(window, document, "clarity", "script", "sv3l7igp81");
+    }
+  </script>
+  <script type="application/x-datatft-entry" data-datatft-entry="modern" crossorigin src="/assets/index-BN-hO2q0.js"></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"金铲铲大数据","alternateName":"金铲铲大数据","url":"https://jcc.datatft.com/","inLanguage":"zh-CN","description":"金铲铲大数据提供金铲铲之战热门阵容、英雄出装、装备搭配、强化符文排行、阵容模拟器和对局数据查询。"}</script>
+  <script type="application/x-datatft-entry" data-datatft-entry="modern">import.meta.url;import("_").catch(()=>1);(async function*(){})().next();if(location.protocol!="file:"){window.__vite_is_modern_browser=true}</script>
+  <script type="application/x-datatft-entry" data-datatft-entry="modern">!function(){if(window.__vite_is_modern_browser)return;console.warn("vite: loading legacy chunks, syntax error above and the same error below should be ignored");var e=document.getElementById("vite-legacy-polyfill"),n=document.createElement("script");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>
+</head>
+
+<body>
+  <div id="app"></div>
+  <script>
+    // Show loading feedback before downloading the legacy runtime and game data.
+    if (/^\/h5(?:\/|$)/.test(window.location.pathname)) {
+      var h5Light = /(?:^|[?&])theme=light(?:&|$)/.test(window.location.search);
+      var h5Background = h5Light ? '#f6f7fb' : '#171c2b';
+      document.documentElement.style.backgroundColor = h5Background;
+      document.body.style.backgroundColor = h5Background;
+      document.body.style.margin = '0';
+      var h5Loading = document.createElement('div');
+      h5Loading.id = 'h5-startup';
+      h5Loading.setAttribute('role', 'status');
+      h5Loading.style.cssText = 'padding:48px 16px;text-align:center;font:14px sans-serif;color:' + (h5Light ? '#5c687e' : '#a6aec0');
+      var h5English = /(?:^|[?&])lang=en(?:&|$)/i.test(window.location.search);
+      h5Loading.textContent = h5English
+        ? (/^\/h5\/database\/?$/.test(window.location.pathname) ? 'Loading game database…' : /^\/h5\/lineup\//.test(window.location.pathname) ? 'Loading lineup details…' : 'Loading popular lineups…')
+        : (/^\/h5\/database\/?$/.test(window.location.pathname) ? '正在加载游戏资料库…' : /^\/h5\/lineup\//.test(window.location.pathname) ? '正在加载阵容详情…' : '正在加载热门阵容…');
+      document.getElementById('app').appendChild(h5Loading);
+    }
+  </script>
+  <script type="application/x-datatft-entry" data-datatft-entry="legacy">!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()}),!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script>
+  <script type="application/x-datatft-entry" data-datatft-entry="legacy" crossorigin id="vite-legacy-polyfill" src="/assets/polyfills-legacy-BunJ4mSf.js"></script>
+  <script type="application/x-datatft-entry" data-datatft-entry="legacy" crossorigin id="vite-legacy-entry" data-src="/assets/index-legacy-DC0m238L.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
+  <script>(function () {
+  var h5 = /^\/h5(?:\/|$)/.test(window.location.pathname);
+  var modern = !h5 && 'noModule' in document.createElement('script');
+  var entries = document.querySelectorAll('script[data-datatft-entry]');
+  var index = 0;
+  function fail() {
+    var root = document.getElementById('app');
+    if (root) root.textContent = '页面脚本加载失败，请刷新后重试。';
+  }
+  function next() {
+    while (index < entries.length) {
+      var source = entries[index++];
+      if (source.getAttribute('data-datatft-entry') !== (modern ? 'modern' : 'legacy')) continue;
+      var script = document.createElement('script');
+      for (var i = 0; i < source.attributes.length; i++) {
+        var attr = source.attributes[i];
+        if (attr.name !== 'type' && attr.name !== 'data-datatft-entry') script.setAttribute(attr.name, attr.value);
+      }
+      // 保留 Vite 回退入口使用的标识，避免出现重复元素标识。
+      source.removeAttribute('id');
+      if (modern) script.type = 'module';
+      script.async = false;
+      script.text = source.text;
+      if (script.src || modern) {
+        script.onload = next;
+        script.onerror = modern ? next : fail;
+        document.body.appendChild(script);
+        return;
+      }
+      document.body.appendChild(script);
+    }
+  }
+  next();
+})();</script>
+</body>
+
+</html>
