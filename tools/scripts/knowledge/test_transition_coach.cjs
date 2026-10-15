@@ -18,3 +18,7 @@ const ranked=A.transitionCoach(K,K.comps,s);
 for(let i=1;i<ranked.length;i++)assert(ranked[i-1].similarity>=ranked[i].similarity);
 for(const x of ranked){assert(x.similarity>=0&&x.similarity<=1);assert(!x.current.bench.some(id=>x.current.units.some(u=>K.units[u].name===K.units[id].name)));}
 console.log('PASS: source coverage ordering and no duplicate named bench/on-board entries.');
+const fixture={...c,units:['a','b']},fk={units:{a:{traits:['v:x'],purchasable:true},b:{traits:['v:y'],purchasable:true}},trait_catalog:{'v:x':{name:'甲',thresholds:[2],verified:true},'v:y':{name:'乙',thresholds:[2],verified:true}}};fixture.version='v';
+const f=A.emblemFit(fk,fixture,{ownedEmblems:['甲纹章','乙纹章']});assert.equal(f.rows.length,2);assert(f.rows.every(r=>r.before===1&&r.after===2&&r.gain));assert.equal(f.score,1);
+const multi=A.transitionCoach(K,K.comps,{...s,ownedEmblems:['护卫纹章','斗士纹章']});for(let i=1;i<multi.length;i++)assert(.6*multi[i-1].similarity+.4*multi[i-1].emblem.score>=.6*multi[i].similarity+.4*multi[i].emblem.score-1e-9);
+console.log('PASS: multiple emblems increment separate traits, threshold gains and combined ordering.');

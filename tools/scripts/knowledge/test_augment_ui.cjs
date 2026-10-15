@@ -33,7 +33,8 @@ console.log('PASS: planner step, hand input, augment changes retain hand, level 
 
 elements.get('reset').handlers.click();
 assert.equal((elements.get('units').innerHTML.match(/type="checkbox"/g)||[]).length,U.unitGroups(K,{version:'all'}).length);
-assert(!elements.get('units').innerHTML.includes('<summary>'));
+assert(elements.get('units').innerHTML.includes('core-roster-index'));
+assert(elements.get('units').innerHTML.includes('core-legend'));
 const common=U.unitGroups(K,{version:'all'}).find(g=>new Set(g.ids.map(i=>K.units[i].version)).size>1);
 elements.get('units').handlers.change({target:{matches:()=>true,checked:true,value:common.ids[0]}});
 
@@ -65,8 +66,8 @@ move(2);assert.equal(elements.get('flow-items').hidden,false);assert.equal(eleme
 elements.get('component-stock').handlers.input({target:{dataset:{component:'法杖'},value:'2'}});
 move(2);assert.equal(elements.get('flow-output').hidden,false);assert.equal(elements.get('planning-input').hidden,false);assert.equal(elements.get('flow-2').ariaCurrent,'step');assert.equal(elements.get('flow-next').hidden,true);assert(!elements.has('flow-3'));
 move(0);assert.equal(elements.get('flow-hex').hidden,false);assert.equal(elements.get('flow-output').hidden,false);
-assert.equal(elements.get('units').innerHTML,handBefore);assert(elements.get('flow-2').innerHTML.includes('法杖 × 2'));
-elements.get('reset').handlers.click();assert.equal(elements.get('flow-0').ariaCurrent,'step');assert(elements.get('flow-2').innerHTML.includes('暂无散件或转职'));
+assert.equal(elements.get('units').innerHTML,handBefore);assert(!elements.get('flow-2').innerHTML.includes('法杖 × 2'));assert(elements.get('flow-2').innerHTML.includes('选转职'));
+elements.get('reset').handlers.click();assert.equal(elements.get('flow-0').ariaCurrent,'step');assert(elements.get('flow-2').innerHTML.includes('未选择转职'));
 console.log('PASS: three flow nodes, backtracking, retained hand/materials and full reset.');
 
 choose(groups[0].key);assert(elements.get('flow-0').innerHTML.includes(groups[0].name));
@@ -122,7 +123,7 @@ for(const a of wolf.augments.slice(1,3)){
  const expected=K.comps.filter(c=>selectedKeys.every(key=>c.augments.some(a=>U.augmentKey(a)===key)));
  assert.equal((elements.get('combined-recommendations').innerHTML.match(/recommendation-card hex-direction/g)||[]).length,eligibleCount(selectedKeys));
  assert(elements.get('selected-augments').innerHTML.includes(a.name));assert(elements.get('flow-0').innerHTML.includes(a.name));
- assert(elements.get('flow-1').innerHTML.includes(K.units[common.ids[0]].name));assert(elements.get('flow-2').innerHTML.includes('法杖 × 2'));
+ assert(elements.get('flow-1').innerHTML.includes(K.units[common.ids[0]].name));assert(!elements.get('flow-2').innerHTML.includes('法杖 × 2'));assert(elements.get('flow-2').innerHTML.includes('选转职'));
 }
 const beforeDuplicate=elements.get('selected-augments').innerHTML;addNext(selectedKeys[1]);assert.equal(elements.get('selected-augments').innerHTML,beforeDuplicate);
 choose(selectedKeys[2]);assert(!elements.get('selected-augments').innerHTML.includes(wolf.augments[2].name));
