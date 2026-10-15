@@ -35,14 +35,24 @@ function changeVersion(s,version){return {...s,version,owned:[],profiles:{},bag:
 // Hand is an available pool. It never filters out an augment's final directions.
 function directions(K,s){return select(K,{...s,owned:[],mode:'all'}).map(c=>activeComp(K,c,s));}
 function emblemFit(K,c,s){
+ c=activeComp(K,c,s);
  const chosen=[...new Set(s.ownedEmblems||[])],counts=naturalTraits(K,c.units),slots=new Map(c.units.map(id=>[id,0]));
  const rows=chosen.map(name=>{const trait=name.replace(/纹章$/, ''),t=counts.find(t=>t.name===trait),entry=Object.entries(K.trait_catalog||{}).find(([id,x])=>id.startsWith(c.version+':')&&x.name===trait);
-  const holder=entry&&c.units.find(id=>!(K.units[id]?.traits||[]).includes(entry[0])&&slots.get(id)<3&&K.units[id]?.purchasable!==false&&!K.units[id]?.special);
+  const proof=(c.active_final?.members||[]).find(m=>m.items?.some(i=>K.items?.[i]?.name===name));
+  const candidates=entry?c.units.filter(id=>!(K.units[id]?.traits||[]).includes(entry[0])&&slots.get(id)<3&&K.units[id]?.purchasable!==false&&!K.units[id]?.special):[];
+  const equipment=id=>(c.builds||[]).find(b=>b.unit===id)?.items||[];
+  candidates.sort((a,b)=>Number(b===proof?.id)-Number(a===proof?.id)||Number(!!c.heroes?.find(h=>h.id===a&&h.core))-Number(!!c.heroes?.find(h=>h.id===b&&h.core))||equipment(a).length-equipment(b).length);
+  const holder=candidates[0],sourced=!!holder&&holder===proof?.id;
+  const needsSlot=!!holder&&!equipment(holder).some(i=>K.items?.[i]?.name===name)&&equipment(holder).filter(i=>!chosen.includes(K.items?.[i]?.name)).length+(slots.get(holder)||0)>=3;
   if(holder)slots.set(holder,slots.get(holder)+1);
   const before=t?.count||0,after=before+(holder?1:0),verified=!!entry?.[1].verified,thresholds=verified?entry[1].thresholds||[]:[],old=Math.max(0,...thresholds.filter(n=>n<=before)),active=Math.max(0,...thresholds.filter(n=>n<=after));
-  return {name,trait,before,after,holder,verified,old,active,gain:active>old};});
+  return {name,trait,before,after,holder,sourced,needsSlot,verified,old,active,gain:active>old};});
  const score=rows.length?rows.reduce((n,r)=>n+(r.holder&&r.before>0?(r.gain?1:0.5):0),0)/rows.length:0;
- return {rows,score};
+ const traits=counts.map(t=>({...t}));
+ for(const r of rows){if(!r.holder)continue;let t=traits.find(t=>t.name===r.trait);if(t){t.count=r.after;t.active=r.active;}else traits.push({name:r.trait,count:r.after,active:r.active,verified:r.verified});}
+ const baseline=c.active_final?.key==='with_emblem'?c.final_branches?.without_emblem:null;
+ const swap=boardDifference(baseline?.units||c.units,c.units);
+ return {rows,score,traits,units:c.units,swap,baseline:baseline?.title||null};
 }
 function transitionCoach(K,cs,s){
  const level=Number(s.current),out=[];
@@ -442,7 +452,12 @@ function flowRender(){
 function goStep(step){s.step=Math.max(0,Math.min(2,step));if(s.step>0&&!s.augments.length)s.showAll=true;render();}
 $('flow-nav').addEventListener('click',e=>{const b=e.target.closest('[data-step]');if(b)goStep(Number(b.dataset.step));});
 $('flow-next').addEventListener('click',()=>goStep(s.step+1));$('flow-back').addEventListener('click',()=>goStep(s.step-1));
-function emblemFitHTML(c){const fit=emblemFit(K,c,s);if(!fit.rows.length)return '';return '<div class="coach-current"><strong>转职适配 · 成型棋盘</strong>'+fit.rows.map(r=>'<p>'+esc(r.name)+'：'+r.before+' → '+r.after+' 人'+(!r.holder?' · 暂无可用携带者':r.verified?(r.gain?' · 开启 '+r.active+' 人档':' · 未跨档'):' · 档位待核实')+'</p>').join('')+'<small>按可携带棋子估算；需调整承装。转职适配是结构评分，不代表实测强度。</small></div>';}
+function emblemFitHTML(c){const fit=emblemFit(K,c,s);if(!fit.rows.length)return '';
+ return '<div class="coach-current"><strong>转职搭配方案</strong>'+fit.rows.map(r=>'<p><strong>'+esc(r.name)+'</strong> → '+(r.holder?esc(name(r.holder))+' <small>（'+(r.sourced?'来源指定':'推导：优先非核心、少承装棋子')+'）</small>':'暂无可确认的携带者')+(r.needsSlot?'<br><small>该棋子推荐装备已占满，需腾出1个装备位；不直接覆盖核心装备。</small>':'')+'</p>').join('')+
+ '<p><strong>补入：</strong>'+esc(names(fit.swap.add)||'无需补人')+'<br><strong>换下：</strong>'+esc(names(fit.swap.remove)||'无需换人，保留当前成型名单')+'</p>'+(fit.baseline?'<small>以上换人相对于已收录的「'+esc(fit.baseline)+'」棋盘；不同人口需先升级。</small>':'<small>没有对应的换人来源，按现有成型名单分配转职。</small>')+
+ '<p><strong>调整后的成型阵容与羁绊</strong></p><p>'+esc(names(fit.units))+'</p>'+fit.traits.map(t=>'<span class="badge">'+esc(t.name)+' '+t.count+'人 · '+(t.verified?(t.active?'开启'+t.active+'档':'未开启'):'档位待核实')+'</span>').join('')+'<small>多转职按同一棋盘累计，每种按1枚计算。未核实档位不借用另一游戏的数据；推导搭配未验证实战强度。</small></div>';
+}
+
 function transitionCoachHTML(cs){
  const rows=transitionCoach(K,cs,s),level=Number(s.current);
  if(!s.owned.length)return '<div class="note"><h2>逐级过渡教练</h2><p>选择当前等级和手上的棋子，例如3级有5张牌，教练会挑出可上场的3张；海克斯可以暂不选。</p></div>';

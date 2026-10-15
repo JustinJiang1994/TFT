@@ -22,3 +22,10 @@ const fixture={...c,units:['a','b']},fk={units:{a:{traits:['v:x'],purchasable:tr
 const f=A.emblemFit(fk,fixture,{ownedEmblems:['甲纹章','乙纹章']});assert.equal(f.rows.length,2);assert(f.rows.every(r=>r.before===1&&r.after===2&&r.gain));assert.equal(f.score,1);
 const multi=A.transitionCoach(K,K.comps,{...s,ownedEmblems:['护卫纹章','斗士纹章']});for(let i=1;i<multi.length;i++)assert(.6*multi[i-1].similarity+.4*multi[i-1].emblem.score>=.6*multi[i].similarity+.4*multi[i].emblem.score-1e-9);
 console.log('PASS: multiple emblems increment separate traits, threshold gains and combined ordering.');
+const defender=K.comps.find(c=>c.source_id==='426000');
+const detail=A.emblemFit(K,defender,{...s,ownedEmblems:['护卫纹章']});
+const emblem=detail.rows[0];assert(emblem.sourced);assert.equal(K.units[emblem.holder].name,'雷恩加尔');assert.equal(emblem.after,emblem.before+1);
+assert(detail.traits.some(t=>t.name==='护卫'&&t.count===emblem.after));assert(detail.units.includes(emblem.holder));
+const native=K.units[emblem.holder].traits.map(id=>K.trait_catalog[id]?.name);assert(!native.includes('护卫'));
+assert(detail.baseline);assert.deepEqual([...defender.final_branches.without_emblem.units.filter(id=>!detail.swap.remove.includes(id)),...detail.swap.add].sort(),[...detail.units].sort());
+console.log('PASS: source-specified Rengar emblem holder, no duplicate trait bonus, explicit baseline roster swaps.');
