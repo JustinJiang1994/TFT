@@ -1,0 +1,114 @@
+[
+  {
+    "name": "catalog",
+    "url": "https://www.dataj.cc/api/web/gamedata?setId=18",
+    "at": "2026-10-16T06:39:08.654298+00:00",
+    "ok": true,
+    "sha256": "bd30489cdb796bf869cb3b5c59cf73895539a5abbae2dd7750b88776b0860ebe"
+  },
+  {
+    "name": "rank",
+    "url": "https://www.dataj.cc/api/web/comp/rank?setId=18&gameVersion=18.4&minSample=1",
+    "at": "2026-10-16T06:39:08.654991+00:00",
+    "ok": true,
+    "sha256": "84f1bcf2f52e7e4b0f95723b4ac63c42c3743ec4754c104b7a190327d58ef441"
+  },
+  {
+    "name": "104",
+    "url": "https://www.dataj.cc/api/web/comp/104?setId=18&gameVersion=18.4",
+    "at": "2026-10-16T06:39:08.655235+00:00",
+    "ok": true,
+    "sha256": "beb275a7c2723aa19ac70f04925d4c8d915394e42f3e34883869765037dbb098"
+  },
+  {
+    "name": "100",
+    "url": "https://www.dataj.cc/api/web/comp/100?setId=18&gameVersion=18.4",
+    "at": "2026-10-16T06:39:08.655470+00:00",
+    "ok": true,
+    "sha256": "d07bc5586d192630942e15e6b0e0d25cdadbb7ccab492992494b7bb53f9bd9c3"
+  },
+  {
+    "name": "110",
+    "url": "https://www.dataj.cc/api/web/comp/110?setId=18&gameVersion=18.4",
+    "at": "2026-10-16T06:39:08.863481+00:00",
+    "ok": true,
+    "sha256": "d8fbd625540f6f74c142fcffa5f75e81ede6f8cb9f40c74bc77e0b9a50447e4f"
+  },
+  {
+    "name": "87",
+    "url": "https://www.dataj.cc/api/web/comp/87?setId=18&gameVersion=18.4",
+    "at": "2026-10-16T06:39:08.897489+00:00",
+    "ok": true,
+    "sha256": "415872d990117d5a2843a067925b5a17b4d67a0ddff4816db556186161695859"
+  },
+  {
+    "name": "112",
+    "url": "https://www.dataj.cc/api/web/comp/112?setId=18&gameVersion=18.4",
+    "at": "2026-10-16T06:39:08.978984+00:00",
+    "ok": true,
+    "sha256": "06f403a75aa752b8847cc70d67fe62946e993b1061ad289d8f5810defd3fd012"
+  },
+  {
+    "name": "99",
+    "url": "https://www.dataj.cc/api/web/comp/99?setId=18&gameVersion=18.4",
+    "at": "2026-10-16T06:39:09.052181+00:00",
+    "ok": true,
+    "sha256": "b823ce5aa0c842b43a959b1e6ae9954e722becb32f4de5a8fcb91f2f88aab3a2"
+  },
+  {
+    "name": "107",
+    "url": "https://www.dataj.cc/api/web/comp/107?setId=18&gameVersion=18.4",
+    "at": "2026-10-16T06:39:09.106559+00:00",
+    "ok": true,
+    "sha256": "baa26d984da6ed643c74a12b2e9665a52483771e675fe976f63100fae55af3b6"
+  },
+  {
+    "name": "106",
+    "url": "https://www.dataj.cc/api/web/comp/106?setId=18&gameVersion=18.4",
+    "at": "2026-10-16T06:39:09.221974+00:00",
+    "ok": true,
+    "sha256": "617f471040174c331a85050cb851e33a13a22d435714202980384905ed5a9683"
+  },
+  {
+    "name": "113",
+    "url": "https://www.dataj.cc/api/web/comp/113?setId=18&gameVersion=18.4",
+    "at": "2026-10-16T06:39:09.264824+00:00",
+    "ok": true,
+    "sha256": "846894676ae00e9b3c651c576bccd7aeaeb0099ac528d94c88441d39872375a1"
+  },
+  {
+    "name": "115",
+    "url": "https://www.dataj.cc/api/web/comp/115?setId=18&gameVersion=18.4",
+    "at": "2026-10-16T06:39:09.342822+00:00",
+    "ok": true,
+    "sha256": "a4057db8d5415ad5c8545fda5aeaee74faf776bac1ef6d73b7c652a9bdd2eb68"
+  },
+  {
+    "name": "114",
+    "url": "https://www.dataj.cc/api/web/comp/114?setId=18&gameVersion=18.4",
+    "at": "2026-10-16T06:39:09.343063+00:00",
+    "ok": true,
+    "sha256": "c2c6d34c825c2b24740f9fff1b5b016e67d3e836bd906a73a03c515240cd760f"
+  },
+  {
+    "name": "105",
+    "url": "https://www.dataj.cc/api/web/comp/105?setId=18&gameVersion=18.4",
+    "at": "2026-10-16T06:39:09.401180+00:00",
+    "ok": true,
+    "sha256": "45a9d2bddc69e8b3e4073153a49e424c42861bee191714fed89b39338f690875"
+  },
+  {
+    "name": "89",
+    "url": "https://www.dataj.cc/api/web/comp/89?setId=18&gameVersion=18.4",
+    "at": "2026-10-16T06:39:09.459434+00:00",
+    "ok": true,
+    "sha256": "1823cb01f331c39ed0fa98fe99aae83580ae0eab021b8eee044a78c7297cbb1f"
+  },
+  {
+    "name": "116",
+    "url": "https://www.dataj.cc/api/web/comp/116?setId=18&gameVersion=18.4",
+    "at": "2026-10-16T06:39:09.511412+00:00",
+    "ok": true,
+    "sha256": "2e9caddc6ab8e90965cd5e2f41d2c6e89f4e4b966c041ddaf7c1f021b75d3e01"
+  }
+]

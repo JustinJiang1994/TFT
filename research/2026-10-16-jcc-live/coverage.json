@@ -1,0 +1,31 @@
+{
+  "platform": "jcc",
+  "patch": "18.4",
+  "date": "2026-10-16",
+  "rank_count": 38,
+  "selected_count": 14,
+  "hex_statistics_count": 234,
+  "hex_catalog_count": 268,
+  "charm_datatft_count": 181,
+  "charm_dataj_count": 170,
+  "snapshot": "/Users/justin/Desktop/金铲铲/TFT/games/jcc/set18/18.4/snapshots/20261016T053609Z/data",
+  "sources": [
+    {
+      "url": "https://www.dataj.cc/hex",
+      "file": "hex-page.html",
+      "sha256": "53406c4056b3cfff139a8d19ee2176686b3dea1b0af520fa84b6b8f8adbd15a8"
+    },
+    {
+      "url": "https://jcc.datatft.com/assets/h5-data-cn-18-EaDL5Kor.json",
+      "file": "datatft-catalog.json",
+      "sha256": "25b945663029b4ae97ff9630abd0d8a8ecea646937a619a4457e29e055cf0300"
+    }
+  ],
+  "gaps": [
+    "阵容与海克斯为DataJ 18.4统计；来源版本总样本19960，段位和时间窗接口未明确。",
+    "仙灵为当前下载的赛季词库，无逐阶段胜率；DataTFT tier为数据字段，不用作强度评级。",
+    "DataJ部分仙灵和强化效果尚未同步18.4；不将赛季词库日期等同补丁版本。",
+    "公告转载新增免费仙灵从4-1出现，DataTFT标4-2；不合并为已证实回合。",
+    "DataJ与DataTFT的后排之星、地动山摇、英雄登场等价格及鬼鬼祟祟目标存在差异，现场以游戏内为准。"
+  ]
+}

@@ -1,0 +1,1061 @@
+{
+  "comps": [
+    {
+      "id": "104",
+      "name": "野怪小红",
+      "tier": "S",
+      "hexes": {
+        "欧米茄之怪": "优先拿",
+        "纵深 II": "优先拿",
+        "纵深 III": "优先拿",
+        "纵深 I": "优先拿",
+        "飞升": "优先拿",
+        "别再错过": "优先拿",
+        "加冕礼": "备选",
+        "炽天使之拥": "备选",
+        "双城赢家": "备选",
+        "部分飞升": "备选"
+      },
+      "conditions": [],
+      "style": "赌1费",
+      "emblemAssociations": [
+        "猎人纹章"
+      ],
+      "emblemOptions": [
+        {
+          "name": "猎人纹章",
+          "kind": "可选提升",
+          "holder": "绯红印记树怪",
+          "level": 8,
+          "board": [
+            "绯红树怪",
+            "苍蓝哨戒",
+            "峡谷迅捷蟹",
+            "远古石甲虫",
+            "暗影狼",
+            "苍蓝雕纹魔像",
+            "绯红印记树怪",
+            "纳尔"
+          ],
+          "before": 1,
+          "after": 2,
+          "gain": "1→2猎人（激活档位 0→2）",
+          "reason": "让小红的猎人从未激活变为2档；大红也能利用物理加成与击杀叠攻击。",
+          "change": "不换牌；使用下列完整参照盘。",
+          "cost": "占持有者1个装备槽；保留主C关键输出装、前排必要生存装，满装时不要直接覆盖。",
+          "evidence": "机制推演，非独立胜率结论；仅适用于此参照盘。"
+        }
+      ]
+    },
+    {
+      "id": "100",
+      "name": "重装女警",
+      "tier": "S",
+      "hexes": {
+        "更要命的战刃": "优先拿",
+        "飞升": "优先拿",
+        "双城赢家": "优先拿",
+        "嘀个痛快！ I": "优先拿",
+        "远征": "备选",
+        "女巫使魔": "备选",
+        "便携锻炉": "备选",
+        "部分飞升": "备选",
+        "一波带走俩": "备选",
+        "是我，宝贝！": "备选"
+      },
+      "conditions": [],
+      "style": "赌2费",
+      "emblemAssociations": [
+        "猎人纹章"
+      ],
+      "emblemOptions": [
+        {
+          "name": "猎人纹章",
+          "kind": "可选提升",
+          "holder": "蔚",
+          "level": 8,
+          "board": [
+            "凯特琳",
+            "伊莉丝",
+            "洛",
+            "崔丝塔娜",
+            "赫卡里姆",
+            "苍蓝雕纹魔像",
+            "希维尔",
+            "蔚"
+          ],
+          "before": 3,
+          "after": 4,
+          "gain": "3→4猎人（激活档位 3→4）",
+          "reason": "3猎人升4猎人，女警与其他猎人获得更高物理加成；蔚也能利用攻击收益。",
+          "change": "不换牌；使用下列完整参照盘。",
+          "cost": "占持有者1个装备槽；保留主C关键输出装、前排必要生存装，满装时不要直接覆盖。",
+          "evidence": "机制推演，非独立胜率结论；仅适用于此参照盘。"
+        }
+      ]
+    },
+    {
+      "id": "110",
+      "name": "射箭韦鲁斯",
+      "tier": "S",
+      "hexes": {
+        "太阳的抉择": "优先拿",
+        "嘀嘀街区": "优先拿",
+        "英勇福袋++": "优先拿",
+        "专属定制": "优先拿",
+        "棱彩门票": "优先拿",
+        "便携锻炉": "备选",
+        "大百宝袋": "备选",
+        "阿福的百宝袋": "备选",
+        "厨神阿福": "备选",
+        "嘀个痛快！ I": "备选"
+      },
+      "conditions": [],
+      "style": "赌1费",
+      "emblemAssociations": [
+        "月蚀骑士纹章"
+      ],
+      "emblemOptions": [
+        {
+          "name": "月蚀骑士纹章",
+          "kind": "可选提升",
+          "holder": "韦鲁斯",
+          "level": 8,
+          "board": [
+            "蕾欧娜",
+            "韦鲁斯",
+            "慎",
+            "凯尔",
+            "瑟庄妮",
+            "洛",
+            "厄斐琉斯",
+            "黛安娜"
+          ],
+          "before": 2,
+          "after": 3,
+          "gain": "2→3月蚀骑士（激活档位 2→3）",
+          "reason": "2月蚀升3月蚀；同时保留3日蚀，开启日月双蚀。韦鲁斯利用攻速与法强。",
+          "change": "不换牌；使用下列完整参照盘。",
+          "cost": "占持有者1个装备槽；保留主C关键输出装、前排必要生存装，满装时不要直接覆盖。",
+          "evidence": "机制推演，非独立胜率结论；仅适用于此参照盘。"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "name": "赌狼人",
+      "tier": "S",
+      "hexes": {
+        "挑战者的优雅": "优先拿",
+        "英勇福袋++": "优先拿",
+        "团队建设": "优先拿",
+        "英勇福袋+": "优先拿",
+        "大百宝袋": "优先拿",
+        "便携锻炉": "备选",
+        "双城赢家": "备选",
+        "光明圣物": "备选",
+        "嘀个痛快！ I": "备选",
+        "休眠锻炉": "备选"
+      },
+      "conditions": [],
+      "style": "赌2费",
+      "emblemAssociations": [
+        "斗士纹章"
+      ],
+      "emblemOptions": [
+        {
+          "name": "斗士纹章",
+          "kind": "可选提升",
+          "holder": "沃里克",
+          "level": 8,
+          "board": [
+            "雷克塞",
+            "阿利斯塔",
+            "暗影狼",
+            "沃里克",
+            "黛安娜",
+            "苍蓝雕纹魔像",
+            "绯红印记树怪",
+            "远古石甲虫"
+          ],
+          "before": 3,
+          "after": 4,
+          "gain": "3→4斗士（激活档位 2→4）",
+          "reason": "3斗士补4斗士，提高前排生命；狼人利用额外生命和纹章的生命值普攻伤害。",
+          "change": "不换牌；使用下列完整参照盘。",
+          "cost": "占持有者1个装备槽；保留主C关键输出装、前排必要生存装，满装时不要直接覆盖。",
+          "evidence": "机制推演，非独立胜率结论；仅适用于此参照盘。"
+        }
+      ]
+    },
+    {
+      "id": "112",
+      "name": "地狱火95",
+      "tier": "S",
+      "hexes": {
+        "厨神阿福": "优先拿",
+        "阿福的百宝袋": "优先拿",
+        "镀金钢铁": "优先拿",
+        "双排": "优先拿",
+        "大百宝袋": "优先拿",
+        "蔓延之根": "备选",
+        "双城赢家": "备选",
+        "纹章树": "备选",
+        "顶尖构筑": "备选",
+        "扩展包++": "备选"
+      },
+      "conditions": [
+        {
+          "type": "equip",
+          "name": "地狱火纹章"
+        }
+      ],
+      "style": "上9",
+      "emblemAssociations": [
+        "神谕纹章",
+        "地狱火纹章"
+      ],
+      "emblemOptions": [
+        {
+          "name": "神谕纹章",
+          "kind": "可选提升",
+          "holder": "凯南",
+          "level": 9,
+          "board": [
+            "韦鲁斯",
+            "慎",
+            "希维尔",
+            "阿木木",
+            "蔚",
+            "凯南",
+            "艾希",
+            "苍蓝雕纹魔像",
+            "塔里克"
+          ],
+          "before": 1,
+          "after": 2,
+          "gain": "1→2神谕（激活档位 0→2）",
+          "reason": "与大蓝开2神谕，提供全队回蓝；凯南利用施法回蓝与纹章法强，须另有火转给希维尔。",
+          "change": "不换牌；使用下列完整参照盘。",
+          "cost": "占持有者1个装备槽；保留主C关键输出装、前排必要生存装，满装时不要直接覆盖。",
+          "evidence": "机制推演，非独立胜率结论；仅适用于此参照盘。"
+        },
+        {
+          "name": "地狱火纹章",
+          "kind": "必需转职",
+          "holder": "希维尔",
+          "level": 9,
+          "board": [
+            "韦鲁斯",
+            "慎",
+            "希维尔",
+            "阿木木",
+            "蔚",
+            "凯南",
+            "艾希",
+            "苍蓝雕纹魔像",
+            "塔里克"
+          ],
+          "before": 4,
+          "after": 5,
+          "gain": "4→5地狱火（激活档位 3→5）",
+          "reason": "本攻略所列成型分支的前提；补到目标羁绊档位。",
+          "change": "不换牌；使用下列完整参照盘。",
+          "cost": "占持有者1个装备槽；保留主C关键输出装、前排必要生存装，满装时不要直接覆盖。",
+          "evidence": "分支前提及持有者按本攻略记录"
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "name": "7野怪鸡哥",
+      "tier": "S",
+      "hexes": {
+        "欧米茄之怪": "优先拿",
+        "纵深 II": "优先拿",
+        "纵深 III": "优先拿",
+        "纵深 I": "优先拿",
+        "飞升": "优先拿",
+        "加冕礼": "优先拿",
+        "双城赢家": "备选",
+        "便携锻炉": "备选",
+        "大百宝袋": "备选",
+        "一波带走俩": "备选"
+      },
+      "conditions": [],
+      "style": "赌3费",
+      "emblemAssociations": [
+        "迅捷射手纹章"
+      ],
+      "emblemOptions": [
+        {
+          "name": "迅捷射手纹章",
+          "kind": "可选提升",
+          "holder": "绯红印记树怪",
+          "level": 8,
+          "board": [
+            "苍蓝哨戒",
+            "峡谷迅捷蟹",
+            "远古石甲虫",
+            "深红锋喙鸟",
+            "苍蓝雕纹魔像",
+            "绯红印记树怪",
+            "暗影狼",
+            "瑟提"
+          ],
+          "before": 1,
+          "after": 2,
+          "gain": "1→2迅捷射手（激活档位 0→2）",
+          "reason": "鸡哥从未激活迅射变为2迅射；大红普攻也能叠攻速和触发纹章真伤。",
+          "change": "不换牌；使用下列完整参照盘。",
+          "cost": "占持有者1个装备槽；保留主C关键输出装、前排必要生存装，满装时不要直接覆盖。",
+          "evidence": "机制推演，非独立胜率结论；仅适用于此参照盘。"
+        }
+      ]
+    },
+    {
+      "id": "107",
+      "name": "野怪小蓝",
+      "tier": "S",
+      "hexes": {
+        "欧米茄之怪": "优先拿",
+        "炽天使之拥": "优先拿",
+        "更要命的帽子": "优先拿",
+        "纵深 II": "优先拿",
+        "纵深 III": "优先拿",
+        "飞升": "优先拿",
+        "双城赢家": "备选",
+        "大百宝袋": "备选",
+        "便携锻炉": "备选",
+        "部分飞升": "备选"
+      },
+      "conditions": [],
+      "style": "赌1费",
+      "emblemAssociations": [
+        "重装战士纹章"
+      ],
+      "emblemOptions": [
+        {
+          "name": "重装战士纹章",
+          "kind": "可选提升",
+          "holder": "纳尔",
+          "level": 8,
+          "board": [
+            "绯红树怪",
+            "苍蓝哨戒",
+            "峡谷迅捷蟹",
+            "远古石甲虫",
+            "暗影狼",
+            "苍蓝雕纹魔像",
+            "绯红印记树怪",
+            "纳尔"
+          ],
+          "before": 1,
+          "after": 2,
+          "gain": "1→2重装战士（激活档位 0→2）",
+          "reason": "与大蓝开2重装，给纳尔增加前排护盾，延长小蓝输出时间。",
+          "change": "不换牌；使用下列完整参照盘。",
+          "cost": "占持有者1个装备槽；保留主C关键输出装、前排必要生存装，满装时不要直接覆盖。",
+          "evidence": "机制推演，非独立胜率结论；仅适用于此参照盘。"
+        }
+      ]
+    },
+    {
+      "id": "106",
+      "name": "主宰女警",
+      "tier": "S",
+      "hexes": {
+        "更要命的战刃": "优先拿",
+        "男爵幻域": "优先拿",
+        "飞升": "优先拿",
+        "双城赢家": "优先拿",
+        "英勇福袋++": "优先拿",
+        "远征": "备选",
+        "便携锻炉": "备选",
+        "部分飞升": "备选",
+        "嘀个痛快！ I": "备选",
+        "大百宝袋": "备选"
+      },
+      "conditions": [],
+      "style": "赌2费",
+      "emblemAssociations": [
+        "主宰纹章"
+      ],
+      "emblemOptions": [
+        {
+          "name": "主宰纹章",
+          "kind": "可选提升",
+          "holder": "崔丝塔娜",
+          "level": 8,
+          "board": [
+            "凯特琳",
+            "峡谷迅捷蟹",
+            "洛",
+            "瑟庄妮",
+            "蔚",
+            "希维尔",
+            "阿木木",
+            "崔丝塔娜"
+          ],
+          "before": 5,
+          "after": 6,
+          "gain": "5→6主宰（激活档位 4→6）",
+          "reason": "5名主宰补到6档，提高全队及主宰减伤；由副输出占槽，保留女警三件套。",
+          "change": "不换牌；使用下列完整参照盘。",
+          "cost": "占持有者1个装备槽；保留主C关键输出装、前排必要生存装，满装时不要直接覆盖。",
+          "evidence": "机制推演，非独立胜率结论；仅适用于此参照盘。"
+        }
+      ]
+    },
+    {
+      "id": "113",
+      "name": "古纳拉95",
+      "tier": "S",
+      "hexes": {
+        "升级咯！": "优先拿",
+        "后期收益": "优先拿",
+        "生日聚会": "优先拿",
+        "顶尖构筑": "优先拿",
+        "双排": "优先拿",
+        "扩展包++": "备选",
+        "投资+": "备选",
+        "爆炸式增长+": "备选",
+        "大百宝袋": "备选",
+        "投资++": "备选"
+      },
+      "conditions": [],
+      "style": "上9",
+      "emblemAssociations": [
+        "月蚀骑士纹章"
+      ],
+      "emblemOptions": [
+        {
+          "name": "月蚀骑士纹章",
+          "kind": "可选提升",
+          "holder": "纳尔",
+          "level": 9,
+          "board": [
+            "阿利斯塔",
+            "赫卡里姆",
+            "黛安娜",
+            "苍蓝雕纹魔像",
+            "塔里克",
+            "纳尔",
+            "拉露恩",
+            "远古巨龙"
+          ],
+          "before": 2,
+          "after": 3,
+          "gain": "2→3月蚀骑士（激活档位 2→3）",
+          "reason": "2月蚀升3月蚀，强化黛安娜、拉露恩及邻格；纳尔利用攻速和法强。",
+          "change": "不换牌；使用下列完整参照盘。",
+          "cost": "占持有者1个装备槽；保留主C关键输出装、前排必要生存装，满装时不要直接覆盖。",
+          "evidence": "机制推演，非独立胜率结论；仅适用于此参照盘。"
+        }
+      ]
+    },
+    {
+      "id": "115",
+      "name": "卡丽蜜儿",
+      "tier": "S",
+      "hexes": {
+        "宝宝学院": "必拿",
+        "英勇福袋++": "优先拿",
+        "别再错过": "优先拿",
+        "专属定制": "优先拿",
+        "大百宝袋": "优先拿",
+        "正义报复": "优先拿",
+        "便携锻炉": "备选",
+        "不侦察，不变阵": "备选",
+        "剑之工匠": "备选",
+        "双城赢家": "备选"
+      },
+      "conditions": [
+        {
+          "type": "hex",
+          "name": "宝宝学院"
+        }
+      ],
+      "style": "赌1费",
+      "emblemAssociations": [],
+      "emblemOptions": []
+    },
+    {
+      "id": "114",
+      "name": "5迅射月男",
+      "tier": "A",
+      "hexes": {
+        "大百宝袋": "优先拿",
+        "双城赢家": "优先拿",
+        "飞升": "优先拿",
+        "后排蓝图": "备选",
+        "小小福袋": "备选",
+        "节外生枝": "备选",
+        "金色炊具": "备选",
+        "白银命运+": "备选",
+        "便携锻炉": "备选",
+        "扩展包++": "备选"
+      },
+      "conditions": [
+        {
+          "type": "equip",
+          "name": "迅捷射手纹章"
+        }
+      ],
+      "style": "上8",
+      "emblemAssociations": [
+        "月蚀骑士纹章",
+        "迅捷射手纹章"
+      ],
+      "emblemOptions": [
+        {
+          "name": "月蚀骑士纹章",
+          "kind": "可选提升",
+          "holder": "霞",
+          "level": 8,
+          "board": [
+            "厄斐琉斯",
+            "霞",
+            "深红锋喙鸟",
+            "绯红印记树怪",
+            "苍蓝雕纹魔像",
+            "黛安娜",
+            "阿木木",
+            "韦鲁斯"
+          ],
+          "before": 2,
+          "after": 3,
+          "gain": "2→3月蚀骑士（激活档位 2→3）",
+          "reason": "2月蚀升3月蚀，强化月男与邻格输出；霞获得额外攻速，仍需大红持迅射转。",
+          "change": "不换牌；使用下列完整参照盘。",
+          "cost": "占持有者1个装备槽；保留主C关键输出装、前排必要生存装，满装时不要直接覆盖。",
+          "evidence": "机制推演，非独立胜率结论；仅适用于此参照盘。"
+        },
+        {
+          "name": "迅捷射手纹章",
+          "kind": "必需转职",
+          "holder": "绯红印记树怪",
+          "level": 8,
+          "board": [
+            "厄斐琉斯",
+            "霞",
+            "深红锋喙鸟",
+            "绯红印记树怪",
+            "苍蓝雕纹魔像",
+            "黛安娜",
+            "阿木木",
+            "韦鲁斯"
+          ],
+          "before": 4,
+          "after": 5,
+          "gain": "4→5迅捷射手（激活档位 4→5）",
+          "reason": "本攻略所列成型分支的前提；补到目标羁绊档位。",
+          "change": "不换牌；使用下列完整参照盘。",
+          "cost": "占持有者1个装备槽；保留主C关键输出装、前排必要生存装，满装时不要直接覆盖。",
+          "evidence": "分支前提及持有者按本攻略记录"
+        }
+      ]
+    },
+    {
+      "id": "105",
+      "name": "森林月男",
+      "tier": "A",
+      "hexes": {
+        "自然庇护所": "优先拿",
+        "厨神阿福": "优先拿",
+        "阿福的百宝袋": "优先拿",
+        "纵深 II": "优先拿",
+        "飞升": "优先拿",
+        "蔓延之根": "备选",
+        "双城赢家": "备选",
+        "大百宝袋": "备选",
+        "蔓延之根+": "备选",
+        "纹章树": "备选"
+      },
+      "conditions": [
+        {
+          "type": "equip",
+          "name": "永恒之森纹章"
+        }
+      ],
+      "style": "上8",
+      "emblemAssociations": [
+        "月蚀骑士纹章",
+        "迅捷射手纹章",
+        "永恒之森纹章"
+      ],
+      "emblemOptions": [
+        {
+          "name": "月蚀骑士纹章",
+          "kind": "可选提升",
+          "holder": "霞",
+          "level": 8,
+          "board": [
+            "奥恩",
+            "霞",
+            "赫卡里姆",
+            "厄斐琉斯",
+            "莉莉娅",
+            "黛安娜",
+            "伊泽瑞尔",
+            "拉露恩"
+          ],
+          "before": 3,
+          "after": 4,
+          "gain": "3→4月蚀骑士（激活档位 3→4）",
+          "reason": "3月蚀升4月蚀，月男与霞共享更高攻速、法强；保留莉莉娅的森林转。",
+          "change": "不换牌；使用下列完整参照盘。",
+          "cost": "占持有者1个装备槽；保留主C关键输出装、前排必要生存装，满装时不要直接覆盖。",
+          "evidence": "机制推演，非独立胜率结论；仅适用于此参照盘。"
+        },
+        {
+          "name": "迅捷射手纹章",
+          "kind": "可选提升",
+          "holder": "伊泽瑞尔",
+          "level": 8,
+          "board": [
+            "奥恩",
+            "霞",
+            "赫卡里姆",
+            "厄斐琉斯",
+            "莉莉娅",
+            "黛安娜",
+            "伊泽瑞尔",
+            "拉露恩"
+          ],
+          "before": 2,
+          "after": 3,
+          "gain": "2→3迅捷射手（激活档位 2→3）",
+          "reason": "2迅射升3迅射，强化月男与霞的叠攻速；伊泽瑞尔利用普攻叠速，保留森林转。",
+          "change": "不换牌；使用下列完整参照盘。",
+          "cost": "占持有者1个装备槽；保留主C关键输出装、前排必要生存装，满装时不要直接覆盖。",
+          "evidence": "机制推演，非独立胜率结论；仅适用于此参照盘。"
+        },
+        {
+          "name": "永恒之森纹章",
+          "kind": "必需转职",
+          "holder": "莉莉娅",
+          "level": 8,
+          "board": [
+            "奥恩",
+            "霞",
+            "赫卡里姆",
+            "厄斐琉斯",
+            "莉莉娅",
+            "黛安娜",
+            "伊泽瑞尔",
+            "拉露恩"
+          ],
+          "before": 4,
+          "after": 5,
+          "gain": "4→5永恒之森（激活档位 3→5）",
+          "reason": "本攻略所列成型分支的前提；补到目标羁绊档位。",
+          "change": "不换牌；使用下列完整参照盘。",
+          "cost": "占持有者1个装备槽；保留主C关键输出装、前排必要生存装，满装时不要直接覆盖。",
+          "evidence": "分支前提来自源榜；莉莉娅持有为机制推演"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "name": "巨龙95",
+      "tier": "A",
+      "hexes": {
+        "升级咯！": "优先拿",
+        "后期收益": "优先拿",
+        "生日聚会": "优先拿",
+        "顶尖构筑": "优先拿",
+        "双排": "优先拿",
+        "扩展包++": "备选",
+        "金鳞精粹": "备选",
+        "后期专家": "备选",
+        "便携锻炉": "备选",
+        "投资+": "备选"
+      },
+      "conditions": [],
+      "style": "上9",
+      "emblemAssociations": [
+        "神谕纹章"
+      ],
+      "emblemOptions": [
+        {
+          "name": "神谕纹章",
+          "kind": "可选提升",
+          "holder": "艾翁",
+          "level": 9,
+          "board": [
+            "苍蓝雕纹魔像",
+            "阿木木",
+            "塔里克",
+            "凯南",
+            "茂凯",
+            "德莱文",
+            "艾翁",
+            "远古巨龙"
+          ],
+          "before": 1,
+          "after": 2,
+          "gain": "1→2神谕（激活档位 0→2）",
+          "reason": "与大蓝开2神谕，提供全队回蓝；艾翁利用更快施法和纹章法强。",
+          "change": "不换牌；使用下列完整参照盘。",
+          "cost": "占持有者1个装备槽；保留主C关键输出装、前排必要生存装，满装时不要直接覆盖。",
+          "evidence": "机制推演，非独立胜率结论；仅适用于此参照盘。"
+        }
+      ]
+    },
+    {
+      "id": "116",
+      "name": "裁决螳螂",
+      "tier": "A",
+      "hexes": {
+        "英勇福袋++": "优先拿",
+        "英勇福袋": "优先拿",
+        "团队建设": "优先拿",
+        "专属定制": "优先拿",
+        "大百宝袋": "优先拿",
+        "便携锻炉": "备选",
+        "独自升级": "备选",
+        "双城赢家": "备选",
+        "飞升": "备选",
+        "杖之工匠": "备选"
+      },
+      "conditions": [
+        {
+          "type": "evolution",
+          "name": "卡兹克已进化裁决"
+        }
+      ],
+      "style": "赌3费",
+      "emblemAssociations": [
+        "月蚀骑士纹章"
+      ],
+      "emblemOptions": [
+        {
+          "name": "月蚀骑士纹章",
+          "kind": "可选提升",
+          "holder": "奥恩",
+          "level": 8,
+          "board": [
+            "奥恩",
+            "赫卡里姆",
+            "卡兹克",
+            "费德提克",
+            "黛安娜",
+            "伊泽瑞尔",
+            "索拉卡",
+            "凯南"
+          ],
+          "before": 1,
+          "after": 2,
+          "gain": "1→2月蚀骑士（激活档位 0→2）",
+          "reason": "与黛安娜开2月蚀；奥恩向邻格提供攻速法强光环，可覆盖螳螂，仍须螳螂裁决进化。",
+          "change": "不换牌；使用下列完整参照盘。",
+          "cost": "占持有者1个装备槽；保留主C关键输出装、前排必要生存装，满装时不要直接覆盖。",
+          "evidence": "机制推演，非独立胜率结论；仅适用于此参照盘。"
+        }
+      ]
+    }
+  ],
+  "hexes": [
+    {
+      "name": "欧米茄之怪",
+      "icon": "https://img.dataj.cc/images/hex/riftbeastaugment22.png",
+      "grade": "黄金"
+    },
+    {
+      "name": "纵深 II",
+      "icon": "https://img.dataj.cc/images/hex/verticality2.png",
+      "grade": "黄金"
+    },
+    {
+      "name": "纵深 III",
+      "icon": "https://img.dataj.cc/images/hex/verticality3.png",
+      "grade": "棱彩"
+    },
+    {
+      "name": "纵深 I",
+      "icon": "https://img.dataj.cc/images/hex/verticality1.png",
+      "grade": "白银"
+    },
+    {
+      "name": "飞升",
+      "icon": "https://img.dataj.cc/images/hex/finalascension2.png",
+      "grade": "黄金"
+    },
+    {
+      "name": "别再错过",
+      "icon": "https://img.dataj.cc/images/hex/missedconnections1.png",
+      "grade": "白银"
+    },
+    {
+      "name": "加冕礼",
+      "icon": "https://img.dataj.cc/images/hex/coronation3.png",
+      "grade": "棱彩"
+    },
+    {
+      "name": "炽天使之拥",
+      "icon": "https://img.dataj.cc/images/hex/seraphimsstaff2.png",
+      "grade": "黄金"
+    },
+    {
+      "name": "双城赢家",
+      "icon": "https://img.dataj.cc/images/hex/arcaneviktory2.png",
+      "grade": "黄金"
+    },
+    {
+      "name": "部分飞升",
+      "icon": "https://img.dataj.cc/images/hex/ascension1.png",
+      "grade": "白银"
+    },
+    {
+      "name": "更要命的战刃",
+      "icon": "https://img.dataj.cc/images/hex/deadlierblades3.png",
+      "grade": "棱彩"
+    },
+    {
+      "name": "嘀个痛快！ I",
+      "icon": "https://img.dataj.cc/images/hex/rollingfordays1.png",
+      "grade": "白银"
+    },
+    {
+      "name": "远征",
+      "icon": "https://img.dataj.cc/images/hex/expedition1.png",
+      "grade": "白银"
+    },
+    {
+      "name": "女巫使魔",
+      "icon": "https://img.dataj.cc/images/hex/covenaugment2.png",
+      "grade": "黄金"
+    },
+    {
+      "name": "便携锻炉",
+      "icon": "https://img.dataj.cc/images/hex/portableforge2.png",
+      "grade": "黄金"
+    },
+    {
+      "name": "一波带走俩",
+      "icon": "https://img.dataj.cc/images/hex/speedydoublekill2.png",
+      "grade": "黄金"
+    },
+    {
+      "name": "是我，宝贝！",
+      "icon": "https://img.dataj.cc/images/hex/itsmebaby2.png",
+      "grade": "黄金"
+    },
+    {
+      "name": "太阳的抉择",
+      "icon": "https://static.datatft.com/images/hex2/DA_18_SolarTraitAugment_1_.png",
+      "grade": "白银"
+    },
+    {
+      "name": "嘀嘀街区",
+      "icon": "https://img.dataj.cc/images/hex/trade2.png",
+      "grade": "黄金"
+    },
+    {
+      "name": "英勇福袋++",
+      "icon": "https://img.dataj.cc/images/hex/heroicgrabbag2.png",
+      "grade": "黄金"
+    },
+    {
+      "name": "专属定制",
+      "icon": "https://img.dataj.cc/images/hex/exclusivecustomization2.png",
+      "grade": "黄金"
+    },
+    {
+      "name": "棱彩门票",
+      "icon": "https://img.dataj.cc/images/hex/goldenticket3.png",
+      "grade": "棱彩"
+    },
+    {
+      "name": "大百宝袋",
+      "icon": "https://img.dataj.cc/images/hex/grabbag2.png",
+      "grade": "黄金"
+    },
+    {
+      "name": "阿福的百宝袋",
+      "icon": "https://img.dataj.cc/images/hex/urfsgrabbag33.png",
+      "grade": "棱彩"
+    },
+    {
+      "name": "厨神阿福",
+      "icon": "https://img.dataj.cc/images/hex/ultrarapidfire2.png",
+      "grade": "黄金"
+    },
+    {
+      "name": "挑战者的优雅",
+      "icon": "https://img.dataj.cc/images/hex/combatgrace2.png",
+      "grade": "黄金"
+    },
+    {
+      "name": "团队建设",
+      "icon": "https://img.dataj.cc/images/hex/buildinganarmy1.png",
+      "grade": "白银"
+    },
+    {
+      "name": "英勇福袋+",
+      "icon": "https://img.dataj.cc/images/hex/heroicgrabbag2.png",
+      "grade": "黄金"
+    },
+    {
+      "name": "光明圣物",
+      "icon": "https://img.dataj.cc/images/hex/radiantrelics3.png",
+      "grade": "棱彩"
+    },
+    {
+      "name": "休眠锻炉",
+      "icon": "https://img.dataj.cc/images/hex/longtimecrafting1.png",
+      "grade": "白银"
+    },
+    {
+      "name": "镀金钢铁",
+      "icon": "https://img.dataj.cc/images/hex/gildedsteel2.png",
+      "grade": "黄金"
+    },
+    {
+      "name": "双排",
+      "icon": "https://img.dataj.cc/images/hex/douqueue2.png",
+      "grade": "黄金"
+    },
+    {
+      "name": "蔓延之根",
+      "icon": "https://img.dataj.cc/images/hex/spreadingroots2.png",
+      "grade": "黄金"
+    },
+    {
+      "name": "纹章树",
+      "icon": "https://img.dataj.cc/images/hex/thetraittree3.png",
+      "grade": "棱彩"
+    },
+    {
+      "name": "顶尖构筑",
+      "icon": "https://img.dataj.cc/images/hex/maxbuild2.png",
+      "grade": "黄金"
+    },
+    {
+      "name": "扩展包++",
+      "icon": "https://img.dataj.cc/images/hex/boosterpack2.png",
+      "grade": "黄金"
+    },
+    {
+      "name": "更要命的帽子",
+      "icon": "https://img.dataj.cc/images/hex/deadliercaps3.png",
+      "grade": "棱彩"
+    },
+    {
+      "name": "男爵幻域",
+      "icon": "https://img.dataj.cc/images/hex/thebaronslair3.png",
+      "grade": "棱彩"
+    },
+    {
+      "name": "升级咯！",
+      "icon": "https://img.dataj.cc/images/hex/levelup3.png",
+      "grade": "棱彩"
+    },
+    {
+      "name": "后期收益",
+      "icon": "https://img.dataj.cc/images/hex/lategamescaling2.png",
+      "grade": "黄金"
+    },
+    {
+      "name": "生日聚会",
+      "icon": "https://img.dataj.cc/images/hex/birthdayreunion2.png",
+      "grade": "黄金"
+    },
+    {
+      "name": "投资+",
+      "icon": "https://img.dataj.cc/images/hex/invested3.png",
+      "grade": "棱彩"
+    },
+    {
+      "name": "爆炸式增长+",
+      "icon": "https://img.dataj.cc/images/hex/explosivegrowth2.png",
+      "grade": "黄金"
+    },
+    {
+      "name": "投资++",
+      "icon": "https://img.dataj.cc/images/hex/invested3.png",
+      "grade": "棱彩"
+    },
+    {
+      "name": "宝宝学院",
+      "icon": "https://img.dataj.cc/images/hex/earlylearning2.png",
+      "grade": "黄金"
+    },
+    {
+      "name": "正义报复",
+      "icon": "https://img.dataj.cc/images/hex/retribution3.png",
+      "grade": "棱彩"
+    },
+    {
+      "name": "不侦察，不变阵",
+      "icon": "https://img.dataj.cc/images/hex/noscoutnopivot2.png",
+      "grade": "黄金"
+    },
+    {
+      "name": "剑之工匠",
+      "icon": "https://img.dataj.cc/images/hex/swordsmith2.png",
+      "grade": "黄金"
+    },
+    {
+      "name": "后排蓝图",
+      "icon": "https://img.dataj.cc/images/hex/backlineblueprint2.png",
+      "grade": "黄金"
+    },
+    {
+      "name": "小小福袋",
+      "icon": "https://img.dataj.cc/images/hex/smallgrabbag1.png",
+      "grade": "白银"
+    },
+    {
+      "name": "节外生枝",
+      "icon": "https://img.dataj.cc/images/hex/branchingout1.png",
+      "grade": "白银"
+    },
+    {
+      "name": "金色炊具",
+      "icon": "https://img.dataj.cc/images/hex/cookingpot2.png",
+      "grade": "黄金"
+    },
+    {
+      "name": "白银命运+",
+      "icon": "https://img.dataj.cc/images/hex/silverdestinygoldendestinyprismaticdestiny1.png",
+      "grade": "白银"
+    },
+    {
+      "name": "自然庇护所",
+      "icon": "https://img.dataj.cc/images/hex/elderwoodaugment2.png",
+      "grade": "黄金"
+    },
+    {
+      "name": "蔓延之根+",
+      "icon": "https://img.dataj.cc/images/hex/spreadingroots2.png",
+      "grade": "黄金"
+    },
+    {
+      "name": "金鳞精粹",
+      "icon": "https://img.dataj.cc/images/hex/shimmerscaleessence3.png",
+      "grade": "棱彩"
+    },
+    {
+      "name": "后期专家",
+      "icon": "https://img.dataj.cc/images/hex/lategamespecialist1.png",
+      "grade": "白银"
+    },
+    {
+      "name": "英勇福袋",
+      "icon": "https://img.dataj.cc/images/hex/heroicgrabbag2.png",
+      "grade": "黄金"
+    },
+    {
+      "name": "独自升级",
+      "icon": "https://img.dataj.cc/images/hex/sololeveling2.png",
+      "grade": "黄金"
+    },
+    {
+      "name": "杖之工匠",
+      "icon": "https://img.dataj.cc/images/hex/rodsmith2.png",
+      "grade": "黄金"
+    }
+  ]
+}
